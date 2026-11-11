@@ -832,10 +832,10 @@ Todos,2026,barrio,Barrio Granaderos,Zagala,Masculino,14-15,1,0
 Todos,2026,barrio,Barrio Granaderos,Zagala,Masculino,Todos,1,0
 Todos,2026,barrio,Barrio Granaderos,Zagala,Todos,14-15,1,0
 Todos,2026,barrio,Barrio Granaderos,Zagala,Todos,Todos,1,0
-Todos,2026,barrio,Barrio Güemes,Zagala,Masculino,16-17,1,1
-Todos,2026,barrio,Barrio Güemes,Zagala,Masculino,Todos,1,1
-Todos,2026,barrio,Barrio Güemes,Zagala,Todos,16-17,1,1
-Todos,2026,barrio,Barrio Güemes,Zagala,Todos,Todos,1,1
+Todos,2026,barrio,Barrio Güemes,Zagala,Masculino,16-17,2,1
+Todos,2026,barrio,Barrio Güemes,Zagala,Masculino,Todos,2,1
+Todos,2026,barrio,Barrio Güemes,Zagala,Todos,16-17,2,1
+Todos,2026,barrio,Barrio Güemes,Zagala,Todos,Todos,2,1
 Todos,2026,barrio,Barrio Nuevo,Suárez Norte,Femenino,14-15,1,0
 Todos,2026,barrio,Barrio Nuevo,Suárez Norte,Femenino,Todos,1,0
 Todos,2026,barrio,Barrio Nuevo,Suárez Norte,Todos,14-15,1,0
@@ -844,12 +844,16 @@ Todos,2026,barrio,Barrio UTA,Suárez Sur,Masculino,14-15,1,0
 Todos,2026,barrio,Barrio UTA,Suárez Sur,Masculino,Todos,1,0
 Todos,2026,barrio,Barrio UTA,Suárez Sur,Todos,14-15,1,0
 Todos,2026,barrio,Barrio UTA,Suárez Sur,Todos,Todos,1,0
-Todos,2026,barrio,Billinghurst,Resto de San Martín,Masculino,14-15,1,0
+Todos,2026,barrio,Billinghurst,Resto de San Martín,Masculino,14-15,2,0
 Todos,2026,barrio,Billinghurst,Resto de San Martín,Masculino,16-17,6,0
-Todos,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,7,0
-Todos,2026,barrio,Billinghurst,Resto de San Martín,Todos,14-15,1,0
+Todos,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Hasta 13,1,0
+Todos,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Sin dato,1,0
+Todos,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,10,0
+Todos,2026,barrio,Billinghurst,Resto de San Martín,Todos,14-15,2,0
 Todos,2026,barrio,Billinghurst,Resto de San Martín,Todos,16-17,6,0
-Todos,2026,barrio,Billinghurst,Resto de San Martín,Todos,Todos,7,0
+Todos,2026,barrio,Billinghurst,Resto de San Martín,Todos,Hasta 13,1,0
+Todos,2026,barrio,Billinghurst,Resto de San Martín,Todos,Sin dato,1,0
+Todos,2026,barrio,Billinghurst,Resto de San Martín,Todos,Todos,10,0
 Todos,2026,barrio,Costa Esperanza,Suárez Sur,Masculino,14-15,1,0
 Todos,2026,barrio,Costa Esperanza,Suárez Sur,Masculino,Todos,1,0
 Todos,2026,barrio,Costa Esperanza,Suárez Sur,Todos,14-15,1,0
@@ -861,19 +865,19 @@ Todos,2026,barrio,Costa del Lago/8M,Suárez Sur,Todos,14-15,1,0
 Todos,2026,barrio,Costa del Lago/8M,Suárez Sur,Todos,16-17,1,0
 Todos,2026,barrio,Costa del Lago/8M,Suárez Sur,Todos,Todos,2,0
 Todos,2026,barrio,Curita,Suárez Sur,Masculino,14-15,1,0
-Todos,2026,barrio,Curita,Suárez Sur,Masculino,16-17,3,0
-Todos,2026,barrio,Curita,Suárez Sur,Masculino,Todos,4,0
+Todos,2026,barrio,Curita,Suárez Sur,Masculino,16-17,4,0
+Todos,2026,barrio,Curita,Suárez Sur,Masculino,Todos,5,0
 Todos,2026,barrio,Curita,Suárez Sur,Todos,14-15,1,0
-Todos,2026,barrio,Curita,Suárez Sur,Todos,16-17,3,0
-Todos,2026,barrio,Curita,Suárez Sur,Todos,Todos,4,0
+Todos,2026,barrio,Curita,Suárez Sur,Todos,16-17,4,0
+Todos,2026,barrio,Curita,Suárez Sur,Todos,Todos,5,0
 Todos,2026,barrio,Don Torcuato,Fuera de San Martín,Masculino,16-17,1,0
 Todos,2026,barrio,Don Torcuato,Fuera de San Martín,Masculino,Todos,1,0
 Todos,2026,barrio,Don Torcuato,Fuera de San Martín,Todos,16-17,1,0
 Todos,2026,barrio,Don Torcuato,Fuera de San Martín,Todos,Todos,1,0
-Todos,2026,barrio,Eucaliptus,Suárez Sur,Masculino,14-15,1,0
-Todos,2026,barrio,Eucaliptus,Suárez Sur,Masculino,Todos,1,0
-Todos,2026,barrio,Eucaliptus,Suárez Sur,Todos,14-15,1,0
-Todos,2026,barrio,Eucaliptus,Suárez Sur,Todos,Todos,1,0
+Todos,2026,barrio,Eucaliptus,Suárez Sur,Masculino,14-15,2,1
+Todos,2026,barrio,Eucaliptus,Suárez Sur,Masculino,Todos,2,1
+Todos,2026,barrio,Eucaliptus,Suárez Sur,Todos,14-15,2,1
+Todos,2026,barrio,Eucaliptus,Suárez Sur,Todos,Todos,2,1
 Todos,2026,barrio,Independencia,Suárez Sur,Femenino,16-17,1,0
 Todos,2026,barrio,Independencia,Suárez Sur,Femenino,Todos,1,0
 Todos,2026,barrio,Independencia,Suárez Sur,Masculino,14-15,1,0
@@ -894,18 +898,18 @@ Todos,2026,barrio,La Carcova,Suárez Norte,Femenino,16-17,2,0
 Todos,2026,barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
 Todos,2026,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,1
 Todos,2026,barrio,La Carcova,Suárez Norte,Femenino,Todos,4,1
-Todos,2026,barrio,La Carcova,Suárez Norte,Masculino,14-15,3,0
+Todos,2026,barrio,La Carcova,Suárez Norte,Masculino,14-15,4,0
 Todos,2026,barrio,La Carcova,Suárez Norte,Masculino,16-17,6,2
 Todos,2026,barrio,La Carcova,Suárez Norte,Masculino,18 o más,2,1
 Todos,2026,barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,4,1
 Todos,2026,barrio,La Carcova,Suárez Norte,Masculino,Sin dato,1,0
-Todos,2026,barrio,La Carcova,Suárez Norte,Masculino,Todos,16,4
-Todos,2026,barrio,La Carcova,Suárez Norte,Todos,14-15,3,0
+Todos,2026,barrio,La Carcova,Suárez Norte,Masculino,Todos,17,4
+Todos,2026,barrio,La Carcova,Suárez Norte,Todos,14-15,4,0
 Todos,2026,barrio,La Carcova,Suárez Norte,Todos,16-17,8,2
 Todos,2026,barrio,La Carcova,Suárez Norte,Todos,18 o más,3,1
 Todos,2026,barrio,La Carcova,Suárez Norte,Todos,Hasta 13,5,2
 Todos,2026,barrio,La Carcova,Suárez Norte,Todos,Sin dato,1,0
-Todos,2026,barrio,La Carcova,Suárez Norte,Todos,Todos,20,5
+Todos,2026,barrio,La Carcova,Suárez Norte,Todos,Todos,21,5
 Todos,2026,barrio,La Rana,Zagala,Femenino,14-15,2,0
 Todos,2026,barrio,La Rana,Zagala,Femenino,16-17,2,1
 Todos,2026,barrio,La Rana,Zagala,Femenino,Todos,4,1
@@ -922,27 +926,30 @@ Todos,2026,barrio,La Rana,Zagala,Todos,Todos,20,10
 Todos,2026,barrio,Lanzone,Suárez Sur,Masculino,14-15,2,0
 Todos,2026,barrio,Lanzone,Suárez Sur,Masculino,16-17,2,0
 Todos,2026,barrio,Lanzone,Suárez Sur,Masculino,18 o más,2,0
-Todos,2026,barrio,Lanzone,Suárez Sur,Masculino,Todos,6,0
+Todos,2026,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,1,0
+Todos,2026,barrio,Lanzone,Suárez Sur,Masculino,Todos,7,0
 Todos,2026,barrio,Lanzone,Suárez Sur,Todos,14-15,2,0
 Todos,2026,barrio,Lanzone,Suárez Sur,Todos,16-17,2,0
 Todos,2026,barrio,Lanzone,Suárez Sur,Todos,18 o más,2,0
-Todos,2026,barrio,Lanzone,Suárez Sur,Todos,Todos,6,0
-Todos,2026,barrio,Libertador,Suárez Sur,Masculino,14-15,2,0
-Todos,2026,barrio,Libertador,Suárez Sur,Masculino,16-17,5,1
-Todos,2026,barrio,Libertador,Suárez Sur,Masculino,Todos,7,1
-Todos,2026,barrio,Libertador,Suárez Sur,Todos,14-15,2,0
-Todos,2026,barrio,Libertador,Suárez Sur,Todos,16-17,5,1
-Todos,2026,barrio,Libertador,Suárez Sur,Todos,Todos,7,1
+Todos,2026,barrio,Lanzone,Suárez Sur,Todos,Sin dato,1,0
+Todos,2026,barrio,Lanzone,Suárez Sur,Todos,Todos,7,0
+Todos,2026,barrio,Libertador,Suárez Sur,Masculino,14-15,3,0
+Todos,2026,barrio,Libertador,Suárez Sur,Masculino,16-17,6,1
+Todos,2026,barrio,Libertador,Suárez Sur,Masculino,Todos,9,1
+Todos,2026,barrio,Libertador,Suárez Sur,Todos,14-15,3,0
+Todos,2026,barrio,Libertador,Suárez Sur,Todos,16-17,6,1
+Todos,2026,barrio,Libertador,Suárez Sur,Todos,Todos,9,1
 Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Femenino,14-15,1,0
-Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,1,0
+Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Femenino,16-17,1,0
+Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,2,0
 Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,14-15,2,0
-Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,4,0
+Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,5,1
 Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,18 o más,1,0
-Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,7,0
+Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,8,1
 Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,14-15,3,0
-Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,4,0
+Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,6,1
 Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,18 o más,1,0
-Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,8,0
+Todos,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,10,1
 Todos,2026,barrio,Loyola,Zagala,Femenino,16-17,1,1
 Todos,2026,barrio,Loyola,Zagala,Femenino,Todos,1,1
 Todos,2026,barrio,Loyola,Zagala,Masculino,14-15,1,0
@@ -970,29 +977,30 @@ Todos,2026,barrio,San Andrés,Resto de San Martín,Femenino,18 o más,1,0
 Todos,2026,barrio,San Andrés,Resto de San Martín,Femenino,Todos,1,0
 Todos,2026,barrio,San Andrés,Resto de San Martín,Masculino,14-15,1,0
 Todos,2026,barrio,San Andrés,Resto de San Martín,Masculino,18 o más,2,0
-Todos,2026,barrio,San Andrés,Resto de San Martín,Masculino,Todos,3,0
+Todos,2026,barrio,San Andrés,Resto de San Martín,Masculino,Hasta 13,1,0
+Todos,2026,barrio,San Andrés,Resto de San Martín,Masculino,Todos,4,0
 Todos,2026,barrio,San Andrés,Resto de San Martín,Todos,14-15,1,0
 Todos,2026,barrio,San Andrés,Resto de San Martín,Todos,18 o más,3,0
-Todos,2026,barrio,San Andrés,Resto de San Martín,Todos,Todos,4,0
+Todos,2026,barrio,San Andrés,Resto de San Martín,Todos,Hasta 13,1,0
+Todos,2026,barrio,San Andrés,Resto de San Martín,Todos,Todos,5,0
 Todos,2026,barrio,Sarmiento,Resto de San Martín,Masculino,Hasta 13,1,0
 Todos,2026,barrio,Sarmiento,Resto de San Martín,Masculino,Todos,1,0
 Todos,2026,barrio,Sarmiento,Resto de San Martín,Todos,Hasta 13,1,0
 Todos,2026,barrio,Sarmiento,Resto de San Martín,Todos,Todos,1,0
-Todos,2026,barrio,Sin dato,Sin dato,Femenino,16-17,1,0
 Todos,2026,barrio,Sin dato,Sin dato,Femenino,Hasta 13,1,0
-Todos,2026,barrio,Sin dato,Sin dato,Femenino,Todos,2,0
-Todos,2026,barrio,Sin dato,Sin dato,Masculino,14-15,14,1
-Todos,2026,barrio,Sin dato,Sin dato,Masculino,16-17,19,2
-Todos,2026,barrio,Sin dato,Sin dato,Masculino,18 o más,5,0
-Todos,2026,barrio,Sin dato,Sin dato,Masculino,Hasta 13,5,0
-Todos,2026,barrio,Sin dato,Sin dato,Masculino,Sin dato,3,0
-Todos,2026,barrio,Sin dato,Sin dato,Masculino,Todos,46,3
-Todos,2026,barrio,Sin dato,Sin dato,Todos,14-15,14,1
-Todos,2026,barrio,Sin dato,Sin dato,Todos,16-17,20,2
-Todos,2026,barrio,Sin dato,Sin dato,Todos,18 o más,5,0
-Todos,2026,barrio,Sin dato,Sin dato,Todos,Hasta 13,6,0
-Todos,2026,barrio,Sin dato,Sin dato,Todos,Sin dato,3,0
-Todos,2026,barrio,Sin dato,Sin dato,Todos,Todos,48,3
+Todos,2026,barrio,Sin dato,Sin dato,Femenino,Todos,1,0
+Todos,2026,barrio,Sin dato,Sin dato,Masculino,14-15,7,0
+Todos,2026,barrio,Sin dato,Sin dato,Masculino,16-17,10,1
+Todos,2026,barrio,Sin dato,Sin dato,Masculino,18 o más,3,0
+Todos,2026,barrio,Sin dato,Sin dato,Masculino,Hasta 13,3,0
+Todos,2026,barrio,Sin dato,Sin dato,Masculino,Sin dato,1,0
+Todos,2026,barrio,Sin dato,Sin dato,Masculino,Todos,24,1
+Todos,2026,barrio,Sin dato,Sin dato,Todos,14-15,7,0
+Todos,2026,barrio,Sin dato,Sin dato,Todos,16-17,10,1
+Todos,2026,barrio,Sin dato,Sin dato,Todos,18 o más,3,0
+Todos,2026,barrio,Sin dato,Sin dato,Todos,Hasta 13,4,0
+Todos,2026,barrio,Sin dato,Sin dato,Todos,Sin dato,1,0
+Todos,2026,barrio,Sin dato,Sin dato,Todos,Todos,25,1
 Todos,2026,barrio,Trece de Julio,Suárez Sur,Masculino,14-15,1,0
 Todos,2026,barrio,Trece de Julio,Suárez Sur,Masculino,16-17,1,0
 Todos,2026,barrio,Trece de Julio,Suárez Sur,Masculino,Todos,2,0
@@ -1012,14 +1020,14 @@ Todos,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,16-17,4,0
 Todos,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,Hasta 13,1,0
 Todos,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,Todos,6,0
 Todos,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,14-15,1,1
-Todos,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,7,2
+Todos,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,10,2
 Todos,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,18 o más,1,1
-Todos,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,9,4
+Todos,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,12,4
 Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,14-15,2,1
-Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,11,2
+Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,14,2
 Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,1,1
 Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Hasta 13,1,0
-Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,15,4
+Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,18,4
 Todos,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0
 Todos,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0
 Todos,2026,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,1,0
@@ -1038,22 +1046,24 @@ Todos,2026,barrio,Villa Corea,Suárez Norte,Todos,Todos,1,0
 Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Femenino,14-15,1,1
 Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Femenino,16-17,1,0
 Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Femenino,Todos,2,1
-Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,3,0
-Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,3,1
-Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0
+Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,5,0
+Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,4,1
+Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,2,0
 Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,Hasta 13,1,0
-Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,8,1
-Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,4,1
-Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,4,1
-Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,1,0
+Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,12,1
+Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,6,1
+Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,5,1
+Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,2,0
 Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,Hasta 13,1,0
-Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,10,2
-Todos,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,1,0
+Todos,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,14,2
+Todos,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,2,0
+Todos,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,1,0
 Todos,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,2,0
-Todos,2026,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,1,0
+Todos,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,4,0
+Todos,2026,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,2,0
+Todos,2026,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,1,0
 Todos,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Sin dato,1,0
-Todos,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,2,0
+Todos,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,4,0
 Todos,2026,barrio,Villa Lynch,Resto de San Martín,Masculino,16-17,2,0
 Todos,2026,barrio,Villa Lynch,Resto de San Martín,Masculino,Todos,2,0
 Todos,2026,barrio,Villa Lynch,Resto de San Martín,Todos,16-17,2,0
@@ -1063,10 +1073,12 @@ Todos,2026,barrio,Villa Maipú,Resto de San Martín,Femenino,16-17,1,0
 Todos,2026,barrio,Villa Maipú,Resto de San Martín,Femenino,Todos,3,0
 Todos,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,14-15,1,1
 Todos,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,16-17,5,0
-Todos,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,6,1
+Todos,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,1,0
+Todos,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,7,1
 Todos,2026,barrio,Villa Maipú,Resto de San Martín,Todos,14-15,3,1
 Todos,2026,barrio,Villa Maipú,Resto de San Martín,Todos,16-17,6,0
-Todos,2026,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,9,1
+Todos,2026,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,1,0
+Todos,2026,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,10,1
 Todos,2026,barrio,Villa Zagala,Zagala,Masculino,16-17,1,0
 Todos,2026,barrio,Villa Zagala,Zagala,Masculino,Todos,1,0
 Todos,2026,barrio,Villa Zagala,Zagala,Todos,16-17,1,0
@@ -1097,82 +1109,81 @@ Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio
 Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
 Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,6,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,6,0
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,13,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,7,2
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,24,2
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,4,1
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,37,5
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,13,2
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,29,2
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,1
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,50,5
-Todos,2026,zona,Sin dato,Sin dato,Femenino,16-17,1,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,14,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,9,2
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,29,3
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,1
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,3,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,48,6
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,15,2
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,35,3
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,6,1
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,4,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,62,6
 Todos,2026,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
-Todos,2026,zona,Sin dato,Sin dato,Femenino,Todos,2,0
-Todos,2026,zona,Sin dato,Sin dato,Masculino,14-15,14,1
-Todos,2026,zona,Sin dato,Sin dato,Masculino,16-17,19,2
-Todos,2026,zona,Sin dato,Sin dato,Masculino,18 o más,5,0
-Todos,2026,zona,Sin dato,Sin dato,Masculino,Hasta 13,5,0
-Todos,2026,zona,Sin dato,Sin dato,Masculino,Sin dato,3,0
-Todos,2026,zona,Sin dato,Sin dato,Masculino,Todos,46,3
-Todos,2026,zona,Sin dato,Sin dato,Todos,14-15,14,1
-Todos,2026,zona,Sin dato,Sin dato,Todos,16-17,20,2
-Todos,2026,zona,Sin dato,Sin dato,Todos,18 o más,5,0
-Todos,2026,zona,Sin dato,Sin dato,Todos,Hasta 13,6,0
-Todos,2026,zona,Sin dato,Sin dato,Todos,Sin dato,3,0
-Todos,2026,zona,Sin dato,Sin dato,Todos,Todos,48,3
+Todos,2026,zona,Sin dato,Sin dato,Femenino,Todos,1,0
+Todos,2026,zona,Sin dato,Sin dato,Masculino,14-15,7,0
+Todos,2026,zona,Sin dato,Sin dato,Masculino,16-17,10,1
+Todos,2026,zona,Sin dato,Sin dato,Masculino,18 o más,3,0
+Todos,2026,zona,Sin dato,Sin dato,Masculino,Hasta 13,3,0
+Todos,2026,zona,Sin dato,Sin dato,Masculino,Sin dato,1,0
+Todos,2026,zona,Sin dato,Sin dato,Masculino,Todos,24,1
+Todos,2026,zona,Sin dato,Sin dato,Todos,14-15,7,0
+Todos,2026,zona,Sin dato,Sin dato,Todos,16-17,10,1
+Todos,2026,zona,Sin dato,Sin dato,Todos,18 o más,3,0
+Todos,2026,zona,Sin dato,Sin dato,Todos,Hasta 13,4,0
+Todos,2026,zona,Sin dato,Sin dato,Todos,Sin dato,1,0
+Todos,2026,zona,Sin dato,Sin dato,Todos,Todos,25,1
 Todos,2026,zona,Suárez Norte,Suárez Norte,Femenino,14-15,3,1
 Todos,2026,zona,Suárez Norte,Suárez Norte,Femenino,16-17,4,0
 Todos,2026,zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
 Todos,2026,zona,Suárez Norte,Suárez Norte,Femenino,Hasta 13,1,1
 Todos,2026,zona,Suárez Norte,Suárez Norte,Femenino,Todos,9,2
-Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,14-15,7,1
-Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,16-17,10,3
-Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,3,1
+Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,14-15,10,1
+Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,16-17,11,3
+Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,4,1
 Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,Hasta 13,5,1
 Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,Sin dato,1,0
-Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,Todos,26,6
-Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,14-15,10,2
-Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,16-17,14,3
-Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,18 o más,4,1
+Todos,2026,zona,Suárez Norte,Suárez Norte,Masculino,Todos,31,6
+Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,14-15,13,2
+Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,16-17,15,3
+Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,18 o más,5,1
 Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,Hasta 13,6,2
 Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,Sin dato,1,0
-Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,Todos,35,8
+Todos,2026,zona,Suárez Norte,Suárez Norte,Todos,Todos,40,8
 Todos,2026,zona,Suárez Sur,Suárez Sur,Femenino,14-15,1,0
 Todos,2026,zona,Suárez Sur,Suárez Sur,Femenino,16-17,1,0
 Todos,2026,zona,Suárez Sur,Suárez Sur,Femenino,Todos,2,0
-Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,14-15,12,1
-Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,16-17,13,1
+Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,14-15,14,2
+Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,16-17,15,1
 Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,18 o más,2,0
 Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,Hasta 13,2,1
-Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,1,0
-Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,Todos,30,3
-Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,14-15,13,1
-Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,16-17,14,1
+Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,2,0
+Todos,2026,zona,Suárez Sur,Suárez Sur,Masculino,Todos,35,4
+Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,14-15,15,2
+Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,16-17,16,1
 Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,18 o más,2,0
 Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,Hasta 13,2,1
-Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,1,0
-Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,Todos,32,3
+Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,2,0
+Todos,2026,zona,Suárez Sur,Suárez Sur,Todos,Todos,37,4
 Todos,2026,zona,Zagala,Zagala,Femenino,14-15,3,1
 Todos,2026,zona,Zagala,Zagala,Femenino,16-17,3,2
 Todos,2026,zona,Zagala,Zagala,Femenino,Todos,6,3
 Todos,2026,zona,Zagala,Zagala,Masculino,14-15,4,1
-Todos,2026,zona,Zagala,Zagala,Masculino,16-17,12,7
+Todos,2026,zona,Zagala,Zagala,Masculino,16-17,13,7
 Todos,2026,zona,Zagala,Zagala,Masculino,18 o más,3,2
 Todos,2026,zona,Zagala,Zagala,Masculino,Hasta 13,2,0
-Todos,2026,zona,Zagala,Zagala,Masculino,Todos,21,10
+Todos,2026,zona,Zagala,Zagala,Masculino,Todos,22,10
 Todos,2026,zona,Zagala,Zagala,Todos,14-15,7,2
-Todos,2026,zona,Zagala,Zagala,Todos,16-17,15,9
+Todos,2026,zona,Zagala,Zagala,Todos,16-17,16,9
 Todos,2026,zona,Zagala,Zagala,Todos,18 o más,3,2
 Todos,2026,zona,Zagala,Zagala,Todos,Hasta 13,2,0
-Todos,2026,zona,Zagala,Zagala,Todos,Todos,27,13
+Todos,2026,zona,Zagala,Zagala,Todos,Todos,28,13
 Todos,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,16-17,3,0
 Todos,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,Sin dato,1,0
 Todos,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,Todos,4,0
@@ -1189,10 +1200,10 @@ Todos,Todos,barrio,Barrio Granaderos,Zagala,Masculino,14-15,1,0
 Todos,Todos,barrio,Barrio Granaderos,Zagala,Masculino,Todos,1,0
 Todos,Todos,barrio,Barrio Granaderos,Zagala,Todos,14-15,1,0
 Todos,Todos,barrio,Barrio Granaderos,Zagala,Todos,Todos,1,0
-Todos,Todos,barrio,Barrio Güemes,Zagala,Masculino,16-17,1,1
-Todos,Todos,barrio,Barrio Güemes,Zagala,Masculino,Todos,1,1
-Todos,Todos,barrio,Barrio Güemes,Zagala,Todos,16-17,1,1
-Todos,Todos,barrio,Barrio Güemes,Zagala,Todos,Todos,1,1
+Todos,Todos,barrio,Barrio Güemes,Zagala,Masculino,16-17,2,1
+Todos,Todos,barrio,Barrio Güemes,Zagala,Masculino,Todos,2,1
+Todos,Todos,barrio,Barrio Güemes,Zagala,Todos,16-17,2,1
+Todos,Todos,barrio,Barrio Güemes,Zagala,Todos,Todos,2,1
 Todos,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Masculino,16-17,1,0
 Todos,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Masculino,Todos,1,0
 Todos,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Todos,16-17,1,0
@@ -1205,14 +1216,18 @@ Todos,Todos,barrio,Barrio UTA,Suárez Sur,Masculino,14-15,1,0
 Todos,Todos,barrio,Barrio UTA,Suárez Sur,Masculino,Todos,1,0
 Todos,Todos,barrio,Barrio UTA,Suárez Sur,Todos,14-15,1,0
 Todos,Todos,barrio,Barrio UTA,Suárez Sur,Todos,Todos,1,0
-Todos,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,14-15,1,0
+Todos,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,14-15,2,0
 Todos,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,16-17,15,0
 Todos,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,18 o más,3,0
-Todos,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,19,0
-Todos,Todos,barrio,Billinghurst,Resto de San Martín,Todos,14-15,1,0
+Todos,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Hasta 13,1,0
+Todos,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Sin dato,1,0
+Todos,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,22,0
+Todos,Todos,barrio,Billinghurst,Resto de San Martín,Todos,14-15,2,0
 Todos,Todos,barrio,Billinghurst,Resto de San Martín,Todos,16-17,15,0
 Todos,Todos,barrio,Billinghurst,Resto de San Martín,Todos,18 o más,3,0
-Todos,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Todos,19,0
+Todos,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Hasta 13,1,0
+Todos,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Sin dato,1,0
+Todos,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Todos,22,0
 Todos,Todos,barrio,Costa Esperanza,Suárez Sur,Masculino,14-15,1,0
 Todos,Todos,barrio,Costa Esperanza,Suárez Sur,Masculino,Todos,1,0
 Todos,Todos,barrio,Costa Esperanza,Suárez Sur,Todos,14-15,1,0
@@ -1224,23 +1239,23 @@ Todos,Todos,barrio,Costa del Lago/8M,Suárez Sur,Todos,14-15,1,0
 Todos,Todos,barrio,Costa del Lago/8M,Suárez Sur,Todos,16-17,1,0
 Todos,Todos,barrio,Costa del Lago/8M,Suárez Sur,Todos,Todos,2,0
 Todos,Todos,barrio,Curita,Suárez Sur,Masculino,14-15,3,0
-Todos,Todos,barrio,Curita,Suárez Sur,Masculino,16-17,5,0
+Todos,Todos,barrio,Curita,Suárez Sur,Masculino,16-17,6,0
 Todos,Todos,barrio,Curita,Suárez Sur,Masculino,18 o más,4,0
 Todos,Todos,barrio,Curita,Suárez Sur,Masculino,Sin dato,1,0
-Todos,Todos,barrio,Curita,Suárez Sur,Masculino,Todos,13,0
+Todos,Todos,barrio,Curita,Suárez Sur,Masculino,Todos,14,0
 Todos,Todos,barrio,Curita,Suárez Sur,Todos,14-15,3,0
-Todos,Todos,barrio,Curita,Suárez Sur,Todos,16-17,5,0
+Todos,Todos,barrio,Curita,Suárez Sur,Todos,16-17,6,0
 Todos,Todos,barrio,Curita,Suárez Sur,Todos,18 o más,4,0
 Todos,Todos,barrio,Curita,Suárez Sur,Todos,Sin dato,1,0
-Todos,Todos,barrio,Curita,Suárez Sur,Todos,Todos,13,0
+Todos,Todos,barrio,Curita,Suárez Sur,Todos,Todos,14,0
 Todos,Todos,barrio,Don Torcuato,Fuera de San Martín,Masculino,16-17,1,0
 Todos,Todos,barrio,Don Torcuato,Fuera de San Martín,Masculino,Todos,1,0
 Todos,Todos,barrio,Don Torcuato,Fuera de San Martín,Todos,16-17,1,0
 Todos,Todos,barrio,Don Torcuato,Fuera de San Martín,Todos,Todos,1,0
-Todos,Todos,barrio,Eucaliptus,Suárez Sur,Masculino,14-15,1,0
-Todos,Todos,barrio,Eucaliptus,Suárez Sur,Masculino,Todos,1,0
-Todos,Todos,barrio,Eucaliptus,Suárez Sur,Todos,14-15,1,0
-Todos,Todos,barrio,Eucaliptus,Suárez Sur,Todos,Todos,1,0
+Todos,Todos,barrio,Eucaliptus,Suárez Sur,Masculino,14-15,2,1
+Todos,Todos,barrio,Eucaliptus,Suárez Sur,Masculino,Todos,2,1
+Todos,Todos,barrio,Eucaliptus,Suárez Sur,Todos,14-15,2,1
+Todos,Todos,barrio,Eucaliptus,Suárez Sur,Todos,Todos,2,1
 Todos,Todos,barrio,Independencia,Suárez Sur,Femenino,16-17,1,0
 Todos,Todos,barrio,Independencia,Suárez Sur,Femenino,Todos,1,0
 Todos,Todos,barrio,Independencia,Suárez Sur,Masculino,14-15,3,0
@@ -1263,18 +1278,18 @@ Todos,Todos,barrio,La Carcova,Suárez Norte,Femenino,16-17,2,0
 Todos,Todos,barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
 Todos,Todos,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,2,1
 Todos,Todos,barrio,La Carcova,Suárez Norte,Femenino,Todos,5,1
-Todos,Todos,barrio,La Carcova,Suárez Norte,Masculino,14-15,7,0
+Todos,Todos,barrio,La Carcova,Suárez Norte,Masculino,14-15,8,0
 Todos,Todos,barrio,La Carcova,Suárez Norte,Masculino,16-17,10,2
 Todos,Todos,barrio,La Carcova,Suárez Norte,Masculino,18 o más,4,1
 Todos,Todos,barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,6,1
 Todos,Todos,barrio,La Carcova,Suárez Norte,Masculino,Sin dato,1,0
-Todos,Todos,barrio,La Carcova,Suárez Norte,Masculino,Todos,28,4
-Todos,Todos,barrio,La Carcova,Suárez Norte,Todos,14-15,7,0
+Todos,Todos,barrio,La Carcova,Suárez Norte,Masculino,Todos,29,4
+Todos,Todos,barrio,La Carcova,Suárez Norte,Todos,14-15,8,0
 Todos,Todos,barrio,La Carcova,Suárez Norte,Todos,16-17,12,2
 Todos,Todos,barrio,La Carcova,Suárez Norte,Todos,18 o más,5,1
 Todos,Todos,barrio,La Carcova,Suárez Norte,Todos,Hasta 13,8,2
 Todos,Todos,barrio,La Carcova,Suárez Norte,Todos,Sin dato,1,0
-Todos,Todos,barrio,La Carcova,Suárez Norte,Todos,Todos,33,5
+Todos,Todos,barrio,La Carcova,Suárez Norte,Todos,Todos,34,5
 Todos,Todos,barrio,La Rana,Zagala,Femenino,14-15,2,0
 Todos,Todos,barrio,La Rana,Zagala,Femenino,16-17,3,1
 Todos,Todos,barrio,La Rana,Zagala,Femenino,Todos,5,1
@@ -1293,36 +1308,37 @@ Todos,Todos,barrio,La Rana,Zagala,Todos,Todos,33,11
 Todos,Todos,barrio,Lanzone,Suárez Sur,Masculino,14-15,6,0
 Todos,Todos,barrio,Lanzone,Suárez Sur,Masculino,16-17,9,0
 Todos,Todos,barrio,Lanzone,Suárez Sur,Masculino,18 o más,5,0
-Todos,Todos,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,1,0
-Todos,Todos,barrio,Lanzone,Suárez Sur,Masculino,Todos,21,0
+Todos,Todos,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,2,0
+Todos,Todos,barrio,Lanzone,Suárez Sur,Masculino,Todos,22,0
 Todos,Todos,barrio,Lanzone,Suárez Sur,Todos,14-15,6,0
 Todos,Todos,barrio,Lanzone,Suárez Sur,Todos,16-17,9,0
 Todos,Todos,barrio,Lanzone,Suárez Sur,Todos,18 o más,5,0
-Todos,Todos,barrio,Lanzone,Suárez Sur,Todos,Sin dato,1,0
-Todos,Todos,barrio,Lanzone,Suárez Sur,Todos,Todos,21,0
+Todos,Todos,barrio,Lanzone,Suárez Sur,Todos,Sin dato,2,0
+Todos,Todos,barrio,Lanzone,Suárez Sur,Todos,Todos,22,0
 Todos,Todos,barrio,Libertador,Suárez Sur,Femenino,16-17,1,0
 Todos,Todos,barrio,Libertador,Suárez Sur,Femenino,Sin dato,1,0
 Todos,Todos,barrio,Libertador,Suárez Sur,Femenino,Todos,2,0
-Todos,Todos,barrio,Libertador,Suárez Sur,Masculino,14-15,5,0
-Todos,Todos,barrio,Libertador,Suárez Sur,Masculino,16-17,8,1
+Todos,Todos,barrio,Libertador,Suárez Sur,Masculino,14-15,6,0
+Todos,Todos,barrio,Libertador,Suárez Sur,Masculino,16-17,9,1
 Todos,Todos,barrio,Libertador,Suárez Sur,Masculino,18 o más,1,0
 Todos,Todos,barrio,Libertador,Suárez Sur,Masculino,Sin dato,1,0
-Todos,Todos,barrio,Libertador,Suárez Sur,Masculino,Todos,15,1
-Todos,Todos,barrio,Libertador,Suárez Sur,Todos,14-15,5,0
-Todos,Todos,barrio,Libertador,Suárez Sur,Todos,16-17,9,1
+Todos,Todos,barrio,Libertador,Suárez Sur,Masculino,Todos,17,1
+Todos,Todos,barrio,Libertador,Suárez Sur,Todos,14-15,6,0
+Todos,Todos,barrio,Libertador,Suárez Sur,Todos,16-17,10,1
 Todos,Todos,barrio,Libertador,Suárez Sur,Todos,18 o más,1,0
 Todos,Todos,barrio,Libertador,Suárez Sur,Todos,Sin dato,2,0
-Todos,Todos,barrio,Libertador,Suárez Sur,Todos,Todos,17,1
+Todos,Todos,barrio,Libertador,Suárez Sur,Todos,Todos,19,1
 Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Femenino,14-15,1,0
-Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,1,0
+Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Femenino,16-17,1,0
+Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,2,0
 Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,14-15,3,0
-Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,11,0
+Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,12,1
 Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,18 o más,3,0
-Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,17,0
+Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,18,1
 Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,14-15,4,0
-Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,11,0
+Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,13,1
 Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,18 o más,3,0
-Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,18,0
+Todos,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,20,1
 Todos,Todos,barrio,Loyola,Zagala,Femenino,16-17,2,1
 Todos,Todos,barrio,Loyola,Zagala,Femenino,Todos,2,1
 Todos,Todos,barrio,Loyola,Zagala,Masculino,14-15,1,0
@@ -1351,35 +1367,36 @@ Todos,Todos,barrio,San Andrés,Resto de San Martín,Femenino,Todos,1,0
 Todos,Todos,barrio,San Andrés,Resto de San Martín,Masculino,14-15,1,0
 Todos,Todos,barrio,San Andrés,Resto de San Martín,Masculino,16-17,1,0
 Todos,Todos,barrio,San Andrés,Resto de San Martín,Masculino,18 o más,4,0
+Todos,Todos,barrio,San Andrés,Resto de San Martín,Masculino,Hasta 13,1,0
 Todos,Todos,barrio,San Andrés,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,Todos,barrio,San Andrés,Resto de San Martín,Masculino,Todos,7,0
+Todos,Todos,barrio,San Andrés,Resto de San Martín,Masculino,Todos,8,0
 Todos,Todos,barrio,San Andrés,Resto de San Martín,Todos,14-15,1,0
 Todos,Todos,barrio,San Andrés,Resto de San Martín,Todos,16-17,1,0
 Todos,Todos,barrio,San Andrés,Resto de San Martín,Todos,18 o más,5,0
+Todos,Todos,barrio,San Andrés,Resto de San Martín,Todos,Hasta 13,1,0
 Todos,Todos,barrio,San Andrés,Resto de San Martín,Todos,Sin dato,1,0
-Todos,Todos,barrio,San Andrés,Resto de San Martín,Todos,Todos,8,0
+Todos,Todos,barrio,San Andrés,Resto de San Martín,Todos,Todos,9,0
 Todos,Todos,barrio,Sarmiento,Resto de San Martín,Masculino,Hasta 13,1,0
 Todos,Todos,barrio,Sarmiento,Resto de San Martín,Masculino,Todos,1,0
 Todos,Todos,barrio,Sarmiento,Resto de San Martín,Todos,Hasta 13,1,0
 Todos,Todos,barrio,Sarmiento,Resto de San Martín,Todos,Todos,1,0
 Todos,Todos,barrio,Sin dato,Sin dato,Femenino,14-15,2,0
-Todos,Todos,barrio,Sin dato,Sin dato,Femenino,16-17,1,0
 Todos,Todos,barrio,Sin dato,Sin dato,Femenino,18 o más,1,0
 Todos,Todos,barrio,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 Todos,Todos,barrio,Sin dato,Sin dato,Femenino,Sin dato,3,0
-Todos,Todos,barrio,Sin dato,Sin dato,Femenino,Todos,8,0
-Todos,Todos,barrio,Sin dato,Sin dato,Masculino,14-15,21,2
-Todos,Todos,barrio,Sin dato,Sin dato,Masculino,16-17,31,2
-Todos,Todos,barrio,Sin dato,Sin dato,Masculino,18 o más,9,0
-Todos,Todos,barrio,Sin dato,Sin dato,Masculino,Hasta 13,9,0
-Todos,Todos,barrio,Sin dato,Sin dato,Masculino,Sin dato,8,0
-Todos,Todos,barrio,Sin dato,Sin dato,Masculino,Todos,78,4
-Todos,Todos,barrio,Sin dato,Sin dato,Todos,14-15,23,2
-Todos,Todos,barrio,Sin dato,Sin dato,Todos,16-17,32,2
-Todos,Todos,barrio,Sin dato,Sin dato,Todos,18 o más,10,0
-Todos,Todos,barrio,Sin dato,Sin dato,Todos,Hasta 13,10,0
-Todos,Todos,barrio,Sin dato,Sin dato,Todos,Sin dato,11,0
-Todos,Todos,barrio,Sin dato,Sin dato,Todos,Todos,86,4
+Todos,Todos,barrio,Sin dato,Sin dato,Femenino,Todos,7,0
+Todos,Todos,barrio,Sin dato,Sin dato,Masculino,14-15,14,1
+Todos,Todos,barrio,Sin dato,Sin dato,Masculino,16-17,22,1
+Todos,Todos,barrio,Sin dato,Sin dato,Masculino,18 o más,7,0
+Todos,Todos,barrio,Sin dato,Sin dato,Masculino,Hasta 13,7,0
+Todos,Todos,barrio,Sin dato,Sin dato,Masculino,Sin dato,6,0
+Todos,Todos,barrio,Sin dato,Sin dato,Masculino,Todos,56,2
+Todos,Todos,barrio,Sin dato,Sin dato,Todos,14-15,16,1
+Todos,Todos,barrio,Sin dato,Sin dato,Todos,16-17,22,1
+Todos,Todos,barrio,Sin dato,Sin dato,Todos,18 o más,8,0
+Todos,Todos,barrio,Sin dato,Sin dato,Todos,Hasta 13,8,0
+Todos,Todos,barrio,Sin dato,Sin dato,Todos,Sin dato,9,0
+Todos,Todos,barrio,Sin dato,Sin dato,Todos,Todos,63,2
 Todos,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,14-15,1,0
 Todos,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,16-17,2,0
 Todos,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,18 o más,1,0
@@ -1404,14 +1421,14 @@ Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,16-17,4,0
 Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,Hasta 13,1,0
 Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,Todos,6,0
 Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,14-15,2,1
-Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,14,2
+Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,17,2
 Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,18 o más,5,1
-Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,21,4
+Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,24,4
 Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,14-15,3,1
-Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,18,2
+Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,21,2
 Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,5,1
 Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Hasta 13,1,0
-Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,27,4
+Todos,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,30,4
 Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0
 Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0
 Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,14-15,1,0
@@ -1436,28 +1453,28 @@ Todos,Todos,barrio,Villa Corea,Suárez Norte,Todos,Todos,1,0
 Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Femenino,14-15,1,1
 Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Femenino,16-17,2,0
 Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Femenino,Todos,3,1
-Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,5,0
-Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,7,1
-Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,2,0
+Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,7,0
+Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,8,1
+Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,3,0
 Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Hasta 13,1,0
 Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Sin dato,1,0
-Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,16,1
-Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,6,1
-Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,9,1
-Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,2,0
+Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,20,1
+Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,8,1
+Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,10,1
+Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,3,0
 Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Hasta 13,1,0
 Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Sin dato,1,0
-Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,19,2
-Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,1,0
-Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,1,0
+Todos,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,23,2
+Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,2,0
+Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,2,0
 Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,18 o más,1,0
 Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,4,0
-Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,1,0
-Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,1,0
+Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,6,0
+Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,2,0
+Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,2,0
 Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,18 o más,1,0
 Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Sin dato,1,0
-Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,4,0
+Todos,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,6,0
 Todos,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,14-15,2,0
 Todos,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,16-17,2,0
 Todos,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,Todos,4,0
@@ -1474,14 +1491,14 @@ Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Femenino,16-17,1,0
 Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Femenino,Todos,4,0
 Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,14-15,1,1
 Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,16-17,7,0
-Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,2,0
+Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,3,0
 Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,11,1
+Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,12,1
 Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,14-15,4,1
 Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,16-17,8,0
-Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,2,0
+Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,3,0
 Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Sin dato,1,0
-Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,15,1
+Todos,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,16,1
 Todos,Todos,barrio,Villa Zagala,Zagala,Masculino,16-17,1,0
 Todos,Todos,barrio,Villa Zagala,Zagala,Masculino,Todos,1,0
 Todos,Todos,barrio,Villa Zagala,Zagala,Todos,16-17,1,0
@@ -1513,88 +1530,87 @@ Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barri
 Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
 Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,9,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,7,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,8,0
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,18,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,2
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,60,2
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,18,1
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,5,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,98,5
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,23,2
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,67,2
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,19,1
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,5,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,116,5
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,19,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,16,2
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,65,3
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,19,1
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,3,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,109,6
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,25,2
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,73,3
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,20,1
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,4,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,128,6
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,14-15,2,0
-Todos,Todos,zona,Sin dato,Sin dato,Femenino,16-17,1,0
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,Sin dato,3,0
-Todos,Todos,zona,Sin dato,Sin dato,Femenino,Todos,8,0
-Todos,Todos,zona,Sin dato,Sin dato,Masculino,14-15,21,2
-Todos,Todos,zona,Sin dato,Sin dato,Masculino,16-17,34,2
-Todos,Todos,zona,Sin dato,Sin dato,Masculino,18 o más,9,0
-Todos,Todos,zona,Sin dato,Sin dato,Masculino,Hasta 13,9,0
-Todos,Todos,zona,Sin dato,Sin dato,Masculino,Sin dato,9,0
-Todos,Todos,zona,Sin dato,Sin dato,Masculino,Todos,82,4
-Todos,Todos,zona,Sin dato,Sin dato,Todos,14-15,23,2
-Todos,Todos,zona,Sin dato,Sin dato,Todos,16-17,35,2
-Todos,Todos,zona,Sin dato,Sin dato,Todos,18 o más,10,0
-Todos,Todos,zona,Sin dato,Sin dato,Todos,Hasta 13,10,0
-Todos,Todos,zona,Sin dato,Sin dato,Todos,Sin dato,12,0
-Todos,Todos,zona,Sin dato,Sin dato,Todos,Todos,90,4
+Todos,Todos,zona,Sin dato,Sin dato,Femenino,Todos,7,0
+Todos,Todos,zona,Sin dato,Sin dato,Masculino,14-15,14,1
+Todos,Todos,zona,Sin dato,Sin dato,Masculino,16-17,25,1
+Todos,Todos,zona,Sin dato,Sin dato,Masculino,18 o más,7,0
+Todos,Todos,zona,Sin dato,Sin dato,Masculino,Hasta 13,7,0
+Todos,Todos,zona,Sin dato,Sin dato,Masculino,Sin dato,7,0
+Todos,Todos,zona,Sin dato,Sin dato,Masculino,Todos,60,2
+Todos,Todos,zona,Sin dato,Sin dato,Todos,14-15,16,1
+Todos,Todos,zona,Sin dato,Sin dato,Todos,16-17,25,1
+Todos,Todos,zona,Sin dato,Sin dato,Todos,18 o más,8,0
+Todos,Todos,zona,Sin dato,Sin dato,Todos,Hasta 13,8,0
+Todos,Todos,zona,Sin dato,Sin dato,Todos,Sin dato,10,0
+Todos,Todos,zona,Sin dato,Sin dato,Todos,Todos,67,2
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Femenino,14-15,3,1
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Femenino,16-17,5,0
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Femenino,Hasta 13,2,1
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Femenino,Todos,11,2
-Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,14-15,13,1
-Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,16-17,18,3
-Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,6,1
+Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,14-15,16,1
+Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,16-17,19,3
+Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,7,1
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Hasta 13,7,1
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Sin dato,2,0
-Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Todos,46,6
-Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,14-15,16,2
-Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,16-17,23,3
-Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,18 o más,7,1
+Todos,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Todos,51,6
+Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,14-15,19,2
+Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,16-17,24,3
+Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,18 o más,8,1
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,Hasta 13,9,2
 Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,Sin dato,2,0
-Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,Todos,57,8
+Todos,Todos,zona,Suárez Norte,Suárez Norte,Todos,Todos,62,8
 Todos,Todos,zona,Suárez Sur,Suárez Sur,Femenino,14-15,1,0
 Todos,Todos,zona,Suárez Sur,Suárez Sur,Femenino,16-17,2,0
 Todos,Todos,zona,Suárez Sur,Suárez Sur,Femenino,Sin dato,1,0
 Todos,Todos,zona,Suárez Sur,Suárez Sur,Femenino,Todos,4,0
-Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,14-15,23,1
-Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,16-17,32,1
+Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,14-15,25,2
+Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,16-17,34,1
 Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,18 o más,15,0
 Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Hasta 13,2,1
-Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,5,0
-Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Todos,77,3
-Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,14-15,24,1
-Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,16-17,34,1
+Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,6,0
+Todos,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Todos,82,4
+Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,14-15,26,2
+Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,16-17,36,1
 Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,18 o más,15,0
 Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,Hasta 13,2,1
-Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,6,0
-Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,Todos,81,3
+Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,7,0
+Todos,Todos,zona,Suárez Sur,Suárez Sur,Todos,Todos,86,4
 Todos,Todos,zona,Zagala,Zagala,Femenino,14-15,3,1
 Todos,Todos,zona,Zagala,Zagala,Femenino,16-17,5,2
 Todos,Todos,zona,Zagala,Zagala,Femenino,Todos,8,3
 Todos,Todos,zona,Zagala,Zagala,Masculino,14-15,7,1
-Todos,Todos,zona,Zagala,Zagala,Masculino,16-17,18,8
+Todos,Todos,zona,Zagala,Zagala,Masculino,16-17,19,8
 Todos,Todos,zona,Zagala,Zagala,Masculino,18 o más,7,2
 Todos,Todos,zona,Zagala,Zagala,Masculino,Hasta 13,2,0
 Todos,Todos,zona,Zagala,Zagala,Masculino,Sin dato,1,0
-Todos,Todos,zona,Zagala,Zagala,Masculino,Todos,35,11
+Todos,Todos,zona,Zagala,Zagala,Masculino,Todos,36,11
 Todos,Todos,zona,Zagala,Zagala,Todos,14-15,10,2
-Todos,Todos,zona,Zagala,Zagala,Todos,16-17,23,10
+Todos,Todos,zona,Zagala,Zagala,Todos,16-17,24,10
 Todos,Todos,zona,Zagala,Zagala,Todos,18 o más,7,2
 Todos,Todos,zona,Zagala,Zagala,Todos,Hasta 13,2,0
 Todos,Todos,zona,Zagala,Zagala,Todos,Sin dato,1,0
-Todos,Todos,zona,Zagala,Zagala,Todos,Todos,43,14
+Todos,Todos,zona,Zagala,Zagala,Todos,Todos,44,14
 RESPO,2021,barrio,Billinghurst,Resto de San Martín,Masculino,16-17,2,0
 RESPO,2021,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,2,0
 RESPO,2021,barrio,Billinghurst,Resto de San Martín,Todos,16-17,2,0
@@ -2424,18 +2440,32 @@ RESPO,2025,zona,Zagala,Zagala,Masculino,Todos,8,0
 RESPO,2025,zona,Zagala,Zagala,Todos,14-15,5,0
 RESPO,2025,zona,Zagala,Zagala,Todos,16-17,4,0
 RESPO,2025,zona,Zagala,Zagala,Todos,Todos,9,0
+RESPO,2026,barrio,Barrio Güemes,Zagala,Masculino,16-17,1,0
+RESPO,2026,barrio,Barrio Güemes,Zagala,Masculino,Todos,1,0
+RESPO,2026,barrio,Barrio Güemes,Zagala,Todos,16-17,1,0
+RESPO,2026,barrio,Barrio Güemes,Zagala,Todos,Todos,1,0
+RESPO,2026,barrio,Billinghurst,Resto de San Martín,Masculino,14-15,1,0
 RESPO,2026,barrio,Billinghurst,Resto de San Martín,Masculino,16-17,6,0
-RESPO,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,6,0
+RESPO,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,9,0
+RESPO,2026,barrio,Billinghurst,Resto de San Martín,Todos,14-15,1,0
 RESPO,2026,barrio,Billinghurst,Resto de San Martín,Todos,16-17,6,0
-RESPO,2026,barrio,Billinghurst,Resto de San Martín,Todos,Todos,6,0
+RESPO,2026,barrio,Billinghurst,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO,2026,barrio,Billinghurst,Resto de San Martín,Todos,Sin dato,1,0
+RESPO,2026,barrio,Billinghurst,Resto de San Martín,Todos,Todos,9,0
 RESPO,2026,barrio,Costa del Lago/8M,Suárez Sur,Masculino,16-17,1,0
 RESPO,2026,barrio,Costa del Lago/8M,Suárez Sur,Masculino,Todos,1,0
 RESPO,2026,barrio,Costa del Lago/8M,Suárez Sur,Todos,16-17,1,0
 RESPO,2026,barrio,Costa del Lago/8M,Suárez Sur,Todos,Todos,1,0
-RESPO,2026,barrio,Curita,Suárez Sur,Masculino,16-17,2,0
-RESPO,2026,barrio,Curita,Suárez Sur,Masculino,Todos,2,0
-RESPO,2026,barrio,Curita,Suárez Sur,Todos,16-17,2,0
-RESPO,2026,barrio,Curita,Suárez Sur,Todos,Todos,2,0
+RESPO,2026,barrio,Curita,Suárez Sur,Masculino,16-17,3,0
+RESPO,2026,barrio,Curita,Suárez Sur,Masculino,Todos,3,0
+RESPO,2026,barrio,Curita,Suárez Sur,Todos,16-17,3,0
+RESPO,2026,barrio,Curita,Suárez Sur,Todos,Todos,3,0
+RESPO,2026,barrio,Eucaliptus,Suárez Sur,Masculino,14-15,1,1
+RESPO,2026,barrio,Eucaliptus,Suárez Sur,Masculino,Todos,1,1
+RESPO,2026,barrio,Eucaliptus,Suárez Sur,Todos,14-15,1,1
+RESPO,2026,barrio,Eucaliptus,Suárez Sur,Todos,Todos,1,1
 RESPO,2026,barrio,Independencia,Suárez Sur,Femenino,16-17,1,0
 RESPO,2026,barrio,Independencia,Suárez Sur,Femenino,Todos,1,0
 RESPO,2026,barrio,Independencia,Suárez Sur,Masculino,14-15,1,0
@@ -2448,10 +2478,12 @@ RESPO,2026,barrio,Independencia,Suárez Sur,Todos,Sin dato,1,0
 RESPO,2026,barrio,Independencia,Suárez Sur,Todos,Todos,4,0
 RESPO,2026,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 RESPO,2026,barrio,La Carcova,Suárez Norte,Femenino,Todos,1,0
+RESPO,2026,barrio,La Carcova,Suárez Norte,Masculino,14-15,1,0
 RESPO,2026,barrio,La Carcova,Suárez Norte,Masculino,16-17,2,0
-RESPO,2026,barrio,La Carcova,Suárez Norte,Masculino,Todos,2,0
+RESPO,2026,barrio,La Carcova,Suárez Norte,Masculino,Todos,3,0
+RESPO,2026,barrio,La Carcova,Suárez Norte,Todos,14-15,1,0
 RESPO,2026,barrio,La Carcova,Suárez Norte,Todos,16-17,3,0
-RESPO,2026,barrio,La Carcova,Suárez Norte,Todos,Todos,3,0
+RESPO,2026,barrio,La Carcova,Suárez Norte,Todos,Todos,4,0
 RESPO,2026,barrio,La Rana,Zagala,Masculino,16-17,3,1
 RESPO,2026,barrio,La Rana,Zagala,Masculino,18 o más,1,0
 RESPO,2026,barrio,La Rana,Zagala,Masculino,Todos,4,1
@@ -2461,25 +2493,29 @@ RESPO,2026,barrio,La Rana,Zagala,Todos,Todos,4,1
 RESPO,2026,barrio,Lanzone,Suárez Sur,Masculino,14-15,1,0
 RESPO,2026,barrio,Lanzone,Suárez Sur,Masculino,16-17,2,0
 RESPO,2026,barrio,Lanzone,Suárez Sur,Masculino,18 o más,2,0
-RESPO,2026,barrio,Lanzone,Suárez Sur,Masculino,Todos,5,0
+RESPO,2026,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,1,0
+RESPO,2026,barrio,Lanzone,Suárez Sur,Masculino,Todos,6,0
 RESPO,2026,barrio,Lanzone,Suárez Sur,Todos,14-15,1,0
 RESPO,2026,barrio,Lanzone,Suárez Sur,Todos,16-17,2,0
 RESPO,2026,barrio,Lanzone,Suárez Sur,Todos,18 o más,2,0
-RESPO,2026,barrio,Lanzone,Suárez Sur,Todos,Todos,5,0
-RESPO,2026,barrio,Libertador,Suárez Sur,Masculino,14-15,2,0
-RESPO,2026,barrio,Libertador,Suárez Sur,Masculino,16-17,4,0
-RESPO,2026,barrio,Libertador,Suárez Sur,Masculino,Todos,6,0
-RESPO,2026,barrio,Libertador,Suárez Sur,Todos,14-15,2,0
-RESPO,2026,barrio,Libertador,Suárez Sur,Todos,16-17,4,0
-RESPO,2026,barrio,Libertador,Suárez Sur,Todos,Todos,6,0
+RESPO,2026,barrio,Lanzone,Suárez Sur,Todos,Sin dato,1,0
+RESPO,2026,barrio,Lanzone,Suárez Sur,Todos,Todos,6,0
+RESPO,2026,barrio,Libertador,Suárez Sur,Masculino,14-15,3,0
+RESPO,2026,barrio,Libertador,Suárez Sur,Masculino,16-17,5,0
+RESPO,2026,barrio,Libertador,Suárez Sur,Masculino,Todos,8,0
+RESPO,2026,barrio,Libertador,Suárez Sur,Todos,14-15,3,0
+RESPO,2026,barrio,Libertador,Suárez Sur,Todos,16-17,5,0
+RESPO,2026,barrio,Libertador,Suárez Sur,Todos,Todos,8,0
+RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Femenino,16-17,1,0
+RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,1,0
 RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,14-15,2,0
-RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,4,0
+RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,5,1
 RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,18 o más,1,0
-RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,7,0
+RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,8,1
 RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,14-15,2,0
-RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,4,0
+RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,6,1
 RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,18 o más,1,0
-RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,7,0
+RESPO,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,9,1
 RESPO,2026,barrio,Loyola,Zagala,Masculino,14-15,1,0
 RESPO,2026,barrio,Loyola,Zagala,Masculino,Todos,1,0
 RESPO,2026,barrio,Loyola,Zagala,Todos,14-15,1,0
@@ -2492,21 +2528,20 @@ RESPO,2026,barrio,San Andrés,Resto de San Martín,Masculino,Todos,3,0
 RESPO,2026,barrio,San Andrés,Resto de San Martín,Todos,14-15,1,0
 RESPO,2026,barrio,San Andrés,Resto de San Martín,Todos,18 o más,3,0
 RESPO,2026,barrio,San Andrés,Resto de San Martín,Todos,Todos,4,0
-RESPO,2026,barrio,Sin dato,Sin dato,Femenino,16-17,1,0
 RESPO,2026,barrio,Sin dato,Sin dato,Femenino,Hasta 13,1,0
-RESPO,2026,barrio,Sin dato,Sin dato,Femenino,Todos,2,0
-RESPO,2026,barrio,Sin dato,Sin dato,Masculino,14-15,14,1
-RESPO,2026,barrio,Sin dato,Sin dato,Masculino,16-17,19,2
-RESPO,2026,barrio,Sin dato,Sin dato,Masculino,18 o más,5,0
-RESPO,2026,barrio,Sin dato,Sin dato,Masculino,Hasta 13,4,0
-RESPO,2026,barrio,Sin dato,Sin dato,Masculino,Sin dato,3,0
-RESPO,2026,barrio,Sin dato,Sin dato,Masculino,Todos,45,3
-RESPO,2026,barrio,Sin dato,Sin dato,Todos,14-15,14,1
-RESPO,2026,barrio,Sin dato,Sin dato,Todos,16-17,20,2
-RESPO,2026,barrio,Sin dato,Sin dato,Todos,18 o más,5,0
-RESPO,2026,barrio,Sin dato,Sin dato,Todos,Hasta 13,5,0
-RESPO,2026,barrio,Sin dato,Sin dato,Todos,Sin dato,3,0
-RESPO,2026,barrio,Sin dato,Sin dato,Todos,Todos,47,3
+RESPO,2026,barrio,Sin dato,Sin dato,Femenino,Todos,1,0
+RESPO,2026,barrio,Sin dato,Sin dato,Masculino,14-15,7,0
+RESPO,2026,barrio,Sin dato,Sin dato,Masculino,16-17,10,1
+RESPO,2026,barrio,Sin dato,Sin dato,Masculino,18 o más,3,0
+RESPO,2026,barrio,Sin dato,Sin dato,Masculino,Hasta 13,3,0
+RESPO,2026,barrio,Sin dato,Sin dato,Masculino,Sin dato,1,0
+RESPO,2026,barrio,Sin dato,Sin dato,Masculino,Todos,24,1
+RESPO,2026,barrio,Sin dato,Sin dato,Todos,14-15,7,0
+RESPO,2026,barrio,Sin dato,Sin dato,Todos,16-17,10,1
+RESPO,2026,barrio,Sin dato,Sin dato,Todos,18 o más,3,0
+RESPO,2026,barrio,Sin dato,Sin dato,Todos,Hasta 13,4,0
+RESPO,2026,barrio,Sin dato,Sin dato,Todos,Sin dato,1,0
+RESPO,2026,barrio,Sin dato,Sin dato,Todos,Todos,25,1
 RESPO,2026,barrio,Vicente López,Fuera de San Martín,Masculino,16-17,1,0
 RESPO,2026,barrio,Vicente López,Fuera de San Martín,Masculino,Todos,1,0
 RESPO,2026,barrio,Vicente López,Fuera de San Martín,Todos,16-17,1,0
@@ -2515,13 +2550,13 @@ RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,14-15,1,0
 RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,16-17,2,0
 RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,Todos,3,0
 RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,14-15,1,1
-RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,6,1
+RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,9,1
 RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,18 o más,1,1
-RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,8,3
+RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,11,3
 RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Todos,14-15,2,1
-RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,8,1
+RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,11,1
 RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,1,1
-RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,11,3
+RESPO,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,14,3
 RESPO,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0
 RESPO,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0
 RESPO,2026,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,1,0
@@ -2530,24 +2565,32 @@ RESPO,2026,barrio,Villa Concepción,Zagala,Masculino,16-17,1,0
 RESPO,2026,barrio,Villa Concepción,Zagala,Masculino,Todos,1,0
 RESPO,2026,barrio,Villa Concepción,Zagala,Todos,16-17,1,0
 RESPO,2026,barrio,Villa Concepción,Zagala,Todos,Todos,1,0
-RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,2,0
-RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,2,0
-RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,2,0
-RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,2,0
-RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,1,0
+RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,2,0
+RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,3,0
+RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0
+RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,6,0
+RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,2,0
+RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,3,0
+RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,1,0
+RESPO,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,6,0
+RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,2,0
+RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,1,0
 RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,2,0
-RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,1,0
+RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,4,0
+RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,2,0
+RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,1,0
 RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Sin dato,1,0
-RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,2,0
+RESPO,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,4,0
 RESPO,2026,barrio,Villa Lynch,Resto de San Martín,Masculino,16-17,1,0
 RESPO,2026,barrio,Villa Lynch,Resto de San Martín,Masculino,Todos,1,0
 RESPO,2026,barrio,Villa Lynch,Resto de San Martín,Todos,16-17,1,0
 RESPO,2026,barrio,Villa Lynch,Resto de San Martín,Todos,Todos,1,0
 RESPO,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,16-17,4,0
-RESPO,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,4,0
+RESPO,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,1,0
+RESPO,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,5,0
 RESPO,2026,barrio,Villa Maipú,Resto de San Martín,Todos,16-17,4,0
-RESPO,2026,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,4,0
+RESPO,2026,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,1,0
+RESPO,2026,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,5,0
 RESPO,2026,todos,Todos,Todos,Femenino,14-15,2,0
 RESPO,2026,todos,Todos,Todos,Femenino,16-17,5,0
 RESPO,2026,todos,Todos,Todos,Femenino,18 o más,1,0
@@ -2570,60 +2613,65 @@ RESPO,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 RESPO,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
 RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
 RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,5,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,21,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,4,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,31,3
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,23,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,36,3
-RESPO,2026,zona,Sin dato,Sin dato,Femenino,16-17,1,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,6,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,7,1
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,26,2
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,1
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,41,4
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,9,1
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,29,2
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,6,1
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,47,4
 RESPO,2026,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
-RESPO,2026,zona,Sin dato,Sin dato,Femenino,Todos,2,0
-RESPO,2026,zona,Sin dato,Sin dato,Masculino,14-15,14,1
-RESPO,2026,zona,Sin dato,Sin dato,Masculino,16-17,19,2
-RESPO,2026,zona,Sin dato,Sin dato,Masculino,18 o más,5,0
-RESPO,2026,zona,Sin dato,Sin dato,Masculino,Hasta 13,4,0
-RESPO,2026,zona,Sin dato,Sin dato,Masculino,Sin dato,3,0
-RESPO,2026,zona,Sin dato,Sin dato,Masculino,Todos,45,3
-RESPO,2026,zona,Sin dato,Sin dato,Todos,14-15,14,1
-RESPO,2026,zona,Sin dato,Sin dato,Todos,16-17,20,2
-RESPO,2026,zona,Sin dato,Sin dato,Todos,18 o más,5,0
-RESPO,2026,zona,Sin dato,Sin dato,Todos,Hasta 13,5,0
-RESPO,2026,zona,Sin dato,Sin dato,Todos,Sin dato,3,0
-RESPO,2026,zona,Sin dato,Sin dato,Todos,Todos,47,3
+RESPO,2026,zona,Sin dato,Sin dato,Femenino,Todos,1,0
+RESPO,2026,zona,Sin dato,Sin dato,Masculino,14-15,7,0
+RESPO,2026,zona,Sin dato,Sin dato,Masculino,16-17,10,1
+RESPO,2026,zona,Sin dato,Sin dato,Masculino,18 o más,3,0
+RESPO,2026,zona,Sin dato,Sin dato,Masculino,Hasta 13,3,0
+RESPO,2026,zona,Sin dato,Sin dato,Masculino,Sin dato,1,0
+RESPO,2026,zona,Sin dato,Sin dato,Masculino,Todos,24,1
+RESPO,2026,zona,Sin dato,Sin dato,Todos,14-15,7,0
+RESPO,2026,zona,Sin dato,Sin dato,Todos,16-17,10,1
+RESPO,2026,zona,Sin dato,Sin dato,Todos,18 o más,3,0
+RESPO,2026,zona,Sin dato,Sin dato,Todos,Hasta 13,4,0
+RESPO,2026,zona,Sin dato,Sin dato,Todos,Sin dato,1,0
+RESPO,2026,zona,Sin dato,Sin dato,Todos,Todos,25,1
 RESPO,2026,zona,Suárez Norte,Suárez Norte,Femenino,16-17,1,0
 RESPO,2026,zona,Suárez Norte,Suárez Norte,Femenino,Todos,1,0
-RESPO,2026,zona,Suárez Norte,Suárez Norte,Masculino,16-17,4,0
-RESPO,2026,zona,Suárez Norte,Suárez Norte,Masculino,Todos,4,0
-RESPO,2026,zona,Suárez Norte,Suárez Norte,Todos,16-17,5,0
-RESPO,2026,zona,Suárez Norte,Suárez Norte,Todos,Todos,5,0
+RESPO,2026,zona,Suárez Norte,Suárez Norte,Masculino,14-15,3,0
+RESPO,2026,zona,Suárez Norte,Suárez Norte,Masculino,16-17,5,0
+RESPO,2026,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,1,0
+RESPO,2026,zona,Suárez Norte,Suárez Norte,Masculino,Todos,9,0
+RESPO,2026,zona,Suárez Norte,Suárez Norte,Todos,14-15,3,0
+RESPO,2026,zona,Suárez Norte,Suárez Norte,Todos,16-17,6,0
+RESPO,2026,zona,Suárez Norte,Suárez Norte,Todos,18 o más,1,0
+RESPO,2026,zona,Suárez Norte,Suárez Norte,Todos,Todos,10,0
 RESPO,2026,zona,Suárez Sur,Suárez Sur,Femenino,16-17,1,0
 RESPO,2026,zona,Suárez Sur,Suárez Sur,Femenino,Todos,1,0
-RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,14-15,4,0
-RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,16-17,10,0
+RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,14-15,6,1
+RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,16-17,12,0
 RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,18 o más,2,0
-RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,1,0
-RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,Todos,17,0
-RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,14-15,4,0
-RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,16-17,11,0
+RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,2,0
+RESPO,2026,zona,Suárez Sur,Suárez Sur,Masculino,Todos,22,1
+RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,14-15,6,1
+RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,16-17,13,0
 RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,18 o más,2,0
-RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,1,0
-RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,Todos,18,0
+RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,2,0
+RESPO,2026,zona,Suárez Sur,Suárez Sur,Todos,Todos,23,1
 RESPO,2026,zona,Zagala,Zagala,Masculino,14-15,1,0
-RESPO,2026,zona,Zagala,Zagala,Masculino,16-17,4,1
+RESPO,2026,zona,Zagala,Zagala,Masculino,16-17,5,1
 RESPO,2026,zona,Zagala,Zagala,Masculino,18 o más,1,0
-RESPO,2026,zona,Zagala,Zagala,Masculino,Todos,6,1
+RESPO,2026,zona,Zagala,Zagala,Masculino,Todos,7,1
 RESPO,2026,zona,Zagala,Zagala,Todos,14-15,1,0
-RESPO,2026,zona,Zagala,Zagala,Todos,16-17,4,1
+RESPO,2026,zona,Zagala,Zagala,Todos,16-17,5,1
 RESPO,2026,zona,Zagala,Zagala,Todos,18 o más,1,0
-RESPO,2026,zona,Zagala,Zagala,Todos,Todos,6,1
+RESPO,2026,zona,Zagala,Zagala,Todos,Todos,7,1
 RESPO,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,16-17,3,0
 RESPO,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,Sin dato,1,0
 RESPO,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,Todos,4,0
@@ -2636,30 +2684,44 @@ RESPO,Todos,barrio,Barrio 18,Resto de San Martín,Masculino,Todos,3,0
 RESPO,Todos,barrio,Barrio 18,Resto de San Martín,Todos,16-17,2,0
 RESPO,Todos,barrio,Barrio 18,Resto de San Martín,Todos,Sin dato,1,0
 RESPO,Todos,barrio,Barrio 18,Resto de San Martín,Todos,Todos,3,0
+RESPO,Todos,barrio,Barrio Güemes,Zagala,Masculino,16-17,1,0
+RESPO,Todos,barrio,Barrio Güemes,Zagala,Masculino,Todos,1,0
+RESPO,Todos,barrio,Barrio Güemes,Zagala,Todos,16-17,1,0
+RESPO,Todos,barrio,Barrio Güemes,Zagala,Todos,Todos,1,0
 RESPO,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Masculino,16-17,1,0
 RESPO,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Masculino,Todos,1,0
 RESPO,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Todos,16-17,1,0
 RESPO,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Todos,Todos,1,0
+RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,14-15,1,0
 RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,16-17,15,0
 RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,18 o más,3,0
-RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,18,0
+RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,21,0
+RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Todos,14-15,1,0
 RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Todos,16-17,15,0
 RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Todos,18 o más,3,0
-RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Todos,18,0
+RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Sin dato,1,0
+RESPO,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Todos,21,0
 RESPO,Todos,barrio,Costa del Lago/8M,Suárez Sur,Masculino,16-17,1,0
 RESPO,Todos,barrio,Costa del Lago/8M,Suárez Sur,Masculino,Todos,1,0
 RESPO,Todos,barrio,Costa del Lago/8M,Suárez Sur,Todos,16-17,1,0
 RESPO,Todos,barrio,Costa del Lago/8M,Suárez Sur,Todos,Todos,1,0
 RESPO,Todos,barrio,Curita,Suárez Sur,Masculino,14-15,2,0
-RESPO,Todos,barrio,Curita,Suárez Sur,Masculino,16-17,4,0
+RESPO,Todos,barrio,Curita,Suárez Sur,Masculino,16-17,5,0
 RESPO,Todos,barrio,Curita,Suárez Sur,Masculino,18 o más,4,0
 RESPO,Todos,barrio,Curita,Suárez Sur,Masculino,Sin dato,1,0
-RESPO,Todos,barrio,Curita,Suárez Sur,Masculino,Todos,11,0
+RESPO,Todos,barrio,Curita,Suárez Sur,Masculino,Todos,12,0
 RESPO,Todos,barrio,Curita,Suárez Sur,Todos,14-15,2,0
-RESPO,Todos,barrio,Curita,Suárez Sur,Todos,16-17,4,0
+RESPO,Todos,barrio,Curita,Suárez Sur,Todos,16-17,5,0
 RESPO,Todos,barrio,Curita,Suárez Sur,Todos,18 o más,4,0
 RESPO,Todos,barrio,Curita,Suárez Sur,Todos,Sin dato,1,0
-RESPO,Todos,barrio,Curita,Suárez Sur,Todos,Todos,11,0
+RESPO,Todos,barrio,Curita,Suárez Sur,Todos,Todos,12,0
+RESPO,Todos,barrio,Eucaliptus,Suárez Sur,Masculino,14-15,1,1
+RESPO,Todos,barrio,Eucaliptus,Suárez Sur,Masculino,Todos,1,1
+RESPO,Todos,barrio,Eucaliptus,Suárez Sur,Todos,14-15,1,1
+RESPO,Todos,barrio,Eucaliptus,Suárez Sur,Todos,Todos,1,1
 RESPO,Todos,barrio,Independencia,Suárez Sur,Femenino,16-17,1,0
 RESPO,Todos,barrio,Independencia,Suárez Sur,Femenino,Todos,1,0
 RESPO,Todos,barrio,Independencia,Suárez Sur,Masculino,14-15,3,0
@@ -2675,16 +2737,16 @@ RESPO,Todos,barrio,Independencia,Suárez Sur,Todos,Todos,17,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Femenino,Todos,2,0
-RESPO,Todos,barrio,La Carcova,Suárez Norte,Masculino,14-15,4,0
+RESPO,Todos,barrio,La Carcova,Suárez Norte,Masculino,14-15,5,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Masculino,16-17,6,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Masculino,18 o más,2,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,2,0
-RESPO,Todos,barrio,La Carcova,Suárez Norte,Masculino,Todos,14,0
-RESPO,Todos,barrio,La Carcova,Suárez Norte,Todos,14-15,4,0
+RESPO,Todos,barrio,La Carcova,Suárez Norte,Masculino,Todos,15,0
+RESPO,Todos,barrio,La Carcova,Suárez Norte,Todos,14-15,5,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Todos,16-17,7,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Todos,18 o más,2,0
 RESPO,Todos,barrio,La Carcova,Suárez Norte,Todos,Hasta 13,3,0
-RESPO,Todos,barrio,La Carcova,Suárez Norte,Todos,Todos,16,0
+RESPO,Todos,barrio,La Carcova,Suárez Norte,Todos,Todos,17,0
 RESPO,Todos,barrio,La Rana,Zagala,Femenino,16-17,1,0
 RESPO,Todos,barrio,La Rana,Zagala,Femenino,Todos,1,0
 RESPO,Todos,barrio,La Rana,Zagala,Masculino,14-15,3,0
@@ -2700,34 +2762,36 @@ RESPO,Todos,barrio,La Rana,Zagala,Todos,Todos,17,2
 RESPO,Todos,barrio,Lanzone,Suárez Sur,Masculino,14-15,5,0
 RESPO,Todos,barrio,Lanzone,Suárez Sur,Masculino,16-17,9,0
 RESPO,Todos,barrio,Lanzone,Suárez Sur,Masculino,18 o más,5,0
-RESPO,Todos,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,1,0
-RESPO,Todos,barrio,Lanzone,Suárez Sur,Masculino,Todos,20,0
+RESPO,Todos,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,2,0
+RESPO,Todos,barrio,Lanzone,Suárez Sur,Masculino,Todos,21,0
 RESPO,Todos,barrio,Lanzone,Suárez Sur,Todos,14-15,5,0
 RESPO,Todos,barrio,Lanzone,Suárez Sur,Todos,16-17,9,0
 RESPO,Todos,barrio,Lanzone,Suárez Sur,Todos,18 o más,5,0
-RESPO,Todos,barrio,Lanzone,Suárez Sur,Todos,Sin dato,1,0
-RESPO,Todos,barrio,Lanzone,Suárez Sur,Todos,Todos,20,0
+RESPO,Todos,barrio,Lanzone,Suárez Sur,Todos,Sin dato,2,0
+RESPO,Todos,barrio,Lanzone,Suárez Sur,Todos,Todos,21,0
 RESPO,Todos,barrio,Libertador,Suárez Sur,Femenino,16-17,1,0
 RESPO,Todos,barrio,Libertador,Suárez Sur,Femenino,Sin dato,1,0
 RESPO,Todos,barrio,Libertador,Suárez Sur,Femenino,Todos,2,0
-RESPO,Todos,barrio,Libertador,Suárez Sur,Masculino,14-15,5,0
-RESPO,Todos,barrio,Libertador,Suárez Sur,Masculino,16-17,7,0
+RESPO,Todos,barrio,Libertador,Suárez Sur,Masculino,14-15,6,0
+RESPO,Todos,barrio,Libertador,Suárez Sur,Masculino,16-17,8,0
 RESPO,Todos,barrio,Libertador,Suárez Sur,Masculino,18 o más,1,0
 RESPO,Todos,barrio,Libertador,Suárez Sur,Masculino,Sin dato,1,0
-RESPO,Todos,barrio,Libertador,Suárez Sur,Masculino,Todos,14,0
-RESPO,Todos,barrio,Libertador,Suárez Sur,Todos,14-15,5,0
-RESPO,Todos,barrio,Libertador,Suárez Sur,Todos,16-17,8,0
+RESPO,Todos,barrio,Libertador,Suárez Sur,Masculino,Todos,16,0
+RESPO,Todos,barrio,Libertador,Suárez Sur,Todos,14-15,6,0
+RESPO,Todos,barrio,Libertador,Suárez Sur,Todos,16-17,9,0
 RESPO,Todos,barrio,Libertador,Suárez Sur,Todos,18 o más,1,0
 RESPO,Todos,barrio,Libertador,Suárez Sur,Todos,Sin dato,2,0
-RESPO,Todos,barrio,Libertador,Suárez Sur,Todos,Todos,16,0
+RESPO,Todos,barrio,Libertador,Suárez Sur,Todos,Todos,18,0
+RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Femenino,16-17,1,0
+RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,1,0
 RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,14-15,3,0
-RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,11,0
+RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,12,1
 RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,18 o más,3,0
-RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,17,0
+RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,18,1
 RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,14-15,3,0
-RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,11,0
+RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,13,1
 RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,18 o más,3,0
-RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,17,0
+RESPO,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,19,1
 RESPO,Todos,barrio,Loyola,Zagala,Femenino,16-17,1,0
 RESPO,Todos,barrio,Loyola,Zagala,Femenino,Todos,1,0
 RESPO,Todos,barrio,Loyola,Zagala,Masculino,14-15,1,0
@@ -2748,23 +2812,22 @@ RESPO,Todos,barrio,San Andrés,Resto de San Martín,Todos,18 o más,5,0
 RESPO,Todos,barrio,San Andrés,Resto de San Martín,Todos,Sin dato,1,0
 RESPO,Todos,barrio,San Andrés,Resto de San Martín,Todos,Todos,8,0
 RESPO,Todos,barrio,Sin dato,Sin dato,Femenino,14-15,2,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Femenino,16-17,1,0
 RESPO,Todos,barrio,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO,Todos,barrio,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 RESPO,Todos,barrio,Sin dato,Sin dato,Femenino,Sin dato,3,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Femenino,Todos,8,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,14-15,21,2
-RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,16-17,30,2
-RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,18 o más,9,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,Hasta 13,8,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,Sin dato,8,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,Todos,76,4
-RESPO,Todos,barrio,Sin dato,Sin dato,Todos,14-15,23,2
-RESPO,Todos,barrio,Sin dato,Sin dato,Todos,16-17,31,2
-RESPO,Todos,barrio,Sin dato,Sin dato,Todos,18 o más,10,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Todos,Hasta 13,9,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Todos,Sin dato,11,0
-RESPO,Todos,barrio,Sin dato,Sin dato,Todos,Todos,84,4
+RESPO,Todos,barrio,Sin dato,Sin dato,Femenino,Todos,7,0
+RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,14-15,14,1
+RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,16-17,21,1
+RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,18 o más,7,0
+RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,Hasta 13,7,0
+RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,Sin dato,6,0
+RESPO,Todos,barrio,Sin dato,Sin dato,Masculino,Todos,55,2
+RESPO,Todos,barrio,Sin dato,Sin dato,Todos,14-15,16,1
+RESPO,Todos,barrio,Sin dato,Sin dato,Todos,16-17,21,1
+RESPO,Todos,barrio,Sin dato,Sin dato,Todos,18 o más,8,0
+RESPO,Todos,barrio,Sin dato,Sin dato,Todos,Hasta 13,8,0
+RESPO,Todos,barrio,Sin dato,Sin dato,Todos,Sin dato,9,0
+RESPO,Todos,barrio,Sin dato,Sin dato,Todos,Todos,62,2
 RESPO,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,16-17,1,0
 RESPO,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,18 o más,1,0
 RESPO,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,Todos,2,0
@@ -2783,13 +2846,13 @@ RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,14-15,1,0
 RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,16-17,2,0
 RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,Todos,3,0
 RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,14-15,2,1
-RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,13,1
+RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,16,1
 RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,18 o más,5,1
-RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,20,3
+RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,23,3
 RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,14-15,3,1
-RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,15,1
+RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,18,1
 RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,5,1
-RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,23,3
+RESPO,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,26,3
 RESPO,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0
 RESPO,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0
 RESPO,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,14-15,1,0
@@ -2806,26 +2869,26 @@ RESPO,Todos,barrio,Villa Concepción,Zagala,Todos,18 o más,1,0
 RESPO,Todos,barrio,Villa Concepción,Zagala,Todos,Todos,3,0
 RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Femenino,16-17,1,0
 RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Femenino,Todos,1,0
-RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,2,0
-RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,6,0
-RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0
+RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,4,0
+RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,7,0
+RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,2,0
 RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Sin dato,1,0
-RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,10,0
-RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,2,0
-RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,7,0
-RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,1,0
+RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,14,0
+RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,4,0
+RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,8,0
+RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,2,0
 RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Sin dato,1,0
-RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,11,0
-RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,1,0
-RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,1,0
+RESPO,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,15,0
+RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,2,0
+RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,2,0
 RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,18 o más,1,0
 RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,4,0
-RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,1,0
-RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,1,0
+RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,6,0
+RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,2,0
+RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,2,0
 RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,18 o más,1,0
 RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Sin dato,1,0
-RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,4,0
+RESPO,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,6,0
 RESPO,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,14-15,2,0
 RESPO,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,16-17,2,0
 RESPO,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,Todos,4,0
@@ -2840,14 +2903,14 @@ RESPO,Todos,barrio,Villa Lynch,Resto de San Martín,Todos,Todos,14,0
 RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Femenino,14-15,1,0
 RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Femenino,Todos,1,0
 RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,16-17,6,0
-RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,2,0
+RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,3,0
 RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,9,0
+RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,10,0
 RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,14-15,1,0
 RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,16-17,6,0
-RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,2,0
+RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,3,0
 RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Sin dato,1,0
-RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,10,0
+RESPO,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,11,0
 RESPO,Todos,todos,Todos,Todos,Femenino,14-15,7,0
 RESPO,Todos,todos,Todos,Todos,Femenino,16-17,11,0
 RESPO,Todos,todos,Todos,Todos,Femenino,18 o más,2,0
@@ -2871,77 +2934,78 @@ RESPO,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 RESPO,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
 RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,5,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,4,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
 RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,10,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,12,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,57,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,18,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,5,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,92,3
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,17,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,61,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,19,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,5,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,102,3
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,11,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,1
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,62,2
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,19,1
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,102,4
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,19,1
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,67,2
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,20,1
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,113,4
 RESPO,Todos,zona,Sin dato,Sin dato,Femenino,14-15,2,0
-RESPO,Todos,zona,Sin dato,Sin dato,Femenino,16-17,1,0
 RESPO,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO,Todos,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 RESPO,Todos,zona,Sin dato,Sin dato,Femenino,Sin dato,3,0
-RESPO,Todos,zona,Sin dato,Sin dato,Femenino,Todos,8,0
-RESPO,Todos,zona,Sin dato,Sin dato,Masculino,14-15,21,2
-RESPO,Todos,zona,Sin dato,Sin dato,Masculino,16-17,33,2
-RESPO,Todos,zona,Sin dato,Sin dato,Masculino,18 o más,9,0
-RESPO,Todos,zona,Sin dato,Sin dato,Masculino,Hasta 13,8,0
-RESPO,Todos,zona,Sin dato,Sin dato,Masculino,Sin dato,9,0
-RESPO,Todos,zona,Sin dato,Sin dato,Masculino,Todos,80,4
-RESPO,Todos,zona,Sin dato,Sin dato,Todos,14-15,23,2
-RESPO,Todos,zona,Sin dato,Sin dato,Todos,16-17,34,2
-RESPO,Todos,zona,Sin dato,Sin dato,Todos,18 o más,10,0
-RESPO,Todos,zona,Sin dato,Sin dato,Todos,Hasta 13,9,0
-RESPO,Todos,zona,Sin dato,Sin dato,Todos,Sin dato,12,0
-RESPO,Todos,zona,Sin dato,Sin dato,Todos,Todos,88,4
+RESPO,Todos,zona,Sin dato,Sin dato,Femenino,Todos,7,0
+RESPO,Todos,zona,Sin dato,Sin dato,Masculino,14-15,14,1
+RESPO,Todos,zona,Sin dato,Sin dato,Masculino,16-17,24,1
+RESPO,Todos,zona,Sin dato,Sin dato,Masculino,18 o más,7,0
+RESPO,Todos,zona,Sin dato,Sin dato,Masculino,Hasta 13,7,0
+RESPO,Todos,zona,Sin dato,Sin dato,Masculino,Sin dato,7,0
+RESPO,Todos,zona,Sin dato,Sin dato,Masculino,Todos,59,2
+RESPO,Todos,zona,Sin dato,Sin dato,Todos,14-15,16,1
+RESPO,Todos,zona,Sin dato,Sin dato,Todos,16-17,24,1
+RESPO,Todos,zona,Sin dato,Sin dato,Todos,18 o más,8,0
+RESPO,Todos,zona,Sin dato,Sin dato,Todos,Hasta 13,8,0
+RESPO,Todos,zona,Sin dato,Sin dato,Todos,Sin dato,10,0
+RESPO,Todos,zona,Sin dato,Sin dato,Todos,Todos,66,2
 RESPO,Todos,zona,Suárez Norte,Suárez Norte,Femenino,16-17,2,0
 RESPO,Todos,zona,Suárez Norte,Suárez Norte,Femenino,Hasta 13,1,0
 RESPO,Todos,zona,Suárez Norte,Suárez Norte,Femenino,Todos,3,0
-RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,14-15,6,0
-RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,16-17,12,0
-RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,3,0
+RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,14-15,9,0
+RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,16-17,13,0
+RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,4,0
 RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Hasta 13,2,0
 RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Sin dato,1,0
-RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Todos,24,0
-RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,14-15,6,0
-RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,16-17,14,0
-RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,18 o más,3,0
+RESPO,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Todos,29,0
+RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,14-15,9,0
+RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,16-17,15,0
+RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,18 o más,4,0
 RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,Hasta 13,3,0
 RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,Sin dato,1,0
-RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,Todos,27,0
+RESPO,Todos,zona,Suárez Norte,Suárez Norte,Todos,Todos,32,0
 RESPO,Todos,zona,Suárez Sur,Suárez Sur,Femenino,16-17,2,0
 RESPO,Todos,zona,Suárez Sur,Suárez Sur,Femenino,Sin dato,1,0
 RESPO,Todos,zona,Suárez Sur,Suárez Sur,Femenino,Todos,3,0
-RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,14-15,15,0
-RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,16-17,29,0
+RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,14-15,17,1
+RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,16-17,31,0
 RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,18 o más,15,0
-RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,5,0
-RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Todos,64,0
-RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,14-15,15,0
-RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,16-17,31,0
+RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,6,0
+RESPO,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Todos,69,1
+RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,14-15,17,1
+RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,16-17,33,0
 RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,18 o más,15,0
-RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,6,0
-RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,Todos,67,0
+RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,7,0
+RESPO,Todos,zona,Suárez Sur,Suárez Sur,Todos,Todos,72,1
 RESPO,Todos,zona,Zagala,Zagala,Femenino,16-17,2,0
 RESPO,Todos,zona,Zagala,Zagala,Femenino,Todos,2,0
 RESPO,Todos,zona,Zagala,Zagala,Masculino,14-15,4,0
-RESPO,Todos,zona,Zagala,Zagala,Masculino,16-17,10,2
+RESPO,Todos,zona,Zagala,Zagala,Masculino,16-17,11,2
 RESPO,Todos,zona,Zagala,Zagala,Masculino,18 o más,5,0
 RESPO,Todos,zona,Zagala,Zagala,Masculino,Sin dato,1,0
-RESPO,Todos,zona,Zagala,Zagala,Masculino,Todos,20,2
+RESPO,Todos,zona,Zagala,Zagala,Masculino,Todos,21,2
 RESPO,Todos,zona,Zagala,Zagala,Todos,14-15,4,0
-RESPO,Todos,zona,Zagala,Zagala,Todos,16-17,12,2
+RESPO,Todos,zona,Zagala,Zagala,Todos,16-17,13,2
 RESPO,Todos,zona,Zagala,Zagala,Todos,18 o más,5,0
 RESPO,Todos,zona,Zagala,Zagala,Todos,Sin dato,1,0
-RESPO,Todos,zona,Zagala,Zagala,Todos,Todos,22,2
+RESPO,Todos,zona,Zagala,Zagala,Todos,Todos,23,2
 AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,16-17,1,0
 AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,Todos,1,0
 AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,16-17,1,0
@@ -3065,14 +3129,14 @@ ENTRAMADOS,2026,barrio,Nueve de Julio,Suárez Sur,Masculino,Todos,2,2
 ENTRAMADOS,2026,barrio,Nueve de Julio,Suárez Sur,Todos,14-15,2,1
 ENTRAMADOS,2026,barrio,Nueve de Julio,Suárez Sur,Todos,Hasta 13,1,1
 ENTRAMADOS,2026,barrio,Nueve de Julio,Suárez Sur,Todos,Todos,3,2
+ENTRAMADOS,2026,barrio,San Andrés,Resto de San Martín,Masculino,Hasta 13,1,0
+ENTRAMADOS,2026,barrio,San Andrés,Resto de San Martín,Masculino,Todos,1,0
+ENTRAMADOS,2026,barrio,San Andrés,Resto de San Martín,Todos,Hasta 13,1,0
+ENTRAMADOS,2026,barrio,San Andrés,Resto de San Martín,Todos,Todos,1,0
 ENTRAMADOS,2026,barrio,Sarmiento,Resto de San Martín,Masculino,Hasta 13,1,0
 ENTRAMADOS,2026,barrio,Sarmiento,Resto de San Martín,Masculino,Todos,1,0
 ENTRAMADOS,2026,barrio,Sarmiento,Resto de San Martín,Todos,Hasta 13,1,0
 ENTRAMADOS,2026,barrio,Sarmiento,Resto de San Martín,Todos,Todos,1,0
-ENTRAMADOS,2026,barrio,Sin dato,Sin dato,Masculino,Hasta 13,1,0
-ENTRAMADOS,2026,barrio,Sin dato,Sin dato,Masculino,Todos,1,0
-ENTRAMADOS,2026,barrio,Sin dato,Sin dato,Todos,Hasta 13,1,0
-ENTRAMADOS,2026,barrio,Sin dato,Sin dato,Todos,Todos,1,0
 ENTRAMADOS,2026,barrio,Trece de Julio,Suárez Sur,Masculino,14-15,1,0
 ENTRAMADOS,2026,barrio,Trece de Julio,Suárez Sur,Masculino,16-17,1,0
 ENTRAMADOS,2026,barrio,Trece de Julio,Suárez Sur,Masculino,Todos,2,0
@@ -3160,16 +3224,12 @@ ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13
 ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,8,0
 ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,1
 ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,1
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,6,2
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,7,2
 ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,6,1
 ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,1
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,14,2
-ENTRAMADOS,2026,zona,Sin dato,Sin dato,Masculino,Hasta 13,1,0
-ENTRAMADOS,2026,zona,Sin dato,Sin dato,Masculino,Todos,1,0
-ENTRAMADOS,2026,zona,Sin dato,Sin dato,Todos,Hasta 13,1,0
-ENTRAMADOS,2026,zona,Sin dato,Sin dato,Todos,Todos,1,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,15,2
 ENTRAMADOS,2026,zona,Suárez Norte,Suárez Norte,Femenino,14-15,3,1
 ENTRAMADOS,2026,zona,Suárez Norte,Suárez Norte,Femenino,16-17,3,0
 ENTRAMADOS,2026,zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
@@ -3321,14 +3381,14 @@ ENTRAMADOS,Todos,barrio,Nueve de Julio,Suárez Sur,Masculino,Todos,2,2
 ENTRAMADOS,Todos,barrio,Nueve de Julio,Suárez Sur,Todos,14-15,2,1
 ENTRAMADOS,Todos,barrio,Nueve de Julio,Suárez Sur,Todos,Hasta 13,1,1
 ENTRAMADOS,Todos,barrio,Nueve de Julio,Suárez Sur,Todos,Todos,3,2
+ENTRAMADOS,Todos,barrio,San Andrés,Resto de San Martín,Masculino,Hasta 13,1,0
+ENTRAMADOS,Todos,barrio,San Andrés,Resto de San Martín,Masculino,Todos,1,0
+ENTRAMADOS,Todos,barrio,San Andrés,Resto de San Martín,Todos,Hasta 13,1,0
+ENTRAMADOS,Todos,barrio,San Andrés,Resto de San Martín,Todos,Todos,1,0
 ENTRAMADOS,Todos,barrio,Sarmiento,Resto de San Martín,Masculino,Hasta 13,1,0
 ENTRAMADOS,Todos,barrio,Sarmiento,Resto de San Martín,Masculino,Todos,1,0
 ENTRAMADOS,Todos,barrio,Sarmiento,Resto de San Martín,Todos,Hasta 13,1,0
 ENTRAMADOS,Todos,barrio,Sarmiento,Resto de San Martín,Todos,Todos,1,0
-ENTRAMADOS,Todos,barrio,Sin dato,Sin dato,Masculino,Hasta 13,1,0
-ENTRAMADOS,Todos,barrio,Sin dato,Sin dato,Masculino,Todos,1,0
-ENTRAMADOS,Todos,barrio,Sin dato,Sin dato,Todos,Hasta 13,1,0
-ENTRAMADOS,Todos,barrio,Sin dato,Sin dato,Todos,Todos,1,0
 ENTRAMADOS,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,14-15,1,0
 ENTRAMADOS,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,16-17,1,0
 ENTRAMADOS,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,Todos,2,0
@@ -3416,16 +3476,12 @@ ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 1
 ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,8,0
 ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,1
 ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,1
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,6,2
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,7,2
 ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,6,1
 ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,1
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,14,2
-ENTRAMADOS,Todos,zona,Sin dato,Sin dato,Masculino,Hasta 13,1,0
-ENTRAMADOS,Todos,zona,Sin dato,Sin dato,Masculino,Todos,1,0
-ENTRAMADOS,Todos,zona,Sin dato,Sin dato,Todos,Hasta 13,1,0
-ENTRAMADOS,Todos,zona,Sin dato,Sin dato,Todos,Todos,1,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,15,2
 ENTRAMADOS,Todos,zona,Suárez Norte,Suárez Norte,Femenino,14-15,3,1
 ENTRAMADOS,Todos,zona,Suárez Norte,Suárez Norte,Femenino,16-17,3,0
 ENTRAMADOS,Todos,zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
@@ -4295,18 +4351,32 @@ RESPO_AUTONOMIA,2025,zona,Zagala,Zagala,Masculino,Todos,8,0
 RESPO_AUTONOMIA,2025,zona,Zagala,Zagala,Todos,14-15,5,0
 RESPO_AUTONOMIA,2025,zona,Zagala,Zagala,Todos,16-17,4,0
 RESPO_AUTONOMIA,2025,zona,Zagala,Zagala,Todos,Todos,9,0
+RESPO_AUTONOMIA,2026,barrio,Barrio Güemes,Zagala,Masculino,16-17,1,0
+RESPO_AUTONOMIA,2026,barrio,Barrio Güemes,Zagala,Masculino,Todos,1,0
+RESPO_AUTONOMIA,2026,barrio,Barrio Güemes,Zagala,Todos,16-17,1,0
+RESPO_AUTONOMIA,2026,barrio,Barrio Güemes,Zagala,Todos,Todos,1,0
+RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Masculino,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Masculino,16-17,6,0
-RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,6,0
+RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,9,0
+RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Todos,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Todos,16-17,6,0
-RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Todos,Todos,6,0
+RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,2026,barrio,Billinghurst,Resto de San Martín,Todos,Todos,9,0
 RESPO_AUTONOMIA,2026,barrio,Costa del Lago/8M,Suárez Sur,Masculino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Costa del Lago/8M,Suárez Sur,Masculino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Costa del Lago/8M,Suárez Sur,Todos,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Costa del Lago/8M,Suárez Sur,Todos,Todos,1,0
-RESPO_AUTONOMIA,2026,barrio,Curita,Suárez Sur,Masculino,16-17,2,0
-RESPO_AUTONOMIA,2026,barrio,Curita,Suárez Sur,Masculino,Todos,2,0
-RESPO_AUTONOMIA,2026,barrio,Curita,Suárez Sur,Todos,16-17,2,0
-RESPO_AUTONOMIA,2026,barrio,Curita,Suárez Sur,Todos,Todos,2,0
+RESPO_AUTONOMIA,2026,barrio,Curita,Suárez Sur,Masculino,16-17,3,0
+RESPO_AUTONOMIA,2026,barrio,Curita,Suárez Sur,Masculino,Todos,3,0
+RESPO_AUTONOMIA,2026,barrio,Curita,Suárez Sur,Todos,16-17,3,0
+RESPO_AUTONOMIA,2026,barrio,Curita,Suárez Sur,Todos,Todos,3,0
+RESPO_AUTONOMIA,2026,barrio,Eucaliptus,Suárez Sur,Masculino,14-15,1,1
+RESPO_AUTONOMIA,2026,barrio,Eucaliptus,Suárez Sur,Masculino,Todos,1,1
+RESPO_AUTONOMIA,2026,barrio,Eucaliptus,Suárez Sur,Todos,14-15,1,1
+RESPO_AUTONOMIA,2026,barrio,Eucaliptus,Suárez Sur,Todos,Todos,1,1
 RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Femenino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Femenino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Masculino,14-15,1,0
@@ -4319,10 +4389,12 @@ RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Todos,Sin dato,1,0
 RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Todos,Todos,4,0
 RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Femenino,Todos,1,0
+RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Masculino,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Masculino,16-17,2,0
-RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Masculino,Todos,2,0
+RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Masculino,Todos,3,0
+RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Todos,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Todos,16-17,3,0
-RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Todos,Todos,3,0
+RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Todos,Todos,4,0
 RESPO_AUTONOMIA,2026,barrio,La Rana,Zagala,Masculino,16-17,3,1
 RESPO_AUTONOMIA,2026,barrio,La Rana,Zagala,Masculino,18 o más,1,0
 RESPO_AUTONOMIA,2026,barrio,La Rana,Zagala,Masculino,Todos,4,1
@@ -4332,25 +4404,29 @@ RESPO_AUTONOMIA,2026,barrio,La Rana,Zagala,Todos,Todos,4,1
 RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Masculino,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Masculino,16-17,2,0
 RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Masculino,18 o más,2,0
-RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Masculino,Todos,5,0
+RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Masculino,Todos,6,0
 RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Todos,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Todos,16-17,2,0
 RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Todos,18 o más,2,0
-RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Todos,Todos,5,0
-RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Masculino,14-15,2,0
-RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Masculino,16-17,4,0
-RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Masculino,Todos,6,0
-RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Todos,14-15,2,0
-RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Todos,16-17,4,0
-RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Todos,Todos,6,0
+RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,2026,barrio,Lanzone,Suárez Sur,Todos,Todos,6,0
+RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Masculino,14-15,3,0
+RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Masculino,16-17,5,0
+RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Masculino,Todos,8,0
+RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Todos,14-15,3,0
+RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Todos,16-17,5,0
+RESPO_AUTONOMIA,2026,barrio,Libertador,Suárez Sur,Todos,Todos,8,0
+RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Femenino,16-17,1,0
+RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,14-15,2,0
-RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,4,0
+RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,5,1
 RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,7,0
+RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,8,1
 RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,14-15,2,0
-RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,4,0
+RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,6,1
 RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,18 o más,1,0
-RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,7,0
+RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,9,1
 RESPO_AUTONOMIA,2026,barrio,Loyola,Zagala,Masculino,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,Loyola,Zagala,Masculino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Loyola,Zagala,Todos,14-15,1,0
@@ -4363,21 +4439,20 @@ RESPO_AUTONOMIA,2026,barrio,San Andrés,Resto de San Martín,Masculino,Todos,3,0
 RESPO_AUTONOMIA,2026,barrio,San Andrés,Resto de San Martín,Todos,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,San Andrés,Resto de San Martín,Todos,18 o más,3,0
 RESPO_AUTONOMIA,2026,barrio,San Andrés,Resto de San Martín,Todos,Todos,4,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Femenino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Femenino,Hasta 13,1,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Femenino,Todos,2,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,14-15,14,1
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,16-17,19,2
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,18 o más,5,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,Hasta 13,4,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,Sin dato,3,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,Todos,45,3
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,14-15,14,1
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,16-17,20,2
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,18 o más,5,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,Hasta 13,5,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,Sin dato,3,0
-RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,Todos,47,3
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Femenino,Todos,1,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,14-15,7,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,16-17,10,1
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,18 o más,3,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,Hasta 13,3,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Masculino,Todos,24,1
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,14-15,7,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,16-17,10,1
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,18 o más,3,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,Hasta 13,4,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,2026,barrio,Sin dato,Sin dato,Todos,Todos,25,1
 RESPO_AUTONOMIA,2026,barrio,Vicente López,Fuera de San Martín,Masculino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Vicente López,Fuera de San Martín,Masculino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Vicente López,Fuera de San Martín,Todos,16-17,1,0
@@ -4386,13 +4461,13 @@ RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,14-15,
 RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,16-17,2,0
 RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Femenino,Todos,3,0
 RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,14-15,1,1
-RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,6,1
+RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,9,1
 RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,18 o más,1,1
-RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,8,3
+RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,11,3
 RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,14-15,2,1
-RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,8,1
+RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,11,1
 RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,1,1
-RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,11,3
+RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,14,3
 RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,1,0
@@ -4401,24 +4476,32 @@ RESPO_AUTONOMIA,2026,barrio,Villa Concepción,Zagala,Masculino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Concepción,Zagala,Masculino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Concepción,Zagala,Todos,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Concepción,Zagala,Todos,Todos,1,0
-RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,2,0
-RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,2,0
-RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,2,0
-RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,2,0
-RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,1,0
+RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,2,0
+RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,3,0
+RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0
+RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,6,0
+RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,2,0
+RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,3,0
+RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,1,0
+RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,6,0
+RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,2,0
+RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,2,0
-RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,1,0
+RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,4,0
+RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,2,0
+RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,2,0
+RESPO_AUTONOMIA,2026,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,4,0
 RESPO_AUTONOMIA,2026,barrio,Villa Lynch,Resto de San Martín,Masculino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Lynch,Resto de San Martín,Masculino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Lynch,Resto de San Martín,Todos,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Lynch,Resto de San Martín,Todos,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,16-17,4,0
-RESPO_AUTONOMIA,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,4,0
+RESPO_AUTONOMIA,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,1,0
+RESPO_AUTONOMIA,2026,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,5,0
 RESPO_AUTONOMIA,2026,barrio,Villa Maipú,Resto de San Martín,Todos,16-17,4,0
-RESPO_AUTONOMIA,2026,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,4,0
+RESPO_AUTONOMIA,2026,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,1,0
+RESPO_AUTONOMIA,2026,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,5,0
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Femenino,14-15,2,0
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Femenino,16-17,5,0
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Femenino,18 o más,1,0
@@ -4441,60 +4524,65 @@ RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,To
 RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,5,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,21,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,4,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,31,3
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,23,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,36,3
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,16-17,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,6,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,7,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,26,2
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,41,4
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,9,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,29,2
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,6,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,47,4
 RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,Todos,2,0
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,14-15,14,1
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,16-17,19,2
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,18 o más,5,0
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,Hasta 13,4,0
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,Sin dato,3,0
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,Todos,45,3
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,14-15,14,1
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,16-17,20,2
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,18 o más,5,0
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,Hasta 13,5,0
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,Sin dato,3,0
-RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,Todos,47,3
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,Todos,1,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,14-15,7,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,16-17,10,1
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,18 o más,3,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,Hasta 13,3,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,Todos,24,1
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,14-15,7,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,16-17,10,1
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,18 o más,3,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,Hasta 13,4,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Todos,Todos,25,1
 RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Femenino,16-17,1,0
 RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Femenino,Todos,1,0
-RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,16-17,4,0
-RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,Todos,4,0
-RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Todos,16-17,5,0
-RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Todos,Todos,5,0
+RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,14-15,3,0
+RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,16-17,5,0
+RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,1,0
+RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,Todos,9,0
+RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Todos,14-15,3,0
+RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Todos,16-17,6,0
+RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Todos,18 o más,1,0
+RESPO_AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Todos,Todos,10,0
 RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Femenino,16-17,1,0
 RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Femenino,Todos,1,0
-RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,14-15,4,0
-RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,16-17,10,0
+RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,14-15,6,1
+RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,16-17,12,0
 RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,18 o más,2,0
-RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,Todos,17,0
-RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,14-15,4,0
-RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,16-17,11,0
+RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,2,0
+RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Masculino,Todos,22,1
+RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,14-15,6,1
+RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,16-17,13,0
 RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,18 o más,2,0
-RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,Todos,18,0
+RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,2,0
+RESPO_AUTONOMIA,2026,zona,Suárez Sur,Suárez Sur,Todos,Todos,23,1
 RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Masculino,14-15,1,0
-RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Masculino,16-17,4,1
+RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Masculino,16-17,5,1
 RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Masculino,Todos,6,1
+RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Masculino,Todos,7,1
 RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Todos,14-15,1,0
-RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Todos,16-17,4,1
+RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Todos,16-17,5,1
 RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Todos,18 o más,1,0
-RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Todos,Todos,6,1
+RESPO_AUTONOMIA,2026,zona,Zagala,Zagala,Todos,Todos,7,1
 RESPO_AUTONOMIA,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,16-17,3,0
 RESPO_AUTONOMIA,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,Sin dato,1,0
 RESPO_AUTONOMIA,Todos,barrio,9 de Julio (sin precisar),Sin dato,Masculino,Todos,4,0
@@ -4507,30 +4595,44 @@ RESPO_AUTONOMIA,Todos,barrio,Barrio 18,Resto de San Martín,Masculino,Todos,3,0
 RESPO_AUTONOMIA,Todos,barrio,Barrio 18,Resto de San Martín,Todos,16-17,2,0
 RESPO_AUTONOMIA,Todos,barrio,Barrio 18,Resto de San Martín,Todos,Sin dato,1,0
 RESPO_AUTONOMIA,Todos,barrio,Barrio 18,Resto de San Martín,Todos,Todos,3,0
+RESPO_AUTONOMIA,Todos,barrio,Barrio Güemes,Zagala,Masculino,16-17,1,0
+RESPO_AUTONOMIA,Todos,barrio,Barrio Güemes,Zagala,Masculino,Todos,1,0
+RESPO_AUTONOMIA,Todos,barrio,Barrio Güemes,Zagala,Todos,16-17,1,0
+RESPO_AUTONOMIA,Todos,barrio,Barrio Güemes,Zagala,Todos,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Masculino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Masculino,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Todos,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Barrio La Magnolia,Resto de San Martín,Todos,Todos,1,0
+RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,14-15,1,0
 RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,16-17,15,0
 RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,18 o más,3,0
-RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,18,0
+RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,21,0
+RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Todos,14-15,1,0
 RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Todos,16-17,15,0
 RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Todos,18 o más,3,0
-RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Todos,18,0
+RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,Todos,barrio,Billinghurst,Resto de San Martín,Todos,Todos,21,0
 RESPO_AUTONOMIA,Todos,barrio,Costa del Lago/8M,Suárez Sur,Masculino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Costa del Lago/8M,Suárez Sur,Masculino,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Costa del Lago/8M,Suárez Sur,Todos,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Costa del Lago/8M,Suárez Sur,Todos,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Masculino,14-15,2,0
-RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Masculino,16-17,4,0
+RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Masculino,16-17,5,0
 RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Masculino,18 o más,4,0
 RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Masculino,Todos,11,0
+RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Masculino,Todos,12,0
 RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Todos,14-15,2,0
-RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Todos,16-17,4,0
+RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Todos,16-17,5,0
 RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Todos,18 o más,4,0
 RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Todos,Todos,11,0
+RESPO_AUTONOMIA,Todos,barrio,Curita,Suárez Sur,Todos,Todos,12,0
+RESPO_AUTONOMIA,Todos,barrio,Eucaliptus,Suárez Sur,Masculino,14-15,1,1
+RESPO_AUTONOMIA,Todos,barrio,Eucaliptus,Suárez Sur,Masculino,Todos,1,1
+RESPO_AUTONOMIA,Todos,barrio,Eucaliptus,Suárez Sur,Todos,14-15,1,1
+RESPO_AUTONOMIA,Todos,barrio,Eucaliptus,Suárez Sur,Todos,Todos,1,1
 RESPO_AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Femenino,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Masculino,14-15,3,0
@@ -4546,16 +4648,16 @@ RESPO_AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Todos,Todos,17,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Femenino,Todos,2,0
-RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,14-15,4,0
+RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,14-15,5,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,16-17,6,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,18 o más,2,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,2,0
-RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,Todos,14,0
-RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Todos,14-15,4,0
+RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,Todos,15,0
+RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Todos,14-15,5,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Todos,16-17,7,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Todos,18 o más,2,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Todos,Hasta 13,3,0
-RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Todos,Todos,16,0
+RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Todos,Todos,17,0
 RESPO_AUTONOMIA,Todos,barrio,La Rana,Zagala,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,La Rana,Zagala,Femenino,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,La Rana,Zagala,Masculino,14-15,3,0
@@ -4571,34 +4673,36 @@ RESPO_AUTONOMIA,Todos,barrio,La Rana,Zagala,Todos,Todos,17,2
 RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Masculino,14-15,5,0
 RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Masculino,16-17,9,0
 RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Masculino,18 o más,5,0
-RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Masculino,Todos,20,0
+RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Masculino,Sin dato,2,0
+RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Masculino,Todos,21,0
 RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Todos,14-15,5,0
 RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Todos,16-17,9,0
 RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Todos,18 o más,5,0
-RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Todos,Todos,20,0
+RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Todos,Sin dato,2,0
+RESPO_AUTONOMIA,Todos,barrio,Lanzone,Suárez Sur,Todos,Todos,21,0
 RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Femenino,Sin dato,1,0
 RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Femenino,Todos,2,0
-RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Masculino,14-15,5,0
-RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Masculino,16-17,7,0
+RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Masculino,14-15,6,0
+RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Masculino,16-17,8,0
 RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Masculino,18 o más,1,0
 RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Masculino,Todos,14,0
-RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Todos,14-15,5,0
-RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Todos,16-17,8,0
+RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Masculino,Todos,16,0
+RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Todos,14-15,6,0
+RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Todos,16-17,9,0
 RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Todos,18 o más,1,0
 RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Todos,Sin dato,2,0
-RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Todos,Todos,16,0
+RESPO_AUTONOMIA,Todos,barrio,Libertador,Suárez Sur,Todos,Todos,18,0
+RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Femenino,16-17,1,0
+RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,14-15,3,0
-RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,11,0
+RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,16-17,12,1
 RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,18 o más,3,0
-RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,17,0
+RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,18,1
 RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,14-15,3,0
-RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,11,0
+RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,13,1
 RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,18 o más,3,0
-RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,17,0
+RESPO_AUTONOMIA,Todos,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,19,1
 RESPO_AUTONOMIA,Todos,barrio,Loyola,Zagala,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Loyola,Zagala,Femenino,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Loyola,Zagala,Masculino,14-15,1,0
@@ -4619,23 +4723,22 @@ RESPO_AUTONOMIA,Todos,barrio,San Andrés,Resto de San Martín,Todos,18 o más,5,
 RESPO_AUTONOMIA,Todos,barrio,San Andrés,Resto de San Martín,Todos,Sin dato,1,0
 RESPO_AUTONOMIA,Todos,barrio,San Andrés,Resto de San Martín,Todos,Todos,8,0
 RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Femenino,14-15,2,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Femenino,Sin dato,3,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Femenino,Todos,8,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,14-15,21,2
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,16-17,31,2
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,18 o más,9,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,Hasta 13,8,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,Sin dato,8,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,Todos,77,4
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,14-15,23,2
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,16-17,32,2
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,18 o más,10,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,Hasta 13,9,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,Sin dato,11,0
-RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,Todos,85,4
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Femenino,Todos,7,0
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,14-15,14,1
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,16-17,22,1
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,18 o más,7,0
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,Hasta 13,7,0
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,Sin dato,6,0
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Masculino,Todos,56,2
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,14-15,16,1
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,16-17,22,1
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,18 o más,8,0
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,Hasta 13,8,0
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,Sin dato,9,0
+RESPO_AUTONOMIA,Todos,barrio,Sin dato,Sin dato,Todos,Todos,63,2
 RESPO_AUTONOMIA,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,18 o más,1,0
 RESPO_AUTONOMIA,Todos,barrio,Trece de Julio,Suárez Sur,Masculino,Todos,2,0
@@ -4654,13 +4757,13 @@ RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,14-15
 RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,16-17,2,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Femenino,Todos,3,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,14-15,2,1
-RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,13,1
+RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,16-17,16,1
 RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,18 o más,5,1
-RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,20,3
+RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,23,3
 RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,14-15,3,1
-RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,15,1
+RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,18,1
 RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,5,1
-RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,23,3
+RESPO_AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,26,3
 RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,14-15,1,0
@@ -4677,26 +4780,26 @@ RESPO_AUTONOMIA,Todos,barrio,Villa Concepción,Zagala,Todos,18 o más,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Concepción,Zagala,Todos,Todos,3,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Femenino,Todos,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,2,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,6,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,4,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,7,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,2,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,10,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,2,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,7,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,1,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,14,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,4,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,8,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,2,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,11,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,1,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,15,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,14-15,2,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,16-17,2,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,18 o más,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,4,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,1,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Masculino,Todos,6,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,14-15,2,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,16-17,2,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,18 o más,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,4,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Libertad,Resto de San Martín,Todos,Todos,6,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,14-15,2,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,16-17,2,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Lynch,Resto de San Martín,Femenino,Todos,4,0
@@ -4711,14 +4814,14 @@ RESPO_AUTONOMIA,Todos,barrio,Villa Lynch,Resto de San Martín,Todos,Todos,14,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Femenino,14-15,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Femenino,Todos,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,16-17,6,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,2,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,18 o más,3,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,9,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,10,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,14-15,1,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,16-17,6,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,2,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,18 o más,3,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,10,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Maipú,Resto de San Martín,Todos,Todos,11,0
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Femenino,14-15,7,0
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Femenino,16-17,11,0
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Femenino,18 o más,2,0
@@ -4742,74 +4845,75 @@ RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,T
 RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,5,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,4,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,10,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,12,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,57,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,18,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,5,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,92,3
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,17,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,61,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,19,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,5,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,102,3
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,11,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,62,2
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,19,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,102,4
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,19,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,67,2
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,20,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,113,4
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,14-15,2,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,Sin dato,3,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,Todos,8,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,14-15,21,2
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,16-17,34,2
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,18 o más,9,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,Hasta 13,8,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,Sin dato,9,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,Todos,81,4
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,14-15,23,2
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,16-17,35,2
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,18 o más,10,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,Hasta 13,9,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,Sin dato,12,0
-RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,Todos,89,4
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,Todos,7,0
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,14-15,14,1
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,16-17,25,1
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,18 o más,7,0
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,Hasta 13,7,0
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,Sin dato,7,0
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Masculino,Todos,60,2
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,14-15,16,1
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,16-17,25,1
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,18 o más,8,0
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,Hasta 13,8,0
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,Sin dato,10,0
+RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,Todos,67,2
 RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Femenino,16-17,2,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Femenino,Hasta 13,1,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Femenino,Todos,3,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,14-15,6,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,16-17,12,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,3,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,14-15,9,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,16-17,13,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,4,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Hasta 13,2,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Todos,24,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,14-15,6,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,16-17,14,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,18 o más,3,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Masculino,Todos,29,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,14-15,9,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,16-17,15,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,18 o más,4,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,Hasta 13,3,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,Todos,27,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Norte,Suárez Norte,Todos,Todos,32,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Femenino,16-17,2,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Femenino,Sin dato,1,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Femenino,Todos,3,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,14-15,15,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,16-17,29,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,14-15,17,1
+RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,16-17,31,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,18 o más,15,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,5,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Todos,64,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,14-15,15,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,16-17,31,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Sin dato,6,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Masculino,Todos,69,1
+RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,14-15,17,1
+RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,16-17,33,0
 RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,18 o más,15,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,6,0
-RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,Todos,67,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,Sin dato,7,0
+RESPO_AUTONOMIA,Todos,zona,Suárez Sur,Suárez Sur,Todos,Todos,72,1
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Femenino,16-17,2,0
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Femenino,Todos,2,0
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Masculino,14-15,4,0
-RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Masculino,16-17,10,2
+RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Masculino,16-17,11,2
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Masculino,18 o más,5,0
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Masculino,Todos,20,2
+RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Masculino,Todos,21,2
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,14-15,4,0
-RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,16-17,12,2
+RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,16-17,13,2
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,18 o más,5,0
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,Todos,22,2
+RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,Todos,23,2
