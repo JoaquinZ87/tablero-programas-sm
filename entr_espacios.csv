@@ -1,0 +1,47 @@
+id,tipo,taller,espacio,barrio,zona,encuentros,suspendidos,participantes,hasta_14,de_15_a_17,de_18_a_21,adultos,familias
+1,Deportes,Taller de Deportes,Villa Hidalgo - Parque Escuela,Villa Hidalgo,Suárez Norte,11,0,8,4,2,2,2,0
+2,Deportes,Taller de Deportes,Plaza de los Trabajadores,La Carcova,Suárez Norte,3,0,9,0,9,0,4,0
+3,Deportes,Taller de Deportes,Cárcova - Cancha Cimet,La Carcova,Suárez Norte,2,0,8,4,4,0,0,0
+4,Deportes,Taller de Deportes - Boxeo,Espacio Cultural Municipal Cárcova,La Carcova,Suárez Norte,7,0,11,8,2,1,1,0
+5,Deportes,Taller de Deportes - Boxeo,Club Flecha del Plata,Villa Zagala,Zagala,3,0,41,10,25,6,3,0
+6,Deportes,Taller de Deportes - Básquet,Independencia - Plaza 5 de noviembre,Independencia,Suárez Sur,18,3,23,15,6,2,3,0
+7,Deportes,Taller de Deportes - Básquet,Plaza Monoblock Campos,Barrio Campos,Zagala,18,0,17,5,8,4,2,0
+8,Deportes,Taller de Deportes - Fútbol,Club Villa Concepción,Villa Concepción,Zagala,21,0,44,10,26,8,4,0
+9,Deportes,Taller de Deportes - Fútbol,Independencia - Club,Independencia,Suárez Sur,16,1,14,8,6,0,0,0
+10,Deportes,Taller de Fútbol,CIC/Playón Villa Zagala,Villa Zagala,Zagala,131,3,53,18,20,15,2,0
+11,Deportes,Taller de Fútbol,ZOOM CIC Nº 600 Villa Zagala,Villa Zagala,Zagala,1,0,29,10,15,4,12,0
+12,Deportes,Taller deportivo,Club Flecha del Plata,La Rana,Zagala,1,0,48,12,36,0,6,0
+13,Oficios,Taller de Barbería,Campito Gabriela Mistral,Lanzone,Suárez Sur,13,2,12,7,3,2,3,0
+14,Oficios,Taller de Barbería,Espacio Cultural Municipal Cárcova,La Carcova,Suárez Norte,12,0,12,6,4,2,3,0
+15,Oficios,Taller de Barbería,Barrio Güemes - Comedor Elena N. López,Barrio Güemes,Zagala,12,0,12,0,6,6,2,0
+16,Oficios,Taller de Manicura,Villa Hidalgo - Parque Escuela,Villa Hidalgo,Suárez Norte,2,0,16,7,6,3,0,0
+17,Oficios,Taller de Manicura,Club Flecha del Plata,San Andrés,Zagala,2,0,18,4,14,0,2,0
+18,Oficios,Taller de Manicura,SS - Centro Día Juan Von Engels,Nueve de Julio,Suárez Sur,2,1,7,4,3,0,4,0
+19,Oficios,Taller de Manicura,SS - Centro Día Juan Von Engels,Nueve de Julio,Suárez Sur,1,0,5,4,1,0,2,0
+20,Comunicación y cultura,Taller de Radio y Streaming,Radio FM Reconquista,Villa Hidalgo,Suárez Norte,4,0,8,3,3,2,3,0
+21,Comunicación y cultura,Taller de Radio y Streaming,Radio FM Reconquista,Villa Hidalgo,Suárez Norte,0,1,0,0,0,0,0,0
+22,Comunicación y cultura,Taller de Streaming,CIC/Playón Villa Zagala,Villa Zagala,Zagala,14,0,10,4,5,1,2,0
+23,Comunicación y cultura,Taller de Streaming,SS - Centro Día Juan Von Engels,Nueve de Julio,Suárez Sur,12,1,7,6,1,0,3,0
+24,Comunicación y cultura,Taller de Streaming,Espacio Cultural Municipal Cárcova,La Carcova,Suárez Norte,11,0,5,2,2,1,2,0
+25,Comunicación y cultura,Taller de trabajo audiovisual,CJ Independencia,Independencia,Suárez Sur,1,0,14,9,4,1,0,0
+26,Talleres para adolescentes,Taller para adolescentes,Centro Juvenil Villa Hidalgo,Villa Hidalgo,Suárez Norte,6,0,20,6,10,4,4,0
+27,Talleres para adolescentes,Taller para adolescentes,Centro Juvenil Costa Esperanza,Costa Esperanza,Suárez Sur,5,5,18,14,3,1,4,0
+28,Talleres para adolescentes,Taller para adolescentes,(sin lugar cargado),La Carcova,Suárez Norte,4,0,13,4,7,2,0,0
+29,Talleres para adolescentes,Taller para adolescentes,Centro Juvenil Costa Esperanza,Costa Esperanza,Suárez Sur,3,0,29,25,4,0,4,0
+30,Talleres para adolescentes,Taller para adolescentes,CIC/Playón Villa Zagala,Villa Zagala,Zagala,3,0,16,0,11,5,2,0
+31,Talleres para adolescentes,Taller para adolescentes,Centro Juvenil Independencia,Independencia,Suárez Sur,2,0,16,14,2,0,0,0
+32,Talleres para adolescentes,Taller para adolescentes,Centro Juvenil La Rana,La Rana,Zagala,1,0,12,0,12,0,5,0
+33,Talleres para adolescentes,Taller para adolescentes,Comedor Carita Feliz,La Rana,Zagala,1,0,14,0,14,0,3,0
+34,Talleres para adolescentes,Taller para adolescentes,CJ independencia,Independencia,Suárez Sur,1,0,32,20,8,4,0,0
+35,Talleres para adolescentes,Taller sobre Salud Mental,Centro Juvenil La Rana,Villa Zagala,Zagala,1,0,9,2,4,3,7,0
+36,Con familias,Taller de Corresponsabilidad Familiar y Comunitaria,Villa Concepción - CAPS 3 Eva Perón,Villa Concepción,Zagala,4,0,1,0,0,1,6,1
+37,Con familias,Taller de Corresponsabilidad Familiar y Comunitaria,Capilla/Parroquia San Francisco de Asís,Sin dato,Suárez Norte,3,0,1,1,0,0,7,1
+38,Con familias,Taller de Corresponsabilidad Familiar y Comunitaria,Barrio Güemes - Comedor Elena N. López,Barrio Güemes,Zagala,3,0,0,0,0,0,6,1
+39,Con familias,Taller de Corresponsabilidad Familiar y Comunitaria,Parroquia Inmaculada Concepción,Independencia,Suárez Sur,3,0,0,0,0,0,6,1
+40,Jornadas y actividades,Actividad de Celebración por el día de las Niñeces.,CAPS 20,La Carcova,Suárez Norte,1,0,26,12,8,6,21,0
+41,Jornadas y actividades,Actividad por Ni una Menos,CAPS 3,Villa Concepción,Zagala,1,0,19,5,9,5,15,0
+42,Jornadas y actividades,Actividad revreativa,(sin lugar cargado),Villa Zagala,Zagala,1,0,32,0,15,17,2,0
+43,Jornadas y actividades,Encuentro Festejos Días de las Infancias,Huerta Agroecológica Villa Zagala,Villa Zagala,Zagala,1,0,76,35,40,1,10,0
+44,Jornadas y actividades,Festejo Día del Estudiante _ Sociedad Fomento Villa Ballester Este,Sociedad de Fomento Villa Ballester Este,La Rana,Zagala,1,0,5,0,0,5,12,0
+45,Jornadas y actividades,Festejo Día del Estudiante jovenes E.E.S.Nº44_ Futbol Zagala,CIC/Playón Villa Zagala,Villa Zagala,Zagala,1,0,74,0,60,14,6,0
+46,Jornadas y actividades,difusión programa Entramados,San Ignacio de Loyola,Villa Zagala,Zagala,1,0,8,0,0,8,10,0

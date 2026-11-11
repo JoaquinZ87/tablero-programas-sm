@@ -10,8 +10,13 @@ Sitio: https://joaquinz87.github.io/tablero-programas-sm/
 
 - `index.html`: el tablero (barras apiladas con total y desagregación, mapas de calor por
   barrio y localidad, filtros guardados en la dirección).
-- `cubo.csv`: conteos agregados por programa, año, territorio, género y edad. **No contiene
-  datos personales** (ni DNI, ni nombres, ni domicilios).
+- `cubo.csv`: conteos agregados por programa, año, territorio, género y edad.
+- `entr_espacios.csv`: espacios grupales de Entramados 2026 (taller × lugar) con encuentros y
+  participantes estimados por medianas.
+- `entr_individuales.csv`: NNoA con intervención individual de Entramados 2026, por barrio,
+  género y edad.
+
+Ningún archivo contiene datos personales (ni DNI, ni nombres, ni domicilios).
 - `d3.v7.min.js`: biblioteca de gráficos ([d3](https://d3js.org), licencia ISC).
 
 ## Cómo se cuenta

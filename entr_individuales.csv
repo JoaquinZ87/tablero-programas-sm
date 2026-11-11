@@ -1,0 +1,241 @@
+nivel,territorio,zona,genero,edad,nnoa,nnoa_grupal
+barrio,Barrio Granaderos,Zagala,Masculino,14-15,1,0
+barrio,Barrio Granaderos,Zagala,Masculino,Todos,1,0
+barrio,Barrio Granaderos,Zagala,Todos,14-15,1,0
+barrio,Barrio Granaderos,Zagala,Todos,Todos,1,0
+barrio,Barrio Güemes,Zagala,Masculino,16-17,1,1
+barrio,Barrio Güemes,Zagala,Masculino,Todos,1,1
+barrio,Barrio Güemes,Zagala,Todos,16-17,1,1
+barrio,Barrio Güemes,Zagala,Todos,Todos,1,1
+barrio,Barrio UTA,Suárez Sur,Masculino,14-15,1,0
+barrio,Barrio UTA,Suárez Sur,Masculino,Todos,1,0
+barrio,Barrio UTA,Suárez Sur,Todos,14-15,1,0
+barrio,Barrio UTA,Suárez Sur,Todos,Todos,1,0
+barrio,Billinghurst,Resto de San Martín,Masculino,14-15,1,0
+barrio,Billinghurst,Resto de San Martín,Masculino,Todos,1,0
+barrio,Billinghurst,Resto de San Martín,Todos,14-15,1,0
+barrio,Billinghurst,Resto de San Martín,Todos,Todos,1,0
+barrio,Costa Esperanza,Suárez Sur,Masculino,14-15,1,0
+barrio,Costa Esperanza,Suárez Sur,Masculino,Todos,1,0
+barrio,Costa Esperanza,Suárez Sur,Todos,14-15,1,0
+barrio,Costa Esperanza,Suárez Sur,Todos,Todos,1,0
+barrio,Curita,Suárez Sur,Masculino,14-15,1,1
+barrio,Curita,Suárez Sur,Masculino,16-17,1,0
+barrio,Curita,Suárez Sur,Masculino,Todos,2,1
+barrio,Curita,Suárez Sur,Todos,14-15,1,1
+barrio,Curita,Suárez Sur,Todos,16-17,1,0
+barrio,Curita,Suárez Sur,Todos,Todos,2,1
+barrio,Eucaliptus,Suárez Sur,Masculino,14-15,1,0
+barrio,Eucaliptus,Suárez Sur,Masculino,Todos,1,0
+barrio,Eucaliptus,Suárez Sur,Todos,14-15,1,0
+barrio,Eucaliptus,Suárez Sur,Todos,Todos,1,0
+barrio,Independencia,Suárez Sur,Masculino,Hasta 13,1,0
+barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
+barrio,Independencia,Suárez Sur,Todos,Hasta 13,1,0
+barrio,Independencia,Suárez Sur,Todos,Todos,1,0
+barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
+barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
+barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,0
+barrio,La Carcova,Suárez Norte,Femenino,Todos,3,0
+barrio,La Carcova,Suárez Norte,Masculino,14-15,2,0
+barrio,La Carcova,Suárez Norte,Masculino,16-17,4,2
+barrio,La Carcova,Suárez Norte,Masculino,18 o más,2,1
+barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,4,1
+barrio,La Carcova,Suárez Norte,Masculino,Sin dato,1,0
+barrio,La Carcova,Suárez Norte,Masculino,Todos,13,4
+barrio,La Carcova,Suárez Norte,Todos,14-15,2,0
+barrio,La Carcova,Suárez Norte,Todos,16-17,5,2
+barrio,La Carcova,Suárez Norte,Todos,18 o más,3,1
+barrio,La Carcova,Suárez Norte,Todos,Hasta 13,5,1
+barrio,La Carcova,Suárez Norte,Todos,Sin dato,1,0
+barrio,La Carcova,Suárez Norte,Todos,Todos,16,4
+barrio,La Rana,Zagala,Femenino,14-15,2,0
+barrio,La Rana,Zagala,Femenino,16-17,1,0
+barrio,La Rana,Zagala,Femenino,Todos,3,0
+barrio,La Rana,Zagala,Masculino,14-15,1,1
+barrio,La Rana,Zagala,Masculino,16-17,6,5
+barrio,La Rana,Zagala,Masculino,18 o más,2,2
+barrio,La Rana,Zagala,Masculino,Hasta 13,2,0
+barrio,La Rana,Zagala,Masculino,Todos,11,8
+barrio,La Rana,Zagala,Todos,14-15,3,1
+barrio,La Rana,Zagala,Todos,16-17,7,5
+barrio,La Rana,Zagala,Todos,18 o más,2,2
+barrio,La Rana,Zagala,Todos,Hasta 13,2,0
+barrio,La Rana,Zagala,Todos,Todos,14,8
+barrio,Lanzone,Suárez Sur,Masculino,14-15,1,0
+barrio,Lanzone,Suárez Sur,Masculino,Todos,1,0
+barrio,Lanzone,Suárez Sur,Todos,14-15,1,0
+barrio,Lanzone,Suárez Sur,Todos,Todos,1,0
+barrio,Libertador,Suárez Sur,Masculino,14-15,1,0
+barrio,Libertador,Suárez Sur,Masculino,16-17,1,1
+barrio,Libertador,Suárez Sur,Masculino,Todos,2,1
+barrio,Libertador,Suárez Sur,Todos,14-15,1,0
+barrio,Libertador,Suárez Sur,Todos,16-17,1,1
+barrio,Libertador,Suárez Sur,Todos,Todos,2,1
+barrio,Loma Hermosa,Resto de San Martín,Femenino,14-15,1,1
+barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,1,1
+barrio,Loma Hermosa,Resto de San Martín,Todos,14-15,1,1
+barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,1,1
+barrio,Loyola,Zagala,Femenino,16-17,1,1
+barrio,Loyola,Zagala,Femenino,Todos,1,1
+barrio,Loyola,Zagala,Todos,16-17,1,1
+barrio,Loyola,Zagala,Todos,Todos,1,1
+barrio,Necochea,Suárez Norte,Femenino,14-15,1,0
+barrio,Necochea,Suárez Norte,Femenino,16-17,1,0
+barrio,Necochea,Suárez Norte,Femenino,Todos,2,0
+barrio,Necochea,Suárez Norte,Masculino,14-15,1,1
+barrio,Necochea,Suárez Norte,Masculino,Todos,1,1
+barrio,Necochea,Suárez Norte,Todos,14-15,2,1
+barrio,Necochea,Suárez Norte,Todos,16-17,1,0
+barrio,Necochea,Suárez Norte,Todos,Todos,3,1
+barrio,Nueve de Julio,Suárez Sur,Femenino,14-15,1,0
+barrio,Nueve de Julio,Suárez Sur,Femenino,Todos,1,0
+barrio,Nueve de Julio,Suárez Sur,Masculino,14-15,1,1
+barrio,Nueve de Julio,Suárez Sur,Masculino,Hasta 13,1,1
+barrio,Nueve de Julio,Suárez Sur,Masculino,Todos,2,2
+barrio,Nueve de Julio,Suárez Sur,Todos,14-15,2,1
+barrio,Nueve de Julio,Suárez Sur,Todos,Hasta 13,1,1
+barrio,Nueve de Julio,Suárez Sur,Todos,Todos,3,2
+barrio,Sarmiento,Resto de San Martín,Masculino,Hasta 13,1,0
+barrio,Sarmiento,Resto de San Martín,Masculino,Todos,1,0
+barrio,Sarmiento,Resto de San Martín,Todos,Hasta 13,1,0
+barrio,Sarmiento,Resto de San Martín,Todos,Todos,1,0
+barrio,Sin dato,Sin dato,Masculino,14-15,1,1
+barrio,Sin dato,Sin dato,Masculino,16-17,1,0
+barrio,Sin dato,Sin dato,Masculino,Hasta 13,1,0
+barrio,Sin dato,Sin dato,Masculino,Todos,3,1
+barrio,Sin dato,Sin dato,Todos,14-15,1,1
+barrio,Sin dato,Sin dato,Todos,16-17,1,0
+barrio,Sin dato,Sin dato,Todos,Hasta 13,1,0
+barrio,Sin dato,Sin dato,Todos,Todos,3,1
+barrio,Trece de Julio,Suárez Sur,Masculino,14-15,1,0
+barrio,Trece de Julio,Suárez Sur,Masculino,16-17,1,1
+barrio,Trece de Julio,Suárez Sur,Masculino,Todos,2,1
+barrio,Trece de Julio,Suárez Sur,Todos,14-15,1,0
+barrio,Trece de Julio,Suárez Sur,Todos,16-17,1,1
+barrio,Trece de Julio,Suárez Sur,Todos,Todos,2,1
+barrio,Tropezón,Resto de San Martín,Femenino,14-15,1,0
+barrio,Tropezón,Resto de San Martín,Femenino,Todos,1,0
+barrio,Tropezón,Resto de San Martín,Todos,14-15,1,0
+barrio,Tropezón,Resto de San Martín,Todos,Todos,1,0
+barrio,Villa Ballester,Resto de San Martín,Femenino,16-17,3,1
+barrio,Villa Ballester,Resto de San Martín,Femenino,Hasta 13,1,0
+barrio,Villa Ballester,Resto de San Martín,Femenino,Todos,4,1
+barrio,Villa Ballester,Resto de San Martín,Todos,16-17,3,1
+barrio,Villa Ballester,Resto de San Martín,Todos,Hasta 13,1,0
+barrio,Villa Ballester,Resto de San Martín,Todos,Todos,4,1
+barrio,Villa Concepción,Zagala,Femenino,14-15,1,1
+barrio,Villa Concepción,Zagala,Femenino,Todos,1,1
+barrio,Villa Concepción,Zagala,Todos,14-15,1,1
+barrio,Villa Concepción,Zagala,Todos,Todos,1,1
+barrio,Villa Corea,Suárez Norte,Masculino,16-17,1,0
+barrio,Villa Corea,Suárez Norte,Masculino,Todos,1,0
+barrio,Villa Corea,Suárez Norte,Todos,16-17,1,0
+barrio,Villa Corea,Suárez Norte,Todos,Todos,1,0
+barrio,Villa Hidalgo,Suárez Norte,Femenino,14-15,1,1
+barrio,Villa Hidalgo,Suárez Norte,Femenino,16-17,1,0
+barrio,Villa Hidalgo,Suárez Norte,Femenino,Todos,2,1
+barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,3,0
+barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,1,1
+barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0
+barrio,Villa Hidalgo,Suárez Norte,Masculino,Hasta 13,1,0
+barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,6,1
+barrio,Villa Hidalgo,Suárez Norte,Todos,14-15,4,1
+barrio,Villa Hidalgo,Suárez Norte,Todos,16-17,2,1
+barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,1,0
+barrio,Villa Hidalgo,Suárez Norte,Todos,Hasta 13,1,0
+barrio,Villa Hidalgo,Suárez Norte,Todos,Todos,8,2
+barrio,Villa Lynch,Resto de San Martín,Masculino,16-17,1,0
+barrio,Villa Lynch,Resto de San Martín,Masculino,Todos,1,0
+barrio,Villa Lynch,Resto de San Martín,Todos,16-17,1,0
+barrio,Villa Lynch,Resto de San Martín,Todos,Todos,1,0
+barrio,Villa Maipú,Resto de San Martín,Femenino,14-15,1,0
+barrio,Villa Maipú,Resto de San Martín,Femenino,16-17,1,0
+barrio,Villa Maipú,Resto de San Martín,Femenino,Todos,2,0
+barrio,Villa Maipú,Resto de San Martín,Masculino,14-15,1,1
+barrio,Villa Maipú,Resto de San Martín,Masculino,16-17,1,0
+barrio,Villa Maipú,Resto de San Martín,Masculino,Todos,2,1
+barrio,Villa Maipú,Resto de San Martín,Todos,14-15,2,1
+barrio,Villa Maipú,Resto de San Martín,Todos,16-17,2,0
+barrio,Villa Maipú,Resto de San Martín,Todos,Todos,4,1
+barrio,Villa Zagala,Zagala,Masculino,16-17,1,0
+barrio,Villa Zagala,Zagala,Masculino,Todos,1,0
+barrio,Villa Zagala,Zagala,Todos,16-17,1,0
+barrio,Villa Zagala,Zagala,Todos,Todos,1,0
+todos,Todos,Todos,Femenino,14-15,9,3
+todos,Todos,Todos,Femenino,16-17,9,2
+todos,Todos,Todos,Femenino,18 o más,1,0
+todos,Todos,Todos,Femenino,Hasta 13,2,0
+todos,Todos,Todos,Femenino,Todos,21,5
+todos,Todos,Todos,Masculino,14-15,19,6
+todos,Todos,Todos,Masculino,16-17,20,11
+todos,Todos,Todos,Masculino,18 o más,5,3
+todos,Todos,Todos,Masculino,Hasta 13,11,2
+todos,Todos,Todos,Masculino,Sin dato,1,0
+todos,Todos,Todos,Masculino,Todos,56,22
+todos,Todos,Todos,Todos,14-15,28,9
+todos,Todos,Todos,Todos,16-17,29,13
+todos,Todos,Todos,Todos,18 o más,6,3
+todos,Todos,Todos,Todos,Hasta 13,13,2
+todos,Todos,Todos,Todos,Sin dato,1,0
+todos,Todos,Todos,Todos,Todos,77,27
+zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,3,1
+zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,4,1
+zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,8,2
+zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,1
+zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,2,0
+zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,5,1
+zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,2
+zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,1
+zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
+zona,Resto de San Martín,Resto de San Martín,Todos,Todos,13,3
+zona,Sin dato,Sin dato,Masculino,14-15,1,1
+zona,Sin dato,Sin dato,Masculino,16-17,1,0
+zona,Sin dato,Sin dato,Masculino,Hasta 13,1,0
+zona,Sin dato,Sin dato,Masculino,Todos,3,1
+zona,Sin dato,Sin dato,Todos,14-15,1,1
+zona,Sin dato,Sin dato,Todos,16-17,1,0
+zona,Sin dato,Sin dato,Todos,Hasta 13,1,0
+zona,Sin dato,Sin dato,Todos,Todos,3,1
+zona,Suárez Norte,Suárez Norte,Femenino,14-15,2,1
+zona,Suárez Norte,Suárez Norte,Femenino,16-17,3,0
+zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
+zona,Suárez Norte,Suárez Norte,Femenino,Hasta 13,1,0
+zona,Suárez Norte,Suárez Norte,Femenino,Todos,7,1
+zona,Suárez Norte,Suárez Norte,Masculino,14-15,6,1
+zona,Suárez Norte,Suárez Norte,Masculino,16-17,6,3
+zona,Suárez Norte,Suárez Norte,Masculino,18 o más,3,1
+zona,Suárez Norte,Suárez Norte,Masculino,Hasta 13,5,1
+zona,Suárez Norte,Suárez Norte,Masculino,Sin dato,1,0
+zona,Suárez Norte,Suárez Norte,Masculino,Todos,21,6
+zona,Suárez Norte,Suárez Norte,Todos,14-15,8,2
+zona,Suárez Norte,Suárez Norte,Todos,16-17,9,3
+zona,Suárez Norte,Suárez Norte,Todos,18 o más,4,1
+zona,Suárez Norte,Suárez Norte,Todos,Hasta 13,6,1
+zona,Suárez Norte,Suárez Norte,Todos,Sin dato,1,0
+zona,Suárez Norte,Suárez Norte,Todos,Todos,28,7
+zona,Suárez Sur,Suárez Sur,Femenino,14-15,1,0
+zona,Suárez Sur,Suárez Sur,Femenino,Todos,1,0
+zona,Suárez Sur,Suárez Sur,Masculino,14-15,8,2
+zona,Suárez Sur,Suárez Sur,Masculino,16-17,3,2
+zona,Suárez Sur,Suárez Sur,Masculino,Hasta 13,2,1
+zona,Suárez Sur,Suárez Sur,Masculino,Todos,13,5
+zona,Suárez Sur,Suárez Sur,Todos,14-15,9,2
+zona,Suárez Sur,Suárez Sur,Todos,16-17,3,2
+zona,Suárez Sur,Suárez Sur,Todos,Hasta 13,2,1
+zona,Suárez Sur,Suárez Sur,Todos,Todos,14,5
+zona,Zagala,Zagala,Femenino,14-15,3,1
+zona,Zagala,Zagala,Femenino,16-17,2,1
+zona,Zagala,Zagala,Femenino,Todos,5,2
+zona,Zagala,Zagala,Masculino,14-15,2,1
+zona,Zagala,Zagala,Masculino,16-17,8,6
+zona,Zagala,Zagala,Masculino,18 o más,2,2
+zona,Zagala,Zagala,Masculino,Hasta 13,2,0
+zona,Zagala,Zagala,Masculino,Todos,14,9
+zona,Zagala,Zagala,Todos,14-15,5,2
+zona,Zagala,Zagala,Todos,16-17,10,7
+zona,Zagala,Zagala,Todos,18 o más,2,2
+zona,Zagala,Zagala,Todos,Hasta 13,2,0
+zona,Zagala,Zagala,Todos,Todos,19,11

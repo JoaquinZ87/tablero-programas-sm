@@ -12,11 +12,13 @@
 <div id="dash-root">
 
 <script>
-  // Runtime mínimo compatible con el de los tableros de claude.ai.
-  // Filtros: se guardan en la dirección (#anio=2026&programa=RESPO...), así un link compartido
-  // abre con los mismos filtros.
+  // Runtime mínimo compatible con el de los tableros de claude.ai: fuentes de datos (archivos
+  // CSV del mismo sitio), cálculos derivados (dash.calc), dibujos (dash.draw) y filtros
+  // guardados en la dirección (#anio=2026&programa=RESPO...).
+  // Si existe window.__DATOS (vista previa local), los datos vienen precargados.
   (function () {
-    let datos = { status: 'loading', data: [] };
+    const fuentes = new Map();   // id -> {status, data}
+    const calcs = new Map();     // id -> {inputs, fn, valor, firma}
     const draws = new Map();
     const subs = [];
     const leerParams = () => Object.fromEntries(new URLSearchParams(location.hash.slice(1)));
@@ -24,6 +26,28 @@
     function escribirParams() {
       const q = new URLSearchParams(p).toString();
       history.replaceState(null, '', q ? '#' + q : location.pathname + location.search);
+    }
+    function cargar(id) {
+      if (fuentes.has(id)) return;
+      if (window.__DATOS && window.__DATOS[id]) { fuentes.set(id, { status: 'ok', data: window.__DATOS[id] }); return; }
+      fuentes.set(id, { status: 'loading', data: [] });
+      fetch(id + '.csv', { cache: 'no-cache' })
+        .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+        .then((t) => { fuentes.set(id, { status: 'ok', data: d3.csvParse(t) }); programar(); })
+        .catch((e) => { console.error(id, e); fuentes.set(id, { status: 'error', data: [], message: String(e) }); programar(); });
+    }
+    function data(id) {
+      if (calcs.has(id)) {
+        const c = calcs.get(id);
+        const ins = c.inputs.map(data);
+        if (ins.some((x) => x.status === 'error')) return { status: 'error', data: null };
+        if (ins.some((x) => x.status !== 'ok')) return { status: 'loading', data: null };
+        const firma = ins.map((x) => x.data);
+        if (!c.firma || c.firma.some((v, i) => v !== firma[i])) { c.valor = c.fn(...firma); c.firma = firma; }
+        return { status: 'ok', data: c.valor };
+      }
+      cargar(id);
+      return fuentes.get(id);
     }
     function redraw() {
       subs.forEach((fn) => { try { fn(); } catch (e) { console.error(e); } });
@@ -34,13 +58,14 @@
       }
     }
     let pend = false;
-    const programar = () => { if (pend) return; pend = true; requestAnimationFrame(() => { pend = false; redraw(); }); };
+    function programar() { if (pend) return; pend = true; requestAnimationFrame(() => { pend = false; redraw(); }); }
     let ancho = window.innerWidth;
     window.addEventListener('resize', () => { if (window.innerWidth !== ancho) { ancho = window.innerWidth; programar(); } });
     window.addEventListener('hashchange', () => { p = leerParams(); programar(); });
     window.dash = {
       colors: ['#6b2a83', '#14a098', '#2f8fd8', '#e07a2e', '#0f8f82'],
-      data(name) { return name === 'cubo' ? datos : { status: 'missing', data: [] }; },
+      data,
+      calc(id, { inputs, fn }) { calcs.set(id, { inputs, fn }); },
       params() { return Object.assign({}, p); },
       setParams(o) {
         for (const k in o) { if (o[k] === null || o[k] === undefined || o[k] === '') delete p[k]; else p[k] = String(o[k]); }
@@ -51,10 +76,6 @@
       onData(fn) { subs.push(fn); programar(); },
       setLink() {},
     };
-    fetch('cubo.csv', { cache: 'no-cache' })
-      .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
-      .then((t) => { datos = { status: 'ok', data: d3.csvParse(t) }; programar(); })
-      .catch((e) => { console.error(e); datos = { status: 'error', data: [], message: String(e) }; programar(); });
   })();
 </script>
 
@@ -170,6 +191,13 @@
   .tb-ranking li:nth-child(odd) { background: var(--bg); }
   .tb-ranking .tb-n { color: var(--fg-3); text-align: right; font-size: 12px; }
   .tb-ranking .tb-barrita { height: 6px; border-radius: 3px; grid-column: 2 / 4; }
+  .tb-tabla-caja { overflow-x: auto; }
+  .tb-tabla { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+  .tb-tabla th { text-align: left; font-size: 11.5px; font-weight: 600; color: var(--fg-3); text-transform: uppercase; letter-spacing: .04em; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  .tb-tabla td { padding: 6px 8px; border-bottom: 1px solid var(--line-2); }
+  .tb-tabla .tb-num { text-align: right; }
+  .tb-tabla tbody tr:hover { background: var(--bg); }
+  .tb-tipo { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
   .tb-metodo { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; font-size: 13.5px; color: var(--fg-2); }
   .tb-metodo summary { cursor: pointer; font-weight: 650; color: var(--fg); }
   .tb-metodo li { margin-block: 6px; }
@@ -179,7 +207,7 @@
 
 <div class="tb">
   <header class="tb-head" id="encabezado">
-    <span class="tb-eyebrow">General San Martín · 2021–2026</span>
+    <span class="tb-eyebrow">Municipio de General San Martín · 2021–2026</span>
     <h1>Intervenciones con niñas, niños y adolescentes</h1>
     <p>Responsabilidades Compartidas, Autonomía Joven y Entramados. Cada programa cuenta por separado: un NNoA que está en dos programas suma dos intervenciones. Datos al 31/10/2026.</p>
   </header>
@@ -352,6 +380,101 @@
     <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026. Polígonos: GeoServer de la Municipalidad de General San Martín.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
   </article>
 
+
+  <header class="tb-seccion" id="entramados">
+    <h2>Entramados en 2026</h2>
+    <p>Intervenciones individuales y espacios grupales del programa, del 1 de enero al 31 de octubre. El filtro de zona o barrio se aplica a toda la sección; género y edad, solo a las individuales.</p>
+  </header>
+
+  <section class="tb-kpis" id="entr-indicadores" aria-label="Indicadores de Entramados">
+    <div class="tb-kpi">
+      <span class="tb-kpi-etq">NNoA con intervención individual</span>
+      <span class="tb-kpi-num" data-draw="entr-kpi-ind">—</span>
+      <span class="tb-kpi-sub"><b data-draw="entr-kpi-ind-grupal">—</b> de ellos también participan de grupales</span>
+    </div>
+    <div class="tb-kpi">
+      <span class="tb-kpi-etq">Talleres</span>
+      <span class="tb-kpi-num" data-draw="entr-kpi-talleres">—</span>
+      <span class="tb-kpi-sub">en <b data-draw="entr-kpi-espacios">—</b> espacios grupales (incluye jornadas)</span>
+    </div>
+    <div class="tb-kpi">
+      <span class="tb-kpi-etq">Encuentros grupales</span>
+      <span class="tb-kpi-num" data-draw="entr-kpi-encuentros">—</span>
+      <span class="tb-kpi-sub">realizados; no incluye los suspendidos</span>
+    </div>
+    <div class="tb-kpi">
+      <span class="tb-kpi-etq">Participantes estimados</span>
+      <span class="tb-kpi-num" data-draw="entr-kpi-part">—</span>
+      <span class="tb-kpi-sub">NNoA y jóvenes que sostienen los espacios; quien va a dos espacios cuenta en los dos</span>
+    </div>
+  </section>
+
+  <div class="tb-grid">
+    <article class="tb-card" id="entr-por-taller">
+      <div class="tb-card-head">
+        <h2>Participantes estimados por taller</h2>
+        <p>El largo es el total estimado; los colores, la edad. Al lado, los encuentros realizados.</p>
+      </div>
+      <div class="tb-leyenda" data-draw="entr-leyenda-edad"></div>
+      <div class="tb-graf" data-draw="entr-g-taller" data-source="entr_espacios"></div>
+      <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (encuentros grupales de Entramados, 01/01 al 31/10/2026). Participantes: estimación por medianas, regla de los formularios mensuales.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+    </article>
+    <article class="tb-card" id="entr-por-tipo">
+      <div class="tb-card-head">
+        <h2>Participantes estimados por tipo de taller</h2>
+        <p>Deportes, oficios, comunicación, talleres para adolescentes, talleres con familias y jornadas.</p>
+      </div>
+      <div class="tb-leyenda" data-draw="entr-leyenda-edad"></div>
+      <div class="tb-graf" data-draw="entr-g-tipo" data-source="entr_espacios"></div>
+      <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (encuentros grupales de Entramados, 01/01 al 31/10/2026). Participantes: estimación por medianas, regla de los formularios mensuales.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+    </article>
+  </div>
+
+  <article class="tb-card" id="entr-espacios">
+    <div class="tb-card-head">
+      <h2>Espacios grupales</h2>
+      <p>Cada taller en cada lugar. Las sesiones suspendidas no cuentan como encuentros ni entran a la estimación.</p>
+    </div>
+    <div class="tb-tabla-caja">
+      <table class="tb-tabla" data-source="entr_espacios" data-row-key="id">
+        <thead><tr><th data-field="tipo">Tipo</th><th data-field="taller">Taller</th><th data-field="espacio">Lugar</th><th data-field="barrio">Barrio</th><th data-field="encuentros" class="tb-num">Encuentros</th><th data-field="participantes" class="tb-num">Participantes est.</th></tr></thead>
+        <tbody data-draw="entr-tabla"></tbody>
+      </table>
+    </div>
+    <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (encuentros grupales de Entramados, 01/01 al 31/10/2026). Participantes: estimación por medianas, regla de los formularios mensuales.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+  </article>
+
+  <article class="tb-card" id="entr-individuales">
+    <div class="tb-card-head">
+      <h2>NNoA con intervención individual, por barrio de residencia</h2>
+      <p>Cada NNoA cuenta una vez. Se desagrega por edad o por género, según el control de arriba.</p>
+    </div>
+    <div class="tb-leyenda" data-draw="entr-leyenda-ind"></div>
+    <div class="tb-graf" data-draw="entr-g-ind" data-source="entr_individuales"></div>
+    <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (intervenciones individuales de Entramados, 01/01 al 31/10/2026).</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+  </article>
+
+  <div class="tb-grid">
+    <article class="tb-card" id="entr-mapa-ind">
+      <div class="tb-card-head">
+        <h2>Mapa: individuales por barrio de residencia</h2>
+        <p>NNoA con al menos una intervención individual en 2026.</p>
+      </div>
+      <div class="tb-calor-ley" data-draw="entr-mapa-ind-ley"></div>
+      <div class="tb-mapa" data-draw="entr-mapa-ind" data-source="entr_individuales"></div>
+      <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (intervenciones individuales de Entramados, 01/01 al 31/10/2026). Polígonos: GeoServer de la Municipalidad de General San Martín.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+    </article>
+    <article class="tb-card" id="entr-mapa-gru">
+      <div class="tb-card-head">
+        <h2>Mapa: grupales por barrio del espacio</h2>
+        <p>Participantes estimados según el lugar donde funciona cada espacio.</p>
+      </div>
+      <div class="tb-calor-ley" data-draw="entr-mapa-gru-ley"></div>
+      <div class="tb-mapa" data-draw="entr-mapa-gru" data-source="entr_espacios"></div>
+      <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (encuentros grupales de Entramados, 01/01 al 31/10/2026). Participantes: estimación por medianas, regla de los formularios mensuales. Polígonos: GeoServer de la Municipalidad de General San Martín.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+    </article>
+  </div>
+
   <details class="tb-metodo" id="metodo">
     <summary>Cómo se cuentan estos números</summary>
     <ul>
@@ -360,6 +483,8 @@
       <li><b>Activo en el año:</b> cuenta en cada año entre el ingreso y el cese. Sin fecha de cese, se lo considera activo hasta el corte.</li>
       <li><b>Edad:</b> la cumplida en cada año (al 31/12; en 2026, al 31/10). Con todo el período, la del último año activo.</li>
       <li><b>Barrio:</b> se unificaron las variantes de escritura. Cuando solo figura la localidad (Villa Ballester, Billinghurst, Villa Lynch, Villa Maipú, San Andrés, Villa Libertad, José León Suárez), se usa el polígono de la localidad sin los barrios que tienen polígono propio. «Barrio 9 de Julio» sin localidad queda sin precisar. Sin polígono: Tropezón, Barrio Güemes, Don Torcuato y Vicente López.</li>
+      <li><b>Entramados 2026 — individuales:</b> NNoA distintos con al menos una intervención individual cargada en SIGEI entre el 01/01 y el 31/10/2026, por su barrio de residencia y su edad al 31/10/2026.</li>
+      <li><b>Entramados 2026 — grupales:</b> un espacio es cada taller en cada lugar (o la serie, en los talleres por ciclos; las actividades sueltas se agrupan por nombre y zona). Los participantes se estiman como en los formularios mensuales: por espacio, la suma de las medianas de cada franja de edad (hasta 14, 15-17, 18-21), cada una solo sobre los encuentros en que esa franja vino y sin las sesiones suspendidas. Es una estimación de quienes sostienen el espacio, no un conteo de personas: quien va a dos espacios cuenta en los dos. Los talleres con familias estiman además adultos, que no se suman.</li>
       <li><b>Grupales de Entramados:</b> solo se pueden cruzar los NNoA que figuran con nombre en los talleres de SIGEI (desde 2026); los asistentes anónimos no entran.</li>
     </ul>
   </details>
@@ -491,8 +616,16 @@
         const segs = segmentos(f.base, dimKey);
         return { ...f, segs, total: valor(f.base) };
       }).filter((f) => f.total > 0);
-      if (!datos.length) { el.textContent = 'Sin intervenciones para estos filtros.'; return; }
-      el._tbDatos = [['', ...DIMS[dimKey].cats.map((c) => c.label), 'Total'], ...datos.map((f) => [f.label, ...f.segs.map((s) => s.v), f.total])];
+      barrasLibres(el, datos, { onClick, titulo, cabecera: ['', ...DIMS[dimKey].cats.map((c) => c.label), 'Total'] });
+    }
+
+    // Dibujo genérico de barras apiladas. filas: [{key, label, total, segs:[{label,color,v}], extra?, activa?}]
+    function barrasLibres(el, datos, { onClick, titulo, cabecera, vacio = 'Sin intervenciones para estos filtros.', extraTit = '' }) {
+      el.replaceChildren();
+      datos = datos.filter((f) => f.total > 0);
+      if (!datos.length) { el.textContent = vacio; return; }
+      el._tbDatos = [[...(cabecera || ['', ...datos[0].segs.map((s) => s.label), 'Total']), ...(extraTit ? [extraTit] : [])],
+        ...datos.map((f) => [f.label, ...f.segs.map((s) => s.v), f.total, ...(extraTit ? [f.extraValor ?? ''] : [])])];
       const W = Math.max(280, Math.floor(el.clientWidth) || 520), filaH = 34, H = datos.length * filaH;
       const svg = d3.select(el).append('svg').attr('class', 'tb-svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', W).attr('height', H).attr('role', 'img')
         .attr('aria-label', titulo + ': ' + datos.map((f) => `${f.label} ${f.total}`).join(', '));
@@ -500,7 +633,7 @@
       let lw = 0, tw = 0;
       datos.forEach((f) => {
         lw = Math.max(lw, med.append('text').attr('class', 'tb-etq').text(f.label).node().getComputedTextLength());
-        tw = Math.max(tw, med.append('text').attr('class', 'tb-total').text(fmt(f.total)).node().getComputedTextLength());
+        tw = Math.max(tw, med.append('text').attr('class', 'tb-total').text(fmt(f.total) + (f.extra ? '  ' + f.extra : '')).node().getComputedTextLength());
       });
       med.remove();
       lw = Math.min(Math.ceil(lw) + 16, Math.floor(W * 0.42));
@@ -532,7 +665,8 @@
             .attr('text-anchor', 'middle').style('fill', oscuro(s.color) ? '#ffffff' : '#17202a').text(fmt(s.v));
           acc += s.v;
         }
-        gg.append('text').attr('class', 'tb-total').attr('x', lw + x(f.total) + 7).attr('y', filaH / 2).attr('dy', '.35em').text(fmt(f.total));
+        const tt = gg.append('text').attr('class', 'tb-total').attr('x', lw + x(f.total) + 7).attr('y', filaH / 2).attr('dy', '.35em').text(fmt(f.total));
+        if (f.extra) tt.append('tspan').attr('dx', 8).style('font-weight', 400).style('fill', '#7a8693').text(f.extra);
       });
     }
 
@@ -592,7 +726,7 @@
     }
 
     window.TB = { fmt, pct, DIMS, ZONAS, ANIOS, idx, filtros, fila, valor, where, clave, numero, tooltip, estado,
-                  barras, columnas, leyenda, dimPara, segmentos, alternar, oscuro };
+                  barras, barrasLibres, columnas, leyenda, dimPara, segmentos, alternar, oscuro };
   })();
 </script>
 
@@ -765,10 +899,10 @@
     }
     const ranking = (items) => items.filter((i) => i.n > 0 && !i.enZona).sort((a, b) => b.n - a.n || a.b.nombre.localeCompare(b.b.nombre, 'es'));
 
-    function dibujar(el, items, { max, completo, titulo }) {
+    function dibujar(el, items, { max, completo, titulo, unidad = 'Intervenciones' }) {
       el.replaceChildren();
       const M = window.BARRIOS_MAPA;
-      el._tbDatos = [['Barrio o localidad', 'Tipo', 'Intervenciones'],
+      el._tbDatos = [['Barrio o localidad', 'Tipo', unidad],
         ...ranking(items).map((i) => [i.b.nombre, i.b.tipo === 'localidad' ? 'localidad (sin sus barrios)' : 'barrio', i.n])];
       const id = 'tb-rayado-' + (++uid);
       const svg = d3.select(el).append('svg').attr('class', 'tb-svg tb-fluido').attr('viewBox', `0 0 ${M.ancho} ${M.alto}`).attr('role', 'img')
@@ -785,7 +919,7 @@
         .style('fill', (i) => i.enZona ? `url(#${id})` : (i.n > 0 ? calor(i.n / max) : '#e6e9ed'))
         .style('stroke', '#ffffff').style('stroke-width', 0.8).attr('vector-effect', 'non-scaling-stroke').style('cursor', 'pointer')
         .on('mousemove', (ev, i) => tip.show(ev, i.b.nombre + (i.b.tipo === 'localidad' ? ' (localidad)' : ''),
-          i.enZona ? [{ label: 'Zona de Entramados: no se cuenta', v: 0 }] : [{ label: 'Intervenciones', v: i.n, color: calor(i.n / max) }]))
+          i.enZona ? [{ label: 'Zona de Entramados: no se cuenta', v: 0 }] : [{ label: unidad, v: i.n, color: calor(i.n / max) }]))
         .on('mouseleave', () => tip.hide())
         .on('click', (_, i) => TB.alternar('terr', 'barrio|' + i.b.nombre));
       svg.append('g').selectAll('path').data(M.localidades || []).join('path').attr('d', (l) => l.d)
@@ -835,13 +969,13 @@
       e.append('text').attr('x', km2 + 10).attr('y', 10).style('font-size', '22px').style('fill', '#17202a').text('2 km');
     }
 
-    function leyenda(el, max, rayado) {
+    function leyenda(el, max, rayado, unidad = 'intervenciones') {
       el.replaceChildren();
       if (dash.data('cubo').status !== 'ok') return;
       const cero = document.createElement('i'); cero.className = 'tb-cuad'; cero.style.background = '#e6e9ed';
       const g = document.createElement('i'); g.className = 'tb-grad';
       g.style.background = `linear-gradient(to right, ${d3.range(0, 1.01, 0.1).map((t) => calor(t)).join(', ')})`;
-      el.append(cero, ' 0', '   1 ', g, ' ' + TB.fmt(max) + ' intervenciones');
+      el.append(cero, ' 0', '   1 ', g, ' ' + TB.fmt(max) + ' ' + unidad);
       if (rayado) {
         const r = document.createElement('i'); r.className = 'tb-cuad';
         r.style.background = 'repeating-linear-gradient(45deg, #f3f5f8 0 3px, #9aa5b1 3px 5px)';
@@ -908,6 +1042,181 @@
     dash.draw('calor-fuera-ley', (el) => leyenda(el, maxFuera(), true));
     dash.draw('calor-fuera', (el) => { if (TB.estado(el)) dibujar(el, fuera(), { max: maxFuera(), completo: true, titulo: 'Responsabilidades Compartidas y Autonomía Joven fuera de las zonas de Entramados' }); });
     dash.draw('calor-fuera-lista', (el) => lista(el, fuera(), maxFuera()));
+    window.TBMapa = { dibujar, leyenda, ranking };
+  })();
+</script>
+
+
+<script>
+  // ---------------------------------------------------------------- Entramados 2026
+  dash.calc('entr_resumen', {
+    inputs: ['entr_espacios'],
+    title: 'Totales de los espacios grupales de Entramados',
+    description: 'Talleres distintos (sin contar jornadas), espacios, encuentros y participantes estimados, para todo el partido, cada zona y cada barrio.',
+    fn: (espacios) => {
+      const acc = new Map();
+      const sumar = (nivel, territorio, e) => {
+        const k = nivel + '|' + territorio;
+        if (!acc.has(k)) acc.set(k, { nivel, territorio, talleres: new Set(), espacios: 0, encuentros: 0, participantes: 0 });
+        const a = acc.get(k);
+        if (e.tipo !== 'Jornadas y actividades') a.talleres.add(e.taller);
+        a.espacios += 1; a.encuentros += Number(e.encuentros); a.participantes += Number(e.participantes);
+      };
+      for (const e of espacios) { sumar('todos', 'Todos', e); sumar('zona', e.zona, e); sumar('barrio', e.barrio, e); }
+      return [...acc.values()].map((a) => ({ nivel: a.nivel, territorio: a.territorio, talleres: a.talleres.size,
+        espacios: a.espacios, encuentros: a.encuentros, participantes: a.participantes }));
+    },
+  });
+
+  (function () {
+    const BLOQUES = [
+      { key: 'hasta_14', label: 'Hasta 14', color: '#9fb0ef' },
+      { key: 'de_15_a_17', label: '15-17', color: '#5468d4' },
+      { key: 'de_18_a_21', label: '18-21', color: '#27348f' },
+    ];
+    const TIPOS = ['Deportes', 'Oficios', 'Comunicación y cultura', 'Talleres para adolescentes', 'Con familias', 'Jornadas y actividades', 'Otros'];
+    const enc = (v) => String(v).replace(/%/g, '%25').replace(/&/g, '%26').replace(/=/g, '%3D');
+    const ok = (id) => dash.data(id).status === 'ok';
+    function estado(el, ids) {
+      for (const id of ids) {
+        const st = dash.data(id).status;
+        if (st === 'error') { el.replaceChildren(); el.textContent = 'No se pudieron cargar los datos.'; return false; }
+        if (st !== 'ok') { el.replaceChildren(); el.textContent = '—'; return false; }
+      }
+      return true;
+    }
+    const terr = () => { const f = TB.filtros(); return { nivel: f.nivel, territorio: f.territorio }; };
+    function espacios() {
+      if (!ok('entr_espacios')) return [];
+      const t = terr();
+      return dash.data('entr_espacios').data.filter((e) =>
+        t.nivel === 'todos' || (t.nivel === 'zona' ? e.zona === t.territorio : e.barrio === t.territorio));
+    }
+    function marcar(el, source, field, where, valor) {
+      el.replaceChildren();
+      const s = document.createElement('span');
+      s.textContent = TB.fmt(valor);
+      if (where) { s.dataset.source = source; s.dataset.field = field; s.setAttribute('data-where', where); }
+      el.append(s);
+    }
+    // ---- indicadores
+    function indFila(nivel, territorio, genero, edad) {
+      if (!ok('entr_individuales')) return null;
+      return dash.data('entr_individuales').data.find((r) => r.nivel === nivel && r.territorio === territorio && r.genero === genero && r.edad === edad) || null;
+    }
+    const indWhere = (r) => ['nivel', 'territorio', 'genero', 'edad'].map((k) => k + '=' + enc(r[k])).join('&');
+    function kpiInd(el, campo) {
+      if (!ok('entr_individuales')) { el.textContent = '—'; return; }
+      const f = TB.filtros();
+      const r = indFila(f.nivel, f.territorio, f.genero, f.edad);
+      marcar(el, 'entr_individuales', campo, r ? indWhere(r) : null, r ? Number(r[campo]) : 0);
+    }
+    dash.draw('entr-kpi-ind', (el) => kpiInd(el, 'nnoa'));
+    dash.draw('entr-kpi-ind-grupal', (el) => kpiInd(el, 'nnoa_grupal'));
+    function kpiRes(el, campo) {
+      const d = dash.data('entr_resumen');
+      if (d.status !== 'ok' || !Array.isArray(d.data)) { el.textContent = '—'; return; }
+      const t = terr();
+      const r = d.data.find((x) => x.nivel === t.nivel && x.territorio === t.territorio);
+      marcar(el, 'entr_resumen', campo, r ? `nivel=${enc(r.nivel)}&territorio=${enc(r.territorio)}` : null, r ? r[campo] : 0);
+    }
+    dash.draw('entr-kpi-talleres', (el) => kpiRes(el, 'talleres'));
+    dash.draw('entr-kpi-espacios', (el) => kpiRes(el, 'espacios'));
+    dash.draw('entr-kpi-encuentros', (el) => kpiRes(el, 'encuentros'));
+    dash.draw('entr-kpi-part', (el) => kpiRes(el, 'participantes'));
+
+    // ---- leyendas
+    function leyendaLibre(el, nombre, cats) {
+      el.replaceChildren();
+      const t = document.createElement('span'); t.textContent = nombre + ':'; t.style.fontWeight = '600'; el.append(t);
+      for (const c of cats) {
+        const s = document.createElement('span'); const p = document.createElement('i'); p.className = 'tb-punto'; p.style.background = c.color;
+        s.append(p, c.label); el.append(s);
+      }
+    }
+    dash.draw('entr-leyenda-edad', (el) => leyendaLibre(el, 'Edad', BLOQUES));
+    const dimInd = () => (TB.filtros().desag === 'genero' ? 'genero' : 'edad');
+    dash.draw('entr-leyenda-ind', (el) => { const k = dimInd(); leyendaLibre(el, TB.DIMS[k].nombre, TB.DIMS[k].cats); });
+
+    // ---- barras de grupales (por taller y por tipo)
+    function agrupar(clave) {
+      const m = new Map();
+      for (const e of espacios()) {
+        // en «por taller», las jornadas sueltas van juntas en una sola barra
+        const k = clave === 'taller' && e.tipo === 'Jornadas y actividades' ? 'Jornadas y actividades' : e[clave];
+        if (!m.has(k)) m.set(k, { key: k, label: k, encuentros: 0, total: 0, segs: BLOQUES.map((b) => ({ ...b, v: 0 })) });
+        const a = m.get(k);
+        a.encuentros += Number(e.encuentros); a.total += Number(e.participantes);
+        BLOQUES.forEach((b, i) => { a.segs[i].v += Number(e[b.key]); });
+      }
+      return [...m.values()].map((a) => ({ ...a, extra: TB.fmt(a.encuentros) + ' enc.', extraValor: a.encuentros }));
+    }
+    dash.draw('entr-g-taller', (el) => {
+      if (!estado(el, ['entr_espacios'])) return;
+      const filas = agrupar('taller').sort((a, b) => b.total - a.total);
+      TB.barrasLibres(el, filas, { titulo: 'Participantes estimados por taller', cabecera: ['Taller', ...BLOQUES.map((b) => b.label), 'Participantes estimados'], extraTit: 'Encuentros', vacio: 'Sin espacios grupales para este filtro.' });
+    });
+    dash.draw('entr-g-tipo', (el) => {
+      if (!estado(el, ['entr_espacios'])) return;
+      const filas = agrupar('tipo').sort((a, b) => TIPOS.indexOf(a.key) - TIPOS.indexOf(b.key));
+      TB.barrasLibres(el, filas, { titulo: 'Participantes estimados por tipo de taller', cabecera: ['Tipo de taller', ...BLOQUES.map((b) => b.label), 'Participantes estimados'], extraTit: 'Encuentros', vacio: 'Sin espacios grupales para este filtro.' });
+    });
+
+    // ---- tabla de espacios
+    dash.draw('entr-tabla', (tb) => {
+      tb.replaceChildren();
+      if (!ok('entr_espacios')) return;
+      const filas = espacios().slice().sort((a, b) => TIPOS.indexOf(a.tipo) - TIPOS.indexOf(b.tipo) || Number(b.participantes) - Number(a.participantes));
+      for (const e of filas) {
+        const tr = document.createElement('tr'); tr.dataset.key = e.id;
+        const celdas = [e.tipo, e.taller, e.espacio, e.barrio, TB.fmt(Number(e.encuentros)), TB.fmt(Number(e.participantes))];
+        celdas.forEach((v, i) => { const td = document.createElement('td'); td.textContent = v; if (i >= 4) td.className = 'tb-num'; tr.append(td); });
+        tb.append(tr);
+      }
+      if (!filas.length) { const tr = document.createElement('tr'); const td = document.createElement('td'); td.colSpan = 6; td.textContent = 'Sin espacios grupales para este filtro.'; tr.append(td); tb.append(tr); }
+    });
+
+    // ---- individuales por barrio
+    dash.draw('entr-g-ind', (el) => {
+      if (!estado(el, ['entr_individuales'])) return;
+      const f = TB.filtros();
+      const k = dimInd();
+      const dim = TB.DIMS[k];
+      const rows = dash.data('entr_individuales').data;
+      const val = (terr, gen, edad) => { const r = rows.find((x) => x.nivel === 'barrio' && x.territorio === terr && x.genero === gen && x.edad === edad); return r ? Number(r.nnoa) : 0; };
+      const barrios = rows.filter((r) => r.nivel === 'barrio' && r.genero === f.genero && r.edad === f.edad && r.territorio !== 'Sin dato'
+        && (f.nivel === 'todos' || (f.nivel === 'zona' ? r.zona === f.territorio : r.territorio === f.territorio)));
+      const filas = barrios.map((r) => ({
+        key: r.territorio, label: r.territorio, total: Number(r.nnoa),
+        segs: dim.cats.map((c) => {
+          const fijo = k === 'edad' ? f.edad : f.genero;
+          const v = fijo !== 'Todos' && fijo !== c.key ? 0 : (k === 'edad' ? val(r.territorio, f.genero, c.key) : val(r.territorio, c.key, f.edad));
+          return { ...c, v };
+        }),
+      })).sort((a, b) => b.total - a.total || a.label.localeCompare(b.label, 'es'));
+      TB.barrasLibres(el, filas, { titulo: 'NNoA con intervención individual por barrio', cabecera: ['Barrio o localidad', ...dim.cats.map((c) => c.label), 'NNoA'],
+        onClick: (r) => TB.alternar('terr', 'barrio|' + r.key), vacio: 'Sin NNoA para estos filtros.' });
+    });
+
+    // ---- mapas
+    function itemsMapa(valorDe) {
+      return window.BARRIOS_MAPA.barrios.filter((b) => b.datos).map((b) => ({ b, n: valorDe(b.nombre), enZona: false }));
+    }
+    const indMapa = () => {
+      const f = TB.filtros();
+      const rows = ok('entr_individuales') ? dash.data('entr_individuales').data : [];
+      return itemsMapa((nombre) => { const r = rows.find((x) => x.nivel === 'barrio' && x.territorio === nombre && x.genero === f.genero && x.edad === f.edad); return r ? Number(r.nnoa) : 0; });
+    };
+    const gruMapa = () => {
+      const sum = new Map();
+      for (const e of (ok('entr_espacios') ? dash.data('entr_espacios').data : [])) sum.set(e.barrio, (sum.get(e.barrio) || 0) + Number(e.participantes));
+      return itemsMapa((nombre) => sum.get(nombre) || 0);
+    };
+    const maxDe = (items) => d3.max(items, (i) => i.n) || 1;
+    dash.draw('entr-mapa-ind-ley', (el) => { if (ok('entr_individuales')) TBMapa.leyenda(el, maxDe(indMapa()), false, 'NNoA'); });
+    dash.draw('entr-mapa-ind', (el) => { if (estado(el, ['entr_individuales'])) { const it = indMapa(); TBMapa.dibujar(el, it, { max: maxDe(it), completo: true, titulo: 'NNoA con intervención individual por barrio', unidad: 'NNoA' }); } });
+    dash.draw('entr-mapa-gru-ley', (el) => { if (ok('entr_espacios')) TBMapa.leyenda(el, maxDe(gruMapa()), false, 'participantes estimados'); });
+    dash.draw('entr-mapa-gru', (el) => { if (estado(el, ['entr_espacios'])) { const it = gruMapa(); TBMapa.dibujar(el, it, { max: maxDe(it), completo: true, titulo: 'Participantes estimados en grupales por barrio del espacio', unidad: 'Participantes estimados' }); } });
   })();
 </script>
 
