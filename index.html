@@ -189,6 +189,9 @@
   .tb-ranking { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; font-size: 13px; }
   .tb-ranking li { display: grid; grid-template-columns: 1.7em 1fr auto; gap: 8px; align-items: center; padding: 4px 6px; border-radius: 6px; font-variant-numeric: tabular-nums; }
   .tb-ranking li:nth-child(odd) { background: var(--bg); }
+  .tb-clave { display: grid; gap: 6px; }
+  .tb-clave-t { font-size: 12px; font-weight: 600; color: var(--fg-3); text-transform: uppercase; letter-spacing: .04em; }
+  .tb-ranking-clave li { grid-template-columns: 1.7em 1fr; }
   .tb-ranking-cols { grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); column-gap: 10px; }
   .tb-ranking .tb-n { color: var(--fg-3); text-align: right; font-size: 12px; }
   .tb-ranking .tb-barrita { height: 6px; border-radius: 3px; grid-column: 2 / 4; }
@@ -352,6 +355,8 @@
     </div>
     <div class="tb-calor-ley" data-draw="calor-anios-ley"></div>
     <div class="tb-facetas" data-draw="calor-anios" data-source="cubo"></div>
+    <div class="tb-clave"><span class="tb-clave-t">Clave de los números</span>
+    <ol class="tb-ranking tb-ranking-cols tb-ranking-clave" data-draw="calor-anios-lista" data-source="cubo" aria-label="Clave de los números de los mapas por año"></ol></div>
     <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026. Polígonos: GeoServer de la Municipalidad de General San Martín.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
   </article>
 
@@ -469,7 +474,7 @@
     <article class="tb-card" id="entr-mapa-gru">
       <div class="tb-card-head">
         <h2>Mapa: grupales por barrio del espacio</h2>
-        <p>Participantes estimados según el lugar donde funciona cada espacio.</p>
+        <p>Participantes estimados según el lugar donde funciona cada espacio. Los colores van por cuantiles: cada tono agrupa una cantidad parecida de barrios, así se distinguen aunque Villa Zagala concentre mucho más.</p>
       </div>
       <div class="tb-calor-ley" data-draw="entr-mapa-gru-ley"></div>
       <div class="tb-mapa" data-draw="entr-mapa-gru" data-source="entr_espacios"></div>
@@ -926,12 +931,29 @@
       const rango = (c) => (c.desde === c.hasta ? TB.fmt(c.desde) : `${TB.fmt(c.desde)}–${TB.fmt(c.hasta)}`);
       return { clases: out, color, rango };
     }
+    // Clases por cuantiles de los valores positivos: cada clase junta una cantidad parecida de
+    // barrios. Se usa cuando un barrio concentra mucho más que el resto (grupales de Entramados).
+    function clasesCuantiles(valores) {
+      const pos = valores.filter((v) => v > 0).sort(d3.ascending);
+      if (!pos.length) return clases(1);
+      const max = pos[pos.length - 1];
+      const cortes = [...new Set([0.2, 0.4, 0.6, 0.8].map((q) => Math.round(d3.quantile(pos, q))))].filter((c) => c >= 1 && c < max);
+      const hastas = [...cortes, max];
+      const k = hastas.length;
+      const pal = k === 1 ? [d3.interpolateYlOrRd(0.6)] : d3.range(k).map((i) => d3.interpolateYlOrRd(0.18 + 0.8 * i / (k - 1)));
+      const out = [];
+      let desde = 1;
+      hastas.forEach((h, i) => { if (h >= desde) { out.push({ desde, hasta: h, color: pal[i] }); desde = h + 1; } });
+      const color = (n) => { if (!(n > 0)) return GRIS0; for (const c of out) if (n <= c.hasta) return c.color; return out[out.length - 1].color; };
+      const rango = (c) => (c.desde === c.hasta ? TB.fmt(c.desde) : `${TB.fmt(c.desde)}–${TB.fmt(c.hasta)}`);
+      return { clases: out, color, rango };
+    }
     const choca = (c, ocupadas) => ocupadas.some((o) => !(c.x + c.w < o.x || o.x + o.w < c.x || c.y + c.h < o.y || o.y + o.h < c.y));
 
-    function dibujar(el, items, { max, completo, titulo, unidad = 'Intervenciones', rayado = false, rotularTop = 0 }) {
+    function dibujar(el, items, { max, completo, titulo, unidad = 'Intervenciones', rayado = false, numeracion = null, cuantiles = false }) {
       el.replaceChildren();
       const M = window.BARRIOS_MAPA;
-      const esc = clases(max);
+      const esc = cuantiles ? clasesCuantiles(items.filter((i) => !i.enZona).map((i) => i.n)) : clases(max);
       const nums = numerados(items);
       el._tbDatos = [['N°', 'Barrio o localidad', 'Tipo', unidad],
         ...nums.map((i, k) => [k + 1, i.b.nombre, i.b.tipo === 'localidad' ? 'localidad (sin sus barrios)' : 'barrio', i.n])];
@@ -971,13 +993,25 @@
         .style('paint-order', 'stroke').style('stroke', '#ffffff').style('stroke-width', (tam / 5) + 'px').style('stroke-linejoin', 'round').text(texto);
 
       if (!completo) {
-        // mapa chico: se rotulan los barrios con más casos
-        ranking(items).slice(0, rotularTop).forEach((i) => {
-          const t = rotulo(i.b.cx, i.b.cy, corto(i.b.nombre), 30);
-          const bb = t.node().getBBox();
-          const c = { x: bb.x, y: bb.y, w: bb.width, h: bb.height };
-          if (choca(c, ocupadas)) t.remove(); else ocupadas.push(c);
+        // mapa chico: todos los barrios con casos; nombre si entra, si no el número de la clave
+        const circulos = [];
+        ranking(items).forEach((i) => {
+          const nodo = caminos.get(i.b.nombre);
+          const bb = nodo ? nodo.getBBox() : { width: 0, height: 0 };
+          const t = rotulo(i.b.cx, i.b.cy, corto(i.b.nombre), 34);
+          const tb = t.node().getBBox();
+          const c = { x: tb.x, y: tb.y, w: tb.width, h: tb.height };
+          if (tb.width <= bb.width * 0.95 && bb.height >= 40 && !choca(c, ocupadas)) { ocupadas.push(c); return; }
+          t.remove();
+          if (numeracion && numeracion.has(i.b.nombre)) circulos.push([i, numeracion.get(i.b.nombre)]);
         });
+        const g = svg.append('g').style('pointer-events', 'none');
+        for (const [i, nro] of circulos) {
+          g.append('circle').attr('cx', i.b.cx).attr('cy', i.b.cy).attr('r', 22).style('fill', '#ffffff').style('stroke', '#17202a')
+            .style('stroke-width', 1).attr('vector-effect', 'non-scaling-stroke');
+          g.append('text').attr('x', i.b.cx).attr('y', i.b.cy).attr('dy', '.35em').attr('text-anchor', 'middle')
+            .style('font-size', '26px').style('font-weight', 700).style('fill', '#17202a').text(nro);
+        }
         return;
       }
 
@@ -1082,10 +1116,29 @@
     const marcasCubo = (i) => ({ source: 'cubo', field: 'nnoa', where: TB.where(i.o) });
 
     const prog = () => TB.filtros().programa;
+    // Numeración del facetado: la misma en los seis años. Barrios con alguna intervención,
+    // ordenados por el año con más casos y después por nombre.
+    function claveAnios() {
+      const porAnio = TB.ANIOS.map((a) => unidades(prog(), a));
+      const maxi = new Map();
+      porAnio.forEach((us) => us.forEach((u) => { if (u.n > 0) maxi.set(u.b.nombre, Math.max(maxi.get(u.b.nombre) || 0, u.n)); }));
+      return [...maxi.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'es')).map(([nombre], k) => [nombre, k + 1]);
+    }
+    dash.draw('calor-anios-lista', (el) => {
+      el.replaceChildren();
+      if (!TB.idx()) return;
+      for (const [nombre, nro] of claveAnios()) {
+        const li = document.createElement('li');
+        const num = document.createElement('span'); num.className = 'tb-n'; num.textContent = nro;
+        const nom = document.createElement('span'); nom.textContent = nombre;
+        li.append(num, nom);
+        el.append(li);
+      }
+    });
     const maxAnios = () => d3.max(TB.ANIOS, (a) => d3.max(unidades(prog(), a), (i) => i.n)) || 1;
     dash.draw('calor-anios-sub', (el) => {
       const p = prog();
-      el.textContent = (p === 'Todos' ? 'Los tres programas sumados' : TB.DIMS.programa.cats.find((c) => c.key === p).label) + '. Una sola escala de color para todos los años; se rotulan los tres barrios con más intervenciones de cada año.';
+      el.textContent = (p === 'Todos' ? 'Los tres programas sumados' : TB.DIMS.programa.cats.find((c) => c.key === p).label) + '. Una sola escala de color para todos los años. Cada barrio con intervenciones lleva su nombre o un número, que es el mismo en todos los años (ver la clave debajo).';
     });
     dash.draw('calor-anios-ley', (el) => { if (TB.idx()) leyenda(el, maxAnios(), false); });
     dash.draw('calor-anios', (el) => {
@@ -1094,7 +1147,11 @@
       const max = maxAnios();
       const f = TB.filtros();
       const porAnio = TB.ANIOS.map((a) => unidades(prog(), a));
-      el._tbDatos = [['Barrio o localidad', ...TB.ANIOS], ...porAnio[0].map((u, k) => [u.b.nombre, ...porAnio.map((us) => us[k].n)]).filter((r) => r.slice(1).some((v) => v > 0))];
+      el._tbDatos = [['N°', 'Barrio o localidad', ...TB.ANIOS], ...claveAnios().map(([nombre, nro]) => {
+        const k = porAnio[0].findIndex((u) => u.b.nombre === nombre);
+        return [nro, nombre, ...porAnio.map((us) => us[k].n)];
+      })];
+      const numeracion = new Map(claveAnios());
       TB.ANIOS.forEach((a, k) => {
         const fig = document.createElement('figure');
         const cap = document.createElement('figcaption');
@@ -1110,7 +1167,7 @@
         pie.textContent = top ? `Más: ${top.b.nombre} (${TB.fmt(top.n)})` : 'Sin intervenciones';
         fig.append(cap, caja, pie);
         el.append(fig);
-        dibujar(caja, porAnio[k], { max, completo: false, titulo: 'Intervenciones por barrio en ' + a, rotularTop: 3 });
+        dibujar(caja, porAnio[k], { max, completo: false, titulo: 'Intervenciones por barrio en ' + a, numeracion });
       });
     });
 
@@ -1125,7 +1182,7 @@
     dash.draw('calor-fuera-ley', (el) => el.replaceChildren());
     dash.draw('calor-fuera', (el) => { if (TB.estado(el)) dibujar(el, fuera(), { max: maxFuera(), completo: true, rayado: true, titulo: 'Responsabilidades Compartidas y Autonomía Joven fuera de las zonas de Entramados' }); });
     dash.draw('calor-fuera-lista', (el) => { if (TB.idx()) lista(el, fuera(), { marcas: marcasCubo }); });
-    window.TBMapa = { dibujar, leyenda, ranking, lista };
+    window.TBMapa = { dibujar, leyenda, ranking, lista, clasesCuantiles };
   })();
 </script>
 
@@ -1302,7 +1359,7 @@
     dash.draw('entr-mapa-gru-lista', (el) => { if (ok('entr_espacios')) TBMapa.lista(el, gruMapa()); });
     dash.draw('entr-mapa-ind', (el) => { if (estado(el, ['entr_individuales'])) { const it = indMapa(); TBMapa.dibujar(el, it, { max: maxDe(it), completo: true, titulo: 'NNoA con intervención individual por barrio', unidad: 'NNoA' }); } });
     dash.draw('entr-mapa-gru-ley', (el) => el.replaceChildren());
-    dash.draw('entr-mapa-gru', (el) => { if (estado(el, ['entr_espacios'])) { const it = gruMapa(); TBMapa.dibujar(el, it, { max: maxDe(it), completo: true, titulo: 'Participantes estimados en grupales por barrio del espacio', unidad: 'Participantes est.' }); } });
+    dash.draw('entr-mapa-gru', (el) => { if (estado(el, ['entr_espacios'])) { const it = gruMapa(); TBMapa.dibujar(el, it, { max: maxDe(it), completo: true, titulo: 'Participantes estimados en grupales por barrio del espacio', unidad: 'Participantes est.', cuantiles: true }); } });
   })();
 </script>
 
