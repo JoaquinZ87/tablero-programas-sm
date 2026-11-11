@@ -189,6 +189,7 @@
   .tb-ranking { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; font-size: 13px; }
   .tb-ranking li { display: grid; grid-template-columns: 1.7em 1fr auto; gap: 8px; align-items: center; padding: 4px 6px; border-radius: 6px; font-variant-numeric: tabular-nums; }
   .tb-ranking li:nth-child(odd) { background: var(--bg); }
+  .tb-ranking-cols { grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); column-gap: 10px; }
   .tb-ranking .tb-n { color: var(--fg-3); text-align: right; font-size: 12px; }
   .tb-ranking .tb-barrita { height: 6px; border-radius: 3px; grid-column: 2 / 4; }
   .tb-tabla-caja { overflow-x: auto; }
@@ -462,6 +463,7 @@
       </div>
       <div class="tb-calor-ley" data-draw="entr-mapa-ind-ley"></div>
       <div class="tb-mapa" data-draw="entr-mapa-ind" data-source="entr_individuales"></div>
+      <ol class="tb-ranking tb-ranking-cols" data-draw="entr-mapa-ind-lista" data-source="entr_individuales" aria-label="Barrios por NNoA con intervención individual"></ol>
       <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (intervenciones individuales de Entramados, 01/01 al 31/10/2026). Polígonos: GeoServer de la Municipalidad de General San Martín.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
     </article>
     <article class="tb-card" id="entr-mapa-gru">
@@ -471,6 +473,7 @@
       </div>
       <div class="tb-calor-ley" data-draw="entr-mapa-gru-ley"></div>
       <div class="tb-mapa" data-draw="entr-mapa-gru" data-source="entr_espacios"></div>
+      <ol class="tb-ranking tb-ranking-cols" data-draw="entr-mapa-gru-lista" data-source="entr_espacios" aria-label="Barrios por participantes estimados en grupales"></ol>
       <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (encuentros grupales de Entramados, 01/01 al 31/10/2026). Participantes: estimación por medianas, regla de los formularios mensuales. Polígonos: GeoServer de la Municipalidad de General San Martín.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
     </article>
   </div>
@@ -876,12 +879,16 @@
 
 <script>
   // ---------------------------------------------------------------- mapas de calor
-  // Modelo: mapas del Diagnóstico territorial (partido, zonas recuadradas, barrios numerados
-  // con ranking al costado, norte y escala). Polígonos: GeoServer municipal.
+  // Modelo: mapas del Diagnóstico territorial (partido, zonas recuadradas, barrios rotulados,
+  // leyenda por clases, norte y escala). Polígonos: GeoServer municipal.
+  // Cada polígono con datos lleva su nombre si entra; si no, un número que remite a la lista.
   (function () {
     const ZONAS_ENTR = new Set(['Suárez Norte', 'Suárez Sur', 'Zagala']);
     const ETQ_ZONA = { 'Suárez Norte': [150, -115], 'Suárez Sur': [-105, -130], 'Zagala': [40, -195] };
-    const calor = (t) => d3.interpolateYlOrRd(0.12 + 0.88 * Math.max(0, Math.min(1, t)));
+    const GRIS0 = '#e6e9ed';
+    const CORTO = { 'José León Suárez (sin barrio)': 'J. L. Suárez', 'Costa del Lago/8M': 'Costa del Lago', 'Barrio La Magnolia': 'La Magnolia',
+                    'Barrio Granaderos': 'Granaderos', 'Barrio Nuevo': 'B. Nuevo', 'Barrio UTA': 'UTA' };
+    const corto = (n) => CORTO[n] || n;
     let uid = 0;
     let zc = { rows: null, m: null };
     function zonaDe(nombre) {
@@ -898,15 +905,39 @@
       });
     }
     const ranking = (items) => items.filter((i) => i.n > 0 && !i.enZona).sort((a, b) => b.n - a.n || a.b.nombre.localeCompare(b.b.nombre, 'es'));
+    // numeración común a mapa y lista: primero con casos (de mayor a menor), después sin casos
+    const numerados = (items) => items.filter((i) => !i.enZona)
+      .sort((a, b) => b.n - a.n || a.b.nombre.localeCompare(b.b.nombre, 'es'));
 
-    function dibujar(el, items, { max, completo, titulo, unidad = 'Intervenciones' }) {
+    // Clases de cantidad: hasta 5 rangos enteros entre 1 y el máximo; 0 va en gris.
+    function clases(max) {
+      max = Math.max(1, Math.round(max));
+      const k = Math.min(5, max);
+      const pal = k === 1 ? [d3.interpolateYlOrRd(0.6)] : d3.range(k).map((i) => d3.interpolateYlOrRd(0.18 + 0.8 * i / (k - 1)));
+      const out = [];
+      let desde = 1;
+      for (let i = 1; i <= k; i++) {
+        const hasta = Math.round(i * max / k);
+        if (hasta < desde) continue;
+        out.push({ desde, hasta, color: pal[i - 1] });
+        desde = hasta + 1;
+      }
+      const color = (n) => { if (!(n > 0)) return GRIS0; for (const c of out) if (n <= c.hasta) return c.color; return out[out.length - 1].color; };
+      const rango = (c) => (c.desde === c.hasta ? TB.fmt(c.desde) : `${TB.fmt(c.desde)}–${TB.fmt(c.hasta)}`);
+      return { clases: out, color, rango };
+    }
+    const choca = (c, ocupadas) => ocupadas.some((o) => !(c.x + c.w < o.x || o.x + o.w < c.x || c.y + c.h < o.y || o.y + o.h < c.y));
+
+    function dibujar(el, items, { max, completo, titulo, unidad = 'Intervenciones', rayado = false, rotularTop = 0 }) {
       el.replaceChildren();
       const M = window.BARRIOS_MAPA;
-      el._tbDatos = [['Barrio o localidad', 'Tipo', unidad],
-        ...ranking(items).map((i) => [i.b.nombre, i.b.tipo === 'localidad' ? 'localidad (sin sus barrios)' : 'barrio', i.n])];
+      const esc = clases(max);
+      const nums = numerados(items);
+      el._tbDatos = [['N°', 'Barrio o localidad', 'Tipo', unidad],
+        ...nums.map((i, k) => [k + 1, i.b.nombre, i.b.tipo === 'localidad' ? 'localidad (sin sus barrios)' : 'barrio', i.n])];
       const id = 'tb-rayado-' + (++uid);
       const svg = d3.select(el).append('svg').attr('class', 'tb-svg tb-fluido').attr('viewBox', `0 0 ${M.ancho} ${M.alto}`).attr('role', 'img')
-        .attr('aria-label', titulo + ': ' + (ranking(items).map((i) => `${i.b.nombre} ${i.n}`).join(', ') || 'sin intervenciones'));
+        .attr('aria-label', titulo + ': ' + (ranking(items).map((i) => `${i.b.nombre} ${i.n}`).join(', ') || 'sin datos'));
       const pat = svg.append('defs').append('pattern').attr('id', id).attr('patternUnits', 'userSpaceOnUse')
         .attr('width', 12).attr('height', 12).attr('patternTransform', 'rotate(45)');
       pat.append('rect').attr('width', 12).attr('height', 12).style('fill', '#f3f5f8');
@@ -915,11 +946,13 @@
       svg.append('g').selectAll('path').data(M.barrios.filter((b) => !b.datos)).join('path').attr('d', (b) => b.d)
         .style('fill', '#f3f5f8').style('stroke', '#e3e7ec').attr('vector-effect', 'non-scaling-stroke');
       const tip = TB.tooltip(el);
+      const caminos = new Map();
       svg.append('g').selectAll('path').data(items).join('path').attr('d', (i) => i.b.d)
-        .style('fill', (i) => i.enZona ? `url(#${id})` : (i.n > 0 ? calor(i.n / max) : '#e6e9ed'))
+        .style('fill', (i) => i.enZona ? `url(#${id})` : esc.color(i.n))
         .style('stroke', '#ffffff').style('stroke-width', 0.8).attr('vector-effect', 'non-scaling-stroke').style('cursor', 'pointer')
+        .each(function (i) { caminos.set(i.b.nombre, this); })
         .on('mousemove', (ev, i) => tip.show(ev, i.b.nombre + (i.b.tipo === 'localidad' ? ' (localidad)' : ''),
-          i.enZona ? [{ label: 'Zona de Entramados: no se cuenta', v: 0 }] : [{ label: unidad, v: i.n, color: calor(i.n / max) }]))
+          i.enZona ? [{ label: 'Zona de Entramados: no se cuenta', v: 0 }] : [{ label: unidad, v: i.n, color: esc.color(i.n) }]))
         .on('mouseleave', () => tip.hide())
         .on('click', (_, i) => TB.alternar('terr', 'barrio|' + i.b.nombre));
       svg.append('g').selectAll('path').data(M.localidades || []).join('path').attr('d', (l) => l.d)
@@ -930,35 +963,80 @@
       svg.append('g').selectAll('path').data(M.zonas || []).join('path').attr('d', (z) => z.d)
         .style('fill', 'none').style('stroke', '#17202a').style('stroke-width', completo ? 2.4 : 1.4)
         .attr('vector-effect', 'non-scaling-stroke').style('pointer-events', 'none');
-      if (!completo) return;
+
       const ocupadas = [];
+      const etq = svg.append('g').style('pointer-events', 'none');
+      const rotulo = (x, y, texto, tam) => etq.append('text').attr('x', x).attr('y', y).attr('dy', '.35em').attr('text-anchor', 'middle')
+        .style('font-size', tam + 'px').style('font-weight', 700).style('fill', '#17202a')
+        .style('paint-order', 'stroke').style('stroke', '#ffffff').style('stroke-width', (tam / 5) + 'px').style('stroke-linejoin', 'round').text(texto);
+
+      if (!completo) {
+        // mapa chico: se rotulan los barrios con más casos
+        ranking(items).slice(0, rotularTop).forEach((i) => {
+          const t = rotulo(i.b.cx, i.b.cy, corto(i.b.nombre), 30);
+          const bb = t.node().getBBox();
+          const c = { x: bb.x, y: bb.y, w: bb.width, h: bb.height };
+          if (choca(c, ocupadas)) t.remove(); else ocupadas.push(c);
+        });
+        return;
+      }
+
+      // zonas recuadradas
       for (const z of M.zonas || []) {
         const [dx, dy] = ETQ_ZONA[z.nombre] || [0, 0];
         const t = svg.append('text').attr('x', z.cx + dx).attr('y', z.cy + dy).attr('text-anchor', 'middle').attr('dy', '.35em')
-          .style('font-size', '32px').style('font-weight', 700).style('fill', '#17202a').style('pointer-events', 'none').text(z.nombre);
+          .style('font-size', '30px').style('font-weight', 700).style('fill', '#17202a').style('pointer-events', 'none').text(z.nombre);
         const bb = t.node().getBBox();
         svg.insert('rect', () => t.node()).attr('x', bb.x - 12).attr('y', bb.y - 5).attr('width', bb.width + 24).attr('height', bb.height + 10)
           .attr('rx', 8).style('fill', '#ffffff').style('stroke', '#17202a').style('stroke-width', 1.2).attr('vector-effect', 'non-scaling-stroke');
         ocupadas.push({ x: bb.x - 12, y: bb.y - 5, w: bb.width + 24, h: bb.height + 10 });
       }
-      const rk = ranking(items);
-      rk.forEach((i) => ocupadas.push({ x: i.b.cx - 16, y: i.b.cy - 16, w: 32, h: 32 }));
+      // leyenda por clases (arriba a la derecha, donde el partido no tiene territorio)
+      const filas = [{ color: GRIS0, txt: '0' }, ...esc.clases.map((c) => ({ color: c.color, txt: esc.rango(c) }))];
+      if (rayado) filas.push({ rayado: true, txt: 'Zona de Entramados' });
+      const lx = M.ancho - 300, ly = 24, lh = 34;
+      const ley = svg.append('g').attr('transform', `translate(${lx},${ly})`).style('pointer-events', 'none');
+      ley.append('rect').attr('width', 284).attr('height', 54 + filas.length * lh).attr('rx', 10)
+        .style('fill', '#ffffff').style('stroke', '#d5dae0').attr('vector-effect', 'non-scaling-stroke');
+      ley.append('text').attr('x', 16).attr('y', 34).style('font-size', '22px').style('font-weight', 700).style('fill', '#17202a').text(unidad);
+      filas.forEach((f, k) => {
+        const y = 52 + k * lh;
+        ley.append('rect').attr('x', 16).attr('y', y).attr('width', 40).attr('height', 24).attr('rx', 3)
+          .style('fill', f.rayado ? `url(#${id})` : f.color).style('stroke', '#c5ccd3').attr('vector-effect', 'non-scaling-stroke');
+        ley.append('text').attr('x', 68).attr('y', y + 12).attr('dy', '.35em').style('font-size', '21px').style('fill', '#17202a').text(f.txt);
+      });
+      ocupadas.push({ x: lx, y: ly, w: 284, h: 54 + filas.length * lh });
+
+      // barrios: nombre si entra en el polígono; si no, número de la lista
+      const numeros = [];
+      nums.forEach((i, k) => {
+        const nodo = caminos.get(i.b.nombre);
+        const bb = nodo ? nodo.getBBox() : { width: 0, height: 0 };
+        const t = rotulo(i.b.cx, i.b.cy, corto(i.b.nombre), 17);
+        const tb = t.node().getBBox();
+        const c = { x: tb.x - 2, y: tb.y - 1, w: tb.width + 4, h: tb.height + 2 };
+        if (tb.width <= bb.width * 0.92 && bb.height >= 24 && !choca(c, ocupadas)) { ocupadas.push(c); return; }
+        t.remove();
+        numeros.push([i, k + 1]);
+      });
+      const g = svg.append('g').style('pointer-events', 'none');
+      for (const [i, nro] of numeros) {
+        g.append('circle').attr('cx', i.b.cx).attr('cy', i.b.cy).attr('r', 14).style('fill', '#ffffff').style('stroke', '#17202a')
+          .style('stroke-width', 1).attr('vector-effect', 'non-scaling-stroke');
+        g.append('text').attr('x', i.b.cx).attr('y', i.b.cy).attr('dy', '.35em').attr('text-anchor', 'middle')
+          .style('font-size', '15px').style('font-weight', 700).style('fill', '#17202a').text(nro);
+        ocupadas.push({ x: i.b.cx - 15, y: i.b.cy - 15, w: 30, h: 30 });
+      }
+      // localidades en gris, solo donde hay lugar
       for (const l of M.localidades || []) {
         const t = svg.append('text').attr('x', l.cx).attr('y', l.cy).attr('text-anchor', 'middle').attr('dy', '.35em')
-          .style('font-size', '15px').style('font-style', 'italic').style('fill', '#5c6875').style('paint-order', 'stroke')
+          .style('font-size', '14px').style('font-style', 'italic').style('fill', '#6b7783').style('paint-order', 'stroke')
           .style('stroke', '#ffffff').style('stroke-width', '3px').style('pointer-events', 'none').text(l.nombre.replace(/^Villa /, 'V. '));
         const bb = t.node().getBBox();
         const c = { x: bb.x, y: bb.y, w: bb.width, h: bb.height };
-        if (ocupadas.some((o) => !(c.x + c.w < o.x || o.x + o.w < c.x || c.y + c.h < o.y || o.y + o.h < c.y))) { t.remove(); continue; }
+        if (choca(c, ocupadas)) { t.remove(); continue; }
         ocupadas.push(c);
       }
-      const g = svg.append('g').style('pointer-events', 'none');
-      rk.forEach((i, k) => {
-        g.append('circle').attr('cx', i.b.cx).attr('cy', i.b.cy).attr('r', 15).style('fill', '#ffffff').style('stroke', '#17202a')
-          .style('stroke-width', 1).attr('vector-effect', 'non-scaling-stroke');
-        g.append('text').attr('x', i.b.cx).attr('y', i.b.cy).attr('dy', '.35em').attr('text-anchor', 'middle')
-          .style('font-size', '16px').style('font-weight', 700).style('fill', '#17202a').text(k + 1);
-      });
       const n = svg.append('g').attr('transform', 'translate(60,70)');
       n.append('path').attr('d', 'M0 -34 L14 18 L0 8 L-14 18 Z').style('fill', '#17202a');
       n.append('text').attr('y', -44).attr('text-anchor', 'middle').style('font-size', '24px').style('fill', '#17202a').text('N');
@@ -969,42 +1047,47 @@
       e.append('text').attr('x', km2 + 10).attr('y', 10).style('font-size', '22px').style('fill', '#17202a').text('2 km');
     }
 
+    // Leyenda HTML por clases (para el facetado, que comparte escala).
     function leyenda(el, max, rayado, unidad = 'intervenciones') {
       el.replaceChildren();
-      if (dash.data('cubo').status !== 'ok') return;
-      const cero = document.createElement('i'); cero.className = 'tb-cuad'; cero.style.background = '#e6e9ed';
-      const g = document.createElement('i'); g.className = 'tb-grad';
-      g.style.background = `linear-gradient(to right, ${d3.range(0, 1.01, 0.1).map((t) => calor(t)).join(', ')})`;
-      el.append(cero, ' 0', '   1 ', g, ' ' + TB.fmt(max) + ' ' + unidad);
-      if (rayado) {
-        const r = document.createElement('i'); r.className = 'tb-cuad';
-        r.style.background = 'repeating-linear-gradient(45deg, #f3f5f8 0 3px, #9aa5b1 3px 5px)';
-        el.append('   ', r, ' zonas de Entramados');
-      }
+      const esc = clases(max);
+      const t = document.createElement('span'); t.style.fontWeight = '600'; t.textContent = unidad.charAt(0).toUpperCase() + unidad.slice(1) + ':';
+      el.append(t);
+      const item = (color, txt, fondo) => {
+        const s = document.createElement('span'); s.style.display = 'inline-flex'; s.style.alignItems = 'center'; s.style.gap = '5px';
+        const c = document.createElement('i'); c.className = 'tb-cuad'; c.style.background = fondo || color;
+        s.append(c, txt); el.append(s);
+      };
+      item(GRIS0, '0');
+      for (const c of esc.clases) item(c.color, esc.rango(c));
+      if (rayado) item(null, 'zonas de Entramados', 'repeating-linear-gradient(45deg, #f3f5f8 0 3px, #9aa5b1 3px 5px)');
     }
-    function lista(el, items, max) {
+    // Lista numerada (misma numeración que el mapa). marcas(i) devuelve {source, field, where} o null.
+    function lista(el, items, { marcas, unidad = 'intervenciones' } = {}) {
       el.replaceChildren();
-      if (dash.data('cubo').status !== 'ok') return;
-      const r = ranking(items);
-      if (!r.length) { const li = document.createElement('li'); li.textContent = 'Sin intervenciones para estos filtros.'; el.append(li); return; }
-      r.forEach((i, k) => {
+      const nums = numerados(items);
+      if (!nums.length) { const li = document.createElement('li'); li.textContent = 'Sin datos para estos filtros.'; el.append(li); return; }
+      nums.forEach((i, k) => {
         const li = document.createElement('li');
+        if (!i.n) li.style.color = '#7a8693';
         const num = document.createElement('span'); num.className = 'tb-n'; num.textContent = k + 1;
         const nom = document.createElement('span'); nom.textContent = i.b.nombre + (i.b.tipo === 'localidad' ? ' (localidad)' : '');
         const v = document.createElement('b'); v.textContent = TB.fmt(i.n);
-        v.dataset.source = 'cubo'; v.dataset.field = 'nnoa'; v.setAttribute('data-where', TB.where(i.o));
+        const m = marcas && i.n ? marcas(i) : null;
+        if (m) { v.dataset.source = m.source; v.dataset.field = m.field; v.setAttribute('data-where', m.where); }
         li.append(num, nom, v);
         el.append(li);
       });
     }
+    const marcasCubo = (i) => ({ source: 'cubo', field: 'nnoa', where: TB.where(i.o) });
 
     const prog = () => TB.filtros().programa;
     const maxAnios = () => d3.max(TB.ANIOS, (a) => d3.max(unidades(prog(), a), (i) => i.n)) || 1;
     dash.draw('calor-anios-sub', (el) => {
       const p = prog();
-      el.textContent = (p === 'Todos' ? 'Los tres programas sumados' : TB.DIMS.programa.cats.find((c) => c.key === p).label) + '. Una sola escala de color para todos los años.';
+      el.textContent = (p === 'Todos' ? 'Los tres programas sumados' : TB.DIMS.programa.cats.find((c) => c.key === p).label) + '. Una sola escala de color para todos los años; se rotulan los tres barrios con más intervenciones de cada año.';
     });
-    dash.draw('calor-anios-ley', (el) => leyenda(el, maxAnios(), false));
+    dash.draw('calor-anios-ley', (el) => { if (TB.idx()) leyenda(el, maxAnios(), false); });
     dash.draw('calor-anios', (el) => {
       el.replaceChildren();
       if (!TB.estado(el)) return;
@@ -1027,22 +1110,22 @@
         pie.textContent = top ? `Más: ${top.b.nombre} (${TB.fmt(top.n)})` : 'Sin intervenciones';
         fig.append(cap, caja, pie);
         el.append(fig);
-        dibujar(caja, porAnio[k], { max, completo: false, titulo: 'Intervenciones por barrio en ' + a });
+        dibujar(caja, porAnio[k], { max, completo: false, titulo: 'Intervenciones por barrio en ' + a, rotularTop: 3 });
       });
     });
 
     const u2026 = () => unidades('Todos', '2026');
     const max2026 = () => d3.max(u2026(), (i) => i.n) || 1;
-    dash.draw('calor-2026-ley', (el) => leyenda(el, max2026(), false));
+    dash.draw('calor-2026-ley', (el) => el.replaceChildren());
     dash.draw('calor-2026', (el) => { if (TB.estado(el)) dibujar(el, u2026(), { max: max2026(), completo: true, titulo: 'Intervenciones por barrio en 2026' }); });
-    dash.draw('calor-2026-lista', (el) => lista(el, u2026(), max2026()));
+    dash.draw('calor-2026-lista', (el) => { if (TB.idx()) lista(el, u2026(), { marcas: marcasCubo }); });
 
     const fuera = () => unidades('RESPO_AUTONOMIA', 'Todos', { excluirZonas: true });
     const maxFuera = () => d3.max(fuera(), (i) => i.n) || 1;
-    dash.draw('calor-fuera-ley', (el) => leyenda(el, maxFuera(), true));
-    dash.draw('calor-fuera', (el) => { if (TB.estado(el)) dibujar(el, fuera(), { max: maxFuera(), completo: true, titulo: 'Responsabilidades Compartidas y Autonomía Joven fuera de las zonas de Entramados' }); });
-    dash.draw('calor-fuera-lista', (el) => lista(el, fuera(), maxFuera()));
-    window.TBMapa = { dibujar, leyenda, ranking };
+    dash.draw('calor-fuera-ley', (el) => el.replaceChildren());
+    dash.draw('calor-fuera', (el) => { if (TB.estado(el)) dibujar(el, fuera(), { max: maxFuera(), completo: true, rayado: true, titulo: 'Responsabilidades Compartidas y Autonomía Joven fuera de las zonas de Entramados' }); });
+    dash.draw('calor-fuera-lista', (el) => { if (TB.idx()) lista(el, fuera(), { marcas: marcasCubo }); });
+    window.TBMapa = { dibujar, leyenda, ranking, lista };
   })();
 </script>
 
@@ -1213,10 +1296,13 @@
       return itemsMapa((nombre) => sum.get(nombre) || 0);
     };
     const maxDe = (items) => d3.max(items, (i) => i.n) || 1;
-    dash.draw('entr-mapa-ind-ley', (el) => { if (ok('entr_individuales')) TBMapa.leyenda(el, maxDe(indMapa()), false, 'NNoA'); });
+    dash.draw('entr-mapa-ind-ley', (el) => el.replaceChildren());
+    const indWhereB = (i) => { const f = TB.filtros(); return { source: 'entr_individuales', field: 'nnoa', where: ['nivel=barrio', 'territorio=' + enc(i.b.nombre), 'genero=' + enc(f.genero), 'edad=' + enc(f.edad)].join('&') }; };
+    dash.draw('entr-mapa-ind-lista', (el) => { if (ok('entr_individuales')) TBMapa.lista(el, indMapa(), { marcas: indWhereB }); });
+    dash.draw('entr-mapa-gru-lista', (el) => { if (ok('entr_espacios')) TBMapa.lista(el, gruMapa()); });
     dash.draw('entr-mapa-ind', (el) => { if (estado(el, ['entr_individuales'])) { const it = indMapa(); TBMapa.dibujar(el, it, { max: maxDe(it), completo: true, titulo: 'NNoA con intervención individual por barrio', unidad: 'NNoA' }); } });
-    dash.draw('entr-mapa-gru-ley', (el) => { if (ok('entr_espacios')) TBMapa.leyenda(el, maxDe(gruMapa()), false, 'participantes estimados'); });
-    dash.draw('entr-mapa-gru', (el) => { if (estado(el, ['entr_espacios'])) { const it = gruMapa(); TBMapa.dibujar(el, it, { max: maxDe(it), completo: true, titulo: 'Participantes estimados en grupales por barrio del espacio', unidad: 'Participantes estimados' }); } });
+    dash.draw('entr-mapa-gru-ley', (el) => el.replaceChildren());
+    dash.draw('entr-mapa-gru', (el) => { if (estado(el, ['entr_espacios'])) { const it = gruMapa(); TBMapa.dibujar(el, it, { max: maxDe(it), completo: true, titulo: 'Participantes estimados en grupales por barrio del espacio', unidad: 'Participantes est.' }); } });
   })();
 </script>
 
