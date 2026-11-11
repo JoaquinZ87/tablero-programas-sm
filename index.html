@@ -213,13 +213,14 @@
   <header class="tb-head" id="encabezado">
     <span class="tb-eyebrow">Municipio de General San Martín · 2021–2026</span>
     <h1>Intervenciones con niñas, niños y adolescentes</h1>
-    <p>Responsabilidades Compartidas, Autonomía Joven y Entramados. Cada programa cuenta por separado: un NNoA que está en dos programas suma dos intervenciones. Datos al 31/10/2026.</p>
+    <p>Responsabilidades Compartidas, Autonomía Joven y Entramados: nuevos ingresos de cada año entre 2021 y 2026, y casos activos al 31/10/2026. Cada programa cuenta por separado: un NNoA que está en dos programas suma dos intervenciones.</p>
   </header>
 
   <div class="tb-filtros" id="filtros" role="group" aria-label="Filtros">
-    <div class="tb-campo"><span>Año</span>
+    <div class="tb-campo"><span>Ingresos o activos</span>
       <div class="tb-chips" id="f-anio">
-        <button type="button" class="tb-chip" data-anio="Todos">2021–2026</button>
+        <button type="button" class="tb-chip" data-anio="Activos">Activos 2026</button>
+        <button type="button" class="tb-chip" data-anio="Todos">Ingresos 2021–2026</button>
         <button type="button" class="tb-chip" data-anio="2021">2021</button>
         <button type="button" class="tb-chip" data-anio="2022">2022</button>
         <button type="button" class="tb-chip" data-anio="2023">2023</button>
@@ -245,7 +246,7 @@
         <option value="Femenino">Femenino</option><option value="Sin dato">Sin dato</option>
       </select>
     </label>
-    <label class="tb-campo" for="f-edad"><span>Edad en el año</span>
+    <label class="tb-campo" for="f-edad"><span>Edad</span>
       <select id="f-edad" class="tb-select">
         <option value="Todos">Todas</option><option value="Hasta 13">Hasta 13</option><option value="14-15">14-15</option>
         <option value="16-17">16-17</option><option value="18 o más">18 o más</option><option value="Sin dato">Sin dato</option>
@@ -263,7 +264,7 @@
 
   <section class="tb-kpis" id="indicadores" aria-label="Indicadores">
     <div class="tb-kpi" id="kpi-total">
-      <span class="tb-kpi-etq">Intervenciones</span>
+      <span class="tb-kpi-etq" data-draw="kpi-etq">Intervenciones</span>
       <span class="tb-kpi-num" data-draw="kpi-total">—</span>
       <span class="tb-kpi-sub" data-draw="kpi-periodo">—</span>
       <div class="tb-spark" data-draw="kpi-spark" data-source="cubo"></div>
@@ -285,12 +286,22 @@
 
   <article class="tb-card" id="evolucion">
     <div class="tb-card-head">
-      <h2>Intervenciones por año, 2021–2026</h2>
-      <p>Cada columna es el total del año; los colores lo desagregan. Tocá un año para filtrar.</p>
+      <h2>Nuevos ingresos por año, 2021–2026</h2>
+      <p>Casos que ingresaron a cada programa en el año (no los que seguían activos). Los colores lo desagregan. Tocá un año para filtrar.</p>
     </div>
     <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="anio"></div>
     <div class="tb-graf" data-draw="g-anio" data-source="cubo"></div>
     <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion (Responsabilidades Compartidas, Autonomía Joven y Entramados), corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+  </article>
+
+  <article class="tb-card" id="activos">
+    <div class="tb-card-head">
+      <h2>Activos en 2026</h2>
+      <p data-draw="activos-sub">Casos activos al 31/10/2026 en cada programa, sin importar el año de ingreso.</p>
+    </div>
+    <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="programa"></div>
+    <div class="tb-graf" data-draw="g-activos" data-source="cubo"></div>
+    <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion. Activos: sin fecha de cese (Responsabilidades Compartidas y Entramados) o sin «Baja» en la columna Movimiento (Autonomía Joven), corte al 31/10/2026.</p></div>
   </article>
 
   <div class="tb-grid">
@@ -350,7 +361,7 @@
 
   <article class="tb-card" id="mapa-anios">
     <div class="tb-card-head">
-      <h2>Año por año, 2021–2026</h2>
+      <h2>Nuevos ingresos año por año, 2021–2026</h2>
       <p data-draw="calor-anios-sub">—</p>
     </div>
     <div class="tb-calor-ley" data-draw="calor-anios-ley"></div>
@@ -362,13 +373,13 @@
 
   <article class="tb-card" id="mapa-2026">
     <div class="tb-card-head">
-      <h2>2026: los tres programas sumados</h2>
-      <p>Barrios numerados de mayor a menor cantidad de intervenciones.</p>
+      <h2>Activos en 2026: los tres programas sumados</h2>
+      <p>Casos activos al 31/10/2026. Barrios numerados de mayor a menor.</p>
     </div>
     <div class="tb-calor-ley" data-draw="calor-2026-ley"></div>
     <div class="tb-mapa-doble">
       <div class="tb-mapa" data-draw="calor-2026" data-source="cubo"></div>
-      <ol class="tb-ranking" data-draw="calor-2026-lista" data-source="cubo" aria-label="Barrios por cantidad de intervenciones en 2026"></ol>
+      <ol class="tb-ranking" data-draw="calor-2026-lista" data-source="cubo" aria-label="Barrios por cantidad de casos activos en 2026"></ol>
     </div>
     <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026. Polígonos: GeoServer de la Municipalidad de General San Martín.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
   </article>
@@ -376,7 +387,7 @@
   <article class="tb-card" id="mapa-fuera">
     <div class="tb-card-head">
       <h2>Responsabilidades Compartidas y Autonomía Joven fuera de las zonas de Entramados</h2>
-      <p>2021–2026. Las tres zonas de Entramados aparecen rayadas y no se cuentan.</p>
+      <p>Nuevos ingresos 2021–2026. Las tres zonas de Entramados aparecen rayadas y no se cuentan.</p>
     </div>
     <div class="tb-calor-ley" data-draw="calor-fuera-ley"></div>
     <div class="tb-mapa-doble">
@@ -486,10 +497,10 @@
   <details class="tb-metodo" id="metodo">
     <summary>Cómo se cuentan estos números</summary>
     <ul>
-      <li><b>Qué se cuenta:</b> intervenciones, no personas. Son programas distintos, con metodología y objetivos propios: un NNoA que está en dos programas cuenta dos veces en el total. Dentro de un mismo programa, cada NNoA cuenta una vez por año.</li>
-      <li><b>Período:</b> 2021–2026. Los casos ingresados en 2020 no se cuentan, aunque hayan seguido activos. Por eso Autonomía Joven, cuyos casos ingresaron en 2020, casi no aparece.</li>
-      <li><b>Activo en el año:</b> cuenta en cada año entre el ingreso y el cese. Sin fecha de cese, se lo considera activo hasta el corte.</li>
-      <li><b>Edad:</b> la cumplida en cada año (al 31/12; en 2026, al 31/10). Con todo el período, la del último año activo.</li>
+      <li><b>Qué se cuenta:</b> intervenciones, no personas. Son programas distintos, con metodología y objetivos propios: un NNoA que está en dos programas cuenta dos veces en el total.</li>
+      <li><b>Nuevos ingresos (2021–2026):</b> cada caso cuenta solo en el año de su fecha de ingreso. Los que ingresaron en 2020 o antes no aparecen en esta serie. Un reingreso en otro año cuenta de nuevo.</li>
+      <li><b>Activos 2026:</b> casos activos al 31/10/2026, sin importar cuándo ingresaron. En Responsabilidades Compartidas y Entramados, los que no tienen fecha de cese; en Autonomía Joven, que no tiene esa columna, los que no figuran como «Baja» en Movimiento.</li>
+      <li><b>Edad:</b> en los ingresos, la cumplida en el año de ingreso (al 31/12; en 2026, al 31/10). En los activos, la cumplida al 31/10/2026.</li>
       <li><b>Barrio:</b> se unificaron las variantes de escritura. Cuando solo figura la localidad (Villa Ballester, Billinghurst, Villa Lynch, Villa Maipú, San Andrés, Villa Libertad, José León Suárez), se usa el polígono de la localidad sin los barrios que tienen polígono propio. «Barrio 9 de Julio» sin localidad queda sin precisar. Sin polígono: Tropezón, Barrio Güemes, Don Torcuato y Vicente López.</li>
       <li><b>Entramados 2026 — individuales:</b> NNoA distintos con al menos una intervención individual cargada en SIGEI entre el 01/01 y el 31/10/2026, por su barrio de residencia y su edad al 31/10/2026.</li>
       <li><b>Entramados 2026 — grupales:</b> un espacio es cada taller en cada lugar (o la serie, en los talleres por ciclos; las actividades sueltas se agrupan por nombre y zona). Los participantes se estiman como en los formularios mensuales: por espacio, la suma de las medianas de cada franja de edad (hasta 14, 15-17, 18-21), cada una solo sobre los encuentros en que esa franja vino y sin las sesiones suspendidas. Es una estimación de quienes sostienen el espacio, no un conteo de personas: quien va a dos espacios cuenta en los dos. Los talleres con familias estiman además adultos, que no se suman.</li>
@@ -787,9 +798,10 @@
   });
 
   dash.draw('kpi-total', (el) => TB.numero(el, TB.filtros()));
+  dash.draw('kpi-etq', (el) => { el.textContent = TB.filtros().anio === 'Activos' ? 'Casos activos' : 'Nuevos ingresos'; });
   dash.draw('kpi-periodo', (el) => {
     const f = TB.filtros();
-    el.textContent = f.anio === 'Todos' ? 'en 2021–2026' : 'en ' + f.anio;
+    el.textContent = f.anio === 'Activos' ? 'al 31/10/2026' : f.anio === 'Todos' ? 'en 2021–2026' : 'en ' + f.anio;
   });
   for (const p of ['RESPO', 'AUTONOMIA', 'ENTRAMADOS']) dash.draw('kpi-' + p, (el) => TB.numero(el, { ...TB.filtros(), programa: p }));
   dash.draw('kpi-grupal', (el) => TB.numero(el, TB.filtros(), 'nnoa_grupal'));
@@ -816,9 +828,21 @@
   dash.draw('g-anio', (el) => {
     const f = TB.filtros();
     TB.columnas(el, TB.ANIOS.map((a) => ({ key: a, label: a, base: { ...f, anio: a } })), {
-      dimKey: TB.dimPara(''), titulo: 'Intervenciones por año', seleccion: f.anio === 'Todos' ? null : f.anio,
+      dimKey: TB.dimPara(''), titulo: 'Nuevos ingresos por año', seleccion: TB.ANIOS.includes(f.anio) ? f.anio : null,
       onClick: (c) => TB.alternar('anio', c.key),
     });
+  });
+
+  dash.draw('g-activos', (el) => {
+    const f = { ...TB.filtros(), anio: 'Activos' };
+    TB.barras(el, TB.DIMS.programa.cats.map((c) => ({ key: c.key, label: c.label, base: { ...f, programa: c.key }, activa: f.programa === 'Todos' || f.programa === c.key })), {
+      dimKey: TB.dimPara('programa'), titulo: 'Casos activos al 31/10/2026 por programa', onClick: (r) => TB.alternar('programa', r.key),
+    });
+  });
+  dash.draw('activos-sub', (el) => {
+    const b = document.createElement('b');
+    TB.numero(b, { ...TB.filtros(), anio: 'Activos' });
+    el.replaceChildren('Casos activos al 31/10/2026 en cada programa, sin importar el año de ingreso: ', b, ' en total.');
   });
 
   dash.draw('g-zona', (el) => {
@@ -1171,10 +1195,10 @@
       });
     });
 
-    const u2026 = () => unidades('Todos', '2026');
+    const u2026 = () => unidades('Todos', 'Activos');
     const max2026 = () => d3.max(u2026(), (i) => i.n) || 1;
     dash.draw('calor-2026-ley', (el) => el.replaceChildren());
-    dash.draw('calor-2026', (el) => { if (TB.estado(el)) dibujar(el, u2026(), { max: max2026(), completo: true, titulo: 'Intervenciones por barrio en 2026' }); });
+    dash.draw('calor-2026', (el) => { if (TB.estado(el)) dibujar(el, u2026(), { max: max2026(), completo: true, titulo: 'Casos activos por barrio, 31/10/2026' }); });
     dash.draw('calor-2026-lista', (el) => { if (TB.idx()) lista(el, u2026(), { marcas: marcasCubo }); });
 
     const fuera = () => unidades('RESPO_AUTONOMIA', 'Todos', { excluirZonas: true });
