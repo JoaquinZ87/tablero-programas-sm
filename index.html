@@ -116,6 +116,9 @@
     border-radius: 9px; padding: 6px 30px 6px 10px; font: inherit; font-size: 13px; max-width: 15rem; cursor: pointer;
     background-image: linear-gradient(45deg, transparent 50%, var(--fg-3) 50%), linear-gradient(135deg, var(--fg-3) 50%, transparent 50%);
     background-position: right 14px center, right 9px center; background-size: 5px 5px; background-repeat: no-repeat; }
+  .tb-docx { margin-left: auto; border: 1px solid var(--accent); background: var(--card); color: var(--accent); border-radius: 9px; padding: 6px 12px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+  .tb-docx:hover { background: var(--accent-soft); }
+  .tb-docx[disabled] { opacity: .6; cursor: progress; }
   .tb-limpiar { border: 0; background: none; color: var(--accent); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; padding: 6px 4px; }
   .tb-chip:focus-visible, .tb-select:focus-visible, .tb-limpiar:focus-visible, .tb-acc:focus-visible, .tb-svg g.tb-fila:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
@@ -177,6 +180,13 @@
   .tb-calor-ley { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--fg-2); flex-wrap: wrap; font-variant-numeric: tabular-nums; }
   .tb-grad { width: 10rem; height: 10px; border-radius: 3px; display: inline-block; }
   .tb-cuad { width: 14px; height: 10px; border-radius: 2px; display: inline-block; }
+  .tb-paneles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: 16px 22px; }
+  .tb-paneles.tb-una { grid-template-columns: minmax(0, 1fr); }
+  .tb-panel { margin: 0; min-width: 0; display: grid; gap: 2px; position: relative; }
+  .tb-panel figcaption { font-size: 14px; font-weight: 650; display: flex; justify-content: space-between; gap: 8px; cursor: pointer; }
+  .tb-panel figcaption span { font-weight: 400; color: var(--fg-2); font-variant-numeric: tabular-nums; }
+  .tb-svg .tb-pct { font-size: 10.5px; fill: var(--fg-3); font-variant-numeric: tabular-nums; }
+  .tb-svg .tb-cabeza { fill: var(--fg); font-weight: 700; font-size: 13px; }
   .tb-facetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); gap: 18px 16px; }
   .tb-facetas figure { margin: 0; display: grid; gap: 4px; min-width: 0; position: relative; }
   .tb-facetas figcaption { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
@@ -260,6 +270,8 @@
       </div>
     </div>
     <button type="button" class="tb-limpiar" id="f-limpiar">Quitar filtros</button>
+    <button type="button" class="tb-docx" id="f-docx">Descargar gráficos (DOCX)</button>
+    <span class="tb-msj" id="f-docx-msj" hidden></span>
   </div>
 
   <section class="tb-kpis" id="indicadores" aria-label="Indicadores">
@@ -287,7 +299,7 @@
   <article class="tb-card" id="evolucion">
     <div class="tb-card-head">
       <h2>Nuevos ingresos por año, 2021–2026</h2>
-      <p>Casos que ingresaron a cada programa en el año (no los que seguían activos). Los colores lo desagregan. Tocá un año para filtrar.</p>
+      <p>Casos que ingresaron a cada programa en el año (no los que seguían activos). Los colores lo desagregan, de mayor a menor desde la base. Tocá un año para filtrar.</p>
     </div>
     <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="anio"></div>
     <div class="tb-graf" data-draw="g-anio" data-source="cubo"></div>
@@ -304,52 +316,43 @@
     <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion. Activos: sin fecha de cese (Responsabilidades Compartidas y Entramados) o sin «Baja» en la columna Movimiento (Autonomía Joven), corte al 31/10/2026.</p></div>
   </article>
 
-  <div class="tb-grid">
-    <article class="tb-card" id="por-zona">
-      <div class="tb-card-head">
-        <h2>Por zona de residencia</h2>
-        <p>Zonas de Entramados y resto del partido.</p>
-      </div>
-      <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="zona"></div>
-      <div class="tb-graf" data-draw="g-zona" data-source="cubo"></div>
-      <p class="tb-nota" data-draw="nota-sindato">—</p>
-      <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
-    </article>
-    <article class="tb-card" id="por-edad">
-      <div class="tb-card-head">
-        <h2>Por grupo de edad</h2>
-        <p>Edad cumplida en cada año.</p>
-      </div>
-      <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="edad"></div>
-      <div class="tb-graf" data-draw="g-edad" data-source="cubo"></div>
-      <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
-    </article>
-    <article class="tb-card" id="por-genero">
-      <div class="tb-card-head">
-        <h2>Por género</h2>
-        <p>Según el registro de cada programa.</p>
-      </div>
-      <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="genero"></div>
-      <div class="tb-graf" data-draw="g-genero" data-source="cubo"></div>
-      <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
-    </article>
-    <article class="tb-card" id="por-programa">
-      <div class="tb-card-head">
-        <h2>Por programa</h2>
-        <p>El total es la suma de los tres.</p>
-      </div>
-      <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="programa"></div>
-      <div class="tb-graf" data-draw="g-programa" data-source="cubo"></div>
-      <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
-    </article>
-  </div>
+  <article class="tb-card" id="por-zona">
+    <div class="tb-card-head">
+      <h2>Por zona de residencia</h2>
+      <p>Un panel por programa; cada color es una zona (Entramados y resto del partido). Entre paréntesis, el porcentaje dentro del programa.</p>
+    </div>
+    <div class="tb-leyenda" data-draw="ley-zona"></div>
+    <div class="tb-graf" data-draw="g-zona" data-source="cubo"></div>
+    <p class="tb-nota" data-draw="nota-sindato">—</p>
+    <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+  </article>
+
+  <article class="tb-card" id="por-edad">
+    <div class="tb-card-head">
+      <h2>Por grupo de edad</h2>
+      <p>Un panel por programa; cada color es un grupo de edad (cumplida en el año de ingreso, o al 31/10/2026 en los activos).</p>
+    </div>
+    <div class="tb-leyenda" data-draw="ley-edad"></div>
+    <div class="tb-graf" data-draw="g-edad" data-source="cubo"></div>
+    <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+  </article>
+
+  <article class="tb-card" id="por-genero">
+    <div class="tb-card-head">
+      <h2>Por género</h2>
+      <p>Un panel por programa, según el registro de cada uno.</p>
+    </div>
+    <div class="tb-leyenda" data-draw="ley-genero"></div>
+    <div class="tb-graf" data-draw="g-genero" data-source="cubo"></div>
+    <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
+  </article>
 
   <article class="tb-card" id="por-barrio">
     <div class="tb-card-head">
       <h2>Por barrio o localidad de residencia</h2>
       <p data-draw="barrio-sub">—</p>
     </div>
-    <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="barrio"></div>
+    <div class="tb-leyenda" data-draw="ley-barrio"></div>
     <div class="tb-graf" data-draw="g-barrio" data-source="cubo"></div>
     <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion, corte al 31/10/2026.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
   </article>
@@ -426,11 +429,10 @@
     </div>
   </section>
 
-  <div class="tb-grid">
     <article class="tb-card" id="entr-por-taller">
       <div class="tb-card-head">
-        <h2>Participantes estimados por taller</h2>
-        <p>El largo es el total estimado; los colores, la edad. Al lado, los encuentros realizados.</p>
+        <h2>Participantes estimados por taller y lugar</h2>
+        <p>Cada taller en cada lugar donde funciona. El largo es el total estimado; los colores, la edad. Al lado, los encuentros realizados. Las jornadas sueltas van juntas.</p>
       </div>
       <div class="tb-leyenda" data-draw="entr-leyenda-edad"></div>
       <div class="tb-graf" data-draw="entr-g-taller" data-source="entr_espacios"></div>
@@ -439,14 +441,12 @@
     <article class="tb-card" id="entr-por-tipo">
       <div class="tb-card-head">
         <h2>Participantes estimados por tipo de taller</h2>
-        <p>Deportes, oficios, comunicación, talleres para adolescentes, talleres con familias y jornadas.</p>
+        <p>Deportes, oficios, comunicación, talleres para adolescentes, talleres con familias y jornadas. Entre paréntesis, el porcentaje de cada franja en el tipo y, al final, el del tipo sobre el total.</p>
       </div>
       <div class="tb-leyenda" data-draw="entr-leyenda-edad"></div>
       <div class="tb-graf" data-draw="entr-g-tipo" data-source="entr_espacios"></div>
       <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre SIGEI (encuentros grupales de Entramados, 01/01 al 31/10/2026). Participantes: estimación por medianas, regla de los formularios mensuales.</p><div class="tb-acciones"><button type="button" class="tb-acc" data-copiar="imagen">Copiar imagen</button><button type="button" class="tb-acc" data-copiar="datos">Copiar datos</button><span class="tb-msj" data-msj="ok" hidden>Copiado</span><span class="tb-msj" data-msj="error" hidden>No se pudo copiar</span></div></div>
     </article>
-  </div>
-
   <article class="tb-card" id="entr-espacios">
     <div class="tb-card-head">
       <h2>Espacios grupales</h2>
@@ -464,7 +464,7 @@
   <article class="tb-card" id="entr-individuales">
     <div class="tb-card-head">
       <h2>NNoA con intervención individual, por barrio de residencia</h2>
-      <p>Cada NNoA cuenta una vez. Se desagrega por edad o por género, según el control de arriba.</p>
+      <p>Cada NNoA cuenta una vez. Agrupado por zona, con el subtotal de cada una. Se desagrega por edad o por género, según el control de arriba.</p>
     </div>
     <div class="tb-leyenda" data-draw="entr-leyenda-ind"></div>
     <div class="tb-graf" data-draw="entr-g-ind" data-source="entr_individuales"></div>
@@ -628,23 +628,27 @@
 
     // ---- Barras horizontales apiladas: largo = total, segmentos = desagregación.
     // filas: [{key, label, base, activa}]
-    function barras(el, filas, { dimKey, onClick, titulo }) {
+    function barras(el, filas, { dimKey, onClick, titulo, porcentajes = false }) {
       el.replaceChildren();
       if (!estado(el)) return;
       const datos = filas.map((f) => {
         const segs = segmentos(f.base, dimKey);
         return { ...f, segs, total: valor(f.base) };
       }).filter((f) => f.total > 0);
-      barrasLibres(el, datos, { onClick, titulo, cabecera: ['', ...DIMS[dimKey].cats.map((c) => c.label), 'Total'] });
+      barrasLibres(el, datos, { onClick, titulo, porcentajes, cabecera: ['', ...DIMS[dimKey].cats.map((c) => c.label), 'Total'] });
     }
 
     // Dibujo genérico de barras apiladas. filas: [{key, label, total, segs:[{label,color,v}], extra?, activa?}]
-    function barrasLibres(el, datos, { onClick, titulo, cabecera, vacio = 'Sin intervenciones para estos filtros.', extraTit = '' }) {
+    function barrasLibres(el, datos, { onClick, titulo, cabecera, vacio = 'Sin intervenciones para estos filtros.', extraTit = '', porcentajes = false }) {
       el.replaceChildren();
       datos = datos.filter((f) => f.total > 0);
       if (!datos.length) { el.textContent = vacio; return; }
-      el._tbDatos = [[...(cabecera || ['', ...datos[0].segs.map((s) => s.label), 'Total']), ...(extraTit ? [extraTit] : [])],
-        ...datos.map((f) => [f.label, ...f.segs.map((s) => s.v), f.total, ...(extraTit ? [f.extraValor ?? ''] : [])])];
+      const barrasR = datos.filter((f) => !f.cabeza);
+      if (!barrasR.length) { el.textContent = vacio; return; }
+      const gran = d3.sum(barrasR, (f) => f.total);
+      const totTxt = (f) => fmt(f.total) + (porcentajes ? ` (${pct(f.total / gran)})` : '');
+      el._tbDatos = [[...(cabecera || ['', ...barrasR[0].segs.map((s) => s.label), 'Total']), ...(extraTit ? [extraTit] : [])],
+        ...datos.map((f) => f.cabeza ? [f.label, ...barrasR[0].segs.map(() => ''), f.total] : [f.label, ...f.segs.map((s) => s.v), f.total, ...(extraTit ? [f.extraValor ?? ''] : [])])];
       const W = Math.max(280, Math.floor(el.clientWidth) || 520), filaH = 34, H = datos.length * filaH;
       const svg = d3.select(el).append('svg').attr('class', 'tb-svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', W).attr('height', H).attr('role', 'img')
         .attr('aria-label', titulo + ': ' + datos.map((f) => `${f.label} ${f.total}`).join(', '));
@@ -652,45 +656,60 @@
       let lw = 0, tw = 0;
       datos.forEach((f) => {
         lw = Math.max(lw, med.append('text').attr('class', 'tb-etq').text(f.label).node().getComputedTextLength());
-        tw = Math.max(tw, med.append('text').attr('class', 'tb-total').text(fmt(f.total) + (f.extra ? '  ' + f.extra : '')).node().getComputedTextLength());
+        if (f.cabeza) return;
+        tw = Math.max(tw, med.append('text').attr('class', 'tb-total').text(totTxt(f) + (f.extra ? '  ' + f.extra : '')).node().getComputedTextLength());
       });
+      const segTxt = med.append('text').attr('class', 'tb-seg-txt');
+      const ancho = (t) => segTxt.text(t).node().getComputedTextLength();
+      const anchos = new Map();
+      const medir = (t) => { if (!anchos.has(t)) anchos.set(t, ancho(t)); return anchos.get(t); };
+      datos.forEach((f) => { if (!f.cabeza) f.segs.forEach((s) => { if (s.v) { medir(fmt(s.v)); if (porcentajes) medir(`${fmt(s.v)} (${pct(s.v / f.total)})`); } }); });
       med.remove();
       lw = Math.min(Math.ceil(lw) + 16, Math.floor(W * 0.42));
-      const x = d3.scaleLinear().domain([0, d3.max(datos, (f) => f.total)]).range([0, Math.max(40, W - lw - tw - 12)]);
+      const x = d3.scaleLinear().domain([0, d3.max(barrasR, (f) => f.total)]).range([0, Math.max(40, W - lw - tw - 12)]);
       const tip = tooltip(el);
       const g = svg.selectAll('g.tb-fila').data(datos).join('g').attr('class', 'tb-fila')
         .attr('transform', (_, k) => `translate(0,${k * filaH})`).attr('tabindex', 0)
         .attr('aria-label', (f) => `${f.label}: ${f.total}`)
         .style('opacity', (f) => f.activa === false ? 0.42 : 1)
-        .on('mousemove', (ev, f) => tip.show(ev, f.label, f.segs.filter((s) => s.v > 0), f.total))
+        .on('mousemove', (ev, f) => { if (!f.cabeza) tip.show(ev, f.label, f.segs.filter((s) => s.v > 0), f.total); })
         .on('mouseleave', () => tip.hide())
-        .on('click', (_, f) => onClick && onClick(f))
-        .on('keydown', (ev, f) => { if (onClick && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); onClick(f); } });
-      g.append('rect').attr('class', 'tb-fondo').attr('x', 0).attr('y', 1).attr('width', W).attr('height', filaH - 2).attr('rx', 6).style('fill', 'transparent');
-      g.append('text').attr('class', 'tb-etq').attr('x', lw - 12).attr('y', filaH / 2).attr('dy', '.35em').attr('text-anchor', 'end')
+        .on('click', (_, f) => !f.cabeza && onClick && onClick(f))
+        .on('keydown', (ev, f) => { if (!f.cabeza && onClick && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); onClick(f); } });
+      g.filter((f) => f.cabeza).each(function (f) {
+        const gg = d3.select(this);
+        gg.append('line').attr('x1', 0).attr('x2', W).attr('y1', filaH - 3).attr('y2', filaH - 3).style('stroke', '#e3e7ec');
+        const t = gg.append('text').attr('class', 'tb-cabeza').attr('x', 0).attr('y', filaH / 2 + 3).attr('dy', '.35em').text(f.label);
+        t.append('tspan').attr('dx', 8).style('font-weight', 400).style('fill', '#4b5866').text(f.sub || fmt(f.total));
+      });
+      const gb = g.filter((f) => !f.cabeza);
+      gb.append('rect').attr('class', 'tb-fondo').attr('x', 0).attr('y', 1).attr('width', W).attr('height', filaH - 2).attr('rx', 6).style('fill', 'transparent');
+      gb.append('text').attr('class', 'tb-etq').attr('x', lw - 12).attr('y', filaH / 2).attr('dy', '.35em').attr('text-anchor', 'end')
         .text((f) => f.label).each(function () {
           let t = this.textContent;
           while (this.getComputedTextLength() > lw - 13 && t.length > 4) { t = t.slice(0, -2); this.textContent = t + '…'; }
         });
-      g.each(function (f) {
+      gb.each(function (f) {
         let acc = 0;
         const gg = d3.select(this);
         for (const s of f.segs) {
           if (!s.v) continue;
           const w = x(s.v);
+          const largo = porcentajes ? `${fmt(s.v)} (${pct(s.v / f.total)})` : null;
           gg.append('rect').attr('class', 'tb-seg').attr('x', lw + x(acc)).attr('y', 7).attr('width', Math.max(1, w - 1)).attr('height', filaH - 14)
             .attr('rx', 2).style('fill', s.color);
-          if (w > 26) gg.append('text').attr('class', 'tb-seg-txt').attr('x', lw + x(acc) + w / 2).attr('y', filaH / 2).attr('dy', '.35em')
-            .attr('text-anchor', 'middle').style('fill', oscuro(s.color) ? '#ffffff' : '#17202a').text(fmt(s.v));
+          const txt = largo && medir(largo) + 8 < w ? largo : (medir(fmt(s.v)) + 8 < w || w > 26 ? fmt(s.v) : null);
+          if (txt) gg.append('text').attr('class', 'tb-seg-txt').attr('x', lw + x(acc) + w / 2).attr('y', filaH / 2).attr('dy', '.35em')
+            .attr('text-anchor', 'middle').style('fill', oscuro(s.color) ? '#ffffff' : '#17202a').text(txt);
           acc += s.v;
         }
-        const tt = gg.append('text').attr('class', 'tb-total').attr('x', lw + x(f.total) + 7).attr('y', filaH / 2).attr('dy', '.35em').text(fmt(f.total));
+        const tt = gg.append('text').attr('class', 'tb-total').attr('x', lw + x(f.total) + 7).attr('y', filaH / 2).attr('dy', '.35em').text(totTxt(f));
         if (f.extra) tt.append('tspan').attr('dx', 8).style('font-weight', 400).style('fill', '#7a8693').text(f.extra);
       });
     }
 
     // ---- Columnas apiladas (años): alto = total, segmentos = desagregación.
-    function columnas(el, cols, { dimKey, onClick, titulo, seleccion }) {
+    function columnas(el, cols, { dimKey, onClick, titulo, seleccion, ordenar = false }) {
       el.replaceChildren();
       if (!estado(el)) return;
       const datos = cols.map((c) => ({ ...c, segs: segmentos(c.base, dimKey), total: valor(c.base) }));
@@ -717,7 +736,8 @@
       g.each(function (c) {
         let acc = 0;
         const gg = d3.select(this);
-        for (const s of c.segs) {
+        const segs = ordenar ? [...c.segs].sort((a, b) => b.v - a.v) : c.segs;
+        for (const s of segs) {
           if (!s.v) continue;
           const y0 = y(acc), y1 = y(acc + s.v);
           gg.append('rect').attr('class', 'tb-seg').attr('x', x(c.key)).attr('y', y1).attr('width', x.bandwidth())
@@ -733,6 +753,76 @@
       });
     }
 
+    // Paneles por programa. cats: [{key,label,color,grupo?}] (key '|' = separador de grupo).
+    // valorDe(programa, cat) -> número. pctos: porcentaje dentro del programa bajo el número.
+    function paneles(el, { programas, cats, valorDe, titulo, onClick, activa, pctos = true, una = false, rotar = false, alto = 230 }) {
+      el.replaceChildren();
+      if (!estado(el)) return;
+      const datos = programas.map((p) => {
+        const filas = cats.map((c) => ({ ...c, v: c.sep ? 0 : valorDe(p.key, c) }));
+        return { ...p, filas, total: d3.sum(filas, (f) => f.v) };
+      });
+      el._tbDatos = [['', ...programas.map((p) => p.label)],
+        ...cats.filter((c) => !c.sep).map((c) => [c.label, ...datos.map((d) => d.filas.find((f) => f.key === c.key).v)])];
+      if (!d3.sum(datos, (d) => d.total)) { el.textContent = 'Sin intervenciones para estos filtros.'; return; }
+      const max = d3.max(datos, (d) => d3.max(d.filas, (f) => f.v)) || 1;
+      const caja = document.createElement('div'); caja.className = 'tb-paneles' + (una ? ' tb-una' : ''); el.append(caja);
+      const tip = tooltip(el);
+      for (const d of datos) {
+        const fig = document.createElement('figure'); fig.className = 'tb-panel';
+        const cap = document.createElement('figcaption');
+        const nom = document.createElement('b'); nom.textContent = d.label;
+        const tot = document.createElement('span'); tot.textContent = 'Total ' + fmt(d.total);
+        cap.append(nom, tot); fig.append(cap); caja.append(fig); d.fig = fig;
+        if (d.onCaption) cap.addEventListener('click', d.onCaption);
+      }
+      for (const d of datos) {
+        const fig = d.fig;
+        const W = Math.max(240, Math.floor(fig.clientWidth) || 360);
+        const etqMax = rotar ? Math.min(150, 7 * d3.max(cats, (c) => c.label.length)) : 46;
+        const m = { t: pctos ? 34 : 20, r: 4, b: etqMax + 6, l: 4 };
+        const H = alto + m.t + m.b;
+        const svg = d3.select(fig).append('svg').attr('class', 'tb-svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', W).attr('height', H).attr('role', 'img')
+          .attr('aria-label', `${titulo}, ${d.label}: ` + d.filas.filter((f) => !f.sep).map((f) => `${f.label} ${f.v}`).join(', '));
+        const x = d3.scaleBand().domain(cats.map((c) => c.key)).range([m.l, W - m.r]).paddingInner(0.18).paddingOuter(0.05);
+        const y = d3.scaleLinear().domain([0, max]).range([m.t + alto, m.t]);
+        svg.append('line').attr('class', 'tb-grilla').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0) + 0.5).attr('y2', y(0) + 0.5).style('stroke', '#c9d0d8');
+        const bw = x.bandwidth();
+        const g = svg.selectAll('g.tb-fila').data(d.filas.filter((f) => !f.sep)).join('g').attr('class', 'tb-fila').attr('tabindex', 0)
+          .attr('aria-label', (f) => `${f.label}: ${f.v}`)
+          .style('opacity', (f) => (activa && !activa(f) ? 0.35 : 1))
+          .on('mousemove', (ev, f) => tip.show(ev, `${d.label} · ${f.label}`, [{ label: f.label, color: f.color, v: f.v }], d.total))
+          .on('mouseleave', () => tip.hide())
+          .on('click', (_, f) => onClick && onClick(f))
+          .on('keydown', (ev, f) => { if (onClick && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); onClick(f); } });
+        g.append('rect').attr('class', 'tb-fondo').attr('x', (f) => x(f.key) - 2).attr('y', m.t - 30).attr('width', bw + 4).attr('height', alto + 30).attr('rx', 4).style('fill', 'transparent');
+        g.filter((f) => f.v > 0).append('rect').attr('class', 'tb-seg').attr('x', (f) => x(f.key)).attr('y', (f) => y(f.v)).attr('width', bw)
+          .attr('height', (f) => Math.max(1, y(0) - y(f.v))).attr('rx', 2).style('fill', (f) => f.color);
+        g.filter((f) => f.v > 0).append('text').attr('class', 'tb-total').attr('x', (f) => x(f.key) + bw / 2)
+          .attr('y', (f) => y(f.v) - (pctos && bw >= 30 ? 17 : 5)).attr('text-anchor', 'middle').style('font-size', bw < 22 ? '10.5px' : null).text((f) => fmt(f.v));
+        if (pctos) g.filter((f) => f.v > 0 && bw >= 30).append('text').attr('class', 'tb-pct').attr('x', (f) => x(f.key) + bw / 2)
+          .attr('y', (f) => y(f.v) - 5).attr('text-anchor', 'middle').text((f) => `(${pct(f.v / d.total)})`);
+        if (rotar) {
+          g.append('text').attr('class', 'tb-etq').style('font-size', '11.5px').attr('text-anchor', 'end')
+            .attr('transform', (f) => `translate(${x(f.key) + bw / 2 + 4},${y(0) + 8}) rotate(-60)`).text((f) => f.label);
+        } else {
+          g.append('text').attr('class', 'tb-etq').style('font-size', '11.5px').attr('text-anchor', 'middle').attr('x', (f) => x(f.key) + bw / 2)
+            .attr('y', y(0) + 16).each(function (f) {
+              const palabras = f.corto ? [f.corto] : f.label.split(' ');
+              const t = d3.select(this); let linea = [], k = 0;
+              let ts = t.append('tspan').attr('x', x(f.key) + bw / 2).attr('dy', 0);
+              for (const w of palabras) {
+                linea.push(w); ts.text(linea.join(' '));
+                if (ts.node().getComputedTextLength() > bw + 6 && linea.length > 1) {
+                  linea.pop(); ts.text(linea.join(' ')); linea = [w]; k++;
+                  ts = t.append('tspan').attr('x', x(f.key) + bw / 2).attr('dy', '1.15em').text(w);
+                }
+              }
+            });
+        }
+      }
+    }
+
     function leyenda(el, dimKey) {
       el.replaceChildren();
       const dim = DIMS[dimKey];
@@ -745,7 +835,7 @@
     }
 
     window.TB = { fmt, pct, DIMS, ZONAS, ANIOS, idx, filtros, fila, valor, where, clave, numero, tooltip, estado,
-                  barras, barrasLibres, columnas, leyenda, dimPara, segmentos, alternar, oscuro };
+                  barras, barrasLibres, columnas, paneles, leyenda, dimPara, segmentos, alternar, oscuro };
   })();
 </script>
 
@@ -828,7 +918,7 @@
   dash.draw('g-anio', (el) => {
     const f = TB.filtros();
     TB.columnas(el, TB.ANIOS.map((a) => ({ key: a, label: a, base: { ...f, anio: a } })), {
-      dimKey: TB.dimPara(''), titulo: 'Nuevos ingresos por año', seleccion: TB.ANIOS.includes(f.anio) ? f.anio : null,
+      dimKey: TB.dimPara(''), titulo: 'Nuevos ingresos por año', seleccion: TB.ANIOS.includes(f.anio) ? f.anio : null, ordenar: true,
       onClick: (c) => TB.alternar('anio', c.key),
     });
   });
@@ -836,7 +926,7 @@
   dash.draw('g-activos', (el) => {
     const f = { ...TB.filtros(), anio: 'Activos' };
     TB.barras(el, TB.DIMS.programa.cats.map((c) => ({ key: c.key, label: c.label, base: { ...f, programa: c.key }, activa: f.programa === 'Todos' || f.programa === c.key })), {
-      dimKey: TB.dimPara('programa'), titulo: 'Casos activos al 31/10/2026 por programa', onClick: (r) => TB.alternar('programa', r.key),
+      dimKey: TB.dimPara('programa'), titulo: 'Casos activos al 31/10/2026 por programa', onClick: (r) => TB.alternar('programa', r.key), porcentajes: true,
     });
   });
   dash.draw('activos-sub', (el) => {
@@ -845,12 +935,44 @@
     el.replaceChildren('Casos activos al 31/10/2026 en cada programa, sin importar el año de ingreso: ', b, ' en total.');
   });
 
+  // ---- paneles por programa (zona, edad, género, barrio)
+  const ZONA_COL = { 'Suárez Norte': '#d9622b', 'Suárez Sur': '#2f8fd8', 'Zagala': '#14a098', 'Resto de San Martín': '#6b2a83',
+                     'José León Suárez (sin barrio)': '#b07cc6', 'Fuera de San Martín': '#9aa5b1' };
+  const ZONA_CORTO = { 'José León Suárez (sin barrio)': 'J. L. Suárez (sin barrio)', 'Resto de San Martín': 'Resto de San Martín' };
+  function programasPanel() {
+    const f = TB.filtros();
+    return TB.DIMS.programa.cats.filter((c) => f.programa === 'Todos' || f.programa === c.key)
+      .map((c) => ({ key: c.key, label: c.label, onCaption: () => TB.alternar('programa', c.key) }));
+  }
+  function leyendaCats(el, nombre, cats) {
+    el.replaceChildren();
+    const t = document.createElement('span'); t.textContent = nombre + ':'; t.style.fontWeight = '600'; el.append(t);
+    for (const c of cats) {
+      const s = document.createElement('span'); const p = document.createElement('i'); p.className = 'tb-punto'; p.style.background = c.color;
+      s.append(p, c.label); el.append(s);
+    }
+  }
+  const catsZona = () => TB.ZONAS.map((z) => ({ key: z, label: z, color: ZONA_COL[z] }));
+  dash.draw('ley-zona', (el) => leyendaCats(el, 'Zona', catsZona()));
   dash.draw('g-zona', (el) => {
     const f = TB.filtros();
-    const zonaSel = f.nivel === 'zona' ? f.territorio : null;
-    TB.barras(el, TB.ZONAS.map((z) => ({ key: z, label: z, base: { ...f, nivel: 'zona', territorio: z }, activa: !zonaSel || zonaSel === z })), {
-      dimKey: TB.dimPara(''), titulo: 'Intervenciones por zona', onClick: (r) => TB.alternar('terr', 'zona|' + r.key),
-    });
+    TB.paneles(el, { programas: programasPanel(), cats: catsZona(), titulo: 'Intervenciones por zona',
+      valorDe: (p, c) => TB.valor({ ...f, programa: p, nivel: 'zona', territorio: c.key }),
+      activa: (c) => f.nivel !== 'zona' || f.territorio === c.key, onClick: (c) => TB.alternar('terr', 'zona|' + c.key) });
+  });
+  dash.draw('ley-edad', (el) => leyendaCats(el, 'Edad', TB.DIMS.edad.cats));
+  dash.draw('g-edad', (el) => {
+    const f = TB.filtros();
+    TB.paneles(el, { programas: programasPanel(), cats: TB.DIMS.edad.cats, titulo: 'Intervenciones por edad',
+      valorDe: (p, c) => TB.valor({ ...f, programa: p, edad: c.key }),
+      activa: (c) => f.edad === 'Todos' || f.edad === c.key, onClick: (c) => TB.alternar('edad', c.key) });
+  });
+  dash.draw('ley-genero', (el) => leyendaCats(el, 'Género', TB.DIMS.genero.cats));
+  dash.draw('g-genero', (el) => {
+    const f = TB.filtros();
+    TB.paneles(el, { programas: programasPanel(), cats: TB.DIMS.genero.cats, titulo: 'Intervenciones por género',
+      valorDe: (p, c) => TB.valor({ ...f, programa: p, genero: c.key }),
+      activa: (c) => f.genero === 'Todos' || f.genero === c.key, onClick: (c) => TB.alternar('genero', c.key) });
   });
   dash.draw('nota-sindato', (el) => {
     el.replaceChildren();
@@ -862,25 +984,14 @@
     el.append('Además, ', b, ' intervenciones no tienen dato de residencia.');
   });
 
-  dash.draw('g-edad', (el) => {
-    const f = TB.filtros();
-    TB.barras(el, TB.DIMS.edad.cats.map((c) => ({ key: c.key, label: c.label, base: { ...f, edad: c.key }, activa: f.edad === 'Todos' || f.edad === c.key })), {
-      dimKey: TB.dimPara('edad'), titulo: 'Intervenciones por edad', onClick: (r) => TB.alternar('edad', r.key),
-    });
-  });
-  dash.draw('g-genero', (el) => {
-    const f = TB.filtros();
-    TB.barras(el, TB.DIMS.genero.cats.map((c) => ({ key: c.key, label: c.label, base: { ...f, genero: c.key }, activa: f.genero === 'Todos' || f.genero === c.key })), {
-      dimKey: TB.dimPara('genero'), titulo: 'Intervenciones por género', onClick: (r) => TB.alternar('genero', r.key),
-    });
-  });
-  dash.draw('g-programa', (el) => {
-    const f = TB.filtros();
-    TB.barras(el, TB.DIMS.programa.cats.map((c) => ({ key: c.key, label: c.label, base: { ...f, programa: c.key }, activa: f.programa === 'Todos' || f.programa === c.key })), {
-      dimKey: TB.dimPara('programa'), titulo: 'Intervenciones por programa', onClick: (r) => TB.alternar('programa', r.key),
-    });
-  });
-
+  // Barrios agrupados: barrios populares, localidades de San Martín y «Otros» (fuera del partido o sin precisar).
+  const LOCALIDADES = new Set(['Villa Ballester', 'Billinghurst', 'Villa Maipú', 'Villa Lynch', 'San Andrés', 'Villa Libertad',
+    'José León Suárez (sin barrio)', 'San Martín (sin barrio)', 'Loma Hermosa', 'Villa Bonich', 'Tropezón', 'Chilavert']);
+  const GRUPOS = [
+    { key: 'pop', label: 'Barrios populares', color: '#d9622b' },
+    { key: 'loc', label: 'Localidades de San Martín', color: '#6b2a83' },
+    { key: 'otr', label: 'Otros (fuera del partido o sin precisar)', color: '#9aa5b1' }];
+  const grupoDe = (terr, zona) => LOCALIDADES.has(terr) ? 'loc' : (zona === 'Fuera de San Martín' || zona === 'Sin dato' || /sin precisar/.test(terr)) ? 'otr' : 'pop';
   function filasBarrio() {
     const f = TB.filtros();
     const d = dash.data('cubo');
@@ -890,19 +1001,30 @@
     for (const r of d.data) {
       if (r.programa !== f.programa || r.anio !== f.anio || r.nivel !== 'barrio' || r.genero !== f.genero || r.edad !== f.edad) continue;
       if (r.territorio === 'Sin dato' || (zona && r.zona !== zona)) continue;
-      filas.push({ key: r.territorio, label: r.territorio, n: Number(r.nnoa), base: { ...f, nivel: 'barrio', territorio: r.territorio },
-                   activa: f.nivel !== 'barrio' || f.territorio === r.territorio });
+      filas.push({ key: r.territorio, label: r.territorio, n: Number(r.nnoa), grupo: grupoDe(r.territorio, r.zona) });
     }
     filas.sort((a, b) => b.n - a.n || a.label.localeCompare(b.label, 'es'));
     return { f, zona, filas };
   }
   dash.draw('barrio-sub', (el) => {
     const { zona, filas } = filasBarrio();
-    el.textContent = (zona ? `Barrios de ${zona}` : 'Todos los barrios y localidades') + `, de mayor a menor (${filas.length}). Tocá una barra para filtrar.`;
+    el.textContent = (zona ? `Barrios de ${zona}` : 'Barrios y localidades') + ` (${filas.length}), un panel por programa: primero los barrios populares, después las localidades de San Martín y al final «Otros», que junta lo de fuera del partido o sin precisar. Dentro de cada grupo, de mayor a menor. Tocá una barra para filtrar.`;
   });
+  dash.draw('ley-barrio', (el) => leyendaCats(el, 'Grupo', GRUPOS));
   dash.draw('g-barrio', (el) => {
-    const { filas } = filasBarrio();
-    TB.barras(el, filas, { dimKey: TB.dimPara(''), titulo: 'Intervenciones por barrio', onClick: (r) => TB.alternar('terr', 'barrio|' + r.key) });
+    const { f, filas } = filasBarrio();
+    const cats = [];
+    for (const gr of GRUPOS) {
+      const de = filas.filter((r) => r.grupo === gr.key);
+      if (!de.length) continue;
+      if (cats.length) cats.push({ key: '|' + gr.key, label: '', sep: true, color: 'transparent' });
+      if (gr.key === 'otr') cats.push({ key: 'otr', label: 'Otros', color: gr.color, miembros: de.map((r) => r.key) });
+      else for (const r of de) cats.push({ key: r.key, label: r.label, color: gr.color });
+    }
+    TB.paneles(el, { programas: programasPanel(), cats, titulo: 'Intervenciones por barrio', una: true, rotar: true, alto: 190,
+      valorDe: (p, c) => c.miembros ? d3.sum(c.miembros, (t) => TB.valor({ ...f, programa: p, nivel: 'barrio', territorio: t }))
+                                    : TB.valor({ ...f, programa: p, nivel: 'barrio', territorio: c.key }),
+      activa: (c) => f.nivel !== 'barrio' || f.territorio === c.key, onClick: (c) => { if (!c.miembros) TB.alternar('terr', 'barrio|' + c.key); } });
   });
 </script>
 
@@ -1307,7 +1429,8 @@
       const m = new Map();
       for (const e of espacios()) {
         // en «por taller», las jornadas sueltas van juntas en una sola barra
-        const k = clave === 'taller' && e.tipo === 'Jornadas y actividades' ? 'Jornadas y actividades' : e[clave];
+        const jornada = clave === 'taller' && e.tipo === 'Jornadas y actividades';
+        const k = jornada ? 'Jornadas y actividades' : clave === 'taller' ? `${e.taller} · ${e.espacio}` : e[clave];
         if (!m.has(k)) m.set(k, { key: k, label: k, encuentros: 0, total: 0, segs: BLOQUES.map((b) => ({ ...b, v: 0 })) });
         const a = m.get(k);
         a.encuentros += Number(e.encuentros); a.total += Number(e.participantes);
@@ -1318,12 +1441,12 @@
     dash.draw('entr-g-taller', (el) => {
       if (!estado(el, ['entr_espacios'])) return;
       const filas = agrupar('taller').sort((a, b) => b.total - a.total);
-      TB.barrasLibres(el, filas, { titulo: 'Participantes estimados por taller', cabecera: ['Taller', ...BLOQUES.map((b) => b.label), 'Participantes estimados'], extraTit: 'Encuentros', vacio: 'Sin espacios grupales para este filtro.' });
+      TB.barrasLibres(el, filas, { titulo: 'Participantes estimados por taller y lugar', cabecera: ['Taller · lugar', ...BLOQUES.map((b) => b.label), 'Participantes estimados'], extraTit: 'Encuentros', vacio: 'Sin espacios grupales para este filtro.' });
     });
     dash.draw('entr-g-tipo', (el) => {
       if (!estado(el, ['entr_espacios'])) return;
       const filas = agrupar('tipo').sort((a, b) => TIPOS.indexOf(a.key) - TIPOS.indexOf(b.key));
-      TB.barrasLibres(el, filas, { titulo: 'Participantes estimados por tipo de taller', cabecera: ['Tipo de taller', ...BLOQUES.map((b) => b.label), 'Participantes estimados'], extraTit: 'Encuentros', vacio: 'Sin espacios grupales para este filtro.' });
+      TB.barrasLibres(el, filas, { porcentajes: true, titulo: 'Participantes estimados por tipo de taller', cabecera: ['Tipo de taller', ...BLOQUES.map((b) => b.label), 'Participantes estimados'], extraTit: 'Encuentros', vacio: 'Sin espacios grupales para este filtro.' });
     });
 
     // ---- tabla de espacios
@@ -1350,14 +1473,23 @@
       const val = (terr, gen, edad) => { const r = rows.find((x) => x.nivel === 'barrio' && x.territorio === terr && x.genero === gen && x.edad === edad); return r ? Number(r.nnoa) : 0; };
       const barrios = rows.filter((r) => r.nivel === 'barrio' && r.genero === f.genero && r.edad === f.edad && r.territorio !== 'Sin dato'
         && (f.nivel === 'todos' || (f.nivel === 'zona' ? r.zona === f.territorio : r.territorio === f.territorio)));
-      const filas = barrios.map((r) => ({
-        key: r.territorio, label: r.territorio, total: Number(r.nnoa),
+      const sueltas = barrios.map((r) => ({
+        key: r.territorio, label: r.territorio, total: Number(r.nnoa), zona: r.zona,
         segs: dim.cats.map((c) => {
           const fijo = k === 'edad' ? f.edad : f.genero;
           const v = fijo !== 'Todos' && fijo !== c.key ? 0 : (k === 'edad' ? val(r.territorio, f.genero, c.key) : val(r.territorio, c.key, f.edad));
           return { ...c, v };
         }),
       })).sort((a, b) => b.total - a.total || a.label.localeCompare(b.label, 'es'));
+      const ordenZ = [...TB.ZONAS, 'Sin dato'];
+      const zonas = [...new Set(sueltas.map((r) => r.zona))].sort((a, b) => (ordenZ.indexOf(a) + 99 * (ordenZ.indexOf(a) < 0)) - (ordenZ.indexOf(b) + 99 * (ordenZ.indexOf(b) < 0)));
+      const filas = [];
+      for (const z of zonas) {
+        const de = sueltas.filter((r) => r.zona === z);
+        const sub = d3.sum(de, (r) => r.total);
+        filas.push({ key: 'zona:' + z, label: z === 'Sin dato' ? 'Zona sin precisar' : z, cabeza: true, total: sub, sub: `${TB.fmt(sub)} NNoA`, segs: [] });
+        filas.push(...de);
+      }
       TB.barrasLibres(el, filas, { titulo: 'NNoA con intervención individual por barrio', cabecera: ['Barrio o localidad', ...dim.cats.map((c) => c.label), 'NNoA'],
         onClick: (r) => TB.alternar('terr', 'barrio|' + r.key), vacio: 'Sin NNoA para estos filtros.' });
     });
@@ -1413,10 +1545,13 @@
       return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(new XMLSerializer().serializeToString(copia));
     }
     const cargar = (src) => new Promise((ok, mal) => { const i = new Image(); i.onload = () => ok(i); i.onerror = mal; i.src = src; });
-    async function imagen(card) {
-      const caja = card.getBoundingClientRect();
+    async function imagen(card, { soloGrafico = false } = {}) {
+      const marco = card.getBoundingClientRect();
       const pie = card.querySelector('.tb-pie').getBoundingClientRect();
-      const esc = 2, W = caja.width, H = pie.top - caja.top + 34;
+      const cab = card.querySelector('.tb-card-head').getBoundingClientRect();
+      const arriba = soloGrafico ? cab.bottom + 2 : marco.top;
+      const caja = { left: marco.left, top: arriba, width: marco.width };
+      const esc = 2, W = caja.width, H = soloGrafico ? pie.top - arriba - 4 : pie.top - caja.top + 34;
       const cv = document.createElement('canvas'); cv.width = Math.ceil(W * esc); cv.height = Math.ceil(H * esc);
       const ctx = cv.getContext('2d'); ctx.scale(esc, esc);
       ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, W, H);
@@ -1444,6 +1579,7 @@
       for (let n = camino.nextNode(); n; n = camino.nextNode()) {
         const padre = n.parentElement;
         if (!n.textContent.trim() || !padre || padre.closest('svg, .tb-acciones, .tb-tip, option, select')) continue;
+        if (soloGrafico && padre.closest('.tb-card-head, .tb-pie')) continue;
         const cs = getComputedStyle(padre);
         if (cs.visibility === 'hidden' || padre.closest('[hidden]')) continue;
         const rg = document.createRange(); rg.selectNodeContents(n);
@@ -1466,7 +1602,8 @@
           ctx.fillText(linea, x, y + r.height / 2);
         });
       }
-      return new Promise((ok, mal) => cv.toBlob((b) => (b ? ok(b) : mal(new Error('sin imagen'))), 'image/png'));
+      const blob = await new Promise((ok, mal) => cv.toBlob((b) => (b ? ok(b) : mal(new Error('sin imagen'))), 'image/png'));
+      return soloGrafico ? { blob, w: W, h: H } : blob;
     }
     window.__tbImagen = imagen;
     document.querySelectorAll('[data-copiar]').forEach((b) => b.addEventListener('click', () => {
@@ -1480,6 +1617,87 @@
         }
       } catch (e) { avisar(b, 'error'); }
     }));
+  })();
+</script>
+
+<script>
+  // ---------------------------------------------------------------- descargar todos los gráficos en DOCX
+  // Cada tarjeta: «Gráfico N. Título», la imagen del gráfico y el epígrafe de fuente.
+  // La tabla de espacios grupales va como cuadro de Word. Respeta los filtros elegidos.
+  (function () {
+    const btn = document.getElementById('f-docx');
+    const msj = document.getElementById('f-docx-msj');
+    if (!btn) return;
+    const cargarScript = (src) => new Promise((ok, mal) => { const sc = document.createElement('script'); sc.src = src; sc.onload = ok; sc.onerror = mal; document.head.append(sc); });
+    async function libreria() {
+      if (window.docx) return window.docx;
+      try { await cargarScript('docx.umd.js'); } catch (e) { await cargarScript('https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js'); }
+      return window.docx;
+    }
+    function textoFiltros() {
+      const f = TB.filtros();
+      const progs = { Todos: 'los tres programas', RESPO: 'Responsabilidades Compartidas', AUTONOMIA: 'Autonomía Joven', ENTRAMADOS: 'Entramados' };
+      const per = f.anio === 'Activos' ? 'casos activos al 31/10/2026' : f.anio === 'Todos' ? 'nuevos ingresos 2021–2026' : 'nuevos ingresos de ' + f.anio;
+      const partes = [per, progs[f.programa] || f.programa];
+      if (f.nivel !== 'todos') partes.push((f.nivel === 'zona' ? 'zona ' : '') + f.territorio);
+      if (f.genero !== 'Todos') partes.push('género ' + f.genero.toLowerCase());
+      if (f.edad !== 'Todos') partes.push('edad ' + f.edad);
+      return 'Filtros aplicados: ' + partes.join(' · ') + '.';
+    }
+    function avisar(t) { msj.textContent = t; msj.hidden = !t; }
+    btn.addEventListener('click', async () => {
+      btn.disabled = true; avisar('Armando el documento…');
+      try {
+        const D = await libreria();
+        const MAXW = 640, MAXH = 820;
+        const hijos = [
+          new D.Paragraph({ heading: D.HeadingLevel.HEADING_1, children: [new D.TextRun('Intervenciones con niñas, niños y adolescentes')] }),
+          new D.Paragraph({ children: [new D.TextRun({ text: 'Municipio de General San Martín. Responsabilidades Compartidas, Autonomía Joven y Entramados.', color: '4B5866' })] }),
+          new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: textoFiltros(), italics: true, color: '4B5866', size: 20 })] }),
+        ];
+        let nGraf = 0, nCuadro = 0;
+        const epigrafe = (card) => {
+          const f = card.querySelector('.tb-fuente');
+          return new D.Paragraph({ spacing: { before: 60, after: 320 }, children: [new D.TextRun({ text: f ? f.textContent.trim() : '', italics: true, size: 17, color: '5B6875' })] });
+        };
+        for (const card of document.querySelectorAll('.tb-card')) {
+          const titulo = (card.querySelector('.tb-card-head h2') || {}).textContent || '';
+          const tabla = card.querySelector('table.tb-tabla');
+          if (tabla) {
+            nCuadro++;
+            hijos.push(new D.Paragraph({ keepNext: true, spacing: { after: 100 }, children: [new D.TextRun({ text: `Cuadro ${nCuadro}. `, bold: true }), new D.TextRun({ text: titulo, bold: true })] }));
+            const filas = [...tabla.querySelectorAll('tr')].map((tr, i) => new D.TableRow({ tableHeader: i === 0, children: [...tr.children].map((c) => new D.TableCell({
+              children: [new D.Paragraph({ alignment: c.classList.contains('tb-num') ? D.AlignmentType.RIGHT : D.AlignmentType.LEFT,
+                children: [new D.TextRun({ text: c.textContent.trim(), bold: i === 0, size: 17 })] })] })) }));
+            hijos.push(new D.Table({ width: { size: 100, type: D.WidthType.PERCENTAGE }, rows: filas }));
+            hijos.push(epigrafe(card));
+            continue;
+          }
+          if (!card.querySelector('svg')) continue;
+          nGraf++;
+          const { blob, w, h } = await window.__tbImagen(card, { soloGrafico: true });
+          let ww = Math.min(MAXW, w), hh = h * ww / w;
+          if (hh > MAXH) { ww = ww * MAXH / hh; hh = MAXH; }
+          hijos.push(new D.Paragraph({ keepNext: true, spacing: { after: 100 }, children: [new D.TextRun({ text: `Gráfico ${nGraf}. `, bold: true }), new D.TextRun({ text: titulo, bold: true })] }));
+          hijos.push(new D.Paragraph({ keepNext: true, alignment: D.AlignmentType.CENTER, children: [new D.ImageRun({ data: await blob.arrayBuffer(), transformation: { width: Math.round(ww), height: Math.round(hh) } })] }));
+          hijos.push(epigrafe(card));
+        }
+        const doc = new D.Document({
+          styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } },
+          sections: [{ properties: { page: { margin: { top: 1134, bottom: 1134, left: 1134, right: 1134 } } }, children: hijos }],
+        });
+        const archivo = await D.Packer.toBlob(doc);
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(archivo);
+        a.download = 'graficos_intervenciones_nnoa_' + new Date().toISOString().slice(0, 10) + '.docx';
+        document.body.append(a); a.click(); a.remove();
+        setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+        avisar(`Listo: ${nGraf} gráficos y ${nCuadro} cuadro.`);
+        setTimeout(() => avisar(''), 5000);
+      } catch (e) {
+        console.error(e); avisar('No se pudo armar el DOCX.');
+      } finally { btn.disabled = false; }
+    });
   })();
 </script>
 
