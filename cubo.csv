@@ -21,10 +21,10 @@ Todos,2021,barrio,Independencia,Suárez Sur,Todos,16-17,3,0
 Todos,2021,barrio,Independencia,Suárez Sur,Todos,18 o más,1,0
 Todos,2021,barrio,Independencia,Suárez Sur,Todos,Sin dato,1,0
 Todos,2021,barrio,Independencia,Suárez Sur,Todos,Todos,6,0
-Todos,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-Todos,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-Todos,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-Todos,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
+Todos,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+Todos,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,1,0
+Todos,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,1,0
+Todos,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,1,0
 Todos,2021,barrio,La Carcova,Suárez Norte,Masculino,16-17,2,0
 Todos,2021,barrio,La Carcova,Suárez Norte,Masculino,18 o más,3,0
 Todos,2021,barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,1,0
@@ -131,24 +131,6 @@ Todos,2021,todos,Todos,Todos,Todos,18 o más,19,0
 Todos,2021,todos,Todos,Todos,Todos,Hasta 13,1,0
 Todos,2021,todos,Todos,Todos,Todos,Sin dato,8,0
 Todos,2021,todos,Todos,Todos,Todos,Todos,56,0
-Todos,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-Todos,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-Todos,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-Todos,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,2,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,8,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,18,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,1,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,11,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,7,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
-Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,21,0
 Todos,2021,zona,Sin dato,Sin dato,Masculino,14-15,2,0
 Todos,2021,zona,Sin dato,Sin dato,Masculino,16-17,3,0
 Todos,2021,zona,Sin dato,Sin dato,Masculino,18 o más,1,0
@@ -214,13 +196,13 @@ Todos,2022,barrio,Independencia,Suárez Sur,Masculino,Todos,2,0
 Todos,2022,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 Todos,2022,barrio,Independencia,Suárez Sur,Todos,18 o más,1,0
 Todos,2022,barrio,Independencia,Suárez Sur,Todos,Todos,2,0
-Todos,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-Todos,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-Todos,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,5,0
-Todos,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,5,0
-Todos,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-Todos,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-Todos,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,6,0
+Todos,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,14-15,1,0
+Todos,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+Todos,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,5,0
+Todos,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,5,0
+Todos,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+Todos,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,5,0
+Todos,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,6,0
 Todos,2022,barrio,Lanzone,Suárez Sur,Masculino,18 o más,1,0
 Todos,2022,barrio,Lanzone,Suárez Sur,Masculino,Todos,1,0
 Todos,2022,barrio,Lanzone,Suárez Sur,Todos,18 o más,1,0
@@ -309,27 +291,6 @@ Todos,2022,todos,Todos,Todos,Todos,16-17,18,0
 Todos,2022,todos,Todos,Todos,Todos,18 o más,25,0
 Todos,2022,todos,Todos,Todos,Todos,Hasta 13,1,0
 Todos,2022,todos,Todos,Todos,Todos,Todos,51,0
-Todos,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-Todos,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-Todos,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,5,0
-Todos,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,5,0
-Todos,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-Todos,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-Todos,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,6,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,10,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,6,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,16,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,4,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,11,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,10,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,26,0
 Todos,2022,zona,Sin dato,Sin dato,Masculino,14-15,2,0
 Todos,2022,zona,Sin dato,Sin dato,Masculino,16-17,1,0
 Todos,2022,zona,Sin dato,Sin dato,Masculino,18 o más,1,0
@@ -381,12 +342,12 @@ Todos,2023,barrio,Independencia,Suárez Sur,Masculino,Todos,2,0
 Todos,2023,barrio,Independencia,Suárez Sur,Todos,14-15,1,0
 Todos,2023,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 Todos,2023,barrio,Independencia,Suárez Sur,Todos,Todos,2,0
-Todos,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-Todos,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-Todos,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-Todos,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-Todos,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-Todos,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,2,0
+Todos,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,16-17,1,0
+Todos,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+Todos,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,2,0
+Todos,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,1,0
+Todos,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,1,0
+Todos,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,2,0
 Todos,2023,barrio,La Carcova,Suárez Norte,Masculino,14-15,1,0
 Todos,2023,barrio,La Carcova,Suárez Norte,Masculino,16-17,1,0
 Todos,2023,barrio,La Carcova,Suárez Norte,Masculino,18 o más,1,0
@@ -492,24 +453,6 @@ Todos,2023,todos,Todos,Todos,Todos,16-17,25,0
 Todos,2023,todos,Todos,Todos,Todos,18 o más,15,0
 Todos,2023,todos,Todos,Todos,Todos,Sin dato,5,0
 Todos,2023,todos,Todos,Todos,Todos,Todos,61,0
-Todos,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-Todos,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-Todos,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-Todos,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-Todos,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-Todos,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,2,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,1,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,8,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,21,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,8,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,8,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,22,0
 Todos,2023,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 Todos,2023,zona,Sin dato,Sin dato,Femenino,Sin dato,1,0
 Todos,2023,zona,Sin dato,Sin dato,Femenino,Todos,2,0
@@ -576,16 +519,16 @@ Todos,2024,barrio,Independencia,Suárez Sur,Masculino,Todos,3,0
 Todos,2024,barrio,Independencia,Suárez Sur,Todos,14-15,1,0
 Todos,2024,barrio,Independencia,Suárez Sur,Todos,16-17,2,0
 Todos,2024,barrio,Independencia,Suárez Sur,Todos,Todos,3,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,2,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,2,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-Todos,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,16-17,1,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,2,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Hasta 13,1,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,2,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,1,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,2,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Hasta 13,1,0
+Todos,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,4,0
 Todos,2024,barrio,La Carcova,Suárez Norte,Masculino,16-17,2,0
 Todos,2024,barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,1,0
 Todos,2024,barrio,La Carcova,Suárez Norte,Masculino,Todos,3,0
@@ -721,32 +664,6 @@ Todos,2024,zona,Fuera de San Martín,Fuera de San Martín,Masculino,18 o más,2,
 Todos,2024,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,2,0
 Todos,2024,zona,Fuera de San Martín,Fuera de San Martín,Todos,18 o más,2,0
 Todos,2024,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,2,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,2,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,2,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-Todos,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,9,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,2,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,15,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,12,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,1,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,18,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,21,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,33,0
 Todos,2024,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 Todos,2024,zona,Sin dato,Sin dato,Femenino,Todos,1,0
 Todos,2024,zona,Sin dato,Sin dato,Masculino,14-15,2,0
@@ -815,12 +732,12 @@ Todos,2025,barrio,Independencia,Suárez Sur,Masculino,16-17,1,0
 Todos,2025,barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
 Todos,2025,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 Todos,2025,barrio,Independencia,Suárez Sur,Todos,Todos,1,0
-Todos,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-Todos,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-Todos,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,4,0
-Todos,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,4,0
-Todos,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-Todos,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,5,0
+Todos,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+Todos,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+Todos,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,4,0
+Todos,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,4,0
+Todos,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,5,0
+Todos,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,5,0
 Todos,2025,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,0
 Todos,2025,barrio,La Carcova,Suárez Norte,Femenino,Todos,1,0
 Todos,2025,barrio,La Carcova,Suárez Norte,Masculino,14-15,4,0
@@ -954,26 +871,6 @@ Todos,2025,todos,Todos,Todos,Todos,18 o más,20,0
 Todos,2025,todos,Todos,Todos,Todos,Hasta 13,6,0
 Todos,2025,todos,Todos,Todos,Todos,Sin dato,6,0
 Todos,2025,todos,Todos,Todos,Todos,Todos,95,0
-Todos,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-Todos,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-Todos,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,4,0
-Todos,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,4,0
-Todos,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-Todos,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,5,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,6,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,6,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,6,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,18,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,12,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,32,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,20,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,18,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,11,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,50,0
 Todos,2025,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 Todos,2025,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 Todos,2025,zona,Sin dato,Sin dato,Femenino,Sin dato,2,0
@@ -1081,14 +978,14 @@ Todos,2026,barrio,Independencia,Suárez Sur,Todos,16-17,3,0
 Todos,2026,barrio,Independencia,Suárez Sur,Todos,Hasta 13,1,0
 Todos,2026,barrio,Independencia,Suárez Sur,Todos,Sin dato,1,0
 Todos,2026,barrio,Independencia,Suárez Sur,Todos,Todos,6,0
-Todos,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-Todos,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-Todos,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-Todos,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,3,0
-Todos,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,4,0
-Todos,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-Todos,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,4,0
-Todos,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,5,0
+Todos,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+Todos,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+Todos,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,14-15,1,0
+Todos,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,3,0
+Todos,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,4,0
+Todos,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+Todos,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,4,0
+Todos,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,5,0
 Todos,2026,barrio,La Carcova,Suárez Norte,Femenino,16-17,2,0
 Todos,2026,barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
 Todos,2026,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,1
@@ -1296,30 +1193,6 @@ Todos,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,2,0
 Todos,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,2,0
 Todos,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,2,0
 Todos,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,2,0
-Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,3,0
-Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,4,0
-Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,4,0
-Todos,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,5,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,5,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,7,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,13,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,1
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,18,2
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,9,1
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,3,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,36,4
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,10,1
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,25,2
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,9,1
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,4,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,49,4
 Todos,2026,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 Todos,2026,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 Todos,2026,zona,Sin dato,Sin dato,Femenino,Todos,2,0
@@ -1429,14 +1302,14 @@ Todos,Activos,barrio,Independencia,Suárez Sur,Todos,14-15,1,0
 Todos,Activos,barrio,Independencia,Suárez Sur,Todos,16-17,3,0
 Todos,Activos,barrio,Independencia,Suárez Sur,Todos,Hasta 13,1,0
 Todos,Activos,barrio,Independencia,Suárez Sur,Todos,Todos,5,0
-Todos,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,5,0
-Todos,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-Todos,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,2,0
-Todos,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,7,0
-Todos,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,9,0
-Todos,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,2,0
-Todos,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,12,0
-Todos,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,14,0
+Todos,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,5,0
+Todos,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,5,0
+Todos,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,14-15,2,0
+Todos,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,7,0
+Todos,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,9,0
+Todos,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,2,0
+Todos,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,12,0
+Todos,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,14,0
 Todos,Activos,barrio,La Carcova,Suárez Norte,Femenino,16-17,2,0
 Todos,Activos,barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
 Todos,Activos,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,1
@@ -1663,29 +1536,6 @@ Todos,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1,0
 Todos,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 Todos,Activos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 Todos,Activos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
-Todos,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,5,0
-Todos,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-Todos,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,2,0
-Todos,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,7,0
-Todos,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,9,0
-Todos,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,2,0
-Todos,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,12,0
-Todos,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,14,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,6,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,12,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,20,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,39,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,4,1
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,21,2
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,16,1
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,43,4
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,10,1
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,33,2
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,36,1
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,82,4
 Todos,Activos,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 Todos,Activos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 Todos,Activos,zona,Sin dato,Sin dato,Femenino,Todos,2,0
@@ -1842,20 +1692,20 @@ Todos,Todos,barrio,Independencia,Suárez Sur,Todos,18 o más,2,0
 Todos,Todos,barrio,Independencia,Suárez Sur,Todos,Hasta 13,1,0
 Todos,Todos,barrio,Independencia,Suárez Sur,Todos,Sin dato,2,0
 Todos,Todos,barrio,Independencia,Suárez Sur,Todos,Todos,20,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,3,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,15,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,18,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,2,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,2,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,18,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-Todos,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,23,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,14-15,1,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,16-17,1,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,3,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,5,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,14-15,1,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,16-17,1,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,15,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Hasta 13,1,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,18,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,2,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,2,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,18,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Hasta 13,1,0
+Todos,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,23,0
 Todos,Todos,barrio,La Carcova,Suárez Norte,Femenino,16-17,2,0
 Todos,Todos,barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
 Todos,Todos,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,2,1
@@ -2157,39 +2007,6 @@ Todos,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,4,0
 Todos,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,2,0
 Todos,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,18 o más,2,0
 Todos,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,4,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,3,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,15,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,18,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,2,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,2,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,18,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-Todos,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,23,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,16,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,29,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,12,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,2,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,59,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,31,3
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,64,2
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,36,1
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,4,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,141,6
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,47,3
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,94,2
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,48,1
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,6,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,201,6
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,14-15,3,0
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,2,0
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
@@ -2358,16 +2175,6 @@ RESPO,2021,todos,Todos,Todos,Todos,18 o más,5,0
 RESPO,2021,todos,Todos,Todos,Todos,Hasta 13,1,0
 RESPO,2021,todos,Todos,Todos,Todos,Sin dato,8,0
 RESPO,2021,todos,Todos,Todos,Todos,Todos,38,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,7,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,3,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,13,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,1,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,7,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
-RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,13,0
 RESPO,2021,zona,Sin dato,Sin dato,Masculino,14-15,2,0
 RESPO,2021,zona,Sin dato,Sin dato,Masculino,16-17,3,0
 RESPO,2021,zona,Sin dato,Sin dato,Masculino,18 o más,1,0
@@ -2464,12 +2271,6 @@ RESPO,2022,todos,Todos,Todos,Todos,14-15,3,0
 RESPO,2022,todos,Todos,Todos,Todos,16-17,11,0
 RESPO,2022,todos,Todos,Todos,Todos,18 o más,4,0
 RESPO,2022,todos,Todos,Todos,Todos,Todos,18,0
-RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
-RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,5,0
-RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,6,0
-RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,1,0
-RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,5,0
-RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,6,0
 RESPO,2022,zona,Sin dato,Sin dato,Masculino,14-15,2,0
 RESPO,2022,zona,Sin dato,Sin dato,Masculino,16-17,1,0
 RESPO,2022,zona,Sin dato,Sin dato,Masculino,18 o más,1,0
@@ -2592,16 +2393,6 @@ RESPO,2023,todos,Todos,Todos,Todos,16-17,21,0
 RESPO,2023,todos,Todos,Todos,Todos,18 o más,4,0
 RESPO,2023,todos,Todos,Todos,Todos,Sin dato,5,0
 RESPO,2023,todos,Todos,Todos,Todos,Todos,46,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,6,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,3,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,15,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,15,0
 RESPO,2023,zona,Sin dato,Sin dato,Femenino,Sin dato,1,0
 RESPO,2023,zona,Sin dato,Sin dato,Femenino,Todos,1,0
 RESPO,2023,zona,Sin dato,Sin dato,Masculino,14-15,1,0
@@ -2747,18 +2538,6 @@ RESPO,2024,todos,Todos,Todos,Todos,18 o más,4,0
 RESPO,2024,todos,Todos,Todos,Todos,Hasta 13,4,0
 RESPO,2024,todos,Todos,Todos,Todos,Sin dato,1,0
 RESPO,2024,todos,Todos,Todos,Todos,Todos,52,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,1,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,1,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,11,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,15,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,2,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,12,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,16,0
 RESPO,2024,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 RESPO,2024,zona,Sin dato,Sin dato,Femenino,Todos,1,0
 RESPO,2024,zona,Sin dato,Sin dato,Masculino,14-15,2,0
@@ -2944,19 +2723,6 @@ RESPO,2025,todos,Todos,Todos,Todos,18 o más,6,0
 RESPO,2025,todos,Todos,Todos,Todos,Hasta 13,6,0
 RESPO,2025,todos,Todos,Todos,Todos,Sin dato,6,0
 RESPO,2025,todos,Todos,Todos,Todos,Todos,74,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,7,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,10,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,4,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,29,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,18,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,13,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,4,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,36,0
 RESPO,2025,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 RESPO,2025,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO,2025,zona,Sin dato,Sin dato,Femenino,Sin dato,2,0
@@ -3146,21 +2912,6 @@ RESPO,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1,0
 RESPO,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 RESPO,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,3,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,14,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,24,2
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,4,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,16,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,1
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,27,2
 RESPO,2026,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 RESPO,2026,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 RESPO,2026,zona,Sin dato,Sin dato,Femenino,Todos,2,0
@@ -3329,17 +3080,6 @@ RESPO,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1,0
 RESPO,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 RESPO,Activos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO,Activos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,3,0
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,0
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,15,1
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,3,1
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,20,2
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,3,0
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,17,1
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,1
-RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,23,2
 RESPO,Activos,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 RESPO,Activos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO,Activos,zona,Sin dato,Sin dato,Femenino,Todos,2,0
@@ -3643,21 +3383,6 @@ RESPO,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1,0
 RESPO,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 RESPO,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,5,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,6,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,11,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,26,2
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,53,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,15,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,102,4
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,31,2
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,59,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,15,1
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
-RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,113,4
 RESPO,Todos,zona,Sin dato,Sin dato,Femenino,14-15,3,0
 RESPO,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO,Todos,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
@@ -3725,10 +3450,10 @@ AUTONOMIA,2021,barrio,Independencia,Suárez Sur,Masculino,18 o más,1,0
 AUTONOMIA,2021,barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
 AUTONOMIA,2021,barrio,Independencia,Suárez Sur,Todos,18 o más,1,0
 AUTONOMIA,2021,barrio,Independencia,Suárez Sur,Todos,Todos,1,0
-AUTONOMIA,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-AUTONOMIA,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-AUTONOMIA,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-AUTONOMIA,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
+AUTONOMIA,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+AUTONOMIA,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,1,0
+AUTONOMIA,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,1,0
+AUTONOMIA,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,1,0
 AUTONOMIA,2021,barrio,La Carcova,Suárez Norte,Masculino,18 o más,3,0
 AUTONOMIA,2021,barrio,La Carcova,Suárez Norte,Masculino,Todos,3,0
 AUTONOMIA,2021,barrio,La Carcova,Suárez Norte,Todos,18 o más,3,0
@@ -3782,20 +3507,6 @@ AUTONOMIA,2021,todos,Todos,Todos,Sin dato,Todos,1,0
 AUTONOMIA,2021,todos,Todos,Todos,Todos,16-17,4,0
 AUTONOMIA,2021,todos,Todos,Todos,Todos,18 o más,14,0
 AUTONOMIA,2021,todos,Todos,Todos,Todos,Todos,18,0
-AUTONOMIA,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-AUTONOMIA,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-AUTONOMIA,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-AUTONOMIA,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,2,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,4,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,5,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,4,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,4,0
-AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,8,0
 AUTONOMIA,2021,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,4,0
 AUTONOMIA,2021,zona,Suárez Norte,Suárez Norte,Masculino,Todos,4,0
 AUTONOMIA,2021,zona,Suárez Norte,Suárez Norte,Todos,18 o más,4,0
@@ -3815,13 +3526,13 @@ AUTONOMIA,2022,barrio,Curita,Suárez Sur,Masculino,18 o más,1,0
 AUTONOMIA,2022,barrio,Curita,Suárez Sur,Masculino,Todos,1,0
 AUTONOMIA,2022,barrio,Curita,Suárez Sur,Todos,18 o más,1,0
 AUTONOMIA,2022,barrio,Curita,Suárez Sur,Todos,Todos,1,0
-AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,5,0
-AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,5,0
-AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,6,0
+AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,14-15,1,0
+AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,5,0
+AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,5,0
+AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,5,0
+AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,6,0
 AUTONOMIA,2022,barrio,Libertador,Suárez Sur,Femenino,16-17,1,0
 AUTONOMIA,2022,barrio,Libertador,Suárez Sur,Femenino,18 o más,1,0
 AUTONOMIA,2022,barrio,Libertador,Suárez Sur,Femenino,Todos,2,0
@@ -3886,27 +3597,6 @@ AUTONOMIA,2022,todos,Todos,Todos,Todos,16-17,7,0
 AUTONOMIA,2022,todos,Todos,Todos,Todos,18 o más,21,0
 AUTONOMIA,2022,todos,Todos,Todos,Todos,Hasta 13,1,0
 AUTONOMIA,2022,todos,Todos,Todos,Todos,Todos,33,0
-AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,5,0
-AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,5,0
-AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,6,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,10,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,10,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,3,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,10,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,20,0
 AUTONOMIA,2022,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,1,0
 AUTONOMIA,2022,zona,Suárez Norte,Suárez Norte,Masculino,Todos,1,0
 AUTONOMIA,2022,zona,Suárez Norte,Suárez Norte,Todos,18 o más,1,0
@@ -3927,12 +3617,12 @@ AUTONOMIA,2023,barrio,Costa del Lago/8M,Suárez Sur,Sin dato,16-17,1,0
 AUTONOMIA,2023,barrio,Costa del Lago/8M,Suárez Sur,Sin dato,Todos,1,0
 AUTONOMIA,2023,barrio,Costa del Lago/8M,Suárez Sur,Todos,16-17,1,0
 AUTONOMIA,2023,barrio,Costa del Lago/8M,Suárez Sur,Todos,Todos,1,0
-AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,2,0
+AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,16-17,1,0
+AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,2,0
+AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,1,0
+AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,1,0
+AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,2,0
 AUTONOMIA,2023,barrio,Libertador,Suárez Sur,Masculino,18 o más,3,0
 AUTONOMIA,2023,barrio,Libertador,Suárez Sur,Masculino,Todos,3,0
 AUTONOMIA,2023,barrio,Libertador,Suárez Sur,Todos,18 o más,3,0
@@ -3977,20 +3667,6 @@ AUTONOMIA,2023,todos,Todos,Todos,Sin dato,Todos,1,0
 AUTONOMIA,2023,todos,Todos,Todos,Todos,16-17,4,0
 AUTONOMIA,2023,todos,Todos,Todos,Todos,18 o más,11,0
 AUTONOMIA,2023,todos,Todos,Todos,Todos,Todos,15,0
-AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,2,0
-AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
-AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,1,0
-AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,2,0
-AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,4,0
-AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,6,0
-AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,2,0
-AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,0
-AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,7,0
 AUTONOMIA,2023,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 AUTONOMIA,2023,zona,Sin dato,Sin dato,Femenino,Todos,1,0
 AUTONOMIA,2023,zona,Sin dato,Sin dato,Todos,18 o más,1,0
@@ -4010,16 +3686,16 @@ AUTONOMIA,2024,barrio,Billinghurst,Resto de San Martín,Femenino,16-17,1,0
 AUTONOMIA,2024,barrio,Billinghurst,Resto de San Martín,Femenino,Todos,1,0
 AUTONOMIA,2024,barrio,Billinghurst,Resto de San Martín,Todos,16-17,1,0
 AUTONOMIA,2024,barrio,Billinghurst,Resto de San Martín,Todos,Todos,1,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,2,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,2,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,16-17,1,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,2,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Hasta 13,1,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,2,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,1,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,2,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Hasta 13,1,0
+AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,4,0
 AUTONOMIA,2024,barrio,Lanzone,Suárez Sur,Masculino,18 o más,1,0
 AUTONOMIA,2024,barrio,Lanzone,Suárez Sur,Masculino,Todos,1,0
 AUTONOMIA,2024,barrio,Lanzone,Suárez Sur,Todos,18 o más,1,0
@@ -4094,28 +3770,6 @@ AUTONOMIA,2024,zona,Fuera de San Martín,Fuera de San Martín,Masculino,18 o má
 AUTONOMIA,2024,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,2,0
 AUTONOMIA,2024,zona,Fuera de San Martín,Fuera de San Martín,Todos,18 o más,2,0
 AUTONOMIA,2024,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,2,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,2,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,2,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,8,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,2,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,14,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,1,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,3,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,9,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,0
-AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,17,0
 AUTONOMIA,2024,zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
 AUTONOMIA,2024,zona,Suárez Norte,Suárez Norte,Femenino,Todos,1,0
 AUTONOMIA,2024,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,1,0
@@ -4142,12 +3796,12 @@ AUTONOMIA,2025,barrio,Billinghurst,Resto de San Martín,Masculino,Todos,2,0
 AUTONOMIA,2025,barrio,Billinghurst,Resto de San Martín,Todos,16-17,1,0
 AUTONOMIA,2025,barrio,Billinghurst,Resto de San Martín,Todos,18 o más,1,0
 AUTONOMIA,2025,barrio,Billinghurst,Resto de San Martín,Todos,Todos,2,0
-AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,4,0
-AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,4,0
-AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,5,0
+AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,4,0
+AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,4,0
+AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,5,0
+AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,5,0
 AUTONOMIA,2025,barrio,La Carcova,Suárez Norte,Masculino,18 o más,1,0
 AUTONOMIA,2025,barrio,La Carcova,Suárez Norte,Masculino,Todos,1,0
 AUTONOMIA,2025,barrio,La Carcova,Suárez Norte,Todos,18 o más,1,0
@@ -4186,23 +3840,6 @@ AUTONOMIA,2025,todos,Todos,Todos,Todos,14-15,2,0
 AUTONOMIA,2025,todos,Todos,Todos,Todos,16-17,5,0
 AUTONOMIA,2025,todos,Todos,Todos,Todos,18 o más,14,0
 AUTONOMIA,2025,todos,Todos,Todos,Todos,Todos,21,0
-AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,4,0
-AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,4,0
-AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,5,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,6,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,11,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,2,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,1,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,3,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,2,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,5,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,7,0
-AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,14,0
 AUTONOMIA,2025,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,1,0
 AUTONOMIA,2025,zona,Suárez Norte,Suárez Norte,Masculino,Todos,1,0
 AUTONOMIA,2025,zona,Suárez Norte,Suárez Norte,Todos,18 o más,1,0
@@ -4219,12 +3856,12 @@ AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Masculino,16-17,1,0
 AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
 AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Todos,Todos,1,0
-AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,3,0
-AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,3,0
-AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,4,0
-AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
+AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,3,0
+AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,3,0
+AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,4,0
+AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,4,0
 AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Masculino,18 o más,2,0
 AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Masculino,Todos,2,0
 AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Todos,18 o más,2,0
@@ -4269,20 +3906,6 @@ AUTONOMIA,2026,todos,Todos,Todos,Masculino,Todos,14,0
 AUTONOMIA,2026,todos,Todos,Todos,Todos,16-17,5,0
 AUTONOMIA,2026,todos,Todos,Todos,Todos,18 o más,12,0
 AUTONOMIA,2026,todos,Todos,Todos,Todos,Todos,17,0
-AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,3,0
-AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,3,0
-AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,4,0
-AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,2,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,4,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,5,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,3,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,4,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,7,0
 AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,2,0
 AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,Todos,2,0
 AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Todos,18 o más,2,0
@@ -4311,14 +3934,14 @@ AUTONOMIA,Activos,barrio,Independencia,Suárez Sur,Masculino,16-17,1,0
 AUTONOMIA,Activos,barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
 AUTONOMIA,Activos,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 AUTONOMIA,Activos,barrio,Independencia,Suárez Sur,Todos,Todos,1,0
-AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,5,0
-AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,7,0
-AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,8,0
-AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,12,0
-AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,13,0
+AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,5,0
+AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,5,0
+AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,14-15,1,0
+AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,7,0
+AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,8,0
+AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,12,0
+AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,13,0
 AUTONOMIA,Activos,barrio,La Carcova,Suárez Norte,Masculino,18 o más,4,0
 AUTONOMIA,Activos,barrio,La Carcova,Suárez Norte,Masculino,Todos,4,0
 AUTONOMIA,Activos,barrio,La Carcova,Suárez Norte,Todos,18 o más,4,0
@@ -4411,25 +4034,6 @@ AUTONOMIA,Activos,todos,Todos,Todos,Todos,14-15,3,0
 AUTONOMIA,Activos,todos,Todos,Todos,Todos,16-17,14,0
 AUTONOMIA,Activos,todos,Todos,Todos,Todos,18 o más,63,0
 AUTONOMIA,Activos,todos,Todos,Todos,Todos,Todos,80,0
-AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,5,0
-AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,7,0
-AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,8,0
-AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,12,0
-AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,13,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,9,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,20,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,31,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,13,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,16,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,2,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,12,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,33,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,47,0
 AUTONOMIA,Activos,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,5,0
 AUTONOMIA,Activos,zona,Suárez Norte,Suárez Norte,Masculino,Todos,5,0
 AUTONOMIA,Activos,zona,Suárez Norte,Suárez Norte,Todos,18 o más,5,0
@@ -4476,19 +4080,19 @@ AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Masculino,Todos,2,0
 AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Todos,18 o más,1,0
 AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Todos,Todos,2,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,3,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,15,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,17,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,2,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,18,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,22,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,14-15,1,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,16-17,1,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,3,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,5,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,16-17,1,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,15,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Hasta 13,1,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,17,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,2,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,18,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Hasta 13,1,0
+AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,22,0
 AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,18 o más,6,0
 AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Masculino,Todos,6,0
 AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Todos,18 o más,6,0
@@ -4634,35 +4238,6 @@ AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,18 o m�
 AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,2,0
 AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,18 o más,2,0
 AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,2,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,3,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,15,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,17,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,2,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,18,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,22,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,7,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,20,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,12,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,40,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,8,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,21,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,32,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,10,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,29,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,33,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,73,0
 AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,Todos,1,0
 AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,18 o más,1,0
@@ -4736,10 +4311,10 @@ ENTRAMADOS,2026,barrio,Independencia,Suárez Sur,Masculino,Hasta 13,1,0
 ENTRAMADOS,2026,barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
 ENTRAMADOS,2026,barrio,Independencia,Suárez Sur,Todos,Hasta 13,1,0
 ENTRAMADOS,2026,barrio,Independencia,Suárez Sur,Todos,Todos,1,0
-ENTRAMADOS,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-ENTRAMADOS,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-ENTRAMADOS,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-ENTRAMADOS,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
+ENTRAMADOS,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,14-15,1,0
+ENTRAMADOS,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,1,0
+ENTRAMADOS,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+ENTRAMADOS,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,1,0
 ENTRAMADOS,2026,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 ENTRAMADOS,2026,barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
 ENTRAMADOS,2026,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,1
@@ -4886,22 +4461,6 @@ ENTRAMADOS,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1
 ENTRAMADOS,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 ENTRAMADOS,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 ENTRAMADOS,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
-ENTRAMADOS,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-ENTRAMADOS,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-ENTRAMADOS,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-ENTRAMADOS,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,8,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,1
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,1
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,7,2
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,6,1
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,1
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
-ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,15,2
 ENTRAMADOS,2026,zona,Suárez Norte,Suárez Norte,Femenino,14-15,3,1
 ENTRAMADOS,2026,zona,Suárez Norte,Suárez Norte,Femenino,16-17,3,0
 ENTRAMADOS,2026,zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
@@ -4972,10 +4531,10 @@ ENTRAMADOS,Activos,barrio,Independencia,Suárez Sur,Masculino,Hasta 13,1,0
 ENTRAMADOS,Activos,barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
 ENTRAMADOS,Activos,barrio,Independencia,Suárez Sur,Todos,Hasta 13,1,0
 ENTRAMADOS,Activos,barrio,Independencia,Suárez Sur,Todos,Todos,1,0
-ENTRAMADOS,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-ENTRAMADOS,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-ENTRAMADOS,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-ENTRAMADOS,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
+ENTRAMADOS,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,14-15,1,0
+ENTRAMADOS,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,1,0
+ENTRAMADOS,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+ENTRAMADOS,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,1,0
 ENTRAMADOS,Activos,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 ENTRAMADOS,Activos,barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
 ENTRAMADOS,Activos,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,1
@@ -5113,22 +4672,6 @@ ENTRAMADOS,Activos,todos,Todos,Todos,Todos,18 o más,6,3
 ENTRAMADOS,Activos,todos,Todos,Todos,Todos,Hasta 13,13,3
 ENTRAMADOS,Activos,todos,Todos,Todos,Todos,Sin dato,1,0
 ENTRAMADOS,Activos,todos,Todos,Todos,Todos,Todos,73,25
-ENTRAMADOS,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-ENTRAMADOS,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-ENTRAMADOS,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-ENTRAMADOS,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,3,0
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,1,0
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,5,0
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,1
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,1
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,7,2
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,1
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,4,1
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
-ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,12,2
 ENTRAMADOS,Activos,zona,Suárez Norte,Suárez Norte,Femenino,14-15,3,1
 ENTRAMADOS,Activos,zona,Suárez Norte,Suárez Norte,Femenino,16-17,3,0
 ENTRAMADOS,Activos,zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
@@ -5215,10 +4758,10 @@ ENTRAMADOS,Todos,barrio,Independencia,Suárez Sur,Masculino,Hasta 13,1,0
 ENTRAMADOS,Todos,barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
 ENTRAMADOS,Todos,barrio,Independencia,Suárez Sur,Todos,Hasta 13,1,0
 ENTRAMADOS,Todos,barrio,Independencia,Suárez Sur,Todos,Todos,1,0
-ENTRAMADOS,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-ENTRAMADOS,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-ENTRAMADOS,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-ENTRAMADOS,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
+ENTRAMADOS,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,14-15,1,0
+ENTRAMADOS,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,1,0
+ENTRAMADOS,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+ENTRAMADOS,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,1,0
 ENTRAMADOS,Todos,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 ENTRAMADOS,Todos,barrio,La Carcova,Suárez Norte,Femenino,18 o más,1,0
 ENTRAMADOS,Todos,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,1
@@ -5365,22 +4908,6 @@ ENTRAMADOS,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,
 ENTRAMADOS,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 ENTRAMADOS,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 ENTRAMADOS,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
-ENTRAMADOS,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-ENTRAMADOS,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-ENTRAMADOS,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-ENTRAMADOS,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,8,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,1
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,1
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,7,2
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,6,1
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,1
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
-ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,15,2
 ENTRAMADOS,Todos,zona,Suárez Norte,Suárez Norte,Femenino,14-15,3,1
 ENTRAMADOS,Todos,zona,Suárez Norte,Suárez Norte,Femenino,16-17,3,0
 ENTRAMADOS,Todos,zona,Suárez Norte,Suárez Norte,Femenino,18 o más,1,0
@@ -5443,10 +4970,10 @@ RESPO_AUTONOMIA,2021,barrio,Independencia,Suárez Sur,Todos,16-17,3,0
 RESPO_AUTONOMIA,2021,barrio,Independencia,Suárez Sur,Todos,18 o más,1,0
 RESPO_AUTONOMIA,2021,barrio,Independencia,Suárez Sur,Todos,Sin dato,1,0
 RESPO_AUTONOMIA,2021,barrio,Independencia,Suárez Sur,Todos,Todos,6,0
-RESPO_AUTONOMIA,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-RESPO_AUTONOMIA,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-RESPO_AUTONOMIA,2021,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
+RESPO_AUTONOMIA,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+RESPO_AUTONOMIA,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,1,0
+RESPO_AUTONOMIA,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,1,0
+RESPO_AUTONOMIA,2021,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,1,0
 RESPO_AUTONOMIA,2021,barrio,La Carcova,Suárez Norte,Masculino,16-17,2,0
 RESPO_AUTONOMIA,2021,barrio,La Carcova,Suárez Norte,Masculino,18 o más,3,0
 RESPO_AUTONOMIA,2021,barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,1,0
@@ -5553,24 +5080,6 @@ RESPO_AUTONOMIA,2021,todos,Todos,Todos,Todos,18 o más,19,0
 RESPO_AUTONOMIA,2021,todos,Todos,Todos,Todos,Hasta 13,1,0
 RESPO_AUTONOMIA,2021,todos,Todos,Todos,Todos,Sin dato,8,0
 RESPO_AUTONOMIA,2021,todos,Todos,Todos,Todos,Todos,56,0
-RESPO_AUTONOMIA,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,1,0
-RESPO_AUTONOMIA,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-RESPO_AUTONOMIA,2021,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,1,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,2,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,8,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,18,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,1,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,11,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,7,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
-RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,21,0
 RESPO_AUTONOMIA,2021,zona,Sin dato,Sin dato,Masculino,14-15,2,0
 RESPO_AUTONOMIA,2021,zona,Sin dato,Sin dato,Masculino,16-17,3,0
 RESPO_AUTONOMIA,2021,zona,Sin dato,Sin dato,Masculino,18 o más,1,0
@@ -5636,13 +5145,13 @@ RESPO_AUTONOMIA,2022,barrio,Independencia,Suárez Sur,Masculino,Todos,2,0
 RESPO_AUTONOMIA,2022,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 RESPO_AUTONOMIA,2022,barrio,Independencia,Suárez Sur,Todos,18 o más,1,0
 RESPO_AUTONOMIA,2022,barrio,Independencia,Suárez Sur,Todos,Todos,2,0
-RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,5,0
-RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,5,0
-RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,6,0
+RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,14-15,1,0
+RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,5,0
+RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,5,0
+RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,5,0
+RESPO_AUTONOMIA,2022,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,6,0
 RESPO_AUTONOMIA,2022,barrio,Lanzone,Suárez Sur,Masculino,18 o más,1,0
 RESPO_AUTONOMIA,2022,barrio,Lanzone,Suárez Sur,Masculino,Todos,1,0
 RESPO_AUTONOMIA,2022,barrio,Lanzone,Suárez Sur,Todos,18 o más,1,0
@@ -5731,27 +5240,6 @@ RESPO_AUTONOMIA,2022,todos,Todos,Todos,Todos,16-17,18,0
 RESPO_AUTONOMIA,2022,todos,Todos,Todos,Todos,18 o más,25,0
 RESPO_AUTONOMIA,2022,todos,Todos,Todos,Todos,Hasta 13,1,0
 RESPO_AUTONOMIA,2022,todos,Todos,Todos,Todos,Todos,51,0
-RESPO_AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-RESPO_AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-RESPO_AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,5,0
-RESPO_AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,5,0
-RESPO_AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-RESPO_AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-RESPO_AUTONOMIA,2022,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,6,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,10,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,6,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,16,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,4,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,11,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,10,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,26,0
 RESPO_AUTONOMIA,2022,zona,Sin dato,Sin dato,Masculino,14-15,2,0
 RESPO_AUTONOMIA,2022,zona,Sin dato,Sin dato,Masculino,16-17,1,0
 RESPO_AUTONOMIA,2022,zona,Sin dato,Sin dato,Masculino,18 o más,1,0
@@ -5803,12 +5291,12 @@ RESPO_AUTONOMIA,2023,barrio,Independencia,Suárez Sur,Masculino,Todos,2,0
 RESPO_AUTONOMIA,2023,barrio,Independencia,Suárez Sur,Todos,14-15,1,0
 RESPO_AUTONOMIA,2023,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 RESPO_AUTONOMIA,2023,barrio,Independencia,Suárez Sur,Todos,Todos,2,0
-RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,2,0
+RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,16-17,1,0
+RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,2,0
+RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,1,0
+RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,1,0
+RESPO_AUTONOMIA,2023,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,2,0
 RESPO_AUTONOMIA,2023,barrio,La Carcova,Suárez Norte,Masculino,14-15,1,0
 RESPO_AUTONOMIA,2023,barrio,La Carcova,Suárez Norte,Masculino,16-17,1,0
 RESPO_AUTONOMIA,2023,barrio,La Carcova,Suárez Norte,Masculino,18 o más,1,0
@@ -5914,24 +5402,6 @@ RESPO_AUTONOMIA,2023,todos,Todos,Todos,Todos,16-17,25,0
 RESPO_AUTONOMIA,2023,todos,Todos,Todos,Todos,18 o más,15,0
 RESPO_AUTONOMIA,2023,todos,Todos,Todos,Todos,Sin dato,5,0
 RESPO_AUTONOMIA,2023,todos,Todos,Todos,Todos,Todos,61,0
-RESPO_AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-RESPO_AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-RESPO_AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-RESPO_AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,1,0
-RESPO_AUTONOMIA,2023,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,2,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,1,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,8,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,21,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,8,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,8,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,22,0
 RESPO_AUTONOMIA,2023,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO_AUTONOMIA,2023,zona,Sin dato,Sin dato,Femenino,Sin dato,1,0
 RESPO_AUTONOMIA,2023,zona,Sin dato,Sin dato,Femenino,Todos,2,0
@@ -5998,16 +5468,16 @@ RESPO_AUTONOMIA,2024,barrio,Independencia,Suárez Sur,Masculino,Todos,3,0
 RESPO_AUTONOMIA,2024,barrio,Independencia,Suárez Sur,Todos,14-15,1,0
 RESPO_AUTONOMIA,2024,barrio,Independencia,Suárez Sur,Todos,16-17,2,0
 RESPO_AUTONOMIA,2024,barrio,Independencia,Suárez Sur,Todos,Todos,3,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,2,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,2,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,16-17,1,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,2,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,1,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,2,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,1,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,2,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Hasta 13,1,0
+RESPO_AUTONOMIA,2024,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,4,0
 RESPO_AUTONOMIA,2024,barrio,La Carcova,Suárez Norte,Masculino,16-17,2,0
 RESPO_AUTONOMIA,2024,barrio,La Carcova,Suárez Norte,Masculino,Hasta 13,1,0
 RESPO_AUTONOMIA,2024,barrio,La Carcova,Suárez Norte,Masculino,Todos,3,0
@@ -6143,32 +5613,6 @@ RESPO_AUTONOMIA,2024,zona,Fuera de San Martín,Fuera de San Martín,Masculino,18
 RESPO_AUTONOMIA,2024,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,2,0
 RESPO_AUTONOMIA,2024,zona,Fuera de San Martín,Fuera de San Martín,Todos,18 o más,2,0
 RESPO_AUTONOMIA,2024,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,2,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,2,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,2,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,1,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,2,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-RESPO_AUTONOMIA,2024,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,9,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,2,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,15,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,12,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,1,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,18,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,21,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,33,0
 RESPO_AUTONOMIA,2024,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 RESPO_AUTONOMIA,2024,zona,Sin dato,Sin dato,Femenino,Todos,1,0
 RESPO_AUTONOMIA,2024,zona,Sin dato,Sin dato,Masculino,14-15,2,0
@@ -6237,12 +5681,12 @@ RESPO_AUTONOMIA,2025,barrio,Independencia,Suárez Sur,Masculino,16-17,1,0
 RESPO_AUTONOMIA,2025,barrio,Independencia,Suárez Sur,Masculino,Todos,1,0
 RESPO_AUTONOMIA,2025,barrio,Independencia,Suárez Sur,Todos,16-17,1,0
 RESPO_AUTONOMIA,2025,barrio,Independencia,Suárez Sur,Todos,Todos,1,0
-RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,4,0
-RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,4,0
-RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,5,0
+RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,4,0
+RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,4,0
+RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,5,0
+RESPO_AUTONOMIA,2025,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,5,0
 RESPO_AUTONOMIA,2025,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,0
 RESPO_AUTONOMIA,2025,barrio,La Carcova,Suárez Norte,Femenino,Todos,1,0
 RESPO_AUTONOMIA,2025,barrio,La Carcova,Suárez Norte,Masculino,14-15,4,0
@@ -6376,26 +5820,6 @@ RESPO_AUTONOMIA,2025,todos,Todos,Todos,Todos,18 o más,20,0
 RESPO_AUTONOMIA,2025,todos,Todos,Todos,Todos,Hasta 13,6,0
 RESPO_AUTONOMIA,2025,todos,Todos,Todos,Todos,Sin dato,6,0
 RESPO_AUTONOMIA,2025,todos,Todos,Todos,Todos,Todos,95,0
-RESPO_AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-RESPO_AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-RESPO_AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,4,0
-RESPO_AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,4,0
-RESPO_AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,5,0
-RESPO_AUTONOMIA,2025,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,5,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,6,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,6,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,6,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,18,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,12,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,32,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,20,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,18,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,11,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,50,0
 RESPO_AUTONOMIA,2025,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 RESPO_AUTONOMIA,2025,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO_AUTONOMIA,2025,zona,Sin dato,Sin dato,Femenino,Sin dato,2,0
@@ -6475,12 +5899,12 @@ RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Todos,14-15,1,0
 RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Todos,16-17,3,0
 RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Todos,Sin dato,1,0
 RESPO_AUTONOMIA,2026,barrio,Independencia,Suárez Sur,Todos,Todos,5,0
-RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,3,0
-RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,3,0
-RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,4,0
-RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
+RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,1,0
+RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,1,0
+RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,3,0
+RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,3,0
+RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,4,0
+RESPO_AUTONOMIA,2026,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,4,0
 RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Femenino,Todos,1,0
 RESPO_AUTONOMIA,2026,barrio,La Carcova,Suárez Norte,Masculino,14-15,1,0
@@ -6612,27 +6036,6 @@ RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16
 RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
-RESPO_AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,1,0
-RESPO_AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,1,0
-RESPO_AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,3,0
-RESPO_AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,3,0
-RESPO_AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,4,0
-RESPO_AUTONOMIA,2026,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,4,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,4,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,5,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,15,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,9,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,29,2
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,4,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,19,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,9,1
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,34,2
 RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
 RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,Todos,2,0
@@ -6703,14 +6106,14 @@ RESPO_AUTONOMIA,Activos,barrio,Independencia,Suárez Sur,Masculino,Todos,3,0
 RESPO_AUTONOMIA,Activos,barrio,Independencia,Suárez Sur,Todos,14-15,1,0
 RESPO_AUTONOMIA,Activos,barrio,Independencia,Suárez Sur,Todos,16-17,3,0
 RESPO_AUTONOMIA,Activos,barrio,Independencia,Suárez Sur,Todos,Todos,4,0
-RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,5,0
-RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,7,0
-RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,8,0
-RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,12,0
-RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,13,0
+RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,5,0
+RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,5,0
+RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,14-15,1,0
+RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,7,0
+RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,8,0
+RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,12,0
+RESPO_AUTONOMIA,Activos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,13,0
 RESPO_AUTONOMIA,Activos,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Activos,barrio,La Carcova,Suárez Norte,Femenino,Todos,1,0
 RESPO_AUTONOMIA,Activos,barrio,La Carcova,Suárez Norte,Masculino,18 o más,4,0
@@ -6861,26 +6264,6 @@ RESPO_AUTONOMIA,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino
 RESPO_AUTONOMIA,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0
 RESPO_AUTONOMIA,Activos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO_AUTONOMIA,Activos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,1,0
-RESPO_AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,5,0
-RESPO_AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-RESPO_AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,14-15,1,0
-RESPO_AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,7,0
-RESPO_AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,8,0
-RESPO_AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-RESPO_AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,12,0
-RESPO_AUTONOMIA,Activos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,13,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,3,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,11,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,20,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,34,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,18,1
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,16,1
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,36,2
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,29,1
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,36,1
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,70,2
 RESPO_AUTONOMIA,Activos,zona,Sin dato,Sin dato,Femenino,14-15,1,0
 RESPO_AUTONOMIA,Activos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0
 RESPO_AUTONOMIA,Activos,zona,Sin dato,Sin dato,Femenino,Todos,2,0
@@ -6997,19 +6380,19 @@ RESPO_AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Todos,16-17,11,0
 RESPO_AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Todos,18 o más,2,0
 RESPO_AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Todos,Sin dato,2,0
 RESPO_AUTONOMIA,Todos,barrio,Independencia,Suárez Sur,Todos,Todos,19,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,3,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,15,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,17,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,2,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,18,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,22,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,14-15,1,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,16-17,1,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,18 o más,3,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Femenino,Todos,5,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,16-17,1,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,18 o más,15,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Masculino,Todos,17,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,14-15,1,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,16-17,2,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,18 o más,18,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Hasta 13,1,0
+RESPO_AUTONOMIA,Todos,barrio,José León Suárez (sin barrio),Resto de San Martín,Todos,Todos,22,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Femenino,16-17,1,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Femenino,Hasta 13,1,0
 RESPO_AUTONOMIA,Todos,barrio,La Carcova,Suárez Norte,Femenino,Todos,2,0
@@ -7266,38 +6649,6 @@ RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,T
 RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0
 RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,18 o más,2,0
 RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,Todos,3,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,14-15,1,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,16-17,1,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,18 o más,3,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Femenino,Todos,5,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,16-17,1,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,18 o más,15,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Hasta 13,1,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Masculino,Todos,17,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,14-15,1,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,16-17,2,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,18 o más,18,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Hasta 13,1,0
-RESPO_AUTONOMIA,Todos,zona,José León Suárez (sin barrio),José León Suárez (sin barrio),Todos,Todos,22,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,12,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,26,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,12,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,51,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,29,2
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,61,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,36,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,134,4
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,41,2
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,88,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,48,1
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,186,4
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,14-15,3,0
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,2,0
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0
@@ -7362,3 +6713,464 @@ RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,16-17,11,0
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,18 o más,8,0
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,Sin dato,1,0
 RESPO_AUTONOMIA,Todos,zona,Zagala,Zagala,Todos,Todos,29,2
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,8,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,19,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,8,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,22,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,2,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,8,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,1,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,11,0
+Todos,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,11,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,12,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,21,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,15,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,32,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,6,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,11,0
+Todos,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,9,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,8,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,23,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,9,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,9,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,24,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,1,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
+Todos,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,10,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,17,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,2,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,20,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,22,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,37,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,12,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,0
+Todos,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,7,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,19,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,9,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,36,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,16,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,55,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,6,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,6,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,12,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,20,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,18,0
+Todos,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,14,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,6,1
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,12,1
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,40,4
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,11,1
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,13,1
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,54,4
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,5,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,7,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,18,2
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,3,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,25,2
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,4,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,25,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,44,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,6,1
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,23,1
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,52,4
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,12,1
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,48,1
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,96,4
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,6,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,12,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,21,2
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,33,2
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,17,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,30,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,15,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,64,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,32,3
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,65,2
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,51,1
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,5,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,159,6
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,49,3
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,96,2
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,66,1
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,7,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,224,6
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,2,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,7,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,3,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,13,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,1,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,7,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
+RESPO,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,13,0
+RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
+RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,5,0
+RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,6,0
+RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,1,0
+RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,5,0
+RESPO,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,6,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,6,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,3,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,15,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+RESPO,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,15,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,1,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,1,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,11,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,15,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,2,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,12,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+RESPO,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,16,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,7,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,10,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,4,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,29,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,18,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,13,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,4,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+RESPO,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,36,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,3,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,14,1
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,1
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,24,2
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,4,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,16,1
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,1
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+RESPO,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,27,2
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,3,0
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,0
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,15,1
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,3,1
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,20,2
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,3,0
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,17,1
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,3,1
+RESPO,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,23,2
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,5,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,6,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,11,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,26,2
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,53,1
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,15,1
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,102,4
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,31,2
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,59,1
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,15,1
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
+RESPO,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,113,4
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,6,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,9,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,2,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
+AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,4,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,11,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,12,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,15,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,4,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,15,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,26,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,2,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,0
+AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,0
+AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,0
+AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,8,0
+AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,3,0
+AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,6,0
+AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,9,0
+AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
+AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,1,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,9,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,16,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,2,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,5,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,10,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,21,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0
+AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,7,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,12,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,5,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,7,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,12,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,19,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,2,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,2,0
+AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,5,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,3,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,8,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,8,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,11,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,3,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,25,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,36,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,20,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,24,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,3,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,45,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,60,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,9,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,12,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,8,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,21,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,15,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,45,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,9,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,36,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,49,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,11,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,31,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,51,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,95,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,1
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,8,2
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,1
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,16,2
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,8,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,1
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,1
+ENTRAMADOS,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,1
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,8,2
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,6,1
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,13,2
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,3,0
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,1,0
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,5,0
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,1
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,4,1
+ENTRAMADOS,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,1
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,8,2
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,1
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,16,2
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,3,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,8,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,1
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,6,1
+ENTRAMADOS,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,8,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,19,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,8,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,22,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,2,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,8,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,2,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,1,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,11,0
+RESPO_AUTONOMIA,2021,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,2,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,11,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,12,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,21,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,15,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,32,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,5,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,6,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,11,0
+RESPO_AUTONOMIA,2022,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,9,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,8,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,23,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,9,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,9,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,24,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,1,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,5,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,0
+RESPO_AUTONOMIA,2023,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,10,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,3,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,17,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,2,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,20,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,22,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,5,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,37,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,4,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,12,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,0
+RESPO_AUTONOMIA,2024,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,7,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,19,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,9,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,36,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,16,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,55,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,6,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,6,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,14,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,12,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,20,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,18,0
+RESPO_AUTONOMIA,2025,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,6,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,12,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,32,2
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,13,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,38,2
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,4,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,15,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,4,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,19,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,25,0
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,39,0
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,23,1
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,44,2
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,6,0
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,48,1
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,83,2
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,3,0
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,11,0
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,18,1
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,29,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,13,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,27,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,15,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,56,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,62,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,51,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,3,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,151,4
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,42,2
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,90,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,66,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,4,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,208,4
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,29,2
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0
