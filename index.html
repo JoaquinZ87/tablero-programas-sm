@@ -313,7 +313,6 @@
       <h2>Activos en 2026</h2>
       <p data-draw="activos-sub">Casos activos al 31/10/2026 en cada programa, sin importar el año de ingreso.</p>
     </div>
-    <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="programa"></div>
     <div class="tb-graf" data-draw="g-activos" data-source="cubo"></div>
     <div class="tb-pie"><p class="tb-fuente">Fuente: elaboración propia sobre la planilla Base_gestion. Activos: sin fecha de cese (Responsabilidades Compartidas y Entramados) o sin «Baja» en la columna Movimiento (Autonomía Joven), corte al 31/10/2026.</p></div>
   </article>
@@ -633,7 +632,7 @@
     }
 
     // Dibujo genérico de barras apiladas. filas: [{key, label, total, segs:[{label,color,v}], extra?, activa?}]
-    function barrasLibres(el, datos, { onClick, titulo, cabecera, vacio = 'Sin intervenciones para estos filtros.', extraTit = '', porcentajes = false, envolver = false }) {
+    function barrasLibres(el, datos, { onClick, titulo, cabecera, vacio = 'Sin intervenciones para estos filtros.', extraTit = '', porcentajes = false, envolver = false, sinTextoSeg = false }) {
       el.replaceChildren();
       datos = datos.filter((f) => f.total > 0);
       if (!datos.length) { el.textContent = vacio; return; }
@@ -703,7 +702,7 @@
           gg.append('rect').attr('class', 'tb-seg').attr('x', lw + x(acc)).attr('y', 7).attr('width', Math.max(1, w - 1)).attr('height', filaH - 14)
             .attr('rx', 2).style('fill', s.color);
           const txt = largo && medir(largo) + 8 < w ? largo : (medir(fmt(s.v)) + 8 < w || w > 26 ? fmt(s.v) : null);
-          if (txt) gg.append('text').attr('class', 'tb-seg-txt').attr('x', lw + x(acc) + w / 2).attr('y', filaH / 2).attr('dy', '.35em')
+          if (txt && !sinTextoSeg) gg.append('text').attr('class', 'tb-seg-txt').attr('x', lw + x(acc) + w / 2).attr('y', filaH / 2).attr('dy', '.35em')
             .attr('text-anchor', 'middle').style('fill', oscuro(s.color) ? '#ffffff' : '#17202a').text(txt);
           acc += s.v;
         }
@@ -1015,15 +1014,20 @@
   });
 
   dash.draw('g-activos', (el) => {
+    el.replaceChildren();
+    if (!TB.estado(el)) return;
     const f = { ...TB.filtros(), anio: 'Activos' };
-    TB.barras(el, TB.DIMS.programa.cats.map((c) => ({ key: c.key, label: c.label, base: { ...f, programa: c.key }, activa: f.programa === 'Todos' || f.programa === c.key })), {
-      dimKey: TB.dimPara('programa'), titulo: 'Casos activos al 31/10/2026 por programa', onClick: (r) => TB.alternar('programa', r.key), porcentajes: true,
+    const filas = TB.DIMS.programa.cats.map((c) => {
+      const v = TB.valor({ ...f, programa: c.key });
+      return { key: c.key, label: c.label, total: v, segs: [{ label: c.label, color: c.color, v }], activa: f.programa === 'Todos' || f.programa === c.key };
     });
+    TB.barrasLibres(el, filas, { titulo: 'Casos activos al 31/10/2026 por programa', porcentajes: true, sinTextoSeg: true,
+      cabecera: ['Programa', 'Activos', 'Total'], onClick: (r) => TB.alternar('programa', r.key) });
   });
   dash.draw('activos-sub', (el) => {
     const b = document.createElement('b');
     TB.numero(b, { ...TB.filtros(), anio: 'Activos' });
-    el.replaceChildren('Casos activos al 31/10/2026 en cada programa, sin importar el año de ingreso: ', b, ' en total.');
+    el.replaceChildren('Casos activos al 31/10/2026 en cada programa, sin importar el año de ingreso: ', b, ' en total. Entre paréntesis, el porcentaje de cada programa. Para ver su edad o género, elegí «Activos 2026» arriba.');
   });
 
   // ---- paneles por programa (zona, edad, género, barrio)
