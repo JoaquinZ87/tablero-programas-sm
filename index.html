@@ -135,6 +135,9 @@
   .tb-kpi-prog b { font-variant-numeric: tabular-nums; font-size: 16px; }
   .tb-punto { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
   .tb-spark { height: 132px; position: relative; margin-top: 4px; }
+  #kpi-programas .tb-paneles { grid-template-columns: minmax(0, 1fr); }
+  #kpi-programas .tb-panel svg { margin-inline: auto; }
+  .tb-resumen-nota { margin-top: -12px !important; font-size: 12px; color: var(--fg-3); }
 
   /* tarjetas */
   .tb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 27rem), 1fr)); gap: 18px; }
@@ -278,18 +281,16 @@
 
   <section class="tb-kpis" id="indicadores" aria-label="Indicadores">
     <div class="tb-kpi" id="kpi-total">
-      <span class="tb-kpi-etq" data-draw="kpi-etq">Intervenciones</span>
+      <span class="tb-kpi-etq">Nuevos ingresos por año · tres programas</span>
       <span class="tb-kpi-num" data-draw="kpi-total">—</span>
       <span class="tb-kpi-sub" data-draw="kpi-periodo">—</span>
       <div class="tb-spark" data-draw="kpi-spark" data-source="cubo"></div>
     </div>
     <div class="tb-kpi" id="kpi-programas">
-      <span class="tb-kpi-etq">Por programa</span>
-      <div class="tb-kpi-progs">
-        <div class="tb-kpi-prog"><i class="tb-punto" data-color="RESPO"></i><span>Responsabilidades Compartidas</span><b data-draw="kpi-RESPO">—</b></div>
-        <div class="tb-kpi-prog"><i class="tb-punto" data-color="AUTONOMIA"></i><span>Autonomía Joven</span><b data-draw="kpi-AUTONOMIA">—</b></div>
-        <div class="tb-kpi-prog"><i class="tb-punto" data-color="ENTRAMADOS"></i><span>Entramados</span><b data-draw="kpi-ENTRAMADOS">—</b></div>
-      </div>
+      <span class="tb-kpi-etq">Nuevos ingresos de 2026 por programa</span>
+      <span class="tb-kpi-sub">Del 1 de enero al 31 de octubre de 2026.</span>
+      <div class="tb-graf" data-draw="kpi-torta-programas" data-source="cubo"></div>
+      <div class="tb-leyenda" data-draw="leyenda" data-dim-grafico="programa-fija"></div>
     </div>
     <div class="tb-kpi" id="kpi-grupal">
       <span class="tb-kpi-etq">También en grupales de Entramados</span>
@@ -297,6 +298,7 @@
       <span class="tb-kpi-sub">intervenciones en las que el NNoA participa además de un taller de Entramados (asistencia con nombre en SIGEI)</span>
     </div>
   </section>
+  <p class="tb-resumen-nota">La línea suma los ingresos de los tres programas en cada año de 2021–2026. La torta distribuye solo los ingresos de 2026. Ambas respetan los filtros de zona o barrio, edad y género.</p>
 
   <article class="tb-card" id="evolucion">
     <div class="tb-card-head">
@@ -492,6 +494,7 @@
     <ul>
       <li><b>Qué se cuenta:</b> intervenciones, no personas. Son programas distintos, con metodología y objetivos propios: un NNoA que está en dos programas cuenta dos veces en el total.</li>
       <li><b>Nuevos ingresos (2021–2026):</b> cada caso cuenta solo en el año de su fecha de ingreso. Los que ingresaron en 2020 o antes no aparecen en esta serie. Un reingreso en otro año cuenta de nuevo.</li>
+      <li><b>Resumen superior:</b> la línea muestra los nuevos ingresos de cada año sumando los tres programas y la torta reparte los nuevos ingresos de 2026 por programa. Sus períodos y programas son fijos; los filtros de territorio, edad y género sí se aplican.</li>
       <li><b>Activos 2026:</b> casos activos al 31/10/2026, sin importar cuándo ingresaron. En Responsabilidades Compartidas y Entramados, los que no tienen fecha de cese; en Autonomía Joven, que no tiene esa columna, los que no figuran como «Baja» en Movimiento.</li>
       <li><b>Gráficos por zona, edad y género:</b> muestran siempre activos al 31/10/2026. El selector de ingresos o año no cambia ese universo; los demás filtros mantienen su comportamiento.</li>
       <li><b>Edad:</b> en los ingresos, la cumplida en el año de ingreso (al 31/12; en 2026, al 31/10). En los activos, la cumplida al 31/10/2026.</li>
@@ -976,25 +979,30 @@
     s.onchange = () => dash.setParams({ terr: s.value === 'todos|Todos' ? null : s.value });
   });
 
-  dash.draw('kpi-total', (el) => TB.numero(el, TB.filtros()));
-  dash.draw('kpi-etq', (el) => { el.textContent = TB.filtros().anio === 'Activos' ? 'Casos activos' : 'Nuevos ingresos'; });
+  dash.draw('kpi-total', (el) => TB.numero(el, { ...TB.filtros(), programa: 'Todos', anio: 'Todos' }));
   dash.draw('kpi-periodo', (el) => {
-    const f = TB.filtros();
-    el.textContent = f.anio === 'Activos' ? 'al 31/10/2026' : f.anio === 'Todos' ? 'en 2021–2026' : 'en ' + f.anio;
+    el.textContent = 'acumulados en 2021–2026 · tres programas';
   });
-  for (const p of ['RESPO', 'AUTONOMIA', 'ENTRAMADOS']) dash.draw('kpi-' + p, (el) => TB.numero(el, { ...TB.filtros(), programa: p }));
+  dash.draw('kpi-torta-programas', (el) => {
+    const f = { ...TB.filtros(), anio: '2026', programa: 'Todos' };
+    TB.tortas(el, { programas: [{ key: 'Todos', label: 'Ingresos de 2026' }], cats: TB.DIMS.programa.cats,
+      titulo: 'Nuevos ingresos de 2026 por programa',
+      valorDe: (_, c) => TB.valor({ ...f, programa: c.key }),
+      onClick: (c) => TB.alternar('programa', c.key) });
+  });
   dash.draw('kpi-grupal', (el) => TB.numero(el, TB.filtros(), 'nnoa_grupal'));
   dash.draw('kpi-spark', (el) => {
     el.replaceChildren();
     if (!TB.estado(el)) return;
     const f = TB.filtros();
-    const base = f.anio === 'Activos' || TB.ANIOS.includes(f.anio) ? { ...f, anio: 'Todos' } : f;
+    const base = { ...f, programa: 'Todos', anio: 'Todos' };
     const pts = TB.ANIOS.map((a) => ({ a, v: TB.valor({ ...base, anio: a }) }));
+    el._tbDatos = [['Año', 'Nuevos ingresos de los tres programas'], ...pts.map((p) => [p.a, p.v])];
     const W = Math.max(220, el.clientWidth || 300), H = 132, m = { t: 20, r: 16, b: 22, l: 16 };
     const x = d3.scalePoint().domain(TB.ANIOS).range([m.l, W - m.r]);
     const y = d3.scaleLinear().domain([0, d3.max(pts, (p) => p.v) || 1]).nice().range([H - m.b, m.t]);
     const svg = d3.select(el).append('svg').attr('class', 'tb-svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', W).attr('height', H).attr('role', 'img')
-      .attr('aria-label', 'Nuevos ingresos por año: ' + pts.map((p) => `${p.a} ${p.v}`).join(', '));
+      .attr('aria-label', 'Nuevos ingresos por año, tres programas sumados: ' + pts.map((p) => `${p.a} ${p.v}`).join(', '));
     svg.append('line').attr('class', 'tb-grilla').attr('x1', m.l).attr('x2', W - m.r).attr('y1', H - m.b + .5).attr('y2', H - m.b + .5).style('stroke', '#c9d0d8');
     svg.append('path').datum(pts).attr('d', d3.area().x((p) => x(p.a)).y0(H - m.b).y1((p) => y(p.v))).style('fill', '#efe6f4');
     svg.append('path').datum(pts).attr('d', d3.line().x((p) => x(p.a)).y((p) => y(p.v))).style('fill', 'none').style('stroke', '#6b2a83').style('stroke-width', 2.5);
@@ -1004,7 +1012,7 @@
     g.append('text').attr('x', (p) => x(p.a)).attr('y', H - 5).attr('text-anchor', 'middle').style('font-size', '11.5px').text((p) => p.a);
   });
 
-  dash.draw('leyenda', (el) => TB.leyenda(el, TB.dimPara(el.dataset.dimGrafico === 'anio' || el.dataset.dimGrafico === 'zona' || el.dataset.dimGrafico === 'barrio' ? '' : el.dataset.dimGrafico)));
+  dash.draw('leyenda', (el) => TB.leyenda(el, el.dataset.dimGrafico === 'programa-fija' ? 'programa' : TB.dimPara(el.dataset.dimGrafico === 'anio' || el.dataset.dimGrafico === 'zona' || el.dataset.dimGrafico === 'barrio' ? '' : el.dataset.dimGrafico)));
 
   dash.draw('g-anio', (el) => {
     const f = TB.filtros();
