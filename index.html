@@ -319,8 +319,8 @@
 
   <article class="tb-card" id="por-zona">
     <div class="tb-card-head">
-      <h2>Por zona de residencia</h2>
-      <p>Un panel por programa; cada color es una zona (Entramados y resto del partido). Entre paréntesis, el porcentaje dentro del programa. Abajo, qué barrios forman cada zona.</p>
+      <h2>Activos por zona de residencia</h2>
+      <p>Casos activos al 31/10/2026, sin importar el año de ingreso ni el período seleccionado arriba. Un panel por programa; cada color es una zona (Entramados y resto del partido). Entre paréntesis, el porcentaje dentro de los casos con residencia conocida del programa. Abajo, qué barrios forman cada zona.</p>
     </div>
     <div class="tb-leyenda" data-draw="ley-zona"></div>
     <div class="tb-graf" data-draw="g-zona" data-source="cubo"></div>
@@ -331,8 +331,8 @@
 
   <article class="tb-card" id="por-edad">
     <div class="tb-card-head">
-      <h2>Por grupo de edad</h2>
-      <p>Un panel por programa; cada color es un grupo de edad (cumplida en el año de ingreso, o al 31/10/2026 en los activos).</p>
+      <h2>Activos por grupo de edad</h2>
+      <p>Casos activos al 31/10/2026, sin importar el año de ingreso ni el período seleccionado arriba. Un panel por programa; cada color es un grupo de edad cumplida al 31/10/2026.</p>
     </div>
     <div class="tb-leyenda" data-draw="ley-edad"></div>
     <div class="tb-graf" data-draw="g-edad" data-source="cubo"></div>
@@ -341,8 +341,8 @@
 
   <article class="tb-card" id="por-genero">
     <div class="tb-card-head">
-      <h2>Por género</h2>
-      <p>Una torta por programa, según el registro de cada uno. Número y porcentaje dentro del programa.</p>
+      <h2>Activos por género</h2>
+      <p>Casos activos al 31/10/2026, sin importar el año de ingreso ni el período seleccionado arriba. Una torta por programa, según el registro de cada uno. Número y porcentaje dentro del programa.</p>
     </div>
     <div class="tb-leyenda" data-draw="ley-genero"></div>
     <div class="tb-graf" data-draw="g-genero" data-source="cubo"></div>
@@ -493,6 +493,7 @@
       <li><b>Qué se cuenta:</b> intervenciones, no personas. Son programas distintos, con metodología y objetivos propios: un NNoA que está en dos programas cuenta dos veces en el total.</li>
       <li><b>Nuevos ingresos (2021–2026):</b> cada caso cuenta solo en el año de su fecha de ingreso. Los que ingresaron en 2020 o antes no aparecen en esta serie. Un reingreso en otro año cuenta de nuevo.</li>
       <li><b>Activos 2026:</b> casos activos al 31/10/2026, sin importar cuándo ingresaron. En Responsabilidades Compartidas y Entramados, los que no tienen fecha de cese; en Autonomía Joven, que no tiene esa columna, los que no figuran como «Baja» en Movimiento.</li>
+      <li><b>Gráficos por zona, edad y género:</b> muestran siempre activos al 31/10/2026. El selector de ingresos o año no cambia ese universo; los demás filtros mantienen su comportamiento.</li>
       <li><b>Edad:</b> en los ingresos, la cumplida en el año de ingreso (al 31/12; en 2026, al 31/10). En los activos, la cumplida al 31/10/2026.</li>
       <li><b>Barrio:</b> se unificaron las variantes de escritura. José León Suárez sin barrio cargado cuenta dentro de «Resto de San Martín». Cuando solo figura la localidad (Villa Ballester, Billinghurst, Villa Lynch, Villa Maipú, San Andrés, Villa Libertad, José León Suárez), se usa el polígono de la localidad sin los barrios que tienen polígono propio. «Barrio 9 de Julio» sin localidad queda sin precisar. Sin polígono: Tropezón, Barrio Güemes, Don Torcuato y Vicente López.</li>
       <li><b>Entramados 2026 — individuales:</b> NNoA distintos con al menos una intervención individual cargada en SIGEI entre el 01/01 y el 31/10/2026, por su barrio de residencia y su edad al 31/10/2026.</li>
@@ -1027,7 +1028,7 @@
   dash.draw('activos-sub', (el) => {
     const b = document.createElement('b');
     TB.numero(b, { ...TB.filtros(), anio: 'Activos' });
-    el.replaceChildren('Casos activos al 31/10/2026 en cada programa, sin importar el año de ingreso: ', b, ' en total. Entre paréntesis, el porcentaje de cada programa. Para ver su edad o género, elegí «Activos 2026» arriba.');
+    el.replaceChildren('Casos activos al 31/10/2026 en cada programa, sin importar el año de ingreso: ', b, ' en total. Entre paréntesis, el porcentaje de cada programa. Los gráficos por zona, edad y género también muestran siempre los activos.');
   });
 
   // ---- paneles por programa (zona, edad, género, barrio)
@@ -1067,33 +1068,33 @@
   const catsZona = () => TB.ZONAS.map((z) => ({ key: z, label: z, color: ZONA_COL[z] }));
   dash.draw('ley-zona', (el) => leyendaCats(el, 'Zona', catsZona()));
   dash.draw('g-zona', (el) => {
-    const f = TB.filtros();
-    TB.paneles(el, { programas: programasPanel(), cats: catsZona(), titulo: 'Intervenciones por zona',
+    const f = { ...TB.filtros(), anio: 'Activos' };
+    TB.paneles(el, { programas: programasPanel(), cats: catsZona(), titulo: 'Casos activos al 31/10/2026 por zona',
       valorDe: (p, c) => TB.valor({ ...f, programa: p, nivel: 'zona', territorio: c.key }),
       activa: (c) => f.nivel !== 'zona' || f.territorio === c.key, onClick: (c) => TB.alternar('terr', 'zona|' + c.key) });
   });
   dash.draw('ley-edad', (el) => leyendaCats(el, 'Edad', TB.DIMS.edad.cats));
   dash.draw('g-edad', (el) => {
-    const f = TB.filtros();
-    TB.paneles(el, { programas: programasPanel(), cats: TB.DIMS.edad.cats, titulo: 'Intervenciones por edad',
+    const f = { ...TB.filtros(), anio: 'Activos' };
+    TB.paneles(el, { programas: programasPanel(), cats: TB.DIMS.edad.cats, titulo: 'Casos activos al 31/10/2026 por edad',
       valorDe: (p, c) => TB.valor({ ...f, programa: p, edad: c.key }),
       activa: (c) => f.edad === 'Todos' || f.edad === c.key, onClick: (c) => TB.alternar('edad', c.key) });
   });
   dash.draw('ley-genero', (el) => leyendaCats(el, 'Género', TB.DIMS.genero.cats));
   dash.draw('g-genero', (el) => {
-    const f = TB.filtros();
-    TB.tortas(el, { programas: programasPanel(), cats: TB.DIMS.genero.cats, titulo: 'Intervenciones por género',
+    const f = { ...TB.filtros(), anio: 'Activos' };
+    TB.tortas(el, { programas: programasPanel(), cats: TB.DIMS.genero.cats, titulo: 'Casos activos al 31/10/2026 por género',
       valorDe: (p, c) => TB.valor({ ...f, programa: p, genero: c.key }),
       activa: (c) => f.genero === 'Todos' || f.genero === c.key, onClick: (c) => TB.alternar('genero', c.key) });
   });
   dash.draw('nota-sindato', (el) => {
     el.replaceChildren();
     if (dash.data('cubo').status !== 'ok') { el.textContent = '—'; return; }
-    const f = TB.filtros();
+    const f = { ...TB.filtros(), anio: 'Activos' };
     const o = { ...f, nivel: 'zona', territorio: 'Sin dato' };
     const b = document.createElement('b');
     TB.numero(b, o);
-    el.append('Además, ', b, ' intervenciones no tienen dato de residencia.');
+    el.append('Además, ', b, ' casos activos no tienen dato de residencia.');
   });
 
 </script>
@@ -1711,7 +1712,7 @@
 <script>
   // ---------------------------------------------------------------- descargar todos los gráficos en DOCX
   // Cada tarjeta: «Gráfico N. Título», la imagen del gráfico y el epígrafe de fuente.
-  // La tabla de espacios grupales va como cuadro de Word. Respeta los filtros elegidos.
+  // La tabla de espacios grupales va como cuadro de Word. Cada tarjeta conserva su universo.
   (function () {
     const btn = document.getElementById('f-docx');
     const msj = document.getElementById('f-docx-msj');
@@ -1730,7 +1731,34 @@
       if (f.nivel !== 'todos') partes.push((f.nivel === 'zona' ? 'zona ' : '') + f.territorio);
       if (f.genero !== 'Todos') partes.push('género ' + f.genero.toLowerCase());
       if (f.edad !== 'Todos') partes.push('edad ' + f.edad);
-      return 'Filtros aplicados: ' + partes.join(' · ') + '.';
+      return 'Selección del tablero: ' + partes.join(' · ') + '. Los gráficos de activos por programa, zona, edad y género corresponden siempre al corte del 31/10/2026. Las series de ingresos cubren 2021–2026 y la sección de Entramados, enero–octubre de 2026.';
+    }
+    function tituloDocx(card) {
+      const desag = { programa: 'programa', edad: 'grupo de edad', genero: 'género' };
+      const titulos = {
+        evolucion: `Niños/as o adolescentes ingresados según año de ingreso y ${desag[TB.dimPara('')]}. General San Martín. 2021–2026.`,
+        activos: 'Niños/as o adolescentes activos según programa. General San Martín. 2026.',
+        'por-zona': 'Niños/as o adolescentes activos según programa y zona de residencia. General San Martín. 2026.',
+        'por-edad': 'Niños/as o adolescentes activos según programa y grupo de edad. General San Martín. 2026.',
+        'por-genero': 'Niños/as o adolescentes activos según programa y género. General San Martín. 2026.',
+        'mapa-anios': 'Niños/as o adolescentes ingresados según año de ingreso y barrio o localidad de residencia. General San Martín. 2021–2026.',
+        'mapa-2026': 'Niños/as o adolescentes activos según barrio o localidad de residencia. General San Martín. 2026.',
+        'mapa-fuera': 'Niños/as o adolescentes ingresados a Responsabilidades Compartidas y Autonomía Joven según barrio o localidad de residencia fuera de las zonas de Entramados. General San Martín. 2021–2026.',
+        'entr-por-taller': 'Participantes estimados en actividades grupales de Entramados según taller, lugar y grupo de edad. General San Martín. Enero–octubre de 2026.',
+        'entr-por-tipo': 'Participantes estimados en actividades grupales de Entramados según tipo de taller y grupo de edad. General San Martín. Enero–octubre de 2026.',
+        'entr-espacios': 'Espacios grupales de Entramados según tipo de taller, lugar, barrio, encuentros realizados y participantes estimados. General San Martín. Enero–octubre de 2026.',
+        'entr-individuales': `Niños/as o adolescentes con intervención individual de Entramados según barrio de residencia y ${TB.filtros().desag === 'genero' ? 'género' : 'grupo de edad'}. General San Martín. Enero–octubre de 2026.`,
+        'entr-mapa-ind': 'Niños/as o adolescentes con intervención individual de Entramados según barrio de residencia. General San Martín. Enero–octubre de 2026.',
+        'entr-mapa-gru': 'Participantes estimados en actividades grupales de Entramados según barrio del espacio. General San Martín. Enero–octubre de 2026.',
+      };
+      return titulos[card.id] || (card.querySelector('.tb-card-head h2') || {}).textContent || '';
+    }
+    function notaDocx(card) {
+      if (card.id === 'por-zona') return card.querySelector('[data-draw="nota-sindato"]').textContent.trim() + ' Los porcentajes se calculan sobre los casos con residencia conocida de cada programa.';
+      if (['entr-por-taller', 'entr-por-tipo', 'entr-espacios', 'entr-mapa-gru'].includes(card.id)) {
+        return 'Participantes estimados por la suma de las medianas de cada franja de edad en los encuentros realizados, según el criterio de los formularios mensuales. Quien participa en más de un espacio cuenta en cada uno; no son personas únicas.';
+      }
+      return '';
     }
     function avisar(t) { msj.textContent = t; msj.hidden = !t; }
     btn.addEventListener('click', async () => {
@@ -1742,14 +1770,17 @@
           new D.Paragraph({ heading: D.HeadingLevel.HEADING_1, children: [new D.TextRun('Intervenciones con niñas, niños y adolescentes')] }),
           new D.Paragraph({ children: [new D.TextRun({ text: 'Municipio de General San Martín. Responsabilidades Compartidas, Autonomía Joven y Entramados.', color: '4B5866' })] }),
           new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: textoFiltros(), italics: true, color: '4B5866', size: 20 })] }),
+          new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: 'Cada programa se cuenta por separado: un niño/a o adolescente que está en dos programas aparece en ambos. Los totales entre programas no representan personas únicas.', italics: true, color: '4B5866', size: 20 })] }),
         ];
         let nGraf = 0, nCuadro = 0;
         const epigrafe = (card) => {
-          const f = card.querySelector('.tb-fuente');
-          return new D.Paragraph({ spacing: { before: 60, after: 320 }, children: [new D.TextRun({ text: f ? f.textContent.trim() : '', italics: true, size: 17, color: '5B6875' })] });
+          const nota = notaDocx(card);
+          const parrafos = [new D.Paragraph({ spacing: { before: 60, after: nota ? 100 : 320 }, children: [new D.TextRun({ text: 'Fuente: elaboración propia', italics: true, size: 17, color: '5B6875' })] })];
+          if (nota) parrafos.push(new D.Paragraph({ spacing: { after: 320 }, children: [new D.TextRun({ text: 'Nota: ' + nota, italics: true, size: 17, color: '5B6875' })] }));
+          return parrafos;
         };
         for (const card of document.querySelectorAll('.tb-card')) {
-          const titulo = (card.querySelector('.tb-card-head h2') || {}).textContent || '';
+          const titulo = tituloDocx(card);
           const tabla = card.querySelector('table.tb-tabla');
           if (tabla) {
             nCuadro++;
@@ -1758,7 +1789,7 @@
               children: [new D.Paragraph({ alignment: c.classList.contains('tb-num') ? D.AlignmentType.RIGHT : D.AlignmentType.LEFT,
                 children: [new D.TextRun({ text: c.textContent.trim(), bold: i === 0, size: 17 })] })] })) }));
             hijos.push(new D.Table({ width: { size: 100, type: D.WidthType.PERCENTAGE }, rows: filas }));
-            hijos.push(epigrafe(card));
+            hijos.push(...epigrafe(card));
             continue;
           }
           if (!card.querySelector('svg')) continue;
@@ -1767,8 +1798,8 @@
           let ww = Math.min(MAXW, w), hh = h * ww / w;
           if (hh > MAXH) { ww = ww * MAXH / hh; hh = MAXH; }
           hijos.push(new D.Paragraph({ keepNext: true, spacing: { after: 100 }, children: [new D.TextRun({ text: `Gráfico ${nGraf}. `, bold: true }), new D.TextRun({ text: titulo, bold: true })] }));
-          hijos.push(new D.Paragraph({ keepNext: true, alignment: D.AlignmentType.CENTER, children: [new D.ImageRun({ data: await blob.arrayBuffer(), transformation: { width: Math.round(ww), height: Math.round(hh) } })] }));
-          hijos.push(epigrafe(card));
+          hijos.push(new D.Paragraph({ keepNext: true, alignment: D.AlignmentType.CENTER, children: [new D.ImageRun({ type: 'png', data: await blob.arrayBuffer(), transformation: { width: Math.round(ww), height: Math.round(hh) } })] }));
+          hijos.push(...epigrafe(card));
         }
         const doc = new D.Document({
           styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } },
