@@ -1,8 +1,8 @@
 nivel,territorio,zona,genero,edad,nnoa,nnoa_grupal
-barrio,Barrio Granaderos,Zagala,Masculino,14-15,1,0
-barrio,Barrio Granaderos,Zagala,Masculino,Todos,1,0
-barrio,Barrio Granaderos,Zagala,Todos,14-15,1,0
-barrio,Barrio Granaderos,Zagala,Todos,Todos,1,0
+barrio,Villa Granaderos de San Martín,Zagala,Masculino,14-15,1,0
+barrio,Villa Granaderos de San Martín,Zagala,Masculino,Todos,1,0
+barrio,Villa Granaderos de San Martín,Zagala,Todos,14-15,1,0
+barrio,Villa Granaderos de San Martín,Zagala,Todos,Todos,1,0
 barrio,Barrio Güemes,Zagala,Masculino,16-17,1,1
 barrio,Barrio Güemes,Zagala,Masculino,Todos,1,1
 barrio,Barrio Güemes,Zagala,Todos,16-17,1,1
@@ -66,12 +66,12 @@ barrio,Lanzone,Suárez Sur,Masculino,14-15,1,0
 barrio,Lanzone,Suárez Sur,Masculino,Todos,1,0
 barrio,Lanzone,Suárez Sur,Todos,14-15,1,0
 barrio,Lanzone,Suárez Sur,Todos,Todos,1,0
-barrio,Libertador,Suárez Sur,Masculino,14-15,1,0
-barrio,Libertador,Suárez Sur,Masculino,16-17,1,1
-barrio,Libertador,Suárez Sur,Masculino,Todos,2,1
-barrio,Libertador,Suárez Sur,Todos,14-15,1,0
-barrio,Libertador,Suárez Sur,Todos,16-17,1,1
-barrio,Libertador,Suárez Sur,Todos,Todos,2,1
+barrio,Barrio Libertador,Suárez Sur,Masculino,14-15,1,0
+barrio,Barrio Libertador,Suárez Sur,Masculino,16-17,1,1
+barrio,Barrio Libertador,Suárez Sur,Masculino,Todos,2,1
+barrio,Barrio Libertador,Suárez Sur,Todos,14-15,1,0
+barrio,Barrio Libertador,Suárez Sur,Todos,16-17,1,1
+barrio,Barrio Libertador,Suárez Sur,Todos,Todos,2,1
 barrio,Loma Hermosa,Resto de San Martín,Femenino,14-15,1,1
 barrio,Loma Hermosa,Resto de San Martín,Femenino,Todos,1,1
 barrio,Loma Hermosa,Resto de San Martín,Todos,14-15,1,1
