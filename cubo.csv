@@ -1107,10 +1107,6 @@ Todos,2026,barrio,Loyola,Zagala,Femenino,16-17,1,1,0
 Todos,2026,barrio,Loyola,Zagala,Femenino,Todos,1,1,0
 Todos,2026,barrio,Loyola,Zagala,Todos,16-17,1,1,0
 Todos,2026,barrio,Loyola,Zagala,Todos,Todos,1,1,0
-Todos,2026,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-Todos,2026,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-Todos,2026,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-Todos,2026,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 Todos,2026,barrio,Necochea,Suárez Norte,Femenino,14-15,1,0,0
 Todos,2026,barrio,Necochea,Suárez Norte,Femenino,16-17,1,0,0
 Todos,2026,barrio,Necochea,Suárez Norte,Femenino,Todos,2,0,0
@@ -1185,8 +1181,11 @@ Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Hasta 13,1,0,0
 Todos,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,12,1,0
 Todos,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0,0
 Todos,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0,0
+Todos,2026,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,1,0,1
+Todos,2026,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,1,0,1
 Todos,2026,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,1,0,0
-Todos,2026,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,1,0,0
+Todos,2026,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,1,0,1
+Todos,2026,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,2,0,1
 Todos,2026,barrio,Villa Concepción,Zagala,Femenino,14-15,1,1,0
 Todos,2026,barrio,Villa Concepción,Zagala,Femenino,Todos,1,1,0
 Todos,2026,barrio,Villa Concepción,Zagala,Todos,14-15,1,1,0
@@ -1248,16 +1247,16 @@ Todos,2026,todos,Todos,Todos,Femenino,Hasta 13,3,1,0
 Todos,2026,todos,Todos,Todos,Femenino,Todos,33,5,2
 Todos,2026,todos,Todos,Todos,Masculino,14-15,38,6,2
 Todos,2026,todos,Todos,Todos,Masculino,16-17,61,13,2
-Todos,2026,todos,Todos,Todos,Masculino,18 o más,26,4,1
+Todos,2026,todos,Todos,Todos,Masculino,18 o más,26,4,2
 Todos,2026,todos,Todos,Todos,Masculino,Hasta 13,15,2,0
 Todos,2026,todos,Todos,Todos,Masculino,Sin dato,5,0,0
-Todos,2026,todos,Todos,Todos,Masculino,Todos,145,25,5
+Todos,2026,todos,Todos,Todos,Masculino,Todos,145,25,6
 Todos,2026,todos,Todos,Todos,Todos,14-15,51,8,4
 Todos,2026,todos,Todos,Todos,Todos,16-17,76,15,2
-Todos,2026,todos,Todos,Todos,Todos,18 o más,28,4,1
+Todos,2026,todos,Todos,Todos,Todos,18 o más,28,4,2
 Todos,2026,todos,Todos,Todos,Todos,Hasta 13,18,3,0
 Todos,2026,todos,Todos,Todos,Todos,Sin dato,5,0,0
-Todos,2026,todos,Todos,Todos,Todos,Todos,178,30,7
+Todos,2026,todos,Todos,Todos,Todos,Todos,178,30,8
 Todos,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,2,0,0
 Todos,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,2,0,0
 Todos,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,2,0,0
@@ -1269,16 +1268,16 @@ Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1,0,
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,14,0,1
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,7,2,2
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,17,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,11,0,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,11,0,1
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,3,0,0
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,39,3,2
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,39,3,3
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,12,2,3
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,24,1,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,12,0,0
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,12,0,1
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,4,0,0
 Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0,0
-Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,53,3,3
+Todos,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,53,3,4
 Todos,2026,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0,0
 Todos,2026,zona,Sin dato,Sin dato,Femenino,Todos,1,0,0
 Todos,2026,zona,Sin dato,Sin dato,Masculino,14-15,6,0,0
@@ -1456,10 +1455,6 @@ Todos,Activos,barrio,Loyola,Zagala,Masculino,Todos,1,0,0
 Todos,Activos,barrio,Loyola,Zagala,Todos,16-17,1,1,0
 Todos,Activos,barrio,Loyola,Zagala,Todos,18 o más,1,0,0
 Todos,Activos,barrio,Loyola,Zagala,Todos,Todos,2,1,0
-Todos,Activos,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-Todos,Activos,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-Todos,Activos,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-Todos,Activos,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 Todos,Activos,barrio,Necochea,Suárez Norte,Femenino,14-15,1,0,0
 Todos,Activos,barrio,Necochea,Suárez Norte,Femenino,16-17,1,0,0
 Todos,Activos,barrio,Necochea,Suárez Norte,Femenino,Todos,2,0,0
@@ -1541,8 +1536,11 @@ Todos,Activos,barrio,Villa Ballester,Resto de San Martín,Todos,Hasta 13,1,0,0
 Todos,Activos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,37,1,0
 Todos,Activos,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0,0
 Todos,Activos,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0,0
+Todos,Activos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,1,0,1
+Todos,Activos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,1,0,1
 Todos,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,1,0,0
-Todos,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,1,0,0
+Todos,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,1,0,1
+Todos,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,2,0,1
 Todos,Activos,barrio,Villa Concepción,Zagala,Femenino,14-15,1,1,0
 Todos,Activos,barrio,Villa Concepción,Zagala,Femenino,Todos,1,1,0
 Todos,Activos,barrio,Villa Concepción,Zagala,Todos,14-15,1,1,0
@@ -1605,18 +1603,18 @@ Todos,Activos,todos,Todos,Todos,Femenino,Hasta 13,2,1,0
 Todos,Activos,todos,Todos,Todos,Femenino,Todos,67,5,2
 Todos,Activos,todos,Todos,Todos,Masculino,14-15,27,5,2
 Todos,Activos,todos,Todos,Todos,Masculino,16-17,58,12,2
-Todos,Activos,todos,Todos,Todos,Masculino,18 o más,77,4,1
+Todos,Activos,todos,Todos,Todos,Masculino,18 o más,77,4,2
 Todos,Activos,todos,Todos,Todos,Masculino,Hasta 13,13,2,0
 Todos,Activos,todos,Todos,Todos,Masculino,Sin dato,2,0,0
-Todos,Activos,todos,Todos,Todos,Masculino,Todos,177,23,5
+Todos,Activos,todos,Todos,Todos,Masculino,Todos,177,23,6
 Todos,Activos,todos,Todos,Todos,Sin dato,18 o más,1,0,0
 Todos,Activos,todos,Todos,Todos,Sin dato,Todos,1,0,0
 Todos,Activos,todos,Todos,Todos,Todos,14-15,41,7,4
 Todos,Activos,todos,Todos,Todos,Todos,16-17,78,14,2
-Todos,Activos,todos,Todos,Todos,Todos,18 o más,109,4,1
+Todos,Activos,todos,Todos,Todos,Todos,18 o más,109,4,2
 Todos,Activos,todos,Todos,Todos,Todos,Hasta 13,15,3,0
 Todos,Activos,todos,Todos,Todos,Todos,Sin dato,2,0,0
-Todos,Activos,todos,Todos,Todos,Todos,Todos,245,28,7
+Todos,Activos,todos,Todos,Todos,Todos,Todos,245,28,8
 Todos,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1,0,0
 Todos,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0,0
 Todos,Activos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0,0
@@ -1628,14 +1626,14 @@ Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,1
 Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,44,0,1
 Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,7,2,2
 Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,20,1,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,22,0,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,22,0,1
 Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,2,0,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,51,3,2
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,51,3,3
 Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,13,2,3
 Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,32,1,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,47,0,0
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,47,0,1
 Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,3,0,0
-Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,95,3,3
+Todos,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,95,3,4
 Todos,Activos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0,0
 Todos,Activos,zona,Sin dato,Sin dato,Femenino,Todos,1,0,0
 Todos,Activos,zona,Sin dato,Sin dato,Masculino,16-17,7,0,0
@@ -1875,10 +1873,6 @@ Todos,Todos,barrio,Loyola,Zagala,Todos,14-15,1,0,0
 Todos,Todos,barrio,Loyola,Zagala,Todos,16-17,2,1,0
 Todos,Todos,barrio,Loyola,Zagala,Todos,18 o más,2,0,0
 Todos,Todos,barrio,Loyola,Zagala,Todos,Todos,5,1,0
-Todos,Todos,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-Todos,Todos,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-Todos,Todos,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-Todos,Todos,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 Todos,Todos,barrio,Moreno,Fuera de San Martín,Masculino,18 o más,1,0,0
 Todos,Todos,barrio,Moreno,Fuera de San Martín,Masculino,Todos,1,0,0
 Todos,Todos,barrio,Moreno,Fuera de San Martín,Todos,18 o más,1,0,0
@@ -1993,12 +1987,12 @@ Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0,0
 Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0,0
 Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,14-15,1,0,0
 Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,16-17,1,0,0
-Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,2,0,0
-Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,4,0,0
+Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,3,0,1
+Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,5,0,1
 Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,2,0,0
 Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,16-17,1,0,0
-Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,2,0,0
-Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,5,0,0
+Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,3,0,1
+Todos,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,6,0,1
 Todos,Todos,barrio,Villa Concepción,Zagala,Femenino,14-15,1,1,0
 Todos,Todos,barrio,Villa Concepción,Zagala,Femenino,Todos,1,1,0
 Todos,Todos,barrio,Villa Concepción,Zagala,Masculino,14-15,1,0,0
@@ -2088,18 +2082,18 @@ Todos,Todos,todos,Todos,Todos,Femenino,Sin dato,4,0,0
 Todos,Todos,todos,Todos,Todos,Femenino,Todos,101,5,2
 Todos,Todos,todos,Todos,Todos,Masculino,14-15,106,11,2
 Todos,Todos,todos,Todos,Todos,Masculino,16-17,165,13,2
-Todos,Todos,todos,Todos,Todos,Masculino,18 o más,102,4,1
+Todos,Todos,todos,Todos,Todos,Masculino,18 o más,102,4,2
 Todos,Todos,todos,Todos,Todos,Masculino,Hasta 13,26,2,0
 Todos,Todos,todos,Todos,Todos,Masculino,Sin dato,21,0,0
-Todos,Todos,todos,Todos,Todos,Masculino,Todos,420,30,5
+Todos,Todos,todos,Todos,Todos,Masculino,Todos,420,30,6
 Todos,Todos,todos,Todos,Todos,Sin dato,16-17,2,0,0
 Todos,Todos,todos,Todos,Todos,Sin dato,Todos,2,0,0
 Todos,Todos,todos,Todos,Todos,Todos,14-15,133,13,4
 Todos,Todos,todos,Todos,Todos,Todos,16-17,211,15,2
-Todos,Todos,todos,Todos,Todos,Todos,18 o más,123,4,1
+Todos,Todos,todos,Todos,Todos,Todos,18 o más,123,4,2
 Todos,Todos,todos,Todos,Todos,Todos,Hasta 13,31,3,0
 Todos,Todos,todos,Todos,Todos,Todos,Sin dato,25,0,0
-Todos,Todos,todos,Todos,Todos,Todos,Todos,523,35,7
+Todos,Todos,todos,Todos,Todos,Todos,Todos,523,35,8
 Todos,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,2,0,0
 Todos,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,18 o más,2,0,0
 Todos,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,4,0,0
@@ -2113,18 +2107,18 @@ Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13,2,0
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,64,0,1
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,33,4,2
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,64,1,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,50,0,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,50,0,1
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,5,0,0
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,158,5,2
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,158,5,3
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0,0
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0,0
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,50,4,3
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,95,1,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,65,0,0
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,65,0,1
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,7,0,0
 Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0,0
-Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,223,5,3
+Todos,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,223,5,4
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,14-15,2,0,0
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,2,0,0
 Todos,Todos,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0,0
@@ -4161,10 +4155,6 @@ AUTONOMIA,2026,barrio,La Rana,Zagala,Masculino,18 o más,1,0,0
 AUTONOMIA,2026,barrio,La Rana,Zagala,Masculino,Todos,1,0,0
 AUTONOMIA,2026,barrio,La Rana,Zagala,Todos,18 o más,1,0,0
 AUTONOMIA,2026,barrio,La Rana,Zagala,Todos,Todos,1,0,0
-AUTONOMIA,2026,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-AUTONOMIA,2026,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-AUTONOMIA,2026,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-AUTONOMIA,2026,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 AUTONOMIA,2026,barrio,San Martín (sin barrio),Resto de San Martín,Masculino,18 o más,1,0,0
 AUTONOMIA,2026,barrio,San Martín (sin barrio),Resto de San Martín,Masculino,Todos,1,0,0
 AUTONOMIA,2026,barrio,San Martín (sin barrio),Resto de San Martín,Todos,18 o más,1,0,0
@@ -4176,6 +4166,10 @@ AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Masculino,Todos,1,0,0
 AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,2,0,0
 AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,1,0,0
 AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,3,0,0
+AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,1,0,1
+AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,1,0,1
+AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,1,0,1
+AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,1,0,1
 AUTONOMIA,2026,barrio,Villa Lynch,Resto de San Martín,Masculino,18 o más,1,0,0
 AUTONOMIA,2026,barrio,Villa Lynch,Resto de San Martín,Masculino,Todos,1,0,0
 AUTONOMIA,2026,barrio,Villa Lynch,Resto de San Martín,Todos,18 o más,1,0,0
@@ -4188,20 +4182,20 @@ AUTONOMIA,2026,todos,Todos,Todos,Femenino,16-17,2,0,0
 AUTONOMIA,2026,todos,Todos,Todos,Femenino,18 o más,1,0,0
 AUTONOMIA,2026,todos,Todos,Todos,Femenino,Todos,3,0,0
 AUTONOMIA,2026,todos,Todos,Todos,Masculino,16-17,3,0,0
-AUTONOMIA,2026,todos,Todos,Todos,Masculino,18 o más,11,0,0
-AUTONOMIA,2026,todos,Todos,Todos,Masculino,Todos,14,0,0
+AUTONOMIA,2026,todos,Todos,Todos,Masculino,18 o más,11,0,1
+AUTONOMIA,2026,todos,Todos,Todos,Masculino,Todos,14,0,1
 AUTONOMIA,2026,todos,Todos,Todos,Todos,16-17,5,0,0
-AUTONOMIA,2026,todos,Todos,Todos,Todos,18 o más,12,0,0
-AUTONOMIA,2026,todos,Todos,Todos,Todos,Todos,17,0,0
+AUTONOMIA,2026,todos,Todos,Todos,Todos,18 o más,12,0,1
+AUTONOMIA,2026,todos,Todos,Todos,Todos,Todos,17,0,1
 AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,2,0,0
 AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,1,0,0
 AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,3,0,0
 AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,1,0,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,8,0,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,7,0,1
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,8,0,1
 AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,3,0,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,8,0,0
-AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,11,0,0
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,8,0,1
+AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,11,0,1
 AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,2,0,0
 AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Masculino,Todos,2,0,0
 AUTONOMIA,2026,zona,Suárez Norte,Suárez Norte,Todos,18 o más,2,0,0
@@ -4266,10 +4260,6 @@ AUTONOMIA,Activos,barrio,Loyola,Zagala,Masculino,18 o más,1,0,0
 AUTONOMIA,Activos,barrio,Loyola,Zagala,Masculino,Todos,1,0,0
 AUTONOMIA,Activos,barrio,Loyola,Zagala,Todos,18 o más,1,0,0
 AUTONOMIA,Activos,barrio,Loyola,Zagala,Todos,Todos,1,0,0
-AUTONOMIA,Activos,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-AUTONOMIA,Activos,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-AUTONOMIA,Activos,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-AUTONOMIA,Activos,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 AUTONOMIA,Activos,barrio,San Andrés,Resto de San Martín,Femenino,16-17,1,0,0
 AUTONOMIA,Activos,barrio,San Andrés,Resto de San Martín,Femenino,Todos,1,0,0
 AUTONOMIA,Activos,barrio,San Andrés,Resto de San Martín,Masculino,16-17,1,0,0
@@ -4294,6 +4284,10 @@ AUTONOMIA,Activos,barrio,Villa Ballester,Resto de San Martín,Todos,14-15,2,0,0
 AUTONOMIA,Activos,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,8,0,0
 AUTONOMIA,Activos,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,19,0,0
 AUTONOMIA,Activos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,29,0,0
+AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,1,0,1
+AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,1,0,1
+AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,1,0,1
+AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,1,0,1
 AUTONOMIA,Activos,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0,0
 AUTONOMIA,Activos,barrio,Villa Hidalgo,Suárez Norte,Masculino,Todos,1,0,0
 AUTONOMIA,Activos,barrio,Villa Hidalgo,Suárez Norte,Todos,18 o más,1,0,0
@@ -4322,26 +4316,26 @@ AUTONOMIA,Activos,todos,Todos,Todos,Femenino,18 o más,29,0,0
 AUTONOMIA,Activos,todos,Todos,Todos,Femenino,Todos,40,0,0
 AUTONOMIA,Activos,todos,Todos,Todos,Masculino,14-15,1,0,0
 AUTONOMIA,Activos,todos,Todos,Todos,Masculino,16-17,5,0,0
-AUTONOMIA,Activos,todos,Todos,Todos,Masculino,18 o más,33,0,0
-AUTONOMIA,Activos,todos,Todos,Todos,Masculino,Todos,39,0,0
+AUTONOMIA,Activos,todos,Todos,Todos,Masculino,18 o más,33,0,1
+AUTONOMIA,Activos,todos,Todos,Todos,Masculino,Todos,39,0,1
 AUTONOMIA,Activos,todos,Todos,Todos,Sin dato,18 o más,1,0,0
 AUTONOMIA,Activos,todos,Todos,Todos,Sin dato,Todos,1,0,0
 AUTONOMIA,Activos,todos,Todos,Todos,Todos,14-15,3,0,0
 AUTONOMIA,Activos,todos,Todos,Todos,Todos,16-17,14,0,0
-AUTONOMIA,Activos,todos,Todos,Todos,Todos,18 o más,63,0,0
-AUTONOMIA,Activos,todos,Todos,Todos,Todos,Todos,80,0,0
+AUTONOMIA,Activos,todos,Todos,Todos,Todos,18 o más,63,0,1
+AUTONOMIA,Activos,todos,Todos,Todos,Todos,Todos,80,0,1
 AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,14-15,2,0,0
 AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,16-17,9,0,0
 AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,18 o más,25,0,0
 AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,36,0,0
 AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,1,0,0
 AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,3,0,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,20,0,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,24,0,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,20,0,1
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,24,0,1
 AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,3,0,0
 AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,12,0,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,45,0,0
-AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,60,0,0
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,45,0,1
+AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,60,0,1
 AUTONOMIA,Activos,zona,Suárez Norte,Suárez Norte,Masculino,18 o más,5,0,0
 AUTONOMIA,Activos,zona,Suárez Norte,Suárez Norte,Masculino,Todos,5,0,0
 AUTONOMIA,Activos,zona,Suárez Norte,Suárez Norte,Todos,18 o más,5,0,0
@@ -4435,10 +4429,6 @@ AUTONOMIA,Todos,barrio,Loyola,Zagala,Masculino,18 o más,2,0,0
 AUTONOMIA,Todos,barrio,Loyola,Zagala,Masculino,Todos,2,0,0
 AUTONOMIA,Todos,barrio,Loyola,Zagala,Todos,18 o más,2,0,0
 AUTONOMIA,Todos,barrio,Loyola,Zagala,Todos,Todos,2,0,0
-AUTONOMIA,Todos,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-AUTONOMIA,Todos,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-AUTONOMIA,Todos,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-AUTONOMIA,Todos,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 AUTONOMIA,Todos,barrio,Moreno,Fuera de San Martín,Masculino,18 o más,1,0,0
 AUTONOMIA,Todos,barrio,Moreno,Fuera de San Martín,Masculino,Todos,1,0,0
 AUTONOMIA,Todos,barrio,Moreno,Fuera de San Martín,Todos,18 o más,1,0,0
@@ -4487,10 +4477,10 @@ AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,16-17,15,0,0
 AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más,9,0,0
 AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Hasta 13,1,0,0
 AUTONOMIA,Todos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,32,0,0
-AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,2,0,0
-AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,2,0,0
-AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,2,0,0
-AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,2,0,0
+AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,3,0,1
+AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,3,0,1
+AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,3,0,1
+AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,3,0,1
 AUTONOMIA,Todos,barrio,Villa Corea,Suárez Norte,Femenino,18 o más,1,0,0
 AUTONOMIA,Todos,barrio,Villa Corea,Suárez Norte,Femenino,Todos,1,0,0
 AUTONOMIA,Todos,barrio,Villa Corea,Suárez Norte,Todos,18 o más,1,0,0
@@ -4532,16 +4522,16 @@ AUTONOMIA,Todos,todos,Todos,Todos,Femenino,Hasta 13,1,0,0
 AUTONOMIA,Todos,todos,Todos,Todos,Femenino,Todos,51,0,0
 AUTONOMIA,Todos,todos,Todos,Todos,Masculino,14-15,3,0,0
 AUTONOMIA,Todos,todos,Todos,Todos,Masculino,16-17,12,0,0
-AUTONOMIA,Todos,todos,Todos,Todos,Masculino,18 o más,65,0,0
+AUTONOMIA,Todos,todos,Todos,Todos,Masculino,18 o más,65,0,1
 AUTONOMIA,Todos,todos,Todos,Todos,Masculino,Hasta 13,1,0,0
-AUTONOMIA,Todos,todos,Todos,Todos,Masculino,Todos,81,0,0
+AUTONOMIA,Todos,todos,Todos,Todos,Masculino,Todos,81,0,1
 AUTONOMIA,Todos,todos,Todos,Todos,Sin dato,16-17,2,0,0
 AUTONOMIA,Todos,todos,Todos,Todos,Sin dato,Todos,2,0,0
 AUTONOMIA,Todos,todos,Todos,Todos,Todos,14-15,11,0,0
 AUTONOMIA,Todos,todos,Todos,Todos,Todos,16-17,37,0,0
-AUTONOMIA,Todos,todos,Todos,Todos,Todos,18 o más,84,0,0
+AUTONOMIA,Todos,todos,Todos,Todos,Todos,18 o más,84,0,1
 AUTONOMIA,Todos,todos,Todos,Todos,Todos,Hasta 13,2,0,0
-AUTONOMIA,Todos,todos,Todos,Todos,Todos,Todos,134,0,0
+AUTONOMIA,Todos,todos,Todos,Todos,Todos,Todos,134,0,1
 AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,18 o más,2,0,0
 AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,2,0,0
 AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Todos,18 o más,2,0,0
@@ -4553,16 +4543,16 @@ AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Hasta 13
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,45,0,0
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,3,0,0
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,9,0,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,36,0,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,36,0,1
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,49,0,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,49,0,1
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0,0
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0,0
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,11,0,0
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,31,0,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,51,0,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,51,0,1
 AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,2,0,0
-AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,95,0,0
+AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,95,0,1
 AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0,0
 AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,Todos,1,0,0
 AUTONOMIA,Todos,zona,Sin dato,Sin dato,Todos,18 o más,1,0,0
@@ -6361,10 +6351,6 @@ RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Masculino,Todos,2,
 RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,16-17,2,0,0
 RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,18 o más,1,0,0
 RESPO_AUTONOMIA,2026,barrio,Loma Hermosa,Resto de San Martín,Todos,Todos,3,0,0
-RESPO_AUTONOMIA,2026,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-RESPO_AUTONOMIA,2026,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-RESPO_AUTONOMIA,2026,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-RESPO_AUTONOMIA,2026,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 RESPO_AUTONOMIA,2026,barrio,Nueve de Julio,Suárez Sur,Femenino,14-15,1,0,1
 RESPO_AUTONOMIA,2026,barrio,Nueve de Julio,Suárez Sur,Femenino,Todos,1,0,1
 RESPO_AUTONOMIA,2026,barrio,Nueve de Julio,Suárez Sur,Todos,14-15,1,0,1
@@ -6405,8 +6391,11 @@ RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,18 o más
 RESPO_AUTONOMIA,2026,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,8,0,0
 RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0,0
 RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0,0
+RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,1,0,1
+RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,1,0,1
 RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,1,0,0
-RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,1,0,0
+RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,1,0,1
+RESPO_AUTONOMIA,2026,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,2,0,1
 RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,2,0,0
 RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,2,0,0
 RESPO_AUTONOMIA,2026,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0,0
@@ -6446,16 +6435,16 @@ RESPO_AUTONOMIA,2026,todos,Todos,Todos,Femenino,Hasta 13,1,0,0
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Femenino,Todos,10,0,1
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Masculino,14-15,17,2,1
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Masculino,16-17,40,2,1
-RESPO_AUTONOMIA,2026,todos,Todos,Todos,Masculino,18 o más,21,1,1
+RESPO_AUTONOMIA,2026,todos,Todos,Todos,Masculino,18 o más,21,1,2
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Masculino,Hasta 13,4,0,0
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Masculino,Sin dato,4,0,0
-RESPO_AUTONOMIA,2026,todos,Todos,Todos,Masculino,Todos,86,5,3
+RESPO_AUTONOMIA,2026,todos,Todos,Todos,Masculino,Todos,86,5,4
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Todos,14-15,19,2,2
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Todos,16-17,46,2,1
-RESPO_AUTONOMIA,2026,todos,Todos,Todos,Todos,18 o más,22,1,1
+RESPO_AUTONOMIA,2026,todos,Todos,Todos,Todos,18 o más,22,1,2
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Todos,Hasta 13,5,0,0
 RESPO_AUTONOMIA,2026,todos,Todos,Todos,Todos,Sin dato,4,0,0
-RESPO_AUTONOMIA,2026,todos,Todos,Todos,Todos,Todos,96,5,4
+RESPO_AUTONOMIA,2026,todos,Todos,Todos,Todos,Todos,96,5,5
 RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1,0,0
 RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0,0
 RESPO_AUTONOMIA,2026,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0,0
@@ -6466,16 +6455,16 @@ RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,18 
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,6,0,0
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,4,1,1
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,14,0,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,11,0,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,11,0,1
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,1,0,0
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,1,0,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,31,1,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,31,1,2
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,5,1,1
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,18,0,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,12,0,0
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,12,0,1
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,1,0,0
 RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,1,0,0
-RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,37,1,1
+RESPO_AUTONOMIA,2026,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,37,1,2
 RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0,0
 RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Femenino,Todos,1,0,0
 RESPO_AUTONOMIA,2026,zona,Sin dato,Sin dato,Masculino,14-15,6,0,0
@@ -6602,10 +6591,6 @@ RESPO_AUTONOMIA,Activos,barrio,Loyola,Zagala,Masculino,18 o más,1,0,0
 RESPO_AUTONOMIA,Activos,barrio,Loyola,Zagala,Masculino,Todos,1,0,0
 RESPO_AUTONOMIA,Activos,barrio,Loyola,Zagala,Todos,18 o más,1,0,0
 RESPO_AUTONOMIA,Activos,barrio,Loyola,Zagala,Todos,Todos,1,0,0
-RESPO_AUTONOMIA,Activos,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-RESPO_AUTONOMIA,Activos,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-RESPO_AUTONOMIA,Activos,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-RESPO_AUTONOMIA,Activos,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 RESPO_AUTONOMIA,Activos,barrio,Nueve de Julio,Suárez Sur,Femenino,14-15,1,0,1
 RESPO_AUTONOMIA,Activos,barrio,Nueve de Julio,Suárez Sur,Femenino,Todos,1,0,1
 RESPO_AUTONOMIA,Activos,barrio,Nueve de Julio,Suárez Sur,Todos,14-15,1,0,1
@@ -6653,8 +6638,11 @@ RESPO_AUTONOMIA,Activos,barrio,Villa Ballester,Resto de San Martín,Todos,18 o m
 RESPO_AUTONOMIA,Activos,barrio,Villa Ballester,Resto de San Martín,Todos,Todos,34,0,0
 RESPO_AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,0,0
 RESPO_AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0,0
+RESPO_AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,1,0,1
+RESPO_AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,1,0,1
 RESPO_AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,1,0,0
-RESPO_AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,1,0,0
+RESPO_AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,1,0,1
+RESPO_AUTONOMIA,Activos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,2,0,1
 RESPO_AUTONOMIA,Activos,barrio,Villa Hidalgo,Suárez Norte,Masculino,14-15,1,0,0
 RESPO_AUTONOMIA,Activos,barrio,Villa Hidalgo,Suárez Norte,Masculino,16-17,2,0,0
 RESPO_AUTONOMIA,Activos,barrio,Villa Hidalgo,Suárez Norte,Masculino,18 o más,1,0,0
@@ -6695,18 +6683,18 @@ RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Femenino,18 o más,30,0,0
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Femenino,Todos,47,0,1
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Masculino,14-15,10,1,1
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Masculino,16-17,39,1,1
-RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Masculino,18 o más,72,1,1
+RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Masculino,18 o más,72,1,2
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Masculino,Hasta 13,2,0,0
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Masculino,Sin dato,1,0,0
-RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Masculino,Todos,124,3,3
+RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Masculino,Todos,124,3,4
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Sin dato,18 o más,1,0,0
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Sin dato,Todos,1,0,0
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Todos,14-15,14,1,2
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Todos,16-17,52,1,1
-RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Todos,18 o más,103,1,1
+RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Todos,18 o más,103,1,2
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Todos,Hasta 13,2,0,0
 RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Todos,Sin dato,1,0,0
-RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Todos,Todos,172,3,4
+RESPO_AUTONOMIA,Activos,todos,Todos,Todos,Todos,Todos,172,3,5
 RESPO_AUTONOMIA,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1,0,0
 RESPO_AUTONOMIA,Activos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,1,0,0
 RESPO_AUTONOMIA,Activos,zona,Fuera de San Martín,Fuera de San Martín,Todos,16-17,1,0,0
@@ -6717,12 +6705,12 @@ RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,
 RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,39,0,0
 RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,4,1,1
 RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,17,0,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,22,0,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,43,1,1
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,22,0,1
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,43,1,2
 RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,7,1,1
 RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,28,0,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,47,0,0
-RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,82,1,1
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,47,0,1
+RESPO_AUTONOMIA,Activos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,82,1,2
 RESPO_AUTONOMIA,Activos,zona,Sin dato,Sin dato,Femenino,18 o más,1,0,0
 RESPO_AUTONOMIA,Activos,zona,Sin dato,Sin dato,Femenino,Todos,1,0,0
 RESPO_AUTONOMIA,Activos,zona,Sin dato,Sin dato,Masculino,16-17,7,0,0
@@ -6923,10 +6911,6 @@ RESPO_AUTONOMIA,Todos,barrio,Loyola,Zagala,Todos,14-15,1,0,0
 RESPO_AUTONOMIA,Todos,barrio,Loyola,Zagala,Todos,16-17,1,0,0
 RESPO_AUTONOMIA,Todos,barrio,Loyola,Zagala,Todos,18 o más,2,0,0
 RESPO_AUTONOMIA,Todos,barrio,Loyola,Zagala,Todos,Todos,4,0,0
-RESPO_AUTONOMIA,Todos,barrio,Maestro Daso,Resto de San Martín,Masculino,18 o más,1,0,0
-RESPO_AUTONOMIA,Todos,barrio,Maestro Daso,Resto de San Martín,Masculino,Todos,1,0,0
-RESPO_AUTONOMIA,Todos,barrio,Maestro Daso,Resto de San Martín,Todos,18 o más,1,0,0
-RESPO_AUTONOMIA,Todos,barrio,Maestro Daso,Resto de San Martín,Todos,Todos,1,0,0
 RESPO_AUTONOMIA,Todos,barrio,Moreno,Fuera de San Martín,Masculino,18 o más,1,0,0
 RESPO_AUTONOMIA,Todos,barrio,Moreno,Fuera de San Martín,Masculino,Todos,1,0,0
 RESPO_AUTONOMIA,Todos,barrio,Moreno,Fuera de San Martín,Todos,18 o más,1,0,0
@@ -7014,12 +6998,12 @@ RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,14-15,1,
 RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Femenino,Todos,1,0,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,14-15,1,0,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,16-17,1,0,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,2,0,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,4,0,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,18 o más,3,0,1
+RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Masculino,Todos,5,0,1
 RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,14-15,2,0,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,16-17,1,0,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,2,0,0
-RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,5,0,0
+RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,18 o más,3,0,1
+RESPO_AUTONOMIA,Todos,barrio,Villa Bonich,Resto de San Martín,Todos,Todos,6,0,1
 RESPO_AUTONOMIA,Todos,barrio,Villa Concepción,Zagala,Masculino,14-15,1,0,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Concepción,Zagala,Masculino,16-17,2,0,0
 RESPO_AUTONOMIA,Todos,barrio,Villa Concepción,Zagala,Masculino,Todos,3,0,0
@@ -7094,18 +7078,18 @@ RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Femenino,Sin dato,4,0,0
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Femenino,Todos,78,0,1
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Masculino,14-15,85,7,1
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Masculino,16-17,144,2,1
-RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Masculino,18 o más,97,1,1
+RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Masculino,18 o más,97,1,2
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Masculino,Hasta 13,15,0,0
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Masculino,Sin dato,20,0,0
-RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Masculino,Todos,361,10,3
+RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Masculino,Todos,361,10,4
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Sin dato,16-17,2,0,0
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Sin dato,Todos,2,0,0
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Todos,14-15,101,7,2
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Todos,16-17,181,2,1
-RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Todos,18 o más,117,1,1
+RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Todos,18 o más,117,1,2
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Todos,Hasta 13,18,0,0
 RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Todos,Sin dato,24,0,0
-RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Todos,Todos,441,10,4
+RESPO_AUTONOMIA,Todos,todos,Todos,Todos,Todos,Todos,441,10,5
 RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,16-17,1,0,0
 RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,18 o más,2,0,0
 RESPO_AUTONOMIA,Todos,zona,Fuera de San Martín,Fuera de San Martín,Masculino,Todos,3,0,0
@@ -7119,18 +7103,18 @@ RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Ha
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Femenino,Todos,56,0,0
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,14-15,30,3,1
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,16-17,61,0,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,50,0,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,18 o más,50,0,1
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Hasta 13,3,0,0
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Sin dato,6,0,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,150,3,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Masculino,Todos,150,3,2
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,16-17,1,0,0
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Sin dato,Todos,1,0,0
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,14-15,43,3,1
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,16-17,89,0,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,65,0,0
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,18 o más,65,0,1
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Hasta 13,4,0,0
 RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Sin dato,6,0,0
-RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,207,3,1
+RESPO_AUTONOMIA,Todos,zona,Resto de San Martín,Resto de San Martín,Todos,Todos,207,3,2
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,14-15,2,0,0
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,18 o más,2,0,0
 RESPO_AUTONOMIA,Todos,zona,Sin dato,Sin dato,Femenino,Hasta 13,1,0,0
