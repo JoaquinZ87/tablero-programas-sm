@@ -1710,7 +1710,7 @@
       for (let n = camino.nextNode(); n; n = camino.nextNode()) {
         const padre = n.parentElement;
         if (!n.textContent.trim() || !padre || padre.closest('svg, .tb-acciones, .tb-tip, option, select')) continue;
-        if (soloGrafico && padre.closest('.tb-card-head, .tb-pie')) continue;
+        if (soloGrafico && padre.closest('.tb-card-head, .tb-pie, .tb-nota')) continue;
         const cs = getComputedStyle(padre);
         if (cs.visibility === 'hidden' || padre.closest('[hidden]')) continue;
         const rg = document.createRange(); rg.selectNodeContents(n);
@@ -1814,25 +1814,40 @@
       btn.disabled = true; avisar('Armando el documento…');
       try {
         const D = await libreria();
-        const MAXW = 640, MAXH = 820;
+        // A4 con márgenes normales de Word (2,54 cm): 9026 DXA útiles.
+        const ANCHO = 9026, MAXW = Math.floor(ANCHO / 15), MAXH = 760;
+        const formatoTexto = { font: 'Times New Roman', size: 24 };
+        const formatoParrafo = { alignment: D.AlignmentType.JUSTIFIED, spacing: { line: 360, lineRule: D.LineRuleType.AUTO } };
+        const formatoNota = { font: 'Times New Roman', size: 20 };
+        const parrafoNota = { alignment: D.AlignmentType.JUSTIFIED, spacing: { before: 0, after: 0, line: 240, lineRule: D.LineRuleType.AUTO } };
         const hijos = [
           new D.Paragraph({ heading: D.HeadingLevel.HEADING_1, children: [new D.TextRun('Intervenciones con niñas, niños y adolescentes')] }),
           new D.Paragraph({ children: [new D.TextRun({ text: 'Municipio de General San Martín. Responsabilidades Compartidas, Autonomía Joven y Entramados.', color: '4B5866' })] }),
-          new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: textoFiltros(), italics: true, color: '4B5866', size: 20 })] }),
-          new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: 'Cada programa se cuenta por separado: un niño/a o adolescente que está en dos programas aparece en ambos. Los totales entre programas no representan personas únicas.', italics: true, color: '4B5866', size: 20 })] }),
+          new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: textoFiltros(), italics: true, color: '4B5866' })] }),
+          new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: 'Cada programa se cuenta por separado: un niño/a o adolescente que está en dos programas aparece en ambos. Los totales entre programas no representan personas únicas.', italics: true, color: '4B5866' })] }),
         ];
         let nGraf = 0, nCuadro = 0;
+        const notas = {}, notasIncluidas = new Set();
         const epigrafe = (card) => {
-          const nota = notaDocx(card);
-          const parrafos = [new D.Paragraph({ spacing: { before: 60, after: nota ? 100 : 320 }, children: [new D.TextRun({ text: 'Fuente: elaboración propia', italics: true, size: 17, color: '5B6875' })] })];
-          if (nota) parrafos.push(new D.Paragraph({ spacing: { after: 320 }, children: [new D.TextRun({ text: 'Nota: ' + nota, italics: true, size: 17, color: '5B6875' })] }));
-          return parrafos;
+          const runs = [new D.TextRun({ text: 'Fuente:', bold: true }), new D.TextRun(' elaboración propia')];
+          const textos = [notaDocx(card), ...[...card.querySelectorAll('.tb-nota:not([data-draw="nota-sindato"])')].map((el) => el.textContent)];
+          // Una nota nativa al pie, solo en la primera tarjeta que usa ese texto.
+          for (const texto of textos) {
+            const nota = texto.replace(/\s+/g, ' ').trim();
+            if (!nota || notasIncluidas.has(nota)) continue;
+            const id = notasIncluidas.size + 1;
+            notasIncluidas.add(nota);
+            notas[id] = { children: [new D.Paragraph({ style: 'FootnoteText', ...parrafoNota, children: [new D.TextRun({ text: ' ' + nota, ...formatoNota })] })] };
+            if (runs.length > 2) runs.push(new D.TextRun({ text: ', ', superScript: true }));
+            runs.push(new D.FootnoteReferenceRun(id));
+          }
+          return [new D.Paragraph({ spacing: { before: 60, after: 320 }, children: runs })];
         };
         for (const card of document.querySelectorAll('#indicadores > .tb-kpi, .tb-card')) {
           const titulo = tituloDocx(card);
           if (card.id === 'kpi-grupal') {
             hijos.push(new D.Paragraph({ keepNext: true, spacing: { after: 100 }, children: [new D.TextRun({ text: 'Indicador. ' + titulo, bold: true })] }));
-            hijos.push(new D.Paragraph({ keepNext: true, children: [new D.TextRun({ text: card.querySelector('[data-draw="kpi-grupal"]').textContent.trim(), bold: true, size: 36 }), new D.TextRun(' intervenciones con participación adicional en talleres de Entramados.')] }));
+            hijos.push(new D.Paragraph({ keepNext: true, children: [new D.TextRun({ text: card.querySelector('[data-draw="kpi-grupal"]').textContent.trim(), bold: true }), new D.TextRun(' intervenciones con participación adicional en talleres de Entramados.')] }));
             hijos.push(...epigrafe(card));
             continue;
           }
@@ -1840,10 +1855,12 @@
           if (tabla) {
             nCuadro++;
             hijos.push(new D.Paragraph({ keepNext: true, spacing: { after: 100 }, children: [new D.TextRun({ text: `Cuadro ${nCuadro}. `, bold: true }), new D.TextRun({ text: titulo, bold: true })] }));
-            const filas = [...tabla.querySelectorAll('tr')].map((tr, i) => new D.TableRow({ tableHeader: i === 0, children: [...tr.children].map((c) => new D.TableCell({
-              children: [new D.Paragraph({ alignment: c.classList.contains('tb-num') ? D.AlignmentType.RIGHT : D.AlignmentType.LEFT,
-                children: [new D.TextRun({ text: c.textContent.trim(), bold: i === 0, size: 17 })] })] })) }));
-            hijos.push(new D.Table({ width: { size: 100, type: D.WidthType.PERCENTAGE }, rows: filas }));
+            const anchos = [1350, 1960, 1480, 1516, 1280, 1440];
+            const filas = [...tabla.querySelectorAll('tr')].map((tr, i) => new D.TableRow({ tableHeader: i === 0, cantSplit: true, children: [...tr.children].map((c, j) => new D.TableCell({
+              width: { size: anchos[j], type: D.WidthType.DXA },
+              margins: { top: 40, bottom: 40, left: 40, right: 40 },
+              children: [new D.Paragraph({ children: [new D.TextRun({ text: c.textContent.trim(), bold: i === 0 })] })] })) }));
+            hijos.push(new D.Table({ width: { size: ANCHO, type: D.WidthType.DXA }, columnWidths: anchos, rows: filas }));
             hijos.push(...epigrafe(card));
             continue;
           }
@@ -1857,8 +1874,15 @@
           hijos.push(...epigrafe(card));
         }
         const doc = new D.Document({
-          styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } },
-          sections: [{ properties: { page: { margin: { top: 1134, bottom: 1134, left: 1134, right: 1134 } } }, children: hijos }],
+          footnotes: notas,
+          styles: { default: {
+            document: { run: formatoTexto, paragraph: formatoParrafo },
+            heading1: { run: { ...formatoTexto, bold: true }, paragraph: formatoParrafo },
+            footnoteText: { run: formatoNota, paragraph: parrafoNota },
+            footnoteTextChar: { run: formatoNota },
+            footnoteReference: { run: { ...formatoNota, superScript: true } },
+          } },
+          sections: [{ properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 1440, bottom: 1440, left: 1440, right: 1440 } } }, children: hijos }],
         });
         const archivo = await D.Packer.toBlob(doc);
         const a = document.createElement('a');
