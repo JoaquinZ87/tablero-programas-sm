@@ -502,7 +502,7 @@
       <li><b>Gráficos por zona, edad y género:</b> muestran siempre activos al 31/10/2026. El selector de ingresos o año no cambia ese universo; los demás filtros mantienen su comportamiento.</li>
       <li><b>Edad:</b> en los ingresos, la cumplida en el año de ingreso (al 31/12; en 2026, al 31/10). En los activos, la cumplida al 31/10/2026.</li>
       <li><b>Territorio:</b> se distinguen barrios, áreas municipales y localidades. «Villa Granaderos de San Martín» se identifica como localidad. Cuando solo figura una localidad, el mapa representa su sector sin las unidades que tienen polígono propio; eso no completa un barrio más específico. José León Suárez sin barrio cargado cuenta dentro de «Resto de San Martín». «Barrio 9 de Julio» sin localidad queda sin precisar. Sin polígono: Tropezón, Barrio Güemes, Don Torcuato y Vicente López.</li>
-      <li><b>Revisión geográfica del 18/11/2026:</b> se confirmó la clasificación territorial de 7 registros (6 barrios y 1 localidad) de la planilla de gestión con indicación expresa del responsable. En los otros diez casos revisados de Entramados se conserva la localidad registrada. Se conservan los originales. Los demás cruces con SIGEI siguen pendientes de aprobación; la coincidencia de DNI no verifica el domicilio al corte. La sección de individuales y grupales de SIGEI mantiene su fuente independiente.</li>
+      <li><b>Revisión geográfica del 18/11/2026:</b> se confirmó la clasificación territorial de 7 registros (6 barrios y 1 localidad) de la planilla de gestión con indicación expresa del responsable. En los otros diez casos revisados de Entramados se conserva la localidad registrada. Se conservan los originales. No quedan decisiones territoriales pendientes en esta revisión; la coincidencia de DNI no verifica el domicilio al corte. La sección de individuales y grupales de SIGEI mantiene su fuente independiente.</li>
       <li><b>Entramados 2026 — individuales:</b> NNoA distintos con al menos una intervención individual cargada en SIGEI entre el 01/01 y el 31/10/2026, por su barrio de residencia y su edad al 31/10/2026.</li>
       <li><b>Entramados 2026 — grupales:</b> un espacio es cada taller en cada lugar (o la serie, en los talleres por ciclos; las actividades sueltas se agrupan por nombre y zona). Los participantes se estiman como en los formularios mensuales: por espacio, la suma de las medianas de cada franja de edad (hasta 14, 15-17, 18-21), cada una solo sobre los encuentros en que esa franja vino y sin las sesiones suspendidas. Es una estimación de quienes sostienen el espacio, no un conteo de personas: quien va a dos espacios cuenta en los dos. Los talleres con familias estiman además adultos, que no se suman.</li>
       <li><b>Grupales de Entramados:</b> solo se pueden cruzar los NNoA que figuran con nombre en los talleres de SIGEI (desde 2026); los asistentes anónimos no entran.</li>
@@ -1003,7 +1003,7 @@
   dash.draw('kpi-grupal', (el) => TB.numero(el, TB.filtros(), 'nnoa_grupal'));
   dash.draw('geo-nota', (el) => {
     const r = window.BARRIOS_MAPA.revision_geografica;
-    el.textContent = r ? `Clasificación territorial confirmada en ${r.revisados} registros por el responsable (6 barrios y 1 localidad). En los otros diez casos revisados de Entramados se conserva la localidad registrada. Los demás cruces con SIGEI siguen pendientes de aprobación. La planilla original se conserva.` : '';
+    el.textContent = r ? `Clasificación territorial confirmada en ${r.revisados} registros por el responsable (6 barrios y 1 localidad). En los otros diez casos revisados de Entramados se conserva la localidad registrada. No quedan decisiones territoriales pendientes en esta revisión. La planilla original se conserva.` : '';
   });
   dash.draw('kpi-spark', (el) => {
     el.replaceChildren();
@@ -1675,11 +1675,14 @@
     const cargar = (src) => new Promise((ok, mal) => { const i = new Image(); i.onload = () => ok(i); i.onerror = mal; i.src = src; });
     async function imagen(card, { soloGrafico = false } = {}) {
       const marco = card.getBoundingClientRect();
-      const pie = card.querySelector('.tb-pie').getBoundingClientRect();
-      const cab = card.querySelector('.tb-card-head').getBoundingClientRect();
-      const arriba = soloGrafico ? cab.bottom + 2 : marco.top;
+      const pie = card.querySelector('.tb-pie')?.getBoundingClientRect();
+      const cab = card.querySelector('.tb-card-head')?.getBoundingClientRect();
+      // Las tarjetas del resumen no tienen cabecera ni pie. Recortar su contenido
+      // evita exportar el espacio vacío que comparte la fila de indicadores.
+      const arriba = soloGrafico ? (cab ? cab.bottom + 2 : card.querySelector('.tb-kpi-num, .tb-graf').getBoundingClientRect().top) : marco.top;
+      const abajo = pie ? pie.top - 4 : card.lastElementChild.getBoundingClientRect().bottom;
       const caja = { left: marco.left, top: arriba, width: marco.width };
-      const esc = 2, W = caja.width, H = soloGrafico ? pie.top - arriba - 4 : pie.top - caja.top + 34;
+      const esc = 2, W = caja.width, H = soloGrafico ? abajo - arriba : (pie ? pie.top : abajo) - caja.top + 34;
       const cv = document.createElement('canvas'); cv.width = Math.ceil(W * esc); cv.height = Math.ceil(H * esc);
       const ctx = cv.getContext('2d'); ctx.scale(esc, esc);
       ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, W, H);
@@ -1770,11 +1773,14 @@
       if (f.nivel !== 'todos') partes.push((f.nivel === 'zona' ? 'zona ' : '') + f.territorio);
       if (f.genero !== 'Todos') partes.push('género ' + f.genero.toLowerCase());
       if (f.edad !== 'Todos') partes.push('edad ' + f.edad);
-      return 'Selección del tablero: ' + partes.join(' · ') + '. Los gráficos de activos por programa, zona, edad y género corresponden siempre al corte del 31/10/2026. Las series de ingresos cubren 2021–2026 y la sección de Entramados, enero–octubre de 2026.';
+      return 'Selección del tablero: ' + partes.join(' · ') + '. El resumen inicial muestra los nuevos ingresos de los tres programas: la línea cubre 2021–2026 y la torta, enero–octubre de 2026, independientemente de los selectores de año y programa. Ambos respetan los filtros de zona o barrio, edad y género. El indicador de participación adicional en grupales usa la selección vigente. Los gráficos de activos por programa, zona, edad y género corresponden siempre al corte del 31/10/2026. La sección de Entramados cubre enero–octubre de 2026.';
     }
     function tituloDocx(card) {
       const desag = { programa: 'programa', edad: 'grupo de edad', genero: 'género' };
       const titulos = {
+        'kpi-total': 'Niños/as o adolescentes ingresados a Responsabilidades Compartidas, Autonomía Joven y Entramados según año de ingreso. General San Martín. 2021–2026.',
+        'kpi-programas': 'Niños/as o adolescentes ingresados según programa. General San Martín. Enero–octubre de 2026.',
+        'kpi-grupal': 'Intervenciones con niños/as o adolescentes que participan además de talleres de Entramados. General San Martín.',
         evolucion: `Niños/as o adolescentes ingresados según año de ingreso y ${desag[TB.dimPara('')]}. General San Martín. 2021–2026.`,
         activos: 'Niños/as o adolescentes activos según programa. General San Martín. 2026.',
         'por-zona': 'Niños/as o adolescentes activos según programa y zona de residencia. General San Martín. 2026.',
@@ -1793,7 +1799,10 @@
       return titulos[card.id] || (card.querySelector('.tb-card-head h2') || {}).textContent || '';
     }
     function notaDocx(card) {
-      if (['mapa-anios', 'mapa-2026', 'mapa-fuera'].includes(card.id)) return 'La unidad territorial puede ser barrio, área municipal o localidad. Revisión de la planilla de gestión: clasificación territorial confirmada en 7 registros (6 barrios y 1 localidad) por el responsable; en los otros diez casos revisados de Entramados se conserva la localidad registrada. Los demás cruces con SIGEI siguen pendientes de aprobación. Se conservan los originales; la coincidencia de DNI no verifica el domicilio al corte.';
+      if (card.id === 'kpi-total') return 'Se suman los nuevos ingresos de los tres programas en cada año de 2021–2026; la cifra destacada es el acumulado del período. Para 2026, el corte es el 31/10. Se aplican los filtros de zona o barrio, edad y género; los selectores de año y programa no modifican este resumen.';
+      if (card.id === 'kpi-programas') return 'Nuevos ingresos del 01/01 al 31/10/2026 en los tres programas. Se aplican los filtros de zona o barrio, edad y género; los selectores de año y programa no modifican esta distribución.';
+      if (card.id === 'kpi-grupal') return 'Corresponde a la selección de año, programa, zona o barrio, edad y género indicada al inicio del documento. La participación en talleres se identifica por asistencia con nombre en SIGEI. Se cuentan intervenciones por programa, no personas únicas entre programas.';
+      if (['mapa-anios', 'mapa-2026', 'mapa-fuera'].includes(card.id)) return 'La unidad territorial puede ser barrio, área municipal o localidad. Revisión de la planilla de gestión: clasificación territorial confirmada en 7 registros (6 barrios y 1 localidad) por el responsable; en los otros diez casos revisados de Entramados se conserva la localidad registrada. No quedan decisiones territoriales pendientes en esta revisión. Se conservan los originales; la coincidencia de DNI no verifica el domicilio al corte.';
       if (card.id === 'por-zona') return card.querySelector('[data-draw="nota-sindato"]').textContent.trim() + ' Los porcentajes se calculan sobre los casos con zona de residencia conocida de cada programa.';
       if (['entr-por-taller', 'entr-por-tipo', 'entr-espacios', 'entr-mapa-gru'].includes(card.id)) {
         return 'Participantes estimados por la suma de las medianas de cada franja de edad en los encuentros realizados, según el criterio de los formularios mensuales. Quien participa en más de un espacio cuenta en cada uno; no son personas únicas.';
@@ -1819,8 +1828,14 @@
           if (nota) parrafos.push(new D.Paragraph({ spacing: { after: 320 }, children: [new D.TextRun({ text: 'Nota: ' + nota, italics: true, size: 17, color: '5B6875' })] }));
           return parrafos;
         };
-        for (const card of document.querySelectorAll('.tb-card')) {
+        for (const card of document.querySelectorAll('#indicadores > .tb-kpi, .tb-card')) {
           const titulo = tituloDocx(card);
+          if (card.id === 'kpi-grupal') {
+            hijos.push(new D.Paragraph({ keepNext: true, spacing: { after: 100 }, children: [new D.TextRun({ text: 'Indicador. ' + titulo, bold: true })] }));
+            hijos.push(new D.Paragraph({ keepNext: true, children: [new D.TextRun({ text: card.querySelector('[data-draw="kpi-grupal"]').textContent.trim(), bold: true, size: 36 }), new D.TextRun(' intervenciones con participación adicional en talleres de Entramados.')] }));
+            hijos.push(...epigrafe(card));
+            continue;
+          }
           const tabla = card.querySelector('table.tb-tabla');
           if (tabla) {
             nCuadro++;
