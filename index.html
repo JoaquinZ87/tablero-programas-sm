@@ -1836,7 +1836,7 @@
           new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: textoFiltros(), italics: true, color: '4B5866' })] }),
           new D.Paragraph({ spacing: { after: 240 }, children: [new D.TextRun({ text: 'Cada programa se cuenta por separado: un niño/a o adolescente que está en dos programas aparece en ambos. Los totales entre programas no representan personas únicas.', italics: true, color: '4B5866' })] }),
         ];
-        let nGraf = 0, nCuadro = 0;
+        let nGraf = 0, nMapa = 0, nCuadro = 0;
         const notas = {}, notasIncluidas = new Set();
         const epigrafe = (card) => {
           const runs = [new D.TextRun({ text: 'Fuente:', bold: true }), new D.TextRun(' elaboración propia')];
@@ -1875,11 +1875,12 @@
             continue;
           }
           if (!card.querySelector('svg')) continue;
-          nGraf++;
+          const esMapa = ['mapa-anios', 'mapa-2026', 'mapa-fuera', 'entr-mapa-ind', 'entr-mapa-gru'].includes(card.id);
+          const referencia = esMapa ? `Mapa ${++nMapa}. ` : `Gráfico ${++nGraf}. `;
           const { blob, w, h } = await window.__tbImagen(card, { soloGrafico: true });
           let ww = Math.min(MAXW, w), hh = h * ww / w;
           if (hh > MAXH) { ww = ww * MAXH / hh; hh = MAXH; }
-          hijos.push(new D.Paragraph({ keepNext: true, spacing: { after: 100 }, children: [new D.TextRun({ text: `Gráfico ${nGraf}. `, bold: true }), new D.TextRun({ text: titulo, bold: true })] }));
+          hijos.push(new D.Paragraph({ keepNext: true, spacing: { after: 100 }, children: [new D.TextRun({ text: referencia, bold: true }), new D.TextRun({ text: titulo, bold: true })] }));
           hijos.push(new D.Paragraph({ keepNext: true, alignment: D.AlignmentType.CENTER, children: [new D.ImageRun({ type: 'png', data: await blob.arrayBuffer(), transformation: { width: Math.round(ww), height: Math.round(hh) } })] }));
           hijos.push(...epigrafe(card));
         }
@@ -1900,7 +1901,7 @@
         a.download = 'graficos_intervenciones_nnoa_' + new Date().toISOString().slice(0, 10) + '.docx';
         document.body.append(a); a.click(); a.remove();
         setTimeout(() => URL.revokeObjectURL(a.href), 4000);
-        avisar(`Listo: ${nGraf} gráficos y ${nCuadro} cuadro.`);
+        avisar(`Listo: ${nGraf} gráficos, ${nMapa} mapas y ${nCuadro} cuadro.`);
         setTimeout(() => avisar(''), 5000);
       } catch (e) {
         console.error(e); avisar('No se pudo armar el DOCX.');
